@@ -1,6 +1,7 @@
 # trigger_action_rules
 
-This dataset is comprised by 370 Trigger-Action rules collected by the 
+This dataset is comprised by 370 Trigger-Action rules concerning a smart home 
+environment, collected by the 
 [HIIS Laboratory](https://hiis.isti.cnr.it) during field 
 trials and exercises with students. 
 
