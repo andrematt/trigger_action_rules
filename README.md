@@ -1,7 +1,7 @@
 # trigger_action_rules
 
-This dataset is comprised by 370 Trigger-Action rules collected by the HIIS 
-Laboratory [https://hiis.isti.cnr.it](https://hiis.isti.cnr.it) during field 
+This dataset is comprised by 370 Trigger-Action rules collected by the 
+[HIIS Laboratory](https://hiis.isti.cnr.it) during field 
 trials and exercises with students. 
 
 89 rules has been created by caregivers and by experts of the Ambient Assisted 
