@@ -3,7 +3,7 @@
     "id": 704977266,
     "author": "domainExpert1",
     "ruleName": "ANA",
-    "naturalLanguage": "dacÃƒâ€žÃ†â€™ timpul utilizatorului de testare ÃƒÆ’Ã‚Â®n interiorul bÃƒâ€žÃ†â€™ii este mai mare de 30, nu trimiteÃƒË†Ã¢â‚¬Âºi o alarmÃƒâ€žÃ†â€™ prin sms la 1234123412",
+    "naturalLanguage": "dacÃ„Æ’ timpul utilizatorului de testare ÃƒÂ®n interiorul bÃ„Æ’ii este mai mare de 30, nu trimiteÃˆâ€ºi o alarmÃ„Æ’ prin sms la 1234123412",
     "priority": 0,
     "triggers": [
       {
@@ -74,7 +74,8 @@
     "id": 419000676,
     "author": "domainExpert2",
     "ruleName": "Erinnerung, ins Freie zu gehen, wenn die Sonne scheint",
-    "naturalLanguage": "Wenn das Wetter-Wetter-Symbol sonne ist, senden Sie eine Erinnerung per SMS an lisa-marie",
+    "naturalLanguage": "If the weather weather icon is sun, send a reminder to lisa-marie via SMS",
+    "naturalLanguageOriginal": "Wenn das Wetter-Wetter-Symbol sonne ist, senden Sie eine Erinnerung per SMS an lisa-marie",
     "priority": 2,
     "triggers": [
       {
@@ -145,7 +146,8 @@
     "id": 713172375,
     "author": "domainExpert3",
     "ruleName": "Automatisches Licht im Bad",
-    "naturalLanguage": "Wenn sich der Testbenutzer im Badezimmer befindet, schalten Sie alle Licht ein",
+    "naturalLanguage": "If the test user is in the bathroom, turn on all lights",
+    "naturalLanguageOriginal": "Wenn sich der Testbenutzer im Badezimmer befindet, schalten Sie alle Licht ein",
     "priority": 0,
     "triggers": [
       {
@@ -229,8 +231,9 @@
   {
     "id": 77241990,
     "author": "domainExpert4",
-    "ruleName": "AttivitÃƒÆ’Ã‚Â  fisica",
-    "naturalLanguage": "se le impronte giornaliere di Test-user sono inferiori a 5000, invia un promemoria via mail a caregiver.1@provider.it",
+    "ruleName": "AttivitÃƒÂ  fisica",
+    "naturalLanguageOriginal": "se le impronte giornaliere di Test-user sono inferiori a 5000, invia un promemoria via mail a caregiver.1@provider.it",
+    "naturalLanguage": "if the Test-user daily steps are less than 5000, send a reminder via email to caregiver.1@provider.it"
     "priority": 4,
     "triggers": [
       {
@@ -300,7 +303,8 @@
     "id": 1907121792,
     "author": "domainExpert4",
     "ruleName": "Luce in soggiorno",
-    "naturalLanguage": "quando il livello di luce di LivingRoom diventa scarsamente illuminato, fare luce nel soggiorno",
+    "naturalLanguageOriginal": "quando il livello di luce di LivingRoom diventa scarsamente illuminato, fare luce nel soggiorno",
+    "naturalLanguage": "when the light level of LivingRoom becomes dimly lit, shed some light in the living room ",
     "priority": 2,
     "triggers": [
       {
@@ -354,7 +358,8 @@
     "id": 905189230,
     "author": "domainExpert4",
     "ruleName": "Great luminaire",
-    "naturalLanguage": "se lo stato di Great Luminaire ÃƒÆ’Ã‚Â¨ spento, fare luce cucina",
+    "naturalLanguage": "if the state of Great Luminaire is off, shed some light in the kitchen",
+    "naturalLanguageOriginal": "se lo stato di Great Luminaire ÃƒÂ¨ spento, fare luce cucina",
     "priority": 1,
     "triggers": [
       {
@@ -558,7 +563,8 @@
     "id": 1105527972,
     "author": "domainExpert4",
     "ruleName": "Tempo di allenamento",
-    "naturalLanguage": "se il tempo di allenamento per l'utente di prova ÃƒÆ’Ã‚Â¨ 30, inviare un allarme tramite notifica",
+    "naturalLanguage": "if the training time for the test user is 30, send an alarm by notification",
+    "naturalLanguageOriginal": "se il tempo di allenamento per l'utente di prova ÃƒÂ¨ 30, inviare un allarme tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -629,7 +635,8 @@
     "id": 2007374019,
     "author": "domainExpert4",
     "ruleName": "Dobetin e Lampard ",
-    "naturalLanguage": "se Dobetin e Lampard non sono stati presi il 22/06/2019 tra le 11:05 e le 11:06, invia due avvisi tramite notifica",
+    "naturalLanguage": "if Dobetin and Lampard were not taken on 22/06/2019 between 11:05 and 11:06, send two alerts by notification ",
+    "naturalLanguageOriginal": "se Dobetin e Lampard non sono stati presi il 22/06/2019 tra le 11:05 e le 11:06, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -705,7 +712,8 @@
     "id": 462892822,
     "author": "domainExpert4",
     "ruleName": "Cardicor ",
-    "naturalLanguage": "se Cardicor non ÃƒÆ’Ã‚Â¨ stato preso tra le 20:04 e le 21:05, invia due avvisi tramite notifica",
+    "naturalLanguage": "if Cardicor has not been taken between 8:04 pm and 9:05 pm, send two alerts by notification",
+    "naturalLanguageOriginal": "se Cardicor non Ã‚Â¨ stato preso tra le 20:04 e le 21:05, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -781,7 +789,8 @@
     "id": 1409254731,
     "author": "domainExpert4",
     "ruleName": "Provisacor Sera",
-    "naturalLanguage": "se Provisacor non ÃƒÆ’Ã‚Â¨ stato preso tra le 20:11 e le 21:12, invia due avvisi tramite notifica",
+    "naturalLanguage": "if Provisacor has not been taken between 20:11 and 21:12, send two alerts by notification ",
+    "naturalLanguageOriginal": "se Provisacor non Ã‚Â¨ stato preso tra le 20:11 e le 21:12, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -857,7 +866,8 @@
     "id": 978742196,
     "author": "domainExpert4",
     "ruleName": "Tardifer pranzo",
-    "naturalLanguage": "se Tardifer pranzo non ÃƒÆ’Ã‚Â¨ stato preso tra le 13:08 e le 14:09, invia due avvisi tramite notifica",
+    "naturalLanguage": "If Tardifer Lunch was not taken between 1:08 PM and 2:09 PM, please send two alerts by notification",
+    "naturalLanguageOriginal": "se Tardifer pranzo non Ã‚Â¨ stato preso tra le 13:08 e le 14:09, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
