@@ -233,7 +233,7 @@
     "author": "domainExpert4",
     "ruleName": "AttivitÃƒÂ  fisica",
     "naturalLanguageOriginal": "se le impronte giornaliere di Test-user sono inferiori a 5000, invia un promemoria via mail a caregiver.1@provider.it",
-    "naturalLanguage": "if the Test-user daily steps are less than 5000, send a reminder via email to caregiver.1@provider.it"
+    "naturalLanguage": "if the Test-user daily steps are less than 5000, send a reminder via email to caregiver.1@provider.it",
     "priority": 4,
     "triggers": [
       {
