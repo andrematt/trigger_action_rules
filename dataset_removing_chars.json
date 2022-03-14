@@ -5332,7 +5332,7 @@
     "id": 1249863632,
     "author": "domainExpert7",
     "ruleName": "Greatlampe einschalten, falls es Person nach 9:30 im Wohnzimmer ist.",
-    "naturalLanguage": " Test-user   is  inside  livingroom and time is  more then  09:30 minutes ,  do  turn on  the great luminare light",
+    "naturalLanguage": "When Test-user   is  inside  livingroom and time is  more then  09:30 minutes ,  do  turn on  the great luminare light",
     "priority": 0,
     "triggers": [
       {
@@ -5998,7 +5998,8 @@
     "id": 307847951,
     "author": "domainExpert7",
     "ruleName": "Erinnerungen Trainingsuebungen auf dem Tablet",
-    "naturalLanguage": "Wenn die letzte Verbindungszeit des Testbenutzers 48 ist, senden Sie eine Erinnerung per Benachrichtigung",
+    "naturalLanguageOriginal": "Wenn die letzte Verbindungszeit des Testbenutzers 48 ist, senden Sie eine Erinnerung per Benachrichtigung",
+    "naturalLanguage": "When the test user's last connected time become 48, send a reminder via notification",
     "priority": 0,
     "triggers": [
       {
@@ -10881,7 +10882,8 @@
     "id": 490024077,
     "author": "applicationExpert5",
     "ruleName": "BOH",
-    "naturalLanguage": "se il sensore della finestra della cucina è aperto, spegnere tutte le luci della cucina",
+	"naturalLanguage": "If the kitchen window sensor is open, turn off all kitchen lights",
+    "naturalLanguageOriginal": "se il sensore della finestra della cucina è aperto, spegnere tutte le luci della cucina",
     "priority": 2,
     "goal": "safety",
     "triggers": [
