@@ -3,7 +3,7 @@
     "id": 704977266,
     "author": "domainExpert1",
     "ruleName": "ANA",
-    "naturalLanguage": "dacÃ„Æ’ timpul utilizatorului de testare ÃƒÂ®n interiorul bÃ„Æ’ii este mai mare de 30, nu trimiteÃˆâ€ºi o alarmÃ„Æ’ prin sms la 1234123412",
+    "naturalLanguageOriginal": "dacÃ„Æ’ timpul utilizatorului de testare ÃƒÂ®n interiorul bÃ„Æ’ii este mai mare de 30, nu trimiteÃˆâ€ºi o alarmÃ„Æ’ prin sms la 1234123412",
     "priority": 0,
     "triggers": [
       {
@@ -943,7 +943,7 @@
     "id": 2104560701,
     "author": "domainExpert4",
     "ruleName": "Duoplavin pranzo",
-    "naturalLanguage": "se Duoplavin pranzo non è stato preso tra le 13:07 e le 14:09, invia due avvisi tramite notifica",
+    "naturalLanguageOriginal": "se Duoplavin pranzo non è stato preso tra le 13:07 e le 14:09, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1019,7 +1019,7 @@
     "id": 1606185754,
     "author": "domainExpert4",
     "ruleName": "Ganfort collirio",
-    "naturalLanguage": "se Ganfort collirio non è stato preso tra le 20:03 e le 21:06, invia due avvisi tramite notifica",
+    "naturalLanguageOriginal": "se Ganfort collirio non è stato preso tra le 20:03 e le 21:06, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1095,7 +1095,7 @@
     "id": 1892053115,
     "author": "domainExpert4",
     "ruleName": "Trusopt collirio sera",
-    "naturalLanguage": "se Trusopt collirio sera non è stato preso tra le 20:02 e le 21:05, invia due avvisi tramite notifica",
+    "naturalLanguageOriginal": "se Trusopt collirio sera non è stato preso tra le 20:02 e le 21:05, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1171,7 +1171,7 @@
     "id": 2034544156,
     "author": "domainExpert4",
     "ruleName": "Trusopt collirio pranzo",
-    "naturalLanguage": "se Trusopt pranzo non è stato preso tra le 13:03 e le 14:04, invia due avvisi tramite notifica",
+    "naturalLanguageOriginal": "se Trusopt pranzo non è stato preso tra le 13:03 e le 14:04, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1247,7 +1247,7 @@
     "id": 211899885,
     "author": "domainExpert4",
     "ruleName": "Trusopt",
-    "naturalLanguage": "se Truopt collirio non è stato preso tra le 07:32 e le 08:02, invia due avvisi tramite notifica",
+    "naturalLanguageOriginal": "se Truopt collirio non è stato preso tra le 07:32 e le 08:02, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1323,7 +1323,7 @@
     "id": 809092032,
     "author": "domainExpert4",
     "ruleName": "Zoloft",
-    "naturalLanguage": "se Zoloft non è stato preso tra le 07:31 e le 08:01, invia due avvisi tramite notifica",
+    "naturalLanguageOriginal": "se Zoloft non è stato preso tra le 07:31 e le 08:01, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1399,7 +1399,7 @@
     "id": 1941907476,
     "author": "domainExpert4",
     "ruleName": "Lansoprazolo mattina",
-    "naturalLanguage": "se Lansoprazolo non è stato preso tra le 07:30 e le 08:00, invia due avvisi tramite notifica",
+    "naturalLanguageOriginal": "se Lansoprazolo non è stato preso tra le 07:30 e le 08:00, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1475,7 +1475,7 @@
     "id": 802638897,
     "author": "domainExpert4",
     "ruleName": "Eucreas della sera",
-    "naturalLanguage": "se Eucreas Sera non è stato preso tra le 20:00 e le 21:00, inviare due avvisi tramite notifica",
+    "naturalLanguageOriginal": "se Eucreas Sera non è stato preso tra le 20:00 e le 21:00, inviare due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1551,7 +1551,7 @@
     "id": 694118939,
     "author": "domainExpert4",
     "ruleName": "Eucreas Pranzo",
-    "naturalLanguage": "se Eucreas pranzo non è stato preso tra le 13:00 e le 14:00, invia due avvisi tramite notifica",
+    "naturalLanguageOriginal": "se Eucreas pranzo non è stato preso tra le 13:00 e le 14:00, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1627,7 +1627,7 @@
     "id": 1468435251,
     "author": "domainExpert4",
     "ruleName": "Eucreas mattina",
-    "naturalLanguage": "Se Eucreas non è stato preso tra le 07:30 e le 08:00, inviare due avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Eucreas non è stato preso tra le 07:30 e le 08:00, inviare due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1872,7 +1872,7 @@
     "id": 437070775,
     "author": "domainExpert4",
     "ruleName": "Luce in soggiorno",
-    "naturalLanguage": "quando il livello di luce di LivingRoom diventa scarsamente illuminato, fare luce nel soggiorno",
+    "naturalLanguageOriginal": "quando il livello di luce di LivingRoom diventa scarsamente illuminato, fare luce nel soggiorno",
     "priority": 2,
     "triggers": [
       {
@@ -1926,7 +1926,7 @@
     "id": 2033312982,
     "author": "domainExpert4",
     "ruleName": "Attività  fisica",
-    "naturalLanguage": "se le impronte giornaliere di Test-user sono inferiori a 5000, invia un promemoria via mail a caregiver.1@provider.it",
+    "naturalLanguageOriginal": "se le impronte giornaliere di Test-user sono inferiori a 5000, invia un promemoria via mail a caregiver.1@provider.it",
     "priority": 4,
     "triggers": [
       {
@@ -1996,7 +1996,7 @@
     "id": 1571550446,
     "author": "domainExpert5",
     "ruleName": "Fuori casa di sera",
-    "naturalLanguage": "L'utente del test è fuori casa e l'ora del tempo è tra le 21:00 e le 22:00, invia due avvisi tramite sms a Caregiver 2",
+    "naturalLanguageOriginal": "L'utente del test è fuori casa e l'ora del tempo è tra le 21:00 e le 22:00, invia due avvisi tramite sms a Caregiver 2",
     "priority": 10,
     "triggers": [
       {
@@ -2145,7 +2145,7 @@
     "id": 1592563941,
     "author": "domainExpert5",
     "ruleName": "Esercizi cognitivi",
-    "naturalLanguage": "se il tempo di allenamento del Test-utente è inferiore a 1, inviare un allarme tramite notifica",
+    "naturalLanguageOriginal": "se il tempo di allenamento del Test-utente è inferiore a 1, inviare un allarme tramite notifica",
     "priority": 4,
     "triggers": [
       {
@@ -2216,7 +2216,7 @@
     "id": 2112820361,
     "author": "domainExpert5",
     "ruleName": "Assunzione farmaco ",
-    "naturalLanguage": "if  Test-user intake time is different from  15:00  ,  do send  one  alarm  by notification",
+    "naturalLanguageOriginal": "if  Test-user intake time is different from  15:00  ,  do send  one  alarm  by notification",
     "priority": 10,
     "triggers": [
       {
@@ -2284,7 +2284,7 @@
     "id": 1093134839,
     "author": "domainExpert5",
     "ruleName": "Aprovel/Coaprovel",
-    "naturalLanguage": "Se Aprovel / Coaprovel non è stato preso tra le 20:00 e le 20:15, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Aprovel / Coaprovel non è stato preso tra le 20:00 e le 20:15, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2360,7 +2360,7 @@
     "id": 1203160242,
     "author": "domainExpert5",
     "ruleName": "Ibustrin 200 mg 1cp/die",
-    "naturalLanguage": "Se Ibustrin 200 mg 1cp / die non è stato preso tra le 14:00 e le 14:15, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Ibustrin 200 mg 1cp / die non è stato preso tra le 14:00 e le 14:15, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2436,7 +2436,7 @@
     "id": 1590173288,
     "author": "domainExpert5",
     "ruleName": "Norvasc 5 mg 1cp/die",
-    "naturalLanguage": "Se Norvasc 5mg 1cp / die non è stato preso tra le 09:05 e le 09:20, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Norvasc 5mg 1cp / die non è stato preso tra le 09:05 e le 09:20, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2512,7 +2512,7 @@
     "id": 1483343173,
     "author": "domainExpert5",
     "ruleName": "Tenormin 1/4 cp/die",
-    "naturalLanguage": "Se Tenormin 1/4 cp / die non è stato preso tra le 09:00 e le 09:15, invia tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Tenormin 1/4 cp / die non è stato preso tra le 09:00 e le 09:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2588,7 +2588,7 @@
     "id": 645674990,
     "author": "domainExpert5",
     "ruleName": "Assumere Pantorc 1cp/die",
-    "naturalLanguage": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2664,7 +2664,7 @@
     "id": 809749427,
     "author": "domainExpert5",
     "ruleName": "Aplactin 20 mg 1cp/die",
-    "naturalLanguage": "Se Aplactin 20 mg 1cp / die non è stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Aplactin 20 mg 1cp / die non è stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2740,7 +2740,7 @@
     "id": 1777644173,
     "author": "domainExpert5",
     "ruleName": "Continua ad esercitarti",
-    "naturalLanguage": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
+    "naturalLanguageOriginal": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -2811,7 +2811,7 @@
     "id": 1911633770,
     "author": "domainExpert5",
     "ruleName": "Assumere Pantorc 1cp/die",
-    "naturalLanguage": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2887,7 +2887,7 @@
     "id": 1285883508,
     "author": "domainExpert5",
     "ruleName": "Continua ad esercitarti",
-    "naturalLanguage": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
+    "naturalLanguageOriginal": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -2958,7 +2958,7 @@
     "id": 2116782439,
     "author": "domainExpert5",
     "ruleName": "Assumere Pantorc 1cp/die",
-    "naturalLanguage": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -3034,7 +3034,7 @@
     "id": 218246121,
     "author": "domainExpert5",
     "ruleName": "Continua ad esercitarti",
-    "naturalLanguage": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
+    "naturalLanguageOriginal": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -3105,7 +3105,7 @@
     "id": 666419871,
     "author": "domainExpert5",
     "ruleName": "Aplactin 20 mg 1cp/die",
-    "naturalLanguage": "Se Aplactin 20 mg 1cp / die non è stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Aplactin 20 mg 1cp / die non è stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -3181,7 +3181,7 @@
     "id": 1177693475,
     "author": "domainExpert5",
     "ruleName": "Assumere Pantorc 1cp/die",
-    "naturalLanguage": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -3257,7 +3257,7 @@
     "id": 1348088976,
     "author": "domainExpert5",
     "ruleName": "Continua ad esercitarti",
-    "naturalLanguage": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
+    "naturalLanguageOriginal": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -3328,7 +3328,7 @@
     "id": 440645016,
     "author": "domainExpert5",
     "ruleName": "Aplactin 20 mg 1cp/die",
-    "naturalLanguage": "Se Aplactin 20 mg 1cp / die non è stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Aplactin 20 mg 1cp / die non è stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -3404,7 +3404,7 @@
     "id": 1680834084,
     "author": "domainExpert5",
     "ruleName": "Aprovel/Coaprovel",
-    "naturalLanguage": "Se Aprovel / Coaprovel non è stato preso tra le 20:00 e le 20:15, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Aprovel / Coaprovel non è stato preso tra le 20:00 e le 20:15, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -3480,7 +3480,7 @@
     "id": 372185154,
     "author": "domainExpert5",
     "ruleName": "Ibustrin 200 mg 1cp/die",
-    "naturalLanguage": "Se Ibustrin 200 mg 1cp / die non è stato preso tra le 14:00 e le 14:15, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Ibustrin 200 mg 1cp / die non è stato preso tra le 14:00 e le 14:15, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -3556,7 +3556,7 @@
     "id": 391139491,
     "author": "domainExpert5",
     "ruleName": "Norvasc 5 mg 1cp/die",
-    "naturalLanguage": "Se Norvasc 5mg 1cp / die non è stato preso tra le 09:05 e le 09:20, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Norvasc 5mg 1cp / die non è stato preso tra le 09:05 e le 09:20, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -3632,7 +3632,7 @@
     "id": 280549540,
     "author": "domainExpert5",
     "ruleName": "Tenormin 1/4 cp/die",
-    "naturalLanguage": "Se Tenormin 1/4 cp / die non è stato preso tra le 09:00 e le 09:15, invia tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Tenormin 1/4 cp / die non è stato preso tra le 09:00 e le 09:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -3708,7 +3708,7 @@
     "id": 267995849,
     "author": "domainExpert5",
     "ruleName": "Assumere Pantorc 1cp/die",
-    "naturalLanguage": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -3784,7 +3784,7 @@
     "id": 1648768437,
     "author": "domainExpert5",
     "ruleName": "Continua ad esercitarti",
-    "naturalLanguage": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
+    "naturalLanguageOriginal": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -3855,7 +3855,7 @@
     "id": 2008717212,
     "author": "domainExpert5",
     "ruleName": "Aplactin 20 mg 1cp/die",
-    "naturalLanguage": "Se Aplactin 20 mg 1cp / die non è stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Aplactin 20 mg 1cp / die non è stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -3931,7 +3931,7 @@
     "id": 482173390,
     "author": "domainExpert5",
     "ruleName": "Aprovel/Coaprovel",
-    "naturalLanguage": "Se Aprovel / Coaprovel non è stato preso tra le 20:00 e le 20:15, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Aprovel / Coaprovel non è stato preso tra le 20:00 e le 20:15, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -4007,7 +4007,7 @@
     "id": 1243460746,
     "author": "domainExpert5",
     "ruleName": "Ibustrin 200 mg 1cp/die",
-    "naturalLanguage": "Se Ibustrin 200 mg 1cp / die non è stato preso tra le 14:00 e le 14:15, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Ibustrin 200 mg 1cp / die non è stato preso tra le 14:00 e le 14:15, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -4083,7 +4083,7 @@
     "id": 430296033,
     "author": "domainExpert5",
     "ruleName": "Norvasc 5 mg 1cp/die",
-    "naturalLanguage": "Se Norvasc 5mg 1cp / die non è stato preso tra le 09:05 e le 09:20, inviare tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Norvasc 5mg 1cp / die non è stato preso tra le 09:05 e le 09:20, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -4159,7 +4159,7 @@
     "id": 981514558,
     "author": "domainExpert5",
     "ruleName": "Tenormin 1/4 cp/die",
-    "naturalLanguage": "Se Tenormin 1/4 cp / die non è stato preso tra le 09:00 e le 09:15, invia tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Tenormin 1/4 cp / die non è stato preso tra le 09:00 e le 09:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -4235,7 +4235,7 @@
     "id": 1304698033,
     "author": "domainExpert5",
     "ruleName": "Assumere Pantorc 1cp/die",
-    "naturalLanguage": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
+    "naturalLanguageOriginal": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -4982,7 +4982,7 @@
     "id": 1739114914,
     "author": "domainExpert6",
     "ruleName": "Test Daniele ManDown",
-    "naturalLanguage": "se Test-user1 è sdraiato, inviare l'allarme con sms a 33312312312",
+    "naturalLanguageOriginal": "se Test-user1 è sdraiato, inviare l'allarme con sms a 33312312312",
     "priority": 1,
     "triggers": [
       {
@@ -6070,7 +6070,7 @@
     "id": 460199470,
     "author": "domainExpert7",
     "ruleName": "Great an bei wenig Licht",
-    "naturalLanguage": "Die LivingRoom-Bewegung wird aktiv und die LivingRoom-LichtstÃƒÆ’Ã‚Â¤rke ist sehr schwach. Schalten Sie das groÃƒÆ’Ã…Â¸artige Licht ein",
+    "naturalLanguageOriginal": "Die LivingRoom-Bewegung wird aktiv und die LivingRoom-LichtstÃƒÆ’Ã‚Â¤rke ist sehr schwach. Schalten Sie das groÃƒÆ’Ã…Â¸artige Licht ein",
     "priority": 0,
     "triggers": [
       {
@@ -6148,7 +6148,7 @@
     "id": 1579672307,
     "author": "domainExpert7",
     "ruleName": "Unterstuetzung zum Aufwachen: aktivierendes Licht im Wohnzimmer",
-    "naturalLanguage": "Wenn die Schlafzimmerbewegung zwischen 08:30 und 09:30 Uhr nicht aktiv ist, schalten Sie das Wohnzimmerlicht fÃƒÆ’Ã‚Â¼r 15 Minuten ein",
+    "naturalLanguageOriginal": "Wenn die Schlafzimmerbewegung zwischen 08:30 und 09:30 Uhr nicht aktiv ist, schalten Sie das Wohnzimmerlicht fÃƒÆ’Ã‚Â¼r 15 Minuten ein",
     "priority": 0,
     "triggers": [
       {
@@ -10882,7 +10882,7 @@
     "id": 490024077,
     "author": "applicationExpert5",
     "ruleName": "BOH",
-	"naturalLanguage": "If the kitchen window sensor is open, turn off all kitchen lights",
+    "naturalLanguage": "If the kitchen window sensor is open, turn off all kitchen lights",
     "naturalLanguageOriginal": "se il sensore della finestra della cucina è aperto, spegnere tutte le luci della cucina",
     "priority": 2,
     "goal": "safety",
@@ -28921,6 +28921,7 @@
     "id": "44bdee03-c7e8-4e2a-a554-a88d8a681126",
     "author": "student2020-14",
     "ruleName": "Regola 1",
+    "naturalLanguage": "When  Bathroom Light brightness becomes  less then  20  ,  do send  one  reminder  by voice",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "16-10-2020-11-6-32-520",
@@ -28998,6 +28999,7 @@
     "id": "c571d1f5-cb32-4cdd-a821-6718f6d5857a",
     "author": "student2020-14",
     "ruleName": "Regola 2",
+    "naturalLanguage": "if  Test-user   is  not  inside  house between 09:30 and 18:30  ,  do send  one  alarm  by notification,  turn off all lights in the house",
     "priority": 1,
     "goal": "health",
     "timestamp": "17-10-2020-9-31-43-993",
@@ -29102,6 +29104,7 @@
     "id": "a893843d-ac1f-43bd-a596-bc7ff2d5787b",
     "author": "student2020-14",
     "ruleName": "Regola3",
+    "naturalLanguage": "WHEN   Kitchen gas sensor becomes  active    and  Kitchen window sensor is  close  ,  do send  reminder  by voice",
     "priority": 1,
     "goal": "health",
     "timestamp": "17-10-2020-10-30-41-684",
@@ -29206,6 +29209,7 @@
     "id": "380b253b-4232-42d9-8e50-8cf2d3ad03e9",
     "author": "student2020-14",
     "ruleName": "Regola4",
+    "naturalLanguage": "if  LivingRoom light level is  day light  and  Living Room Light state is  on  ,  do send  one  alarm  by notification,  turn off all lights in the living room",
     "priority": 1,
     "goal": "health",
     "timestamp": "17-10-2020-10-34-8-559",
@@ -29337,6 +29341,7 @@
     "id": "3a8f6042-d858-47f1-a56f-be164b5660c7",
     "author": "student2020-14",
     "ruleName": "Regola5",
+    "naturalLanguage": "if  Test-user   is  outside bedroom and  Bedroom Light state is  on  ,  do  turn off all lights in the bedroom, send  one  reminder  by notification",
     "priority": 1,
     "goal": "health",
     "timestamp": "17-10-2020-10-42-46-272",
@@ -29464,6 +29469,7 @@
     "id": "223b41e2-eaad-4c47-bdc1-f0fecdd251e5",
     "author": "student2020-15",
     "ruleName": "regola1",
+    "naturalLanguage": "if the refrigerator door is open, send a reminder via text message to Myriam",
     "priority": 1,
     "goal": "safety",
     "timestamp": "16-10-2020-15-20-16-179",
@@ -29545,6 +29551,7 @@
     "id": "87bdd514-0cd0-40e3-9e1f-967bf87d2fe3",
     "author": "student2020-15",
     "ruleName": "regola2",
+    "naturalLanguage": "If the bedroom lighting status is not off between 22:00 and 24:00, please turn off all the lights in the bedroom, send an alarm by sms to myriam",
     "priority": 1,
     "goal": "comfort",
     "timestamp": "16-10-2020-15-30-4-458",
@@ -29556,7 +29563,7 @@
         "nextElement": "AllLight",
         "operator": "EQUAL",
         "parent": "Bedroom",
-        "value": "DAY_LIGHT",
+        "value": "NO_LIGHT",
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
@@ -29653,6 +29660,7 @@
     "id": "f2a72957-979f-47f4-a982-2a90cc2a1d11",
     "author": "student2020-15",
     "ruleName": "regola3",
+    "naturalLanguage": "WHEN the inlet temperature becomes below 15 and the inlet window sensor is open, send a reminder by sms to Myriam",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "16-10-2020-15-36-2-370",
@@ -29757,6 +29765,7 @@
     "id": "99098b12-51c4-4a6a-ba4b-c5f2536f4852",
     "author": "student2020-15",
     "ruleName": "regola4",
+    "naturalLanguage": "if the living room window sensor is not closed between 18:00 and 20:00 and the living room light status is off, send the alarm by sms to myriam, turn on all the lights in the living room",
     "priority": 1,
     "goal": "comfort",
     "timestamp": "16-10-2020-15-42-24-742",
@@ -29892,6 +29901,7 @@
     "id": "70a49e19-82dd-4ca6-a7df-94e431b651b9",
     "author": "student2020-15",
     "ruleName": "regola5",
+    "naturalLanguage": "if the test user is inside the bathroom and the bathroom light status is off, turn on the bathroom light and set the color to Baby blue for 15 minutes, send a voice reminder",
     "priority": 1,
     "goal": "comfort",
     "timestamp": "16-10-2020-15-46-11-522",
@@ -30015,6 +30025,7 @@
     "id": "77ce0957-67cc-4624-b1bc-ccad80039fd5",
     "author": "student2020-16",
     "ruleName": "regola1",
+    "naturalLanguage": "When  Fridge door becomes  open  ,  do send  one  reminder  by voice",
     "priority": "4",
     "goal": "none",
     "timestamp": "19-10-2020-19-20-31-455",
@@ -30096,6 +30107,7 @@
     "id": "df8a5ab5-51a2-40ee-9275-9b0d3d1709bf",
     "author": "student2020-16",
     "ruleName": "regola2",
+    "naturalLanguage": "if  Test-user vocal emotional state is   not   happy   between 00:00 and 23:59 ,  do start relaxing light scene, send  one  alarm  by sms to iPhone",
     "priority": "6",
     "goal": "wellbeing",
     "timestamp": "17-10-2020-21-55-26-712",
@@ -30227,6 +30239,7 @@
     "id": "0de4d88c-4dc3-43c6-b3a8-86c69dd6ae0c",
     "author": "student2020-16",
     "ruleName": "regola3",
+    "naturalLanguage": "IF  Weather & Time outdoor temperature is  less then  2  and  Bedroom temperature becomes  less then  8  ,  do send  one  reminder  by sms to iPhone",
     "priority": "8",
     "goal": "comfort",
     "timestamp": "17-10-2020-22-0-23-136",
@@ -30327,6 +30340,7 @@
     "id": "4548688d-27a2-47ef-8b49-8c86735ffb2f",
     "author": "student2020-16",
     "ruleName": "regola4",
+    "naturalLanguage": "if  LivingRoom light level is   not   normal light   between 09:00 and 16:00 and  Living Room Light state is    off  ,  do  turn on all lights in the living room, send  one  alarm  by voice",
     "priority": "4",
     "goal": "none",
     "timestamp": "19-10-2020-19-21-58-728",
@@ -30488,6 +30502,7 @@
     "id": "b52ecd33-8da1-41d9-8d98-a9403921c8c9",
     "author": "student2020-16",
     "ruleName": "regola5",
+    "naturalLanguage": "When Test-user   is  outside entrance  and  if  Great Luminaire state is    on  ,  do  turn off all lights in the house, send  one  reminder  by sms to iPhone",
     "priority": "7",
     "goal": "safety",
     "timestamp": "17-10-2020-22-6-39-636",
@@ -30615,6 +30630,7 @@
     "id": "0b6e1f61-37a8-46ae-b564-08a2acab9467",
     "author": "student2020-17",
     "ruleName": "Regola1",
+    "naturalLanguage": "if the refrigerator door is open, send an alarm by notification",
     "priority": "1",
     "goal": "comfort",
     "timestamp": "16-10-2020-17-7-5-439",
@@ -30696,6 +30712,7 @@
     "id": "a6d6347f-aaf7-40f3-955f-3925aa596f64",
     "author": "student2020-17",
     "ruleName": "Regola2",
+    "naturalLanguage": "if the living room light level is not dark between 18:00 and 07:00, send an alarm by notification, turn off all lights in the living room",
     "priority": "1",
     "goal": "comfort",
     "timestamp": "16-10-2020-17-40-29-788",
@@ -30804,6 +30821,7 @@
     "id": "97fa200c-e40b-4005-934e-f056f3726b10",
     "author": "student2020-17",
     "ruleName": "Regola3",
+    "naturalLanguage": "WHEN outdoor conditions become thunderstorms and the amount of rainfall is greater than 40, send a reminder via text message to the user",
     "priority": "5",
     "goal": "safety",
     "timestamp": "16-10-2020-18-1-30-463",
@@ -30916,6 +30934,7 @@
     "id": "76f3a3b4-8176-41be-9f14-cccda1076bdc",
     "author": "student2020-17",
     "ruleName": "Regola4",
+    "naturalLanguage": "if the living room light level is not bright and the living room light status is off, send an alarm by sms to the user, turn on all the lights in the living room",
     "priority": "5",
     "goal": "comfort",
     "timestamp": "16-10-2020-18-17-29-597",
@@ -31047,6 +31066,7 @@
     "id": "e82b5429-8ab6-46e7-8cf7-5288457bda54",
     "author": "student2020-17",
     "ruleName": "Regola5",
+    "naturalLanguage": "IF the test user's age is over 65, and the corridor light strip status turns off, turn on the light strip corridor, send a reminder by notification",
     "priority": "5",
     "goal": "safety",
     "timestamp": "16-10-2020-18-30-49-685",
@@ -31170,6 +31190,7 @@
     "id": "c2484597-0465-4170-9113-b1687feba6c3",
     "author": "student2020-18",
     "ruleName": "regola1",
+    "naturalLanguage": "if the microwave door is open, send a voice memo",
     "priority": 1,
     "goal": "safety",
     "timestamp": "19-10-2020-16-30-58-380",
@@ -31251,6 +31272,7 @@
     "id": "03adea31-6ed3-4bc7-a1a3-fe23f0f95986",
     "author": "student2020-18",
     "ruleName": "regola2",
+    "naturalLanguage": "if the corridor smoke sensor is not active, send an alarm by sms to 0123456789, turn on the corridor of the light strip and set the color to Brandeis blue for 10 minutes",
     "priority": 1,
     "goal": "safety",
     "timestamp": "19-10-2020-16-31-40-178",
@@ -31320,7 +31342,7 @@
             "displayedName": "Recipient",
             "realName": "alarmRecipient",
             "type": "custom:string",
-            "value": "333123456"
+            "value": "0123456789"
           }
         ],
         "nextOperator": "parallel"
@@ -31347,6 +31369,7 @@
     "id": "8e1de6c7-d722-4f2b-9774-7c14ad405b37",
     "author": "student2020-18",
     "ruleName": "regola3",
+    "naturalLanguage": "WHEN Weather turns rain and the outdoor pressure of is above 50, send a reminder by notification",
     "priority": 1,
     "goal": "health",
     "timestamp": "19-10-2020-16-32-37-733",
@@ -31447,6 +31470,7 @@
     "id": "8d5d5944-a76c-4510-bfdb-4838e8674da3",
     "author": "student2020-18",
     "ruleName": "regola4",
+    "naturalLanguage": "if the input noise level is greater than 0 and the status of the input light is off, send an alarm by notification, turn on all the lights at the entrance",
     "priority": 1,
     "goal": "comfort",
     "timestamp": "19-10-2020-16-34-59-958",
@@ -31570,6 +31594,7 @@
     "id": "aad9f8b8-87cb-49a2-8d1d-de7b9316a885",
     "author": "student2020-18",
     "ruleName": "regola5",
+    "naturalLanguage": "When the test user's sleep duration becomes more than 600 minutes and if the bedroom lighting status is off, turn on all the lights in the bedroom, send three voice reminders",
     "priority": 1,
     "goal": "comfort",
     "timestamp": "19-10-2020-16-35-33-820",
@@ -31693,6 +31718,7 @@
     "id": "9457edfe-9c00-4fbd-9e6d-c048e3480066",
     "author": "student2020-19",
     "ruleName": "Regola1",
+    "naturalLanguage" : "When  Entrance Light state becomes  on  ,  do send  reminder  by sms to Camilla",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-13-15-24-422",
@@ -31774,6 +31800,7 @@
     "id": "9df6f0b7-7b6b-44e2-99f1-91d16e3609aa",
     "author": "student2020-19",
     "ruleName": "Regola2",
+    "naturalLanguage" : "if  Entrance door sensor is   not   close   between 01:00 and 05:00 ,  do send  three  alarms   by notification,  turn on all lights in the entrance",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-21-36-41-87",
@@ -31878,6 +31905,7 @@
     "id": "9adb84c4-9fd1-49c8-ab9f-3aa9493d070e",
     "author": "student2020-19",
     "ruleName": "Regola3",
+    "naturalLanguage" : "WHEN   Kitchen light level becomes  no light  and  Kitchen gas sensor is  active    ,  do send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-20-6-56-724",
@@ -31986,6 +32014,7 @@
     "id": "72fa6809-ff66-44ba-b118-bdc79fce603a",
     "author": "student2020-19",
     "ruleName": "Regola4",
+    "naturalLanguage" : "if time  is between 20:00 AND 21:00   Kitchen Light state is  off  ,  do send  one  alarm  by notification,  turn on all lights in the kitchen",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-20-11-31-108",
@@ -32112,6 +32141,7 @@
     "id": "d350592e-c8c1-42fb-95f8-6312e11f7dae",
     "author": "student2020-19",
     "ruleName": "Regola5",
+    "naturalLanguage" : "WHEN   Test-user   is  inside  bathroom and  Bathroom Light state is  off  ,  do  turn on all lights in the bathroom, send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-20-13-43-356",
@@ -32238,6 +32268,7 @@
   {
     "id": "faeaaca5-a9dd-4940-bac1-ce554af61501",
     "author": "student2020-20",
+    "naturalLanguage" : "if the refrigerator door is open, send a reminder by notification",
     "ruleName": "Regola 1",
     "priority": 1,
     "goal": "safety",
@@ -32320,6 +32351,7 @@
     "id": "2d71e9da-38c0-41f7-870a-53143a6a857c",
     "author": "student2020-20",
     "ruleName": "Regola 2",
+    "naturalLanguage" : "if test user's daily steps are no more than 1999 between 08:00 and 18:00, send alarm by notification, start the activating light scene",
     "priority": 1,
     "goal": "health",
     "timestamp": "20-10-2020-17-15-15-678",
@@ -32416,6 +32448,7 @@
     "id": "8a4e3a06-dd38-4306-b96e-67f390f04bec",
     "author": "student2020-20",
     "ruleName": "Regola 3",
+    "naturalLanguage" : "WHEN   Weather becomes rain    and  outdoor temperature is  less then  16  ,  do send  one  reminder  by sms to User",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "20-10-2020-18-2-58-242",
@@ -32516,6 +32549,7 @@
     "id": "8130fbcc-ac90-4d9b-b346-510dff298de2",
     "author": "student2020-20",
     "ruleName": "Regola 4",
+    "naturalLanguage" : "if  Test-user age is  more then  70  or  Test-user cognitive state is  memory losses associated with age  ,  do send  one  alarm  by sms to User",
     "priority": 1,
     "goal": "safety",
     "timestamp": "20-10-2020-17-41-46-325",
@@ -32623,6 +32657,7 @@
     "id": "9702c921-2b60-4eb9-9e10-7f3a8115a9eb",
     "author": "student2020-20",
     "ruleName": "Regola 5",
+    "naturalLanguage" : "WHEN   Test-user vocal emotional state becomes  angry  and  Living Room Light state is  on  ,  do start relaxing light scene in the living room, send  one  reminder  by notification",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "20-10-2020-17-54-23-365",
@@ -32755,6 +32790,7 @@
     "id": "d6b4b1fd-9984-47bd-ac7c-14c0728240ec",
     "author": "student2020-21",
     "ruleName": "regola1",
+    "naturalLanguage" : "if  Fridge door is  open  ,  do send  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-12-17-40-940",
@@ -32836,6 +32872,7 @@
     "id": "f37da45e-cf7a-443c-a2d0-56e64d73fc30",
     "author": "student2020-21",
     "ruleName": "regola2",
+    "naturalLanguage" : "if  Test-user heart rate is   not   60   between 10:00 and 12:00 ,  do send  two  alarms   by notification,  turn on the   Bedroom Light and set color to Red for 2 minutes",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-12-54-44-15",
@@ -32933,6 +32970,7 @@
     "id": "6fd3a03e-7e2d-4a21-af76-52d7f9fc09b6",
     "author": "student2020-21",
     "ruleName": "regola3",
+    "naturalLanguage" : "if  outdoor condition is    rain  and  LivingRoom window sensor is    open  ,  do send  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-12-59-54-679",
@@ -33049,6 +33087,7 @@
     "id": "4c6d2b24-e524-4cd4-9c8d-c226dfafdfff",
     "author": "student2020-21",
     "ruleName": "regola4",
+    "naturalLanguage" : "if  Bathroom temperature becomes  less then  13  and  Bathroom Light state is  off  ,  do send  two  alarms   by notification,  turn on all lights in the bathroom",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-13-5-3-110",
@@ -33177,6 +33216,7 @@
     "id": "f6e221d3-71d0-4e0a-b163-797cd76bb229",
     "author": "student2020-21",
     "ruleName": "regola5",
+    "naturalLanguage" : "if  Test-user heart rate becomes    more then  90  and  Living Room Light color is    yellow  ,  do send  reminder  by sms to user,  turn on all lights in the bedroom",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-13-9-18-262",
@@ -33311,6 +33351,7 @@
     "id": "58490467-e378-4520-a4b4-2fb9fe0cd1e4",
     "author": "student2020-22",
     "ruleName": "regola1",
+    "naturalLanguage": "When  Microwave door becomes  open  ,  do send  one  reminder  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "20-10-2020-16-13-54-882",
@@ -33392,6 +33433,7 @@
     "id": "97d9cd02-3059-431c-b517-fbec8821adad",
     "author": "student2020-22",
     "ruleName": "regola2",
+    "naturalLanguage": "if  Bedroom light level is   not   dark   between 23:00 and 00:00 ,  do send  one  alarm  by notification,  turn off all lights in the bedroom",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-16-53-0-133",
@@ -33500,6 +33542,7 @@
     "id": "489a1ab7-e949-4e99-99c0-a1ecda9e8a28",
     "author": "student2020-22",
     "ruleName": "regola3",
+    "naturalLanguage": "WHEN   Bedroom temperature becomes  less then  18  and  Bedroom window sensor is    open  ,  do send  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-17-35-1-856",
@@ -33604,6 +33647,7 @@
     "id": "223ff7c1-8e07-4160-a6fa-1d2b9885bc6a",
     "author": "student2020-22",
     "ruleName": "regola4",
+    "naturalLanguage": "if  Corridor motion is  not  active       and  Corridor Light Strip state is    on  ,  do send  one  alarm  by notification,  turn off all lights in the corridor",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-18-6-14-199",
@@ -33730,6 +33774,7 @@
     "id": "802d471d-4f00-42ca-9315-d1d2df58dfeb",
     "author": "student2020-22",
     "ruleName": "regola5",
+    "naturalLanguage": "WHEN   Test-user   is  inside  house and  Entrance Light state is    off  ,  do  turn on all lights in the entrance, send  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-18-8-56-924",
@@ -33857,6 +33902,7 @@
     "id": "906e4ede-4ae4-4f39-b76c-d5e5dd15f9f5",
     "author": "student2020-23",
     "ruleName": "regola 1",
+    "naturalLanguage": "When  Kitchen Light state becomes different from  off  ,  do send  one  reminder  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-10-37-20-883",
@@ -33938,6 +33984,7 @@
     "id": "222ac1fc-b9e8-40e2-b74f-18aff10d9075",
     "author": "student2020-23",
     "ruleName": "regola 2",
+    "naturalLanguage": "If  Entrance door sensor  does  not  become  close   between 00:00 and 23:59 ,  do  turn on all lights in the entrance, send  one  alarm  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-11-13-13-805",
@@ -33953,8 +34000,8 @@
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
-          "",
-          "",
+          "00:00",
+          "23:59",
           ""
         ],
         "isNot": true,
@@ -34042,6 +34089,7 @@
     "id": "608770bc-a4fc-4847-a328-e06df3dd7aa6",
     "author": "student2020-23",
     "ruleName": "regola 3",
+    "naturalLanguage": "IF  Bathroom noise level is  more then  10  and  Bathroom Light state becomes  off  ,  do send  one  reminder  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "2-11-2020-14-2-30-932",
@@ -34146,6 +34194,7 @@
     "id": "92d540ed-78c3-467c-ae04-7ed4e741a8e4",
     "author": "student2020-23",
     "ruleName": "regola 4",
+    "naturalLanguage": "if  Weather  is rain    and  Bedroom window sensor is  open  ,  do send  one  alarm  by voice,  turn on all lights in the corridor",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-11-52-23-653",
@@ -34268,6 +34317,7 @@
     "id": "d60414e4-a5ce-4944-a7e2-46f2e5c9a1dc",
     "author": "student2020-23",
     "ruleName": "regola 5",
+    "naturalLanguage": "WHEN  time inside bedroom becomes  more then  600 minutes and  Bedroom Light state is  off  ,  do  turn on all lights in the bedroom, send  one  alarm  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-12-3-31-359",
@@ -34392,6 +34442,7 @@
     "id": "a52e6930-4690-4c40-9027-0ce2ede78385",
     "author": "student2020-24",
     "ruleName": "regola 1",
+    "naturalLanguage": "When  Microwave door becomes  open  ,  do send  reminder  by voice",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "20-10-2020-16-50-26-634",
@@ -34473,6 +34524,7 @@
     "id": "622823b5-0c16-4d12-8791-44810e3eaeaa",
     "author": "student2020-24",
     "ruleName": "regola 2",
+    "naturalLanguage": "If  Bathroom Light state  does  not  become  off   on 20-11-2020 between 23:00 and 07:40 ,  do  turn off all lights in the bathroom, send  one  alarm  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "20-10-2020-18-50-53-988",
@@ -34577,6 +34629,7 @@
     "id": "ef5e9914-017e-4d5a-8a03-5dc5beb24a79",
     "author": "student2020-24",
     "ruleName": "regola 3",
+    "naturalLanguage": "IF  Weather  is rain    and  LivingRoom window sensor becomes  open  ,  do send  reminder  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-16-56-18-565",
@@ -34616,19 +34669,19 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Door Sensor",
+          "displayedName": "Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
           },
-          "realName": "doorSensor",
+          "realName": "windowSensor",
           "triggerType": "both",
           "type": "ENUM",
           "unit": "",
-          "xPath": "environment/@doorSensor",
+          "xPath": "environment/@windowSensor",
           "dimensionId": 3
         },
-        "blockcomposer-type": "livingRoom-doorSensor"
+        "blockcomposer-type": "livingRoom-windowSensor"
       }
     ],
     "actions": [
@@ -34680,6 +34733,7 @@
     "id": "ed2bcec2-770e-47dc-8587-0eaa74dd2416",
     "author": "student2020-24",
     "ruleName": "regola 4",
+    "naturalLanguage": "if time is  00:00 minutes and  Bedroom Light state is  on  ,  do send  two  alarms   by voice,  turn off all lights in the bedroom",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-17-39-8-378",
@@ -34806,12 +34860,13 @@
     "id": "4fc8858a-cd6b-4f1a-b7e8-93aa17d970d3",
     "author": "student2020-24",
     "ruleName": "regola 5",
+    "naturalLanguage": "if  Test-user   is  inside  livingroom and  Living Room Light state is  off  ,  do send  one  reminder  by voice,  turn on  the great luminare light",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-18-24-47-30",
     "triggers": [
       {
-        "triggerType": "event",
+        "triggerType": "condition",
         "depth": 0,
         "nextOperator": "and",
         "nextElement": "livingroomLight-state",
@@ -34929,6 +34984,7 @@
     "id": "e8c3719d-f690-4af6-a32a-d04e181fccb3",
     "author": "student2020-25",
     "ruleName": "uno",
+    "naturalLanguage": "When  Fridge door becomes  open  ,  do send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-12-45-41-500",
@@ -35010,6 +35066,7 @@
     "id": "9ea8641c-a8bc-4720-9525-ea6bcef64db8",
     "author": "student2020-25",
     "ruleName": "due",
+    "naturalLanguage": "if  Bathroom Light state is   not   on between 20:00 and 05:00  ,  do send  one  alarm  by notification,  turn on all lights in the bathroom",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-13-0-8-76",
@@ -35114,6 +35171,7 @@
     "id": "f9d4f430-c28b-49bc-a77d-5cd345868fd9",
     "author": "student2020-25",
     "ruleName": "tre",
+    "naturalLanguage": "WHEN   Kitchen smoke sensor becomes  active    and  Kitchen window sensor is  close  ,  do send  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-13-16-51-461",
@@ -35217,6 +35275,7 @@
     "id": "cf9cca3a-6357-4006-9a7d-47a169a9c6dd",
     "author": "student2020-25",
     "ruleName": "quattro",
+    "naturalLanguage": " IF  LivingRoom light level is    dark  and  When  Living Room Light temperature becomes  less then  20  ,  do start biorhythm light scene in the living room, send  one  alarm  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-13-11-29-170",
@@ -35340,6 +35399,7 @@
     "id": "f2057522-b94d-42e2-85dc-a99397149b47",
     "author": "student2020-25",
     "ruleName": "cinque",
+    "naturalLanguage": " WHEN  time inside bathroom becomes  2 minutes and  Bedroom Light state is  off  ,  do  turn on all lights in the bathroom, send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-13-23-46-644",
@@ -35464,6 +35524,7 @@
     "id": "1c158300-d292-4a78-83ad-2352d71f820e",
     "author": "student2020-26",
     "ruleName": "Regola1",
+    "naturalLanguage": " if  Kitchen Light state is  on  ,  do send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-11-14-25-76",
@@ -35545,6 +35606,7 @@
     "id": "f963f9c5-6c65-479e-a2fc-5627a0851060",
     "author": "student2020-26",
     "ruleName": "Regola 2",
+    "naturalLanguage": " If  Entrance door sensor  does  not  become  close   between 22:00 and 07:00 ,  do send  three  alarms   by voice,  turn on the   Bedroom Light and set color to Red for 15 minutes",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-11-43-36-939",
@@ -35645,12 +35707,13 @@
     "id": "257cf1df-2cfe-4d2e-856a-03ec9b3672aa",
     "author": "student2020-26",
     "ruleName": "3",
+    "naturalLanguage": " IF   Test-user sleep duration is  more then  300  minutes and time becomes  12:00 ,  do send  one  reminder  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "25-10-2020-20-6-52-146",
     "triggers": [
       {
-        "triggerType": "event",
+        "triggerType": "condition",
         "depth": 0,
         "nextOperator": "and",
         "nextElement": "dateTime-localTime",
@@ -35748,6 +35811,7 @@
     "id": "a35d25dc-0ec9-4399-a64f-db2fc1c81b70",
     "author": "student2020-26",
     "ruleName": "4",
+    "naturalLanguage": " if  outdoor condition is  thunderstorm  and  Living Room Light is  on  ,  do start relaxing light scene in the living room, send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "25-10-2020-20-9-38-656",
@@ -35878,6 +35942,7 @@
     "id": "87275baa-5696-40ff-8746-41b74c0835fb",
     "author": "student2020-26",
     "ruleName": "6",
+    "naturalLanguage": " WHEN  time inside bathroom becomes  20 minutes and  Bathroom Light state is  off  ,  do  turn on the  Bathroom Light for 10 minutes, send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "25-10-2020-20-12-29-941",
