@@ -3,7 +3,8 @@
     "id": 704977266,
     "author": "domainExpert1",
     "ruleName": "ANA",
-    "naturalLanguage": "dacÃ„Æ’ timpul utilizatorului de testare ÃƒÂ®n interiorul bÃ„Æ’ii este mai mare de 30, nu trimiteÃˆâ€ºi o alarmÃ„Æ’ prin sms la 1234123412",
+    "naturalLanguageOriginal": "dacÃ„Æ’ timpul utilizatorului de testare ÃƒÂ®n interiorul bÃ„Æ’ii este mai mare de 30, nu trimiteÃˆâ€ºi o alarmÃ„Æ’ prin sms la 1234123412",
+    "naturalLanguage": "if the user's test time inside the bathroom is more than 30, send an alarm via sms to 1234123412",
     "priority": 0,
     "triggers": [
       {
@@ -62,7 +63,7 @@
             "displayedName": "La",
             "realName": "alarmRecipient",
             "type": "custom:string",
-            "value": "0040721189924"
+            "value": "1234123412"
           }
         ]
       }
@@ -231,7 +232,7 @@
   {
     "id": 77241990,
     "author": "domainExpert4",
-    "ruleName": "AttivitÃƒÂ  fisica",
+    "ruleName": "Attività  fisica",
     "naturalLanguageOriginal": "se le impronte giornaliere di Test-user sono inferiori a 5000, invia un promemoria via mail a caregiver.1@provider.it",
     "naturalLanguage": "if the Test-user daily steps are less than 5000, send a reminder via email to caregiver.1@provider.it",
     "priority": 4,
@@ -359,7 +360,7 @@
     "author": "domainExpert4",
     "ruleName": "Great luminaire",
     "naturalLanguage": "if the state of Great Luminaire is off, shed some light in the kitchen",
-    "naturalLanguageOriginal": "se lo stato di Great Luminaire ÃƒÂ¨ spento, fare luce cucina",
+    "naturalLanguageOriginal": "se lo stato di Great Luminaire è spento, fare luce cucina",
     "priority": 1,
     "triggers": [
       {
@@ -564,7 +565,7 @@
     "author": "domainExpert4",
     "ruleName": "Tempo di allenamento",
     "naturalLanguage": "if the training time for the test user is 30, send an alarm by notification",
-    "naturalLanguageOriginal": "se il tempo di allenamento per l'utente di prova ÃƒÂ¨ 30, inviare un allarme tramite notifica",
+    "naturalLanguageOriginal": "se il tempo di allenamento per l'utente di prova è 30, inviare un allarme tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -713,7 +714,7 @@
     "author": "domainExpert4",
     "ruleName": "Cardicor ",
     "naturalLanguage": "if Cardicor has not been taken between 8:04 pm and 9:05 pm, send two alerts by notification",
-    "naturalLanguageOriginal": "se Cardicor non Ã‚Â¨ stato preso tra le 20:04 e le 21:05, invia due avvisi tramite notifica",
+    "naturalLanguageOriginal": "se Cardicor non è stato preso tra le 20:04 e le 21:05, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -790,7 +791,7 @@
     "author": "domainExpert4",
     "ruleName": "Provisacor Sera",
     "naturalLanguage": "if Provisacor has not been taken between 20:11 and 21:12, send two alerts by notification ",
-    "naturalLanguageOriginal": "se Provisacor non Ã‚Â¨ stato preso tra le 20:11 e le 21:12, invia due avvisi tramite notifica",
+    "naturalLanguageOriginal": "se Provisacor non è stato preso tra le 20:11 e le 21:12, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -867,7 +868,7 @@
     "author": "domainExpert4",
     "ruleName": "Tardifer pranzo",
     "naturalLanguage": "If Tardifer Lunch was not taken between 1:08 PM and 2:09 PM, please send two alerts by notification",
-    "naturalLanguageOriginal": "se Tardifer pranzo non Ã‚Â¨ stato preso tra le 13:08 e le 14:09, invia due avvisi tramite notifica",
+    "naturalLanguageOriginal": "se Tardifer pranzo non è stato preso tra le 13:08 e le 14:09, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -943,7 +944,8 @@
     "id": 2104560701,
     "author": "domainExpert4",
     "ruleName": "Duoplavin pranzo",
-    "naturalLanguage": "se Duoplavin pranzo non ÃƒÆ’Ã‚Â¨ stato preso tra le 13:07 e le 14:09, invia due avvisi tramite notifica",
+    "naturalLanguage": "if Duoplavin lunch was not taken between 1:07 pm and 2:09 pm, send two alerts by notification",
+    "naturalLanguageOriginal": "se Duoplavin pranzo non è stato preso tra le 13:07 e le 14:09, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1019,7 +1021,8 @@
     "id": 1606185754,
     "author": "domainExpert4",
     "ruleName": "Ganfort collirio",
-    "naturalLanguage": "se Ganfort collirio non ÃƒÆ’Ã‚Â¨ stato preso tra le 20:03 e le 21:06, invia due avvisi tramite notifica",
+    "naturalLanguage": "if Ganfort eye drops have not been taken between 8:03 PM and 9:06 PM, send two alerts by notification",
+    "naturalLanguageOriginal": "se Ganfort collirio non è stato preso tra le 20:03 e le 21:06, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1095,7 +1098,8 @@
     "id": 1892053115,
     "author": "domainExpert4",
     "ruleName": "Trusopt collirio sera",
-    "naturalLanguage": "se Trusopt collirio sera non ÃƒÆ’Ã‚Â¨ stato preso tra le 20:02 e le 21:05, invia due avvisi tramite notifica",
+    "naturalLanguage": "if Trusopt evening eye drops were not taken between 8:02 pm and 9:05 pm, send two alerts by notification",
+    "naturalLanguageOriginal": "se Trusopt collirio sera non è stato preso tra le 20:02 e le 21:05, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1171,7 +1175,8 @@
     "id": 2034544156,
     "author": "domainExpert4",
     "ruleName": "Trusopt collirio pranzo",
-    "naturalLanguage": "se Trusopt pranzo non ÃƒÆ’Ã‚Â¨ stato preso tra le 13:03 e le 14:04, invia due avvisi tramite notifica",
+    "naturalLanguage": "if Trusopt lunch was not taken between 1:03 pm and 2:04 pm, send two alerts by notification",
+    "naturalLanguageOriginal": "se Trusopt pranzo non è stato preso tra le 13:03 e le 14:04, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1247,7 +1252,8 @@
     "id": 211899885,
     "author": "domainExpert4",
     "ruleName": "Trusopt",
-    "naturalLanguage": "se Truopt collirio non ÃƒÆ’Ã‚Â¨ stato preso tra le 07:32 e le 08:02, invia due avvisi tramite notifica",
+    "naturalLanguage": "if Truopt eye drops have not been taken between 07:32 and 08:02, send two alerts by notification",
+    "naturalLanguageOriginal": "se Truopt collirio non è stato preso tra le 07:32 e le 08:02, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1323,7 +1329,8 @@
     "id": 809092032,
     "author": "domainExpert4",
     "ruleName": "Zoloft",
-    "naturalLanguage": "se Zoloft non ÃƒÆ’Ã‚Â¨ stato preso tra le 07:31 e le 08:01, invia due avvisi tramite notifica",
+    "naturalLanguage": "if Zoloft have not been taken between 07:31 and 08:01, send two alerts by notification",
+    "naturalLanguageOriginal": "se Zoloft non è stato preso tra le 07:31 e le 08:01, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1399,7 +1406,8 @@
     "id": 1941907476,
     "author": "domainExpert4",
     "ruleName": "Lansoprazolo mattina",
-    "naturalLanguage": "se Lansoprazolo non ÃƒÆ’Ã‚Â¨ stato preso tra le 07:30 e le 08:00, invia due avvisi tramite notifica",
+    "naturalLanguage": "if Lansoprazolo have not been taken between 07:30 and 08:00, send two alerts by notification",
+    "naturalLanguageOriginal": "se Lansoprazolo non è stato preso tra le 07:30 e le 08:00, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1475,7 +1483,8 @@
     "id": 802638897,
     "author": "domainExpert4",
     "ruleName": "Eucreas della sera",
-    "naturalLanguage": "se Eucreas Sera non ÃƒÆ’Ã‚Â¨ stato preso tra le 20:00 e le 21:00, inviare due avvisi tramite notifica",
+    "naturalLanguage": "if Eucreas evening was not taken between 8pm and 9pm, please send two notices by notification",
+    "naturalLanguageOriginal": "se Eucreas Sera non è stato preso tra le 20:00 e le 21:00, inviare due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1551,7 +1560,8 @@
     "id": 694118939,
     "author": "domainExpert4",
     "ruleName": "Eucreas Pranzo",
-    "naturalLanguage": "se Eucreas pranzo non ÃƒÆ’Ã‚Â¨ stato preso tra le 13:00 e le 14:00, invia due avvisi tramite notifica",
+    "naturalLanguage": "if Eucreas lunch was not taken between 1pm and 2pm, please send two notices by notification",
+    "naturalLanguageOriginal": "se Eucreas pranzo non è stato preso tra le 13:00 e le 14:00, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1627,7 +1637,8 @@
     "id": 1468435251,
     "author": "domainExpert4",
     "ruleName": "Eucreas mattina",
-    "naturalLanguage": "Se Eucreas non ÃƒÆ’Ã‚Â¨ stato preso tra le 07:30 e le 08:00, inviare due avvisi tramite notifica",
+    "naturalLanguage": "if Eucreas morning was not taken between 7:30am and 8:00am, please send two notices by notification",
+    "naturalLanguageOriginal": "Se Eucreas non è stato preso tra le 07:30 e le 08:00, inviare due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -1872,7 +1883,8 @@
     "id": 437070775,
     "author": "domainExpert4",
     "ruleName": "Luce in soggiorno",
-    "naturalLanguage": "quando il livello di luce di LivingRoom diventa scarsamente illuminato, fare luce nel soggiorno",
+    "naturalLanguage": "when the light level of the LivingRoom becomes poorly lit, shed some light in the living room",
+    "naturalLanguageOriginal": "quando il livello di luce di LivingRoom diventa scarsamente illuminato, fare luce nel soggiorno",
     "priority": 2,
     "triggers": [
       {
@@ -1925,8 +1937,9 @@
   {
     "id": 2033312982,
     "author": "domainExpert4",
-    "ruleName": "AttivitÃƒÆ’Ã‚Â  fisica",
-    "naturalLanguage": "se le impronte giornaliere di Test-user sono inferiori a 5000, invia un promemoria via mail a caregiver.1@provider.it",
+    "ruleName": "Attività  fisica",
+    "naturalLanguage": "if the daily steps of Test-user are less than 5000, send a reminder via email to caregiver.1@provider.it",
+    "naturalLanguageOriginal": "se le impronte giornaliere di Test-user sono inferiori a 5000, invia un promemoria via mail a caregiver.1@provider.it",
     "priority": 4,
     "triggers": [
       {
@@ -1996,7 +2009,8 @@
     "id": 1571550446,
     "author": "domainExpert5",
     "ruleName": "Fuori casa di sera",
-    "naturalLanguage": "L'utente del test ÃƒÆ’Ã‚Â¨ fuori casa e l'ora del tempo ÃƒÆ’Ã‚Â¨ tra le 21:00 e le 22:00, invia due avvisi tramite sms a Caregiver 2",
+    "naturalLanguage": "when the test user goes out and the time is between 21:00 and 22:00, send two SMS alerts to Caregiver 2",
+    "naturalLanguageOriginal": "L'utente del test è fuori casa e l'ora del tempo è tra le 21:00 e le 22:00, invia due avvisi tramite sms a Caregiver 2",
     "priority": 10,
     "triggers": [
       {
@@ -2112,7 +2126,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Utente 2 ÃƒÆ’Ã‚Â¨ fuori casa di sera tardi"
+            "value": "Utente 2 è fuori casa di sera tardi"
           },
           {
             "description": "Notification Mode",
@@ -2145,7 +2159,8 @@
     "id": 1592563941,
     "author": "domainExpert5",
     "ruleName": "Esercizi cognitivi",
-    "naturalLanguage": "se il tempo di allenamento del Test-utente ÃƒÆ’Ã‚Â¨ inferiore a 1, inviare un allarme tramite notifica",
+    "naturalLanguage": "if the user test training time is less than 1, send an alarm by notification",
+    "naturalLanguageOriginal": "se il tempo di allenamento del Test-utente è inferiore a 1, inviare un allarme tramite notifica",
     "priority": 4,
     "triggers": [
       {
@@ -2284,7 +2299,8 @@
     "id": 1093134839,
     "author": "domainExpert5",
     "ruleName": "Aprovel/Coaprovel",
-    "naturalLanguage": "Se Aprovel / Coaprovel non ÃƒÆ’Ã‚Â¨ stato preso tra le 20:00 e le 20:15, inviare tre avvisi tramite notifica",
+    "naturalLanguage": "If Aprovel / Coaprovel has not been taken between 20:00 and 20:15, send three notices by notification",
+    "naturalLanguageOriginal": "Se Aprovel / Coaprovel non è stato preso tra le 20:00 e le 20:15, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2360,7 +2376,8 @@
     "id": 1203160242,
     "author": "domainExpert5",
     "ruleName": "Ibustrin 200 mg 1cp/die",
-    "naturalLanguage": "Se Ibustrin 200 mg 1cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 14:00 e le 14:15, inviare tre avvisi tramite notifica",
+    "naturalLanguage": "If Ibustrin 200mg 1cp has not been taken between 2:00pm and 2:15pm, send three notices by notification",
+    "naturalLanguageOriginal": "Se Ibustrin 200 mg 1cp / die non è stato preso tra le 14:00 e le 14:15, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2436,7 +2453,8 @@
     "id": 1590173288,
     "author": "domainExpert5",
     "ruleName": "Norvasc 5 mg 1cp/die",
-    "naturalLanguage": "Se Norvasc 5mg 1cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 09:05 e le 09:20, inviare tre avvisi tramite notifica",
+    "naturalLanguage": "If Navarsc 5mg 1cp /die has not been taken between 9:00am and 9:05am, send three notices by notification",
+    "naturalLanguageOriginal": "Se Norvasc 5mg 1cp / die non è stato preso tra le 09:05 e le 09:20, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2512,7 +2530,8 @@
     "id": 1483343173,
     "author": "domainExpert5",
     "ruleName": "Tenormin 1/4 cp/die",
-    "naturalLanguage": "Se Tenormin 1/4 cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 09:00 e le 09:15, invia tre avvisi tramite notifica",
+    "naturalLanguage": "If Tenormin 1/4 cp/die has not been taken between 9:00am and 9:15am, send three notices by notification",
+    "naturalLanguageOriginal": "Se Tenormin 1/4 cp / die non è stato preso tra le 09:00 e le 09:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2588,7 +2607,8 @@
     "id": 645674990,
     "author": "domainExpert5",
     "ruleName": "Assumere Pantorc 1cp/die",
-    "naturalLanguage": "Se Pantorc non ÃƒÆ’Ã‚Â¨ stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
+    "naturalLanguage": "If Pantorc has not been taken between 7:00am and 7:15am, send three notices by notification",
+    "naturalLanguageOriginal": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2664,7 +2684,8 @@
     "id": 809749427,
     "author": "domainExpert5",
     "ruleName": "Aplactin 20 mg 1cp/die",
-    "naturalLanguage": "Se Aplactin 20 mg 1cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
+    "naturalLanguage": "If Aplactin 20 mg 1 cp/die has not been taken between 8:00pm and 8:20pm, send three notices by notification",
+    "naturalLanguageOriginal": "Se Aplactin 20 mg 1cp / die non è stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
       {
@@ -2740,7 +2761,8 @@
     "id": 1777644173,
     "author": "domainExpert5",
     "ruleName": "Continua ad esercitarti",
-    "naturalLanguage": "se il tempo di allenamento per l'utente di prova ÃƒÆ’Ã‚Â¨ inferiore a 20, inviare un promemoria tramite notifica",
+    "naturalLanguage": "If the training time for the trial user is less than 20, send a reminder by notification",
+    "naturalLanguageOriginal": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
     "priority": 0,
     "triggers": [
       {
@@ -2798,1506 +2820,6 @@
             "description": "Reminder recipient",
             "displayedName": "Destinatario",
             "realName": "reminderRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 1911633770,
-    "author": "domainExpert5",
-    "ruleName": "Assumere Pantorc 1cp/die",
-    "naturalLanguage": "Se Pantorc non ÃƒÆ’Ã‚Â¨ stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Pantorc",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": -2,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "07:00",
-          "07:15"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Ricordati di prendere il Pantorc "
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 1285883508,
-    "author": "domainExpert5",
-    "ruleName": "Continua ad esercitarti",
-    "naturalLanguage": "se il tempo di allenamento per l'utente di prova ÃƒÆ’Ã‚Â¨ inferiore a 20, inviare un promemoria tramite notifica",
-    "priority": 0,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "less",
-        "parent": "cognitive",
-        "triggerType": "condition",
-        "value": "20",
-        "element": {
-          "realName": "trainingTime",
-          "displayedName": "Training Time",
-          "englishDisplayedName": "Training Time",
-          "xPath": "user/cognitive/@trainingTime",
-          "type": "INTEGER",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": []
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Reminders",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Reminder Text",
-            "displayedName": "Testo",
-            "realName": "reminderText",
-            "type": "custom:string",
-            "value": "Fai ancora qualche esercizio"
-          },
-          {
-            "description": "Mode",
-            "displayedName": "Modo",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times reminder should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "Repetition",
-            "type": "custom:repetitionType",
-            "value": "ONCE"
-          },
-          {
-            "description": "Reminder recipient",
-            "displayedName": "Destinatario",
-            "realName": "reminderRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 2116782439,
-    "author": "domainExpert5",
-    "ruleName": "Assumere Pantorc 1cp/die",
-    "naturalLanguage": "Se Pantorc non ÃƒÆ’Ã‚Â¨ stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Pantorc",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": -2,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "07:00",
-          "07:15"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Ricordati di prendere il Pantorc "
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 218246121,
-    "author": "domainExpert5",
-    "ruleName": "Continua ad esercitarti",
-    "naturalLanguage": "se il tempo di allenamento per l'utente di prova ÃƒÆ’Ã‚Â¨ inferiore a 20, inviare un promemoria tramite notifica",
-    "priority": 0,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "less",
-        "parent": "cognitive",
-        "triggerType": "condition",
-        "value": "20",
-        "element": {
-          "realName": "trainingTime",
-          "displayedName": "Training Time",
-          "englishDisplayedName": "Training Time",
-          "xPath": "user/cognitive/@trainingTime",
-          "type": "INTEGER",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": []
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Reminders",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Reminder Text",
-            "displayedName": "Testo",
-            "realName": "reminderText",
-            "type": "custom:string",
-            "value": "Fai ancora qualche esercizio"
-          },
-          {
-            "description": "Mode",
-            "displayedName": "Modo",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times reminder should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "Repetition",
-            "type": "custom:repetitionType",
-            "value": "ONCE"
-          },
-          {
-            "description": "Reminder recipient",
-            "displayedName": "Destinatario",
-            "realName": "reminderRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 666419871,
-    "author": "domainExpert5",
-    "ruleName": "Aplactin 20 mg 1cp/die",
-    "naturalLanguage": "Se Aplactin 20 mg 1cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Aplactin 20 mg 1cp/die",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "20:05",
-          "20:20"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Aplactin 20 mg 1cp/die"
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 1177693475,
-    "author": "domainExpert5",
-    "ruleName": "Assumere Pantorc 1cp/die",
-    "naturalLanguage": "Se Pantorc non ÃƒÆ’Ã‚Â¨ stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Pantorc",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": -2,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "07:00",
-          "07:15"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Ricordati di prendere il Pantorc "
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 1348088976,
-    "author": "domainExpert5",
-    "ruleName": "Continua ad esercitarti",
-    "naturalLanguage": "se il tempo di allenamento per l'utente di prova ÃƒÆ’Ã‚Â¨ inferiore a 20, inviare un promemoria tramite notifica",
-    "priority": 0,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "less",
-        "parent": "cognitive",
-        "triggerType": "condition",
-        "value": "20",
-        "element": {
-          "realName": "trainingTime",
-          "displayedName": "Training Time",
-          "englishDisplayedName": "Training Time",
-          "xPath": "user/cognitive/@trainingTime",
-          "type": "INTEGER",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": []
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Reminders",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Reminder Text",
-            "displayedName": "Testo",
-            "realName": "reminderText",
-            "type": "custom:string",
-            "value": "Fai ancora qualche esercizio"
-          },
-          {
-            "description": "Mode",
-            "displayedName": "Modo",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times reminder should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "Repetition",
-            "type": "custom:repetitionType",
-            "value": "ONCE"
-          },
-          {
-            "description": "Reminder recipient",
-            "displayedName": "Destinatario",
-            "realName": "reminderRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 440645016,
-    "author": "domainExpert5",
-    "ruleName": "Aplactin 20 mg 1cp/die",
-    "naturalLanguage": "Se Aplactin 20 mg 1cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Aplactin 20 mg 1cp/die",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "20:05",
-          "20:20"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Aplactin 20 mg 1cp/die"
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 1680834084,
-    "author": "domainExpert5",
-    "ruleName": "Aprovel/Coaprovel",
-    "naturalLanguage": "Se Aprovel / Coaprovel non ÃƒÆ’Ã‚Â¨ stato preso tra le 20:00 e le 20:15, inviare tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Aprovel/Coaprovel",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "20:00",
-          "20:15"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Aprovel/Coaprovel "
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 372185154,
-    "author": "domainExpert5",
-    "ruleName": "Ibustrin 200 mg 1cp/die",
-    "naturalLanguage": "Se Ibustrin 200 mg 1cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 14:00 e le 14:15, inviare tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Ibustrin 200 mg 1cp /die",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "14:00",
-          "14:15"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Ibustrin 200 mg 1cp/die"
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 391139491,
-    "author": "domainExpert5",
-    "ruleName": "Norvasc 5 mg 1cp/die",
-    "naturalLanguage": "Se Norvasc 5mg 1cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 09:05 e le 09:20, inviare tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Norvasc 5mg 1cp/die",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "09:05",
-          "09:20"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Norvasc 5 mg 1cp/die"
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 280549540,
-    "author": "domainExpert5",
-    "ruleName": "Tenormin 1/4 cp/die",
-    "naturalLanguage": "Se Tenormin 1/4 cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 09:00 e le 09:15, invia tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Tenormin 1/4 cp/die",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "09:00",
-          "09:15"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Tenormin 1/4 compressa"
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 267995849,
-    "author": "domainExpert5",
-    "ruleName": "Assumere Pantorc 1cp/die",
-    "naturalLanguage": "Se Pantorc non ÃƒÆ’Ã‚Â¨ stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Pantorc",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": -2,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "07:00",
-          "07:15"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Ricordati di prendere il Pantorc "
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 1648768437,
-    "author": "domainExpert5",
-    "ruleName": "Continua ad esercitarti",
-    "naturalLanguage": "se il tempo di allenamento per l'utente di prova ÃƒÆ’Ã‚Â¨ inferiore a 20, inviare un promemoria tramite notifica",
-    "priority": 0,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "less",
-        "parent": "cognitive",
-        "triggerType": "condition",
-        "value": "20",
-        "element": {
-          "realName": "trainingTime",
-          "displayedName": "Training Time",
-          "englishDisplayedName": "Training Time",
-          "xPath": "user/cognitive/@trainingTime",
-          "type": "INTEGER",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": []
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Reminders",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Reminder Text",
-            "displayedName": "Testo",
-            "realName": "reminderText",
-            "type": "custom:string",
-            "value": "Fai ancora qualche esercizio"
-          },
-          {
-            "description": "Mode",
-            "displayedName": "Modo",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times reminder should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "Repetition",
-            "type": "custom:repetitionType",
-            "value": "ONCE"
-          },
-          {
-            "description": "Reminder recipient",
-            "displayedName": "Destinatario",
-            "realName": "reminderRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 2008717212,
-    "author": "domainExpert5",
-    "ruleName": "Aplactin 20 mg 1cp/die",
-    "naturalLanguage": "Se Aplactin 20 mg 1cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Aplactin 20 mg 1cp/die",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "20:05",
-          "20:20"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Aplactin 20 mg 1cp/die"
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 482173390,
-    "author": "domainExpert5",
-    "ruleName": "Aprovel/Coaprovel",
-    "naturalLanguage": "Se Aprovel / Coaprovel non ÃƒÆ’Ã‚Â¨ stato preso tra le 20:00 e le 20:15, inviare tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Aprovel/Coaprovel",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "20:00",
-          "20:15"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Aprovel/Coaprovel "
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 1243460746,
-    "author": "domainExpert5",
-    "ruleName": "Ibustrin 200 mg 1cp/die",
-    "naturalLanguage": "Se Ibustrin 200 mg 1cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 14:00 e le 14:15, inviare tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Ibustrin 200 mg 1cp /die",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "14:00",
-          "14:15"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Ibustrin 200 mg 1cp/die"
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 430296033,
-    "author": "domainExpert5",
-    "ruleName": "Norvasc 5 mg 1cp/die",
-    "naturalLanguage": "Se Norvasc 5mg 1cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 09:05 e le 09:20, inviare tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Norvasc 5mg 1cp/die",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "09:05",
-          "09:20"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Norvasc 5 mg 1cp/die"
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 981514558,
-    "author": "domainExpert5",
-    "ruleName": "Tenormin 1/4 cp/die",
-    "naturalLanguage": "Se Tenormin 1/4 cp / die non ÃƒÆ’Ã‚Â¨ stato preso tra le 09:00 e le 09:15, invia tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Tenormin 1/4 cp/die",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": 0,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "09:00",
-          "09:15"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Tenormin 1/4 compressa"
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
-            "type": "custom:string",
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "external": false,
-    "lastModified": "---"
-  },
-  {
-    "id": 1304698033,
-    "author": "domainExpert5",
-    "ruleName": "Assumere Pantorc 1cp/die",
-    "naturalLanguage": "Se Pantorc non ÃƒÆ’Ã‚Â¨ stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
-    "priority": 5,
-    "triggers": [
-      {
-        "changesTo": false,
-        "dimension": "users",
-        "dimensionId": 1,
-        "operator": "equal",
-        "parent": "activity",
-        "triggerType": "event",
-        "value": "Pantorc",
-        "element": {
-          "realName": "medicationName",
-          "displayedName": "Medicine Taken",
-          "englishDisplayedName": "Medicine Taken",
-          "xPath": "user/activity/@medicationName",
-          "type": "STRING",
-          "triggerType": "BOTH"
-        },
-        "startGroup": -2,
-        "closeGroup": 0,
-        "notValue": [
-          "",
-          "",
-          "07:00",
-          "07:15"
-        ]
-      }
-    ],
-    "actionMode": "Sequential",
-    "actions": [
-      {
-        "action": {
-          "realName": "Alarms",
-          "type": "composed"
-        },
-        "type": "composed",
-        "values": [
-          {
-            "description": "Alarm Text",
-            "displayedName": "Testo",
-            "realName": "alarmText",
-            "type": "custom:string",
-            "value": "Ricordati di prendere il Pantorc "
-          },
-          {
-            "description": "Notification Mode",
-            "displayedName": "Notifica",
-            "realName": "notificationMode",
-            "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
-          },
-          {
-            "description": "How many times alert should be sent",
-            "displayedName": "Ripetizione",
-            "realName": "repetition",
-            "type": "custom:repetitionType",
-            "value": "3 TIMES"
-          },
-          {
-            "description": "Alarm recipient",
-            "displayedName": "Destinatario",
-            "realName": "alarmRecipient",
             "type": "custom:string",
             "value": ""
           }
@@ -4982,7 +3504,8 @@
     "id": 1739114914,
     "author": "domainExpert6",
     "ruleName": "Test Daniele ManDown",
-    "naturalLanguage": "se Test-user1 ÃƒÆ’Ã‚Â¨ sdraiato, inviare l'allarme con sms a 33312312312",
+    "naturalLanguage": "",
+    "naturalLanguageOriginal": "if Test-user1 is lying down, send the alarm by sms to 33312312312",
     "priority": 1,
     "triggers": [
       {
@@ -5332,7 +3855,7 @@
     "id": 1249863632,
     "author": "domainExpert7",
     "ruleName": "Greatlampe einschalten, falls es Person nach 9:30 im Wohnzimmer ist.",
-    "naturalLanguage": " Test-user   is  inside  livingroom and time is  more then  09:30 minutes ,  do  turn on  the great luminare light",
+    "naturalLanguage": "When Test-user   is  inside  livingroom and time is  more then  09:30 minutes ,  do  turn on  the great luminare light",
     "priority": 0,
     "triggers": [
       {
@@ -5998,7 +4521,8 @@
     "id": 307847951,
     "author": "domainExpert7",
     "ruleName": "Erinnerungen Trainingsuebungen auf dem Tablet",
-    "naturalLanguage": "Wenn die letzte Verbindungszeit des Testbenutzers 48 ist, senden Sie eine Erinnerung per Benachrichtigung",
+    "naturalLanguageOriginal": "Wenn die letzte Verbindungszeit des Testbenutzers 48 ist, senden Sie eine Erinnerung per Benachrichtigung",
+    "naturalLanguage": "When the test user's last connected time become 48, send a reminder via notification",
     "priority": 0,
     "triggers": [
       {
@@ -6069,7 +4593,8 @@
     "id": 460199470,
     "author": "domainExpert7",
     "ruleName": "Great an bei wenig Licht",
-    "naturalLanguage": "Die LivingRoom-Bewegung wird aktiv und die LivingRoom-LichtstÃƒÆ’Ã‚Â¤rke ist sehr schwach. Schalten Sie das groÃƒÆ’Ã…Â¸artige Licht ein",
+    "naturalLanguage": "When the LivingRoom movement becomes active and the LivingRoom light level is very low, turn on the great light",
+    "naturalLanguageOriginal": "Die LivingRoom-Bewegung wird aktiv und die LivingRoom-LichtstÃƒÆ’Ã‚Â¤rke ist sehr schwach. Schalten Sie das groÃƒÆ’Ã…Â¸artige Licht ein",
     "priority": 0,
     "triggers": [
       {
@@ -6147,7 +4672,8 @@
     "id": 1579672307,
     "author": "domainExpert7",
     "ruleName": "Unterstuetzung zum Aufwachen: aktivierendes Licht im Wohnzimmer",
-    "naturalLanguage": "Wenn die Schlafzimmerbewegung zwischen 08:30 und 09:30 Uhr nicht aktiv ist, schalten Sie das Wohnzimmerlicht fÃƒÆ’Ã‚Â¼r 15 Minuten ein",
+    "naturalLanguage": "If the bedroom movement is not active between 08:30 and 09:30, turn on the living room light for 15 minutes",
+    "naturalLanguageOriginal": "Wenn die Schlafzimmerbewegung zwischen 08:30 und 09:30 Uhr nicht aktiv ist, schalten Sie das Wohnzimmerlicht fÃƒÆ’Ã‚Â¼r 15 Minuten ein",
     "priority": 0,
     "triggers": [
       {
@@ -10881,7 +9407,8 @@
     "id": 490024077,
     "author": "applicationExpert5",
     "ruleName": "BOH",
-    "naturalLanguage": "se il sensore della finestra della cucina ÃƒÆ’Ã‚Â¨ aperto, spegnere tutte le luci della cucina",
+    "naturalLanguage": "If the kitchen window sensor is open, turn off all kitchen lights",
+    "naturalLanguageOriginal": "se il sensore della finestra della cucina è aperto, spegnere tutte le luci della cucina",
     "priority": 2,
     "goal": "safety",
     "triggers": [
@@ -11190,7 +9717,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -11221,7 +9748,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Lo sportello del frigorifero ÃƒÂ¨ aperto.\""
+            "value": "\"Lo sportello del frigorifero è aperto.\""
           },
           {
             "description": "Notification mode",
@@ -11379,7 +9906,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Bedroom - Motion",
+          "displayedName": "Motion",
           "realName": "motion",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -11495,7 +10022,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -11525,7 +10052,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"ModalitÃƒÂ  risparmio energetico attivata.\""
+            "value": "\"Modalità  risparmio energetico attivata.\""
           },
           {
             "description": "Notification mode",
@@ -11614,7 +10141,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Portable Light - State",
+          "displayedName": "State",
           "realName": "state",
           "possibleValues": [
             "ON",
@@ -11659,7 +10186,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"La luce del comodino ÃƒÂ¨ accesa\""
+            "value": "\"La luce del comodino è accesa\""
           },
           {
             "description": "Notification mode",
@@ -11710,7 +10237,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Portable Light - Brightness",
+          "displayedName": "Brightness",
           "realName": "brightness",
           "triggerType": "both",
           "type": "INTEGER",
@@ -11736,7 +10263,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Abbassare luminositÃƒÂ \""
+            "value": "\"Abbassare luminosità \""
           },
           {
             "description": "Notification mode",
@@ -11787,7 +10314,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -11814,7 +10341,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -11940,7 +10467,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Aumentare attivitÃƒÂ  fisica\""
+            "value": "\"Aumentare attività  fisica\""
           },
           {
             "description": "Notification mode",
@@ -11990,7 +10517,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Smoke Sensor",
+          "displayedName": "Smoke Sensor",
           "realName": "smokeSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -12013,7 +10540,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen Light - Brightness",
+          "displayedName": "Brightness",
           "realName": "brightness",
           "triggerType": "both",
           "type": "INTEGER",
@@ -12105,7 +10632,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -12229,7 +10756,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Living Room Light - State",
+          "displayedName": "State",
           "realName": "state",
           "possibleValues": [
             "ON",
@@ -12355,7 +10882,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -12436,7 +10963,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Portable Light - State",
+          "displayedName": "State",
           "realName": "state",
           "possibleValues": [
             "ON",
@@ -12776,7 +11303,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -12857,7 +11384,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -12909,7 +11436,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Imposta il riscaldamento a 22Ã‚Â°\""
+            "value": "\"Imposta il riscaldamento a 22°\""
           },
           {
             "description": "Notification mode",
@@ -13037,7 +11564,7 @@
   {
     "id": "c5ebabfc-035e-4a88-9ed2-4a9ddbf0316a",
     "author": "student2019-4",
-    "ruleName": "domani pioverÃƒÂ ",
+    "ruleName": "domani pioverà ",
     "priority": 1,
     "goal": "none",
     "timestamp": "8-1-2021-12-55-45-414",
@@ -13079,7 +11606,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Great Luminaire - State",
+          "displayedName": "State",
           "realName": "state",
           "possibleValues": [
             "ON",
@@ -13109,7 +11636,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Ricordati che domani pioverÃƒÂ \""
+            "value": "\"Ricordati che domani pioverà \""
           },
           {
             "description": "Notification mode",
@@ -13202,7 +11729,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -13302,7 +11829,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -13406,7 +11933,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -13583,7 +12110,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom - Temperature",
+          "displayedName": "Temperature",
           "possibleValues": "13",
           "realName": "temperatureLevel",
           "triggerType": "both",
@@ -13607,7 +12134,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - Color",
+          "displayedName": "Color",
           "possibleValues": {
             "WHITE": "White",
             "BLUE": "Blue",
@@ -13742,7 +12269,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Portable Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -13842,7 +12369,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -13958,7 +12485,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -14043,7 +12570,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Entrance - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -14144,7 +12671,7 @@
         "isNot": false,
         "value": true,
         "element": {
-          "displayedName": "Kitchen - Gas Sensor",
+          "displayedName": "Gas Sensor",
           "realName": "gasSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -14167,7 +12694,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -14310,7 +12837,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -14409,7 +12936,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -14517,7 +13044,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Gas Sensor",
+          "displayedName": "Gas Sensor",
           "realName": "gasSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -14559,7 +13086,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Il sensore del gas ÃƒÂ¨ attivo, controlla di averlo spento!\""
+            "value": "\"Il sensore del gas è attivo, controlla di averlo spento!\""
           },
           {
             "description": "Notification mode",
@@ -14642,7 +13169,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Living Room Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -14760,7 +13287,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -14937,7 +13464,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Gas Sensor",
+          "displayedName": "Gas Sensor",
           "realName": "gasSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -14960,7 +13487,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -15083,7 +13610,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Corridor - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -15114,7 +13641,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"c'ÃƒÂ¨ freddo, ÃƒÂ¨ meglio tu chiuda la finestra del corridoio\""
+            "value": "\"c'è freddo, è meglio tu chiuda la finestra del corridoio\""
           },
           {
             "description": "Notification mode",
@@ -15191,7 +13718,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -15287,7 +13814,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen Light - Brightness",
+          "displayedName": "Brightness",
           "realName": "brightness",
           "triggerType": "both",
           "type": "INTEGER",
@@ -15460,7 +13987,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Living Room Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -15541,7 +14068,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -15772,7 +14299,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Great Luminaire - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -15897,7 +14424,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -15992,7 +14519,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Portable Light - Color Temperature",
+          "displayedName": "Color Temperature",
           "realName": "temperature",
           "triggerType": "both",
           "type": "INTEGER",
@@ -16019,7 +14546,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Non affatticare la vista, vira il colore su tonalitÃƒÂ  piÃƒÂ¹ calde\""
+            "value": "\"Non affatticare la vista, vira il colore su tonalità  più calde\""
           },
           {
             "description": "Notification mode",
@@ -16095,7 +14622,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -16130,7 +14657,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Abbassa la luminositÃƒÂ  della luce per riposare meglio\""
+            "value": "\"Abbassa la luminosità  della luce per riposare meglio\""
           },
           {
             "description": "Notification mode",
@@ -16207,7 +14734,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -16257,7 +14784,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Il frigorifero ÃƒÂ¨ rimasto aperto\""
+            "value": "\"Il frigorifero è rimasto aperto\""
           },
           {
             "description": "Notification mode",
@@ -16307,7 +14834,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Smoke Sensor",
+          "displayedName": "Smoke Sensor",
           "realName": "smokeSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -16330,7 +14857,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -16503,7 +15030,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"NovitÃƒÂ  sul tuo sonno, guarda la tua mail\""
+            "value": "\"Novità  sul tuo sonno, guarda la tua mail\""
           },
           {
             "description": "Notification mode",
@@ -16553,7 +15080,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -16584,7 +15111,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"La porta del frigorifero ÃƒÂ¨ aperta\""
+            "value": "\"La porta del frigorifero è aperta\""
           },
           {
             "description": "Notification mode",
@@ -16638,7 +15165,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "LivingRoom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -16673,7 +15200,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"La luce del soggiorno ÃƒÂ¨ stata appena accesa\""
+            "value": "\"La luce del soggiorno è stata appena accesa\""
           },
           {
             "description": "Notification mode",
@@ -16742,7 +15269,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -16769,7 +15296,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -16800,7 +15327,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"La luce d'ingresso ÃƒÂ¨ stata appena accesa\""
+            "value": "\"La luce d'ingresso è stata appena accesa\""
           },
           {
             "description": "Notification mode",
@@ -16896,7 +15423,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -16946,7 +15473,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"La luce della camera ÃƒÂ¨ stata accesa\""
+            "value": "\"La luce della camera è stata accesa\""
           },
           {
             "description": "Notification mode",
@@ -16996,7 +15523,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -17019,7 +15546,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": "OPEN",
           "realName": "doorWindowSensor",
           "triggerType": "both",
@@ -17066,7 +15593,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"La finestra del soggiorno ÃƒÂ¨ aperta e la temperatura interna ÃƒÂ¨ troppo bassa\""
+            "value": "\"La finestra del soggiorno è aperta e la temperatura interna è troppo bassa\""
           },
           {
             "description": "Notification mode",
@@ -17116,7 +15643,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -17151,7 +15678,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"La luce in camera ÃƒÂ¨ accesa\""
+            "value": "\"La luce in camera è accesa\""
           },
           {
             "description": "Notification mode",
@@ -17236,7 +15763,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -17413,7 +15940,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -17440,7 +15967,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -17564,7 +16091,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -17660,7 +16187,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Corridor Light Strip - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -17741,7 +16268,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -17768,7 +16295,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -17849,7 +16376,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Entrance - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -17949,7 +16476,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Smoke Sensor",
+          "displayedName": "Smoke Sensor",
           "realName": "smokeSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -17972,7 +16499,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -18103,7 +16630,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -18296,7 +16823,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Smoke Sensor",
+          "displayedName": "Smoke Sensor",
           "realName": "smokeSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -18319,7 +16846,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -18415,7 +16942,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -18575,7 +17102,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Utente non si ÃƒÂ¨ svegliato\""
+            "value": "\"Utente non si è svegliato\""
           },
           {
             "description": "Notification mode",
@@ -18644,7 +17171,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -18725,7 +17252,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -18756,7 +17283,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"\\\"Attenzione! Lo sportello del frigo ÃƒÂ¨ aperto!\\\"\""
+            "value": "\"\\\"Attenzione! Lo sportello del frigo è aperto!\\\"\""
           },
           {
             "description": "Notification mode",
@@ -18832,7 +17359,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -19005,7 +17532,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -19031,7 +17558,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance - Motion",
+          "displayedName": "Motion",
           "realName": "motion",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -19150,7 +17677,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -19250,7 +17777,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -19366,7 +17893,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -19451,7 +17978,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "LivingRoom - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -19547,7 +18074,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Bathroom - Smoke Sensor",
+          "displayedName": "Smoke Sensor",
           "possibleValues": null,
           "realName": "smokeSensor",
           "triggerType": "both",
@@ -19571,7 +18098,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -19695,7 +18222,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -19791,7 +18318,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -19892,7 +18419,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Gas Sensor",
+          "displayedName": "Gas Sensor",
           "realName": "gasSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -19973,7 +18500,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -20067,7 +18594,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance - Motion",
+          "displayedName": "Motion",
           "realName": "motion",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -20090,7 +18617,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -20209,7 +18736,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -20387,7 +18914,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Smoke Sensor",
+          "displayedName": "Smoke Sensor",
           "realName": "smokeSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -20637,7 +19164,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Corridor - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -20830,7 +19357,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -21015,7 +19542,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -21111,7 +19638,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Corridor - Smoke Sensor",
+          "displayedName": "Smoke Sensor",
           "realName": "smokeSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -21134,7 +19661,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Corridor Light Strip - Color",
+          "displayedName": "Color",
           "possibleValues": {
             "WHITE": "White",
             "BLUE": "Blue",
@@ -21265,7 +19792,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -21385,7 +19912,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -21481,7 +20008,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -21508,7 +20035,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -21643,7 +20170,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom - Door Window Sensor",
+          "displayedName": "Door Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -21821,7 +20348,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Corridor Light Strip - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -21903,7 +20430,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Microwave - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -22079,7 +20606,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Motion",
+          "displayedName": "Motion",
           "realName": "motion",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -22102,7 +20629,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -22180,7 +20707,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -22211,7 +20738,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - Saturation",
+          "displayedName": "Saturation",
           "realName": "saturation",
           "triggerType": "both",
           "type": "INTEGER",
@@ -22331,7 +20858,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -22428,7 +20955,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -22541,7 +21068,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"La medicina non ÃƒÂ¨ stata presa\""
+            "value": "\"La medicina non è stata presa\""
           },
           {
             "description": "Notification mode",
@@ -22591,7 +21118,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Microwave - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -22618,7 +21145,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Microwave - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -22690,7 +21217,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"La cottura non ÃƒÂ¨ ultimata\""
+            "value": "\"La cottura non è ultimata\""
           },
           {
             "description": "Notification mode",
@@ -22764,7 +21291,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperature",
           "triggerType": "both",
           "type": "INTEGER",
@@ -22941,7 +21468,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -23120,7 +21647,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Window Sensor",
+          "displayedName": "Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -23225,7 +21752,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -23248,7 +21775,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -23398,7 +21925,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -23494,7 +22021,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -23579,7 +22106,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "LivingRoom - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -23675,7 +22202,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Gas Sensor",
+          "displayedName": "Gas Sensor",
           "realName": "gasSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -23698,7 +22225,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Smoke Sensor",
+          "displayedName": "Smoke Sensor",
           "realName": "smokeSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -23810,7 +22337,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Great Luminaire - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -23942,7 +22469,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -24043,7 +22570,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -24334,7 +22861,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Smoke Sensor",
+          "displayedName": "Smoke Sensor",
           "realName": "smokeSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -24357,7 +22884,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Window Sensor",
+          "displayedName": "Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -24481,7 +23008,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -24564,6 +23091,7 @@
     "id": "8954a617-90b2-4c33-8897-810e44570ac3",
     "author": "student2020-6",
     "ruleName": "Fridge Door",
+	"naturalLanguage": "when  Fridge door become  open  ,  do send  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-11-19-23-850",
@@ -24581,7 +23109,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -24612,7 +23140,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Non tenere la porta del frigorifero aperta piÃƒÂ¹ del necessario"
+            "value": "Non tenere la porta del frigorifero aperta più del necessario"
           },
           {
             "description": "Notification mode",
@@ -24645,6 +23173,7 @@
     "id": "62616b7b-76f1-4e06-a071-c5bf92ed10ab",
     "author": "student2020-6",
     "ruleName": "Bathroom Lights",
+	"naturalLanguage": "if  Bathroom light level is   not   no light   between 00:00 and 07:00 ,  do send  one  alarm  by notification,  turn off all lights in the bathroom",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "18-10-2020-11-14-49-404",
@@ -24666,7 +23195,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Bathroom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -24753,6 +23282,7 @@
     "id": "c4ae619c-7991-4817-8d08-113d66e208b5",
     "author": "student2020-6",
     "ruleName": "Rain + Windows",
+	"naturalLanguage": " WHEN   Weather & Time becomes rain    and  LivingRoom window sensor is  open  ,  do send  one  reminder  by sms to Me",
     "priority": 1,
     "goal": "safety",
     "timestamp": "18-10-2020-11-23-13-644",
@@ -24793,7 +23323,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Window Sensor",
+          "displayedName": "Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -24857,6 +23387,7 @@
     "id": "c34b77c6-60ac-4799-8589-d5c8aa9717a5",
     "author": "student2020-6",
     "ruleName": "Not Ubiquity",
+	"naturalLanguage": "if  Kitchen noise level is  more then  1  and  Bedroom Portable Light state is  on  ,  do send  one  alarm  by voice,  turn off all lights in the bedroom",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "23-10-2020-16-13-4-473",
@@ -24874,7 +23405,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Noise Level",
+          "displayedName": "Noise Level",
           "realName": "noiseLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -24891,13 +23422,13 @@
         "nextElement": "Alarms",
         "operator": "EQUAL",
         "parent": "Bedroom Portable Light",
-        "value": "OFF",
+        "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Portable Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -24980,6 +23511,7 @@
     "id": "52fe7593-a3bb-4724-8748-6e71c20af1e9",
     "author": "student2020-6",
     "ruleName": "Help Charles with cookies",
+	"naturalLanguage": " WHEN  time inside kitchen becomes  more then  1 minutes and  Kitchen Light state is  off  ,  do  turn on all lights in the kitchen, send  one  reminder  by voice",
     "priority": 1,
     "goal": "safety",
     "timestamp": "23-10-2020-16-16-12-702",
@@ -25021,7 +23553,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -25103,6 +23635,7 @@
   {
     "id": "b6bb0f38-4c8a-4bdb-be5a-5174955ae28c",
     "author": "student2020-7",
+	"naturalLanguage": "When  Fridge door becomes  open  ,  do send  one  reminder  by voice",
     "ruleName": "Frigo",
     "priority": "1",
     "goal": "health",
@@ -25121,7 +23654,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -25159,7 +23692,7 @@
             "displayedName": "Notification mode",
             "realName": "notificationMode",
             "type": "custom:notificationMode",
-            "value": "NOTIFICATION"
+            "value": "VOICE"
           },
           {
             "description": "How many times alert should be sent",
@@ -25185,6 +23718,7 @@
     "id": "810a2041-32d7-456a-a41d-1660b3145ce1",
     "author": "student2020-7",
     "ruleName": "Porte Aperte",
+	"naturalLanguage": "If  Entrance door sensor  does  not  become  close   between 07:00 and 15:00 ,  do send  three  alarms   by notification",
     "priority": "1",
     "goal": "comfort",
     "timestamp": "17-10-2020-11-7-34-859",
@@ -25206,7 +23740,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Entrance - Door Sensor",
+          "displayedName": "Door Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -25287,7 +23821,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Gas Sensor",
+          "displayedName": "Gas Sensor",
           "realName": "gasSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -25310,7 +23844,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -25370,6 +23904,7 @@
     "id": "5d9c86d9-1191-4812-9854-3c580980266e",
     "author": "student2020-7",
     "ruleName": "cibo bruciato",
+	"naturalLanguage": "if  Kitchen smoke sensor is  active    and  Microwave door is  close  ,  do send  one  alarm  by SMS",
     "priority": "1",
     "goal": "safety",
     "timestamp": "17-10-2020-11-52-25-715",
@@ -25387,15 +23922,15 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Gas Sensor",
-          "realName": "gasSensor",
+          "displayedName": "Smoke Sensor",
+          "realName": "smokeSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
           "unit": "",
-          "xPath": "environment/@gasSensor",
+          "xPath": "environment/@smokeSensor",
           "dimensionId": 4
         },
-        "blockcomposer-type": "kitchen-gasSensor"
+        "blockcomposer-type": "kitchen-smokeSensor"
       },
       {
         "triggerType": "condition",
@@ -25410,7 +23945,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Microwave - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -25441,7 +23976,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Ãƒâ€° bruciato il cibo"
+            "value": "E' bruciato il cibo"
           },
           {
             "description": "Notification mode",
@@ -25474,6 +24009,7 @@
     "id": "96de6748-023e-47c3-9d30-9cf2d229962c",
     "author": "student2020-7",
     "ruleName": "Compleanno!",
+	"naturalLanguage": " WHEN   Test-user bed occupancy  does  not  become  out   on 28-02-2021 between 07:00 and 07:45 and  Bedroom Light state is  off  ,  do send  reminder  by voice,  turn on all lights in the bedroom",
     "priority": "1",
     "goal": "wellbeing",
     "timestamp": "19-10-2020-9-59-53-878",
@@ -25518,7 +24054,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -25599,7 +24135,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -25663,6 +24199,7 @@
     "id": "f1155ab6-efa4-4c3b-8092-d246e10c2e94",
     "author": "student2020-8",
     "ruleName": "Regola2",
+	"naturalLanguage": "if  Microwave door is  not  close     between 08:30 and 12:00 ,  do send one alarm by SMS",
     "priority": 1,
     "goal": "none",
     "timestamp": "23-10-2020-15-17-18-61",
@@ -25684,7 +24221,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Microwave - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -25748,6 +24285,7 @@
     "id": "05563d27-ee09-45ac-b04e-d68000d85ef7",
     "author": "student2020-8",
     "ruleName": "Regola3",
+	"naturalLanguage": "WHEN the bathroom door sensor becomes open and if bathroom sensor is open, do send a reminder by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "23-10-2020-15-33-13-546",
@@ -25765,7 +24303,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom - Door Sensor",
+          "displayedName": "Door Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -25792,7 +24330,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom - Door Sensor",
+          "displayedName": "Door Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -25856,6 +24394,7 @@
     "id": "3d44bc55-492b-47a0-966e-6b4c87005b92",
     "author": "student2020-8",
     "ruleName": "Regola4",
+	"naturalLanguage": "IF Weather & Time wind is more than 5 and corridor temperature become less than 18, do send a reminder by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "23-10-2020-16-10-47-777",
@@ -25884,7 +24423,7 @@
         "blockcomposer-type": "currentWeather-wind"
       },
       {
-        "triggerType": "condition",
+        "triggerType": "event",
         "depth": 0,
         "nextOperator": "rule",
         "nextElement": "Alarms",
@@ -25896,7 +24435,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Corridor - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -25956,6 +24495,7 @@
     "id": "ff00953a-8558-40e1-9a67-fef83416b488",
     "author": "student2020-8",
     "ruleName": "Regola5",
+	"naturalLanguage": "When time inside bathroom becomes more than 10 minutes and bathroom light state is off, do send an alarm by voice, send a notification by SMS",
     "priority": 1,
     "goal": "none",
     "timestamp": "23-10-2020-16-46-41-922",
@@ -25997,7 +24537,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -26102,6 +24642,7 @@
     "id": "78206a21-cf1f-47b4-9d59-01111fb75031",
     "author": "student2020-9",
     "ruleName": "if microwave door is open , do send one reminder by sms to me.",
+	"naturalLanguage": "if microwave door is open , do send one reminder by sms to me.",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-15-9-2-8",
@@ -26119,7 +24660,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Microwave - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -26183,6 +24724,7 @@
     "id": "a8f0fba9-8035-4d44-8935-35e5d6ac4c2f",
     "author": "student2020-9",
     "ruleName": "turn off the light (not)",
+	"naturalLanguage": "if  Corridor Light Strip state is   not   off   between 23:57 and 06:57 ,  do send  two  alarms   by sms to me,  turn off all lights in the corridor",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-15-26-23-749",
@@ -26204,7 +24746,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Corridor Light Strip - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -26287,6 +24829,7 @@
     "id": "7fe54200-4c74-45e3-9d7a-07cd3dc53db3",
     "author": "student2020-9",
     "ruleName": "Snow if outdoor temperature is less then 0. Send sms to Laura",
+	"naturalLanguage": " WHEN   Weather & Time becomes snow    and  Weather & Time outdoor temperature is  less then  0  ,  do send  reminder  by sms to Laura",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-15-33-2-922",
@@ -26387,6 +24930,7 @@
     "id": "ba2dd0cc-033d-4110-9aa8-c024163994fd",
     "author": "student2020-9",
     "ruleName": "quarta regola",
+	"naturalLanguage": "if time is    10:00 minutes and  Kitchen Light state is    on  ,  do send  two  alarms   by voice,  turn off all lights in the kitchen",
     "priority": 1,
     "goal": "none",
     "timestamp": "19-10-2020-16-30-3-781",
@@ -26430,7 +24974,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -26513,6 +25057,7 @@
     "id": "c7a78444-787b-4389-8507-5edfaa7146e1",
     "author": "student2020-9",
     "ruleName": "Order to turn the light on",
+	"naturalLanguage": "IF  Bathroom Light state is    off  and  When  Test-user vocal sentence becomes  turn on light in bathroom color white  ,  do  turn on all lights in the bathroom, send  one  reminder  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-15-51-46-967",
@@ -26530,7 +25075,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -26551,7 +25096,7 @@
         "nextElement": "AllLight",
         "operator": "EQUAL",
         "parent": "",
-        "value": "TURN_ON_LIGHT_IN_CORRIDOR_SCENE_ACTIVATING",
+        "value": "TURN_ON_LIGHT_IN_BATHROOM_COLOR_WHITE",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -26698,6 +25243,7 @@
     "id": "af1dee69-74a9-4d8e-88bd-13a8c9f166f4",
     "author": "student2020-10",
     "ruleName": "Regola1",
+	"naturalLanguage": "When the gas sensor in the kitchen is activated, sends three reminders by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "23-10-2020-10-51-12-390",
@@ -26715,7 +25261,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Gas Sensor",
+          "displayedName": "Gas Sensor",
           "realName": "gasSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -26742,7 +25288,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"il sensore del gas ÃƒÂ¨ acceso!Ã‚Â»\""
+            "value": "\"il sensore del gas è acceso!»\""
           },
           {
             "description": "Notification mode",
@@ -26775,6 +25321,7 @@
     "id": "87b6eb4e-d5de-4bbd-af2a-955fc471cece",
     "author": "student2020-10",
     "ruleName": "Regola2",
+	"naturalLanguage": "if the corridor light strip status is not deactivated between 22:00 and 08:00, send the alarm by sms to 33334444111, turn on the entrance light and set the color to red for 5 minutes", 
     "priority": 1,
     "goal": "safety",
     "timestamp": "21-10-2020-15-28-41-277",
@@ -26796,7 +25343,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Corridor Light Strip - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -26875,6 +25422,7 @@
     "id": "8d8b2346-f0ce-4e0b-b139-5f0cf123fdad",
     "author": "student2020-10",
     "ruleName": "Regola3",
+	"naturalLanguage": "When  Weather & Time becomes snow    or  Weather & Time outdoor temperature becomes  0  ,  do send  reminder  by mail to mario.rossi@mail.it",
     "priority": 1,
     "goal": "safety",
     "timestamp": "21-10-2020-15-30-7-276",
@@ -26954,7 +25502,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Domani ÃƒÂ¨ prevista neve, ricordati di montare le catene!"
+            "value": "Domani è prevista neve, ricordati di montare le catene!"
           },
           {
             "description": "Notification mode",
@@ -26987,12 +25535,13 @@
     "id": "d1dde5e1-4fd1-4990-a19c-09fca9177df3",
     "author": "student2020-10",
     "ruleName": "Regola4",
+	"naturalLanguage" : "When the front door sensor opens or the entrance light status turns on, send the alarm by voice, turn on all the lights in the house",
     "priority": 1,
     "goal": "safety",
     "timestamp": "21-10-2020-15-32-9-440",
     "triggers": [
       {
-        "triggerType": "condition",
+        "triggerType": "event",
         "depth": 0,
         "nextOperator": "or",
         "nextElement": "entranceLight-state",
@@ -27004,7 +25553,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance - Door Sensor",
+          "displayedName": "Door Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -27019,7 +25568,7 @@
         "blockcomposer-type": "entrance-doorSensor"
       },
       {
-        "triggerType": "condition",
+        "triggerType": "event",
         "depth": 0,
         "nextOperator": "rule",
         "nextElement": "Alarms",
@@ -27031,7 +25580,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -27062,7 +25611,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Attenzione! La luce dellÃ¢â‚¬â„¢ingresso ÃƒÂ¨ accesa e il sensore della porta sono attivi"
+            "value": "Attenzione! La luce dell'ingresso è accesa e il sensore della porta sono attivi"
           },
           {
             "description": "Notification mode",
@@ -27114,6 +25663,7 @@
     "id": "6e205e9f-5b16-4613-8be9-f404de84639f",
     "author": "student2020-10",
     "ruleName": "Regola5",
+    "naturalLanguage": "WHEN the test user's bed occupation becomes active and the bedroom lighting state is off, send three voice reminders, turn on all the lights in the bedroom",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "21-10-2020-15-33-45-396",
@@ -27158,7 +25708,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -27241,6 +25791,7 @@
     "id": "87f16af0-0f9f-4380-8dc2-0a7ca3ccd2bb",
     "author": "student2020-11",
     "ruleName": "send alarm for open fridge door",
+    "naturalLanguage": "if  Fridge door is    open  ,  do send  one  reminder  by sms to me",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-15-9-6-150",
@@ -27258,7 +25809,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -27322,6 +25873,7 @@
     "id": "00517cf9-84a2-4cea-a0ba-2c7d190412e9",
     "author": "student2020-11",
     "ruleName": "Turn the lights off",
+    "naturalLanguage": "if  Kitchen Light state is   not   off   between 21:00 and 07:00 ,  do send  one  alarm  by notification,  turn off all lights in the kitchen",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-15-26-19-185",
@@ -27343,7 +25895,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Kitchen Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -27426,6 +25978,7 @@
     "id": "fb6607a4-1870-4dee-880f-9c7cc4e335db",
     "author": "student2020-11",
     "ruleName": "Send reminder to Sorella",
+    "naturalLanguage": "IF time is  14:00 minutes and  Weather & Time becomes snow    ,  do send  one  reminder  by sms to Sorella",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-15-32-50-778",
@@ -27529,6 +26082,7 @@
     "id": "d71a450c-c41a-44ae-a64b-608173c6fb48",
     "author": "student2020-11",
     "ruleName": "turn on the light if 17 pm",
+    "naturalLanguage": "if time is    17:00 minutes and  Living Room Light state is    off  ,  do send  one  alarm  by notification,  turn on all lights in the living room",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-15-44-3-29",
@@ -27572,7 +26126,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Living Room Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -27603,7 +26157,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "La luce in salotto ÃƒÂ¨ ancora spenta!"
+            "value": "La luce in salotto è ancora spenta!"
           },
           {
             "description": "Notification mode",
@@ -27655,6 +26209,7 @@
     "id": "2229d546-182b-4d82-aea4-9882bb033c3b",
     "author": "student2020-11",
     "ruleName": "Turn the bathroom lights off",
+    "naturalLanguage": "IF  Bathroom Light state is    on  and  When  Test-user vocal sentence becomes  turn off light in bathroom  ,  do  turn off all lights in the bathroom, send  one  reminder  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-15-50-37-615",
@@ -27672,7 +26227,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -27840,6 +26395,7 @@
     "id": "a99544c2-1637-4cd0-8265-413ca8afa40a",
     "author": "student2020-12",
     "ruleName": "regola 1",
+    "naturalLanguage": "When the corridor movement becomes active, turn on all the lights in the corridor",
     "priority": 1,
     "goal": "none",
     "timestamp": "25-10-2020-18-44-38-132",
@@ -27856,7 +26412,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Corridor - Motion",
+          "displayedName": "Motion",
           "realName": "motion",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -27894,6 +26450,7 @@
     "id": "67b20012-afb2-4068-918b-3442fb2dbf3b",
     "author": "student2020-12",
     "ruleName": "regola 2",
+    "naturalLanguage": "if the refrigerator door is not closed between 00:00 and 00:02, send the alarm by notification, start the light scene activation in the kitchen",
     "priority": 1,
     "goal": "none",
     "timestamp": "25-10-2020-18-45-38-939",
@@ -27998,6 +26555,7 @@
     "id": "b977ab5e-7580-444d-bda4-b3c67f6ca854",
     "author": "student2020-12",
     "ruleName": "regola 3",
+    "naturalLanguage": "WHEN the outdoor temperature becomes above 28, and if the test user's heart rate is above 90, send three SMS reminders to the home owner",
     "priority": 1,
     "goal": "none",
     "timestamp": "25-10-2020-18-47-25-252",
@@ -28098,6 +26656,7 @@
     "id": "32e55ff9-fd68-4917-b380-a39ac2e4747f",
     "author": "student2020-12",
     "ruleName": "regola 4",
+    "naturalLanguage": "if the gas sensor of the kitchen is active and the microwave door is open, send the alarm by voice, start the activation of the light scene in the kitchen",
     "priority": 1,
     "goal": "none",
     "timestamp": "25-10-2020-18-48-26-195",
@@ -28115,7 +26674,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Gas Sensor",
+          "displayedName": "Gas Sensor",
           "realName": "gasSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -28138,7 +26697,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Microwave - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -28217,6 +26776,7 @@
     "id": "2ad96dfa-b7e4-4011-96e6-8dd32f0a408d",
     "author": "student2020-12",
     "ruleName": "regola 5",
+    "naturalLanguage": "WHEN the time inside the bathroom becomes 50 minutes and the bathroom light temperature is above 30, start to activate the light scene in the bathroom, send three SMS reminders to tenant",
     "priority": 1,
     "goal": "none",
     "timestamp": "25-10-2020-18-49-12-554",
@@ -28258,7 +26818,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -28333,6 +26893,7 @@
     "id": "90a8be0f-f4ba-4f40-ad21-b15df24160e3",
     "author": "student2020-13",
     "ruleName": "Controllo stato porta frigorifero",
+    "naturalLanguage": "if the refrigerator door is open, send a voice memo",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-12-29-15-388",
@@ -28350,7 +26911,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Door Sensor",
+          "displayedName": "Door Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -28414,6 +26975,7 @@
     "id": "2c0e5a8d-378a-40d7-ad77-6734360b0da1",
     "author": "student2020-13",
     "ruleName": "Spegnimento automatico luci bagno",
+    "naturalLanguage": "If the bathroom light is not off between 23:00 and 06:00, turn off all the lights in the bathroom, send an alarm by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-12-34-51-818",
@@ -28435,7 +26997,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Bathroom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -28522,6 +27084,7 @@
     "id": "9d469a8c-2992-4d84-ae5d-93f4b4d29863",
     "author": "student2020-13",
     "ruleName": "Controllo meteo",
+    "naturalLanguage": "if Weather is rain and the outdoor temperature is below 5, please send a reminder by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "23-10-2020-10-12-25-548",
@@ -28622,6 +27185,7 @@
     "id": "43737060-be2a-43aa-b422-aa0e93d22aea",
     "author": "student2020-13",
     "ruleName": "Risparmio luce",
+    "naturalLanguage": "if the kitchen light level is daylight and the kitchen light status is on, turn off all the lights in the kitchen, send the alarm by sms to",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-12-43-43-672",
@@ -28639,7 +27203,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -28674,7 +27238,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Kitchen - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -28728,7 +27292,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "ÃƒÂ¨ mattino"
+            "value": "è mattino"
           },
           {
             "description": "Notification mode",
@@ -28761,6 +27325,7 @@
     "id": "95e27c0a-cae4-42c6-a019-e973af71c6d8",
     "author": "student2020-13",
     "ruleName": "Controllo temperatura luce camera",
+    "naturalLanguage": "IF the time inside the bedroom is 30 minutes and the bedroom light temperature becomes more than 20, turn off all the lights in the bedroom, send a sms reminder to",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-12-53-3-24",
@@ -28802,7 +27367,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperature",
           "triggerType": "both",
           "type": "INTEGER",
@@ -28881,6 +27446,7 @@
     "id": "44bdee03-c7e8-4e2a-a554-a88d8a681126",
     "author": "student2020-14",
     "ruleName": "Regola 1",
+    "naturalLanguage": "When  Bathroom Light brightness becomes  less then  20  ,  do send  one  reminder  by voice",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "16-10-2020-11-6-32-520",
@@ -28898,7 +27464,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - Brightness",
+          "displayedName": "Brightness",
           "realName": "brightness",
           "triggerType": "both",
           "type": "INTEGER",
@@ -28958,6 +27524,7 @@
     "id": "c571d1f5-cb32-4cdd-a821-6718f6d5857a",
     "author": "student2020-14",
     "ruleName": "Regola 2",
+    "naturalLanguage": "if  Test-user   is  not  inside  house between 09:30 and 18:30  ,  do send  one  alarm  by notification,  turn off all lights in the house",
     "priority": 1,
     "goal": "health",
     "timestamp": "17-10-2020-9-31-43-993",
@@ -29062,6 +27629,7 @@
     "id": "a893843d-ac1f-43bd-a596-bc7ff2d5787b",
     "author": "student2020-14",
     "ruleName": "Regola3",
+    "naturalLanguage": "WHEN   Kitchen gas sensor becomes  active    and  Kitchen window sensor is  close  ,  do send  reminder  by voice",
     "priority": 1,
     "goal": "health",
     "timestamp": "17-10-2020-10-30-41-684",
@@ -29079,7 +27647,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Gas Sensor",
+          "displayedName": "Gas Sensor",
           "realName": "gasSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -29102,7 +27670,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Window Sensor",
+          "displayedName": "Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -29166,6 +27734,7 @@
     "id": "380b253b-4232-42d9-8e50-8cf2d3ad03e9",
     "author": "student2020-14",
     "ruleName": "Regola4",
+    "naturalLanguage": "if  LivingRoom light level is  day light  and  Living Room Light state is  on  ,  do send  one  alarm  by notification,  turn off all lights in the living room",
     "priority": 1,
     "goal": "health",
     "timestamp": "17-10-2020-10-34-8-559",
@@ -29183,7 +27752,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -29214,7 +27783,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Living Room Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -29297,6 +27866,7 @@
     "id": "3a8f6042-d858-47f1-a56f-be164b5660c7",
     "author": "student2020-14",
     "ruleName": "Regola5",
+    "naturalLanguage": "if  Test-user   is  outside bedroom and  Bedroom Light state is  on  ,  do  turn off all lights in the bedroom, send  one  reminder  by notification",
     "priority": 1,
     "goal": "health",
     "timestamp": "17-10-2020-10-42-46-272",
@@ -29341,7 +27911,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -29424,6 +27994,7 @@
     "id": "223b41e2-eaad-4c47-bdc1-f0fecdd251e5",
     "author": "student2020-15",
     "ruleName": "regola1",
+    "naturalLanguage": "if the refrigerator door is open, send a reminder via text message to Myriam",
     "priority": 1,
     "goal": "safety",
     "timestamp": "16-10-2020-15-20-16-179",
@@ -29441,7 +28012,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -29505,6 +28076,7 @@
     "id": "87bdd514-0cd0-40e3-9e1f-967bf87d2fe3",
     "author": "student2020-15",
     "ruleName": "regola2",
+    "naturalLanguage": "If the bedroom lighting status is not off between 22:00 and 24:00, please turn off all the lights in the bedroom, send an alarm by sms to myriam",
     "priority": 1,
     "goal": "comfort",
     "timestamp": "16-10-2020-15-30-4-458",
@@ -29516,7 +28088,7 @@
         "nextElement": "AllLight",
         "operator": "EQUAL",
         "parent": "Bedroom",
-        "value": "DAY_LIGHT",
+        "value": "NO_LIGHT",
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
@@ -29526,7 +28098,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Bedroom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -29613,6 +28185,7 @@
     "id": "f2a72957-979f-47f4-a982-2a90cc2a1d11",
     "author": "student2020-15",
     "ruleName": "regola3",
+    "naturalLanguage": "WHEN the inlet temperature becomes below 15 and the inlet window sensor is open, send a reminder by sms to Myriam",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "16-10-2020-15-36-2-370",
@@ -29630,7 +28203,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -29653,7 +28226,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance - Window Sensor",
+          "displayedName": "Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -29717,6 +28290,7 @@
     "id": "99098b12-51c4-4a6a-ba4b-c5f2536f4852",
     "author": "student2020-15",
     "ruleName": "regola4",
+    "naturalLanguage": "if the living room window sensor is not closed between 18:00 and 20:00 and the living room light status is off, send the alarm by sms to myriam, turn on all the lights in the living room",
     "priority": 1,
     "goal": "comfort",
     "timestamp": "16-10-2020-15-42-24-742",
@@ -29738,7 +28312,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "LivingRoom - Window Sensor",
+          "displayedName": "Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -29765,7 +28339,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -29852,6 +28426,7 @@
     "id": "70a49e19-82dd-4ca6-a7df-94e431b651b9",
     "author": "student2020-15",
     "ruleName": "regola5",
+    "naturalLanguage": "if the test user is inside the bathroom and the bathroom light status is off, turn on the bathroom light and set the color to Baby blue for 15 minutes, send a voice reminder",
     "priority": 1,
     "goal": "comfort",
     "timestamp": "16-10-2020-15-46-11-522",
@@ -29896,7 +28471,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -29975,6 +28550,7 @@
     "id": "77ce0957-67cc-4624-b1bc-ccad80039fd5",
     "author": "student2020-16",
     "ruleName": "regola1",
+    "naturalLanguage": "When  Fridge door becomes  open  ,  do send  one  reminder  by voice",
     "priority": "4",
     "goal": "none",
     "timestamp": "19-10-2020-19-20-31-455",
@@ -29992,7 +28568,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -30023,7 +28599,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Il frigo ÃƒÂ¨ aperto"
+            "value": "Il frigo è aperto"
           },
           {
             "description": "Notification mode",
@@ -30056,6 +28632,7 @@
     "id": "df8a5ab5-51a2-40ee-9275-9b0d3d1709bf",
     "author": "student2020-16",
     "ruleName": "regola2",
+    "naturalLanguage": "if  Test-user vocal emotional state is   not   happy   between 00:00 and 23:59 ,  do start relaxing light scene, send  one  alarm  by sms to iPhone",
     "priority": "6",
     "goal": "wellbeing",
     "timestamp": "17-10-2020-21-55-26-712",
@@ -30154,7 +28731,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "In mezzo a ogni difficoltÃƒÂ  si trova unÃ¢â‚¬â„¢opportunitÃƒÂ ."
+            "value": "In mezzo a ogni difficoltà  si trova un'opportunità."
           },
           {
             "description": "Notification mode",
@@ -30187,6 +28764,7 @@
     "id": "0de4d88c-4dc3-43c6-b3a8-86c69dd6ae0c",
     "author": "student2020-16",
     "ruleName": "regola3",
+    "naturalLanguage": "IF  Weather & Time outdoor temperature is  less then  2  and  Bedroom temperature becomes  less then  8  ,  do send  one  reminder  by sms to iPhone",
     "priority": "8",
     "goal": "comfort",
     "timestamp": "17-10-2020-22-0-23-136",
@@ -30227,7 +28805,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -30287,6 +28865,7 @@
     "id": "4548688d-27a2-47ef-8b49-8c86735ffb2f",
     "author": "student2020-16",
     "ruleName": "regola4",
+    "naturalLanguage": "if  LivingRoom light level is   not   normal light   between 09:00 and 16:00 and  Living Room Light state is    off  ,  do  turn on all lights in the living room, send  one  alarm  by voice",
     "priority": "4",
     "goal": "none",
     "timestamp": "19-10-2020-19-21-58-728",
@@ -30308,7 +28887,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "LivingRoom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -30365,7 +28944,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Living Room Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -30448,6 +29027,7 @@
     "id": "b52ecd33-8da1-41d9-8d98-a9403921c8c9",
     "author": "student2020-16",
     "ruleName": "regola5",
+    "naturalLanguage": "When Test-user   is  outside entrance  and  if  Great Luminaire state is    on  ,  do  turn off all lights in the house, send  one  reminder  by sms to iPhone",
     "priority": "7",
     "goal": "safety",
     "timestamp": "17-10-2020-22-6-39-636",
@@ -30492,7 +29072,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Great Luminaire - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -30575,6 +29155,7 @@
     "id": "0b6e1f61-37a8-46ae-b564-08a2acab9467",
     "author": "student2020-17",
     "ruleName": "Regola1",
+    "naturalLanguage": "if the refrigerator door is open, send an alarm by notification",
     "priority": "1",
     "goal": "comfort",
     "timestamp": "16-10-2020-17-7-5-439",
@@ -30592,7 +29173,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -30656,6 +29237,7 @@
     "id": "a6d6347f-aaf7-40f3-955f-3925aa596f64",
     "author": "student2020-17",
     "ruleName": "Regola2",
+    "naturalLanguage": "if the living room light level is not dark between 18:00 and 07:00, send an alarm by notification, turn off all lights in the living room",
     "priority": "1",
     "goal": "comfort",
     "timestamp": "16-10-2020-17-40-29-788",
@@ -30677,7 +29259,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "LivingRoom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -30764,6 +29346,7 @@
     "id": "97fa200c-e40b-4005-934e-f056f3726b10",
     "author": "student2020-17",
     "ruleName": "Regola3",
+    "naturalLanguage": "WHEN outdoor conditions become thunderstorms and the amount of rainfall is greater than 40, send a reminder via text message to the user",
     "priority": "5",
     "goal": "safety",
     "timestamp": "16-10-2020-18-1-30-463",
@@ -30876,6 +29459,7 @@
     "id": "76f3a3b4-8176-41be-9f14-cccda1076bdc",
     "author": "student2020-17",
     "ruleName": "Regola4",
+    "naturalLanguage": "if the living room light level is not bright and the living room light status is off, send an alarm by sms to the user, turn on all the lights in the living room",
     "priority": "5",
     "goal": "comfort",
     "timestamp": "16-10-2020-18-17-29-597",
@@ -30893,7 +29477,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -30924,7 +29508,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Living Room Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -31007,6 +29591,7 @@
     "id": "e82b5429-8ab6-46e7-8cf7-5288457bda54",
     "author": "student2020-17",
     "ruleName": "Regola5",
+    "naturalLanguage": "IF the test user's age is over 65, and the corridor light strip status turns off, turn on the light strip corridor, send a reminder by notification",
     "priority": "5",
     "goal": "safety",
     "timestamp": "16-10-2020-18-30-49-685",
@@ -31047,7 +29632,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Corridor Light Strip - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -31078,7 +29663,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "La striscia luminosa in corridoio si ÃƒÂ¨ spenta, fa attenzione!"
+            "value": "La striscia luminosa in corridoio si è spenta, fa attenzione!"
           },
           {
             "description": "Notification mode",
@@ -31130,6 +29715,7 @@
     "id": "c2484597-0465-4170-9113-b1687feba6c3",
     "author": "student2020-18",
     "ruleName": "regola1",
+    "naturalLanguage": "if the microwave door is open, send a voice memo",
     "priority": 1,
     "goal": "safety",
     "timestamp": "19-10-2020-16-30-58-380",
@@ -31147,7 +29733,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Microwave - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -31178,7 +29764,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Lo sportello del microonde ÃƒÂ¨ aperto!"
+            "value": "Lo sportello del microonde è aperto!"
           },
           {
             "description": "Notification mode",
@@ -31211,6 +29797,7 @@
     "id": "03adea31-6ed3-4bc7-a1a3-fe23f0f95986",
     "author": "student2020-18",
     "ruleName": "regola2",
+    "naturalLanguage": "if the corridor smoke sensor is not active, send an alarm by sms to 0123456789, turn on the corridor of the light strip and set the color to Brandeis blue for 10 minutes",
     "priority": 1,
     "goal": "safety",
     "timestamp": "19-10-2020-16-31-40-178",
@@ -31232,7 +29819,7 @@
         "isNot": true,
         "value": "true",
         "element": {
-          "displayedName": "Corridor - Smoke Sensor",
+          "displayedName": "Smoke Sensor",
           "realName": "smokeSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -31280,7 +29867,7 @@
             "displayedName": "Recipient",
             "realName": "alarmRecipient",
             "type": "custom:string",
-            "value": "333123456"
+            "value": "0123456789"
           }
         ],
         "nextOperator": "parallel"
@@ -31307,6 +29894,7 @@
     "id": "8e1de6c7-d722-4f2b-9774-7c14ad405b37",
     "author": "student2020-18",
     "ruleName": "regola3",
+    "naturalLanguage": "WHEN Weather turns rain and the outdoor pressure of is above 50, send a reminder by notification",
     "priority": 1,
     "goal": "health",
     "timestamp": "19-10-2020-16-32-37-733",
@@ -31407,6 +29995,7 @@
     "id": "8d5d5944-a76c-4510-bfdb-4838e8674da3",
     "author": "student2020-18",
     "ruleName": "regola4",
+    "naturalLanguage": "if the input noise level is greater than 0 and the status of the input light is off, send an alarm by notification, turn on all the lights at the entrance",
     "priority": 1,
     "goal": "comfort",
     "timestamp": "19-10-2020-16-34-59-958",
@@ -31424,7 +30013,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance - Noise Level",
+          "displayedName": "Noise Level",
           "realName": "noiseLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -31447,7 +30036,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -31478,7 +30067,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Percepito rumore allÃ¢â‚¬â„¢ingresso!"
+            "value": "Percepito rumore all'ingresso!"
           },
           {
             "description": "Notification mode",
@@ -31530,6 +30119,7 @@
     "id": "aad9f8b8-87cb-49a2-8d1d-de7b9316a885",
     "author": "student2020-18",
     "ruleName": "regola5",
+    "naturalLanguage": "When the test user's sleep duration becomes more than 600 minutes and if the bedroom lighting status is off, turn on all the lights in the bedroom, send three voice reminders",
     "priority": 1,
     "goal": "comfort",
     "timestamp": "19-10-2020-16-35-33-820",
@@ -31570,7 +30160,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Portable Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -31620,7 +30210,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "ÃƒË† ora di alzarsi dal letto!"
+            "value": "E' ora di alzarsi dal letto!"
           },
           {
             "description": "Notification mode",
@@ -31653,6 +30243,7 @@
     "id": "9457edfe-9c00-4fbd-9e6d-c048e3480066",
     "author": "student2020-19",
     "ruleName": "Regola1",
+    "naturalLanguage" : "When  Entrance Light state becomes  on  ,  do send  reminder  by sms to Camilla",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-13-15-24-422",
@@ -31670,7 +30261,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -31734,6 +30325,7 @@
     "id": "9df6f0b7-7b6b-44e2-99f1-91d16e3609aa",
     "author": "student2020-19",
     "ruleName": "Regola2",
+    "naturalLanguage" : "if  Entrance door sensor is   not   close   between 01:00 and 05:00 ,  do send  three  alarms   by notification,  turn on all lights in the entrance",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-21-36-41-87",
@@ -31755,7 +30347,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Entrance - Door Sensor",
+          "displayedName": "Door Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -31838,6 +30430,7 @@
     "id": "9adb84c4-9fd1-49c8-ab9f-3aa9493d070e",
     "author": "student2020-19",
     "ruleName": "Regola3",
+    "naturalLanguage" : "WHEN   Kitchen light level becomes  no light  and  Kitchen gas sensor is  active    ,  do send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-20-6-56-724",
@@ -31855,7 +30448,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -31886,7 +30479,7 @@
         "isNot": false,
         "value": "true",
         "element": {
-          "displayedName": "Kitchen - Gas Sensor",
+          "displayedName": "Gas Sensor",
           "realName": "gasSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -31946,6 +30539,7 @@
     "id": "72fa6809-ff66-44ba-b118-bdc79fce603a",
     "author": "student2020-19",
     "ruleName": "Regola4",
+    "naturalLanguage" : "if time  is between 20:00 AND 21:00   Kitchen Light state is  off  ,  do send  one  alarm  by notification,  turn on all lights in the kitchen",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-20-11-31-108",
@@ -31989,7 +30583,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -32020,7 +30614,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "ÃƒÂ¨ ora di cena"
+            "value": "è ora di cena"
           },
           {
             "description": "Notification mode",
@@ -32072,6 +30666,7 @@
     "id": "d350592e-c8c1-42fb-95f8-6312e11f7dae",
     "author": "student2020-19",
     "ruleName": "Regola5",
+    "naturalLanguage" : "WHEN   Test-user   is  inside  bathroom and  Bathroom Light state is  off  ,  do  turn on all lights in the bathroom, send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-20-13-43-356",
@@ -32116,7 +30711,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -32198,6 +30793,7 @@
   {
     "id": "faeaaca5-a9dd-4940-bac1-ce554af61501",
     "author": "student2020-20",
+    "naturalLanguage" : "if the refrigerator door is open, send a reminder by notification",
     "ruleName": "Regola 1",
     "priority": 1,
     "goal": "safety",
@@ -32216,7 +30812,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -32247,7 +30843,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Lo sportello del frigorifero ÃƒÂ¨ aperto"
+            "value": "Lo sportello del frigorifero è aperto"
           },
           {
             "description": "Notification mode",
@@ -32280,6 +30876,7 @@
     "id": "2d71e9da-38c0-41f7-870a-53143a6a857c",
     "author": "student2020-20",
     "ruleName": "Regola 2",
+    "naturalLanguage" : "if test user's daily steps are no more than 1999 between 08:00 and 18:00, send alarm by notification, start the activating light scene",
     "priority": 1,
     "goal": "health",
     "timestamp": "20-10-2020-17-15-15-678",
@@ -32328,7 +30925,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Il tuo limite dei passi giornalieri non ÃƒÂ¨ stato raggiunto"
+            "value": "Il tuo limite dei passi giornalieri non è stato raggiunto"
           },
           {
             "description": "Notification mode",
@@ -32376,6 +30973,7 @@
     "id": "8a4e3a06-dd38-4306-b96e-67f390f04bec",
     "author": "student2020-20",
     "ruleName": "Regola 3",
+    "naturalLanguage" : "WHEN   Weather becomes rain    and  outdoor temperature is  less then  16  ,  do send  one  reminder  by sms to User",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "20-10-2020-18-2-58-242",
@@ -32476,6 +31074,7 @@
     "id": "8130fbcc-ac90-4d9b-b346-510dff298de2",
     "author": "student2020-20",
     "ruleName": "Regola 4",
+    "naturalLanguage" : "if  Test-user age is  more then  70  or  Test-user cognitive state is  memory losses associated with age  ,  do send  one  alarm  by sms to User",
     "priority": 1,
     "goal": "safety",
     "timestamp": "20-10-2020-17-41-46-325",
@@ -32550,7 +31149,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Ricorda di controllare se la finestra del bagno ÃƒÂ¨ chiusa"
+            "value": "Ricorda di controllare se la finestra del bagno è chiusa"
           },
           {
             "description": "Notification mode",
@@ -32583,6 +31182,7 @@
     "id": "9702c921-2b60-4eb9-9e10-7f3a8115a9eb",
     "author": "student2020-20",
     "ruleName": "Regola 5",
+    "naturalLanguage" : "WHEN   Test-user vocal emotional state becomes  angry  and  Living Room Light state is  on  ,  do start relaxing light scene in the living room, send  one  reminder  by notification",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "20-10-2020-17-54-23-365",
@@ -32600,7 +31200,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -32715,6 +31315,7 @@
     "id": "d6b4b1fd-9984-47bd-ac7c-14c0728240ec",
     "author": "student2020-21",
     "ruleName": "regola1",
+    "naturalLanguage" : "if  Fridge door is  open  ,  do send  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-12-17-40-940",
@@ -32732,7 +31333,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -32796,6 +31397,7 @@
     "id": "f37da45e-cf7a-443c-a2d0-56e64d73fc30",
     "author": "student2020-21",
     "ruleName": "regola2",
+    "naturalLanguage" : "if  Test-user heart rate is   not   60   between 10:00 and 12:00 ,  do send  two  alarms   by notification,  turn on the   Bedroom Light and set color to Red for 2 minutes",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-12-54-44-15",
@@ -32893,6 +31495,7 @@
     "id": "6fd3a03e-7e2d-4a21-af76-52d7f9fc09b6",
     "author": "student2020-21",
     "ruleName": "regola3",
+    "naturalLanguage" : "if  outdoor condition is    rain  and  LivingRoom window sensor is    open  ,  do send  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-12-59-54-679",
@@ -32945,7 +31548,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Window Sensor",
+          "displayedName": "Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -33009,6 +31612,7 @@
     "id": "4c6d2b24-e524-4cd4-9c8d-c226dfafdfff",
     "author": "student2020-21",
     "ruleName": "regola4",
+    "naturalLanguage" : "if  Bathroom temperature becomes  less then  13  and  Bathroom Light state is  off  ,  do send  two  alarms   by notification,  turn on all lights in the bathroom",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-13-5-3-110",
@@ -33026,7 +31630,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom - Temperature",
+          "displayedName": "Temperature",
           "possibleValues": "13",
           "realName": "temperatureLevel",
           "triggerType": "both",
@@ -33050,7 +31654,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -33137,6 +31741,7 @@
     "id": "f6e221d3-71d0-4e0a-b163-797cd76bb229",
     "author": "student2020-21",
     "ruleName": "regola5",
+    "naturalLanguage" : "if  Test-user heart rate becomes    more then  90  and  Living Room Light color is    yellow  ,  do send  reminder  by sms to user,  turn on all lights in the bedroom",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-13-9-18-262",
@@ -33177,7 +31782,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Living Room Light - Color",
+          "displayedName": "Color",
           "possibleValues": {
             "WHITE": "White",
             "BLUE": "Blue",
@@ -33271,6 +31876,7 @@
     "id": "58490467-e378-4520-a4b4-2fb9fe0cd1e4",
     "author": "student2020-22",
     "ruleName": "regola1",
+    "naturalLanguage": "When  Microwave door becomes  open  ,  do send  one  reminder  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "20-10-2020-16-13-54-882",
@@ -33288,7 +31894,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Microwave - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -33352,6 +31958,7 @@
     "id": "97d9cd02-3059-431c-b517-fbec8821adad",
     "author": "student2020-22",
     "ruleName": "regola2",
+    "naturalLanguage": "if  Bedroom light level is   not   dark   between 23:00 and 00:00 ,  do send  one  alarm  by notification,  turn off all lights in the bedroom",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-16-53-0-133",
@@ -33373,7 +31980,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Bedroom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -33460,6 +32067,7 @@
     "id": "489a1ab7-e949-4e99-99c0-a1ecda9e8a28",
     "author": "student2020-22",
     "ruleName": "regola3",
+    "naturalLanguage": "WHEN   Bedroom temperature becomes  less then  18  and  Bedroom window sensor is    open  ,  do send  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-17-35-1-856",
@@ -33477,7 +32085,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperatureLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -33500,7 +32108,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom - Window Sensor",
+          "displayedName": "Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -33564,6 +32172,7 @@
     "id": "223ff7c1-8e07-4160-a6fa-1d2b9885bc6a",
     "author": "student2020-22",
     "ruleName": "regola4",
+    "naturalLanguage": "if  Corridor motion is  not  active       and  Corridor Light Strip state is    on  ,  do send  one  alarm  by notification,  turn off all lights in the corridor",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-18-6-14-199",
@@ -33584,7 +32193,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Corridor - Motion",
+          "displayedName": "Motion",
           "realName": "motion",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -33607,7 +32216,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Corridor Light Strip - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -33690,6 +32299,7 @@
     "id": "802d471d-4f00-42ca-9315-d1d2df58dfeb",
     "author": "student2020-22",
     "ruleName": "regola5",
+    "naturalLanguage": "WHEN   Test-user   is  inside  house and  Entrance Light state is    off  ,  do  turn on all lights in the entrance, send  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-18-8-56-924",
@@ -33734,7 +32344,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Entrance Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -33817,6 +32427,7 @@
     "id": "906e4ede-4ae4-4f39-b76c-d5e5dd15f9f5",
     "author": "student2020-23",
     "ruleName": "regola 1",
+    "naturalLanguage": "When  Kitchen Light state becomes different from  off  ,  do send  one  reminder  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-10-37-20-883",
@@ -33834,7 +32445,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -33898,6 +32509,7 @@
     "id": "222ac1fc-b9e8-40e2-b74f-18aff10d9075",
     "author": "student2020-23",
     "ruleName": "regola 2",
+    "naturalLanguage": "If  Entrance door sensor  does  not  become  close   between 00:00 and 23:59 ,  do  turn on all lights in the entrance, send  one  alarm  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-11-13-13-805",
@@ -33913,13 +32525,13 @@
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
-          "",
-          "",
+          "00:00",
+          "23:59",
           ""
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Entrance - Door Sensor",
+          "displayedName": "Door Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -34002,6 +32614,7 @@
     "id": "608770bc-a4fc-4847-a328-e06df3dd7aa6",
     "author": "student2020-23",
     "ruleName": "regola 3",
+    "naturalLanguage": "IF  Bathroom noise level is  more then  10  and  Bathroom Light state becomes  off  ,  do send  one  reminder  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "2-11-2020-14-2-30-932",
@@ -34019,7 +32632,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom - Noise Level",
+          "displayedName": "Noise Level",
           "realName": "noiseLevel",
           "triggerType": "both",
           "type": "INTEGER",
@@ -34042,7 +32655,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -34106,6 +32719,7 @@
     "id": "92d540ed-78c3-467c-ae04-7ed4e741a8e4",
     "author": "student2020-23",
     "ruleName": "regola 4",
+    "naturalLanguage": "if  Weather  is rain    and  Bedroom window sensor is  open  ,  do send  one  alarm  by voice,  turn on all lights in the corridor",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-11-52-23-653",
@@ -34145,7 +32759,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom - Window Sensor",
+          "displayedName": "Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -34228,6 +32842,7 @@
     "id": "d60414e4-a5ce-4944-a7e2-46f2e5c9a1dc",
     "author": "student2020-23",
     "ruleName": "regola 5",
+    "naturalLanguage": "WHEN  time inside bedroom becomes  more then  600 minutes and  Bedroom Light state is  off  ,  do  turn on all lights in the bedroom, send  one  alarm  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-12-3-31-359",
@@ -34269,7 +32884,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -34352,6 +32967,7 @@
     "id": "a52e6930-4690-4c40-9027-0ce2ede78385",
     "author": "student2020-24",
     "ruleName": "regola 1",
+    "naturalLanguage": "When  Microwave door becomes  open  ,  do send  reminder  by voice",
     "priority": 1,
     "goal": "wellbeing",
     "timestamp": "20-10-2020-16-50-26-634",
@@ -34369,7 +32985,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -34433,6 +33049,7 @@
     "id": "622823b5-0c16-4d12-8791-44810e3eaeaa",
     "author": "student2020-24",
     "ruleName": "regola 2",
+    "naturalLanguage": "If  Bathroom Light state  does  not  become  off   on 20-11-2020 between 23:00 and 07:40 ,  do  turn off all lights in the bathroom, send  one  alarm  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "20-10-2020-18-50-53-988",
@@ -34454,7 +33071,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -34537,6 +33154,7 @@
     "id": "ef5e9914-017e-4d5a-8a03-5dc5beb24a79",
     "author": "student2020-24",
     "ruleName": "regola 3",
+    "naturalLanguage": "IF  Weather  is rain    and  LivingRoom window sensor becomes  open  ,  do send  reminder  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-16-56-18-565",
@@ -34576,19 +33194,19 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Door Sensor",
+          "displayedName": "Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
           },
-          "realName": "doorSensor",
+          "realName": "windowSensor",
           "triggerType": "both",
           "type": "ENUM",
           "unit": "",
-          "xPath": "environment/@doorSensor",
+          "xPath": "environment/@windowSensor",
           "dimensionId": 3
         },
-        "blockcomposer-type": "livingRoom-doorSensor"
+        "blockcomposer-type": "livingRoom-windowSensor"
       }
     ],
     "actions": [
@@ -34640,6 +33258,7 @@
     "id": "ed2bcec2-770e-47dc-8587-0eaa74dd2416",
     "author": "student2020-24",
     "ruleName": "regola 4",
+    "naturalLanguage": "if time is  00:00 minutes and  Bedroom Light state is  on  ,  do send  two  alarms   by voice,  turn off all lights in the bedroom",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-17-39-8-378",
@@ -34683,7 +33302,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bedroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -34733,7 +33352,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "ÃƒÂ¨ mezzanotte"
+            "value": "è mezzanotte"
           },
           {
             "description": "Notification mode",
@@ -34766,12 +33385,13 @@
     "id": "4fc8858a-cd6b-4f1a-b7e8-93aa17d970d3",
     "author": "student2020-24",
     "ruleName": "regola 5",
+    "naturalLanguage": "if  Test-user   is  inside  livingroom and  Living Room Light state is  off  ,  do send  one  reminder  by voice,  turn on  the great luminare light",
     "priority": 1,
     "goal": "none",
     "timestamp": "21-10-2020-18-24-47-30",
     "triggers": [
       {
-        "triggerType": "event",
+        "triggerType": "condition",
         "depth": 0,
         "nextOperator": "and",
         "nextElement": "livingroomLight-state",
@@ -34810,7 +33430,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Living Room Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -34889,6 +33509,7 @@
     "id": "e8c3719d-f690-4af6-a32a-d04e181fccb3",
     "author": "student2020-25",
     "ruleName": "uno",
+    "naturalLanguage": "When  Fridge door becomes  open  ,  do send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-12-45-41-500",
@@ -34906,7 +33527,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Fridge - Door",
+          "displayedName": "Door",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -34970,6 +33591,7 @@
     "id": "9ea8641c-a8bc-4720-9525-ea6bcef64db8",
     "author": "student2020-25",
     "ruleName": "due",
+    "naturalLanguage": "if  Bathroom Light state is   not   on between 20:00 and 05:00  ,  do send  one  alarm  by notification,  turn on all lights in the bathroom",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-13-0-8-76",
@@ -34991,7 +33613,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -35022,7 +33644,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "la luce del bagno ÃƒÂ¨ spenta"
+            "value": "la luce del bagno è spenta"
           },
           {
             "description": "Notification mode",
@@ -35074,6 +33696,7 @@
     "id": "f9d4f430-c28b-49bc-a77d-5cd345868fd9",
     "author": "student2020-25",
     "ruleName": "tre",
+    "naturalLanguage": "WHEN   Kitchen smoke sensor becomes  active    and  Kitchen window sensor is  close  ,  do send  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-13-16-51-461",
@@ -35090,7 +33713,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Smoke Sensor",
+          "displayedName": "Smoke Sensor",
           "realName": "smokeSensor",
           "triggerType": "both",
           "type": "BOOLEAN",
@@ -35113,7 +33736,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen - Window Sensor",
+          "displayedName": "Window Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -35177,6 +33800,7 @@
     "id": "cf9cca3a-6357-4006-9a7d-47a169a9c6dd",
     "author": "student2020-25",
     "ruleName": "quattro",
+    "naturalLanguage": " IF  LivingRoom light level is    dark  and  When  Living Room Light temperature becomes  less then  20  ,  do start biorhythm light scene in the living room, send  one  alarm  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-13-11-29-170",
@@ -35194,7 +33818,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "LivingRoom - Light Level",
+          "displayedName": "Light Level",
           "possibleValues": {
             "DAY_LIGHT": "Day Light",
             "LOW_LIGHT": "Low Light",
@@ -35225,7 +33849,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Living Room Light - Temperature",
+          "displayedName": "Temperature",
           "realName": "temperature",
           "triggerType": "both",
           "type": "INTEGER",
@@ -35300,6 +33924,7 @@
     "id": "f2057522-b94d-42e2-85dc-a99397149b47",
     "author": "student2020-25",
     "ruleName": "cinque",
+    "naturalLanguage": " WHEN  time inside bathroom becomes  2 minutes and  Bedroom Light state is  off  ,  do  turn on all lights in the bathroom, send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "17-10-2020-13-23-46-644",
@@ -35341,7 +33966,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -35424,6 +34049,7 @@
     "id": "1c158300-d292-4a78-83ad-2352d71f820e",
     "author": "student2020-26",
     "ruleName": "Regola1",
+    "naturalLanguage": " if  Kitchen Light state is  on  ,  do send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-11-14-25-76",
@@ -35441,7 +34067,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Kitchen Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -35505,6 +34131,7 @@
     "id": "f963f9c5-6c65-479e-a2fc-5627a0851060",
     "author": "student2020-26",
     "ruleName": "Regola 2",
+    "naturalLanguage": " If  Entrance door sensor  does  not  become  close   between 22:00 and 07:00 ,  do send  three  alarms   by voice,  turn on the   Bedroom Light and set color to Red for 15 minutes",
     "priority": 1,
     "goal": "none",
     "timestamp": "16-10-2020-11-43-36-939",
@@ -35526,7 +34153,7 @@
         ],
         "isNot": true,
         "element": {
-          "displayedName": "Entrance - Door Sensor",
+          "displayedName": "Door Sensor",
           "possibleValues": {
             "CLOSE": "Close",
             "OPEN": "Open"
@@ -35605,12 +34232,13 @@
     "id": "257cf1df-2cfe-4d2e-856a-03ec9b3672aa",
     "author": "student2020-26",
     "ruleName": "3",
+    "naturalLanguage": " IF   Test-user sleep duration is  more then  300  minutes and time becomes  12:00 ,  do send  one  reminder  by voice",
     "priority": 1,
     "goal": "none",
     "timestamp": "25-10-2020-20-6-52-146",
     "triggers": [
       {
-        "triggerType": "event",
+        "triggerType": "condition",
         "depth": 0,
         "nextOperator": "and",
         "nextElement": "dateTime-localTime",
@@ -35708,6 +34336,7 @@
     "id": "a35d25dc-0ec9-4399-a64f-db2fc1c81b70",
     "author": "student2020-26",
     "ruleName": "4",
+    "naturalLanguage": " if  outdoor condition is  thunderstorm  and  Living Room Light is  on  ,  do start relaxing light scene in the living room, send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "25-10-2020-20-9-38-656",
@@ -35760,7 +34389,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Living Room Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
@@ -35838,6 +34467,7 @@
     "id": "87275baa-5696-40ff-8746-41b74c0835fb",
     "author": "student2020-26",
     "ruleName": "6",
+    "naturalLanguage": " WHEN  time inside bathroom becomes  20 minutes and  Bathroom Light state is  off  ,  do  turn on the  Bathroom Light for 10 minutes, send  one  reminder  by notification",
     "priority": 1,
     "goal": "none",
     "timestamp": "25-10-2020-20-12-29-941",
@@ -35879,7 +34509,7 @@
         "notValue": [],
         "isNot": false,
         "element": {
-          "displayedName": "Bathroom Light - State",
+          "displayedName": "State",
           "possibleValues": [
             "ON",
             "OFF"
