@@ -4,6 +4,7 @@
     "author": "domainExpert1",
     "ruleName": "ANA",
     "naturalLanguageOriginal": "dacÃ„Æ’ timpul utilizatorului de testare ÃƒÂ®n interiorul bÃ„Æ’ii este mai mare de 30, nu trimiteÃˆâ€ºi o alarmÃ„Æ’ prin sms la 1234123412",
+    "naturalLanguage": "if the user's test time inside the bathroom is more than 30, send an alarm via sms to 1234123412",
     "priority": 0,
     "triggers": [
       {
@@ -62,7 +63,7 @@
             "displayedName": "La",
             "realName": "alarmRecipient",
             "type": "custom:string",
-            "value": "0040721189924"
+            "value": "1234123412"
           }
         ]
       }
@@ -943,6 +944,7 @@
     "id": 2104560701,
     "author": "domainExpert4",
     "ruleName": "Duoplavin pranzo",
+    "naturalLanguage": "if Duoplavin lunch was not taken between 1:07 pm and 2:09 pm, send two alerts by notification",
     "naturalLanguageOriginal": "se Duoplavin pranzo non è stato preso tra le 13:07 e le 14:09, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
@@ -1019,6 +1021,7 @@
     "id": 1606185754,
     "author": "domainExpert4",
     "ruleName": "Ganfort collirio",
+    "naturalLanguage": "if Ganfort eye drops have not been taken between 8:03 PM and 9:06 PM, send two alerts by notification",
     "naturalLanguageOriginal": "se Ganfort collirio non è stato preso tra le 20:03 e le 21:06, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
@@ -1095,6 +1098,7 @@
     "id": 1892053115,
     "author": "domainExpert4",
     "ruleName": "Trusopt collirio sera",
+    "naturalLanguage": "if Trusopt evening eye drops were not taken between 8:02 pm and 9:05 pm, send two alerts by notification",
     "naturalLanguageOriginal": "se Trusopt collirio sera non è stato preso tra le 20:02 e le 21:05, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
@@ -1171,6 +1175,7 @@
     "id": 2034544156,
     "author": "domainExpert4",
     "ruleName": "Trusopt collirio pranzo",
+    "naturalLanguage": "if Trusopt lunch was not taken between 1:03 pm and 2:04 pm, send two alerts by notification",
     "naturalLanguageOriginal": "se Trusopt pranzo non è stato preso tra le 13:03 e le 14:04, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
@@ -1247,6 +1252,7 @@
     "id": 211899885,
     "author": "domainExpert4",
     "ruleName": "Trusopt",
+    "naturalLanguage": "if Truopt eye drops have not been taken between 07:32 and 08:02, send two alerts by notification",
     "naturalLanguageOriginal": "se Truopt collirio non è stato preso tra le 07:32 e le 08:02, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
@@ -1323,6 +1329,7 @@
     "id": 809092032,
     "author": "domainExpert4",
     "ruleName": "Zoloft",
+    "naturalLanguage": "if Zoloft have not been taken between 07:31 and 08:01, send two alerts by notification",
     "naturalLanguageOriginal": "se Zoloft non è stato preso tra le 07:31 e le 08:01, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
@@ -1399,6 +1406,7 @@
     "id": 1941907476,
     "author": "domainExpert4",
     "ruleName": "Lansoprazolo mattina",
+    "naturalLanguage": "if Lansoprazolo have not been taken between 07:30 and 08:00, send two alerts by notification",
     "naturalLanguageOriginal": "se Lansoprazolo non è stato preso tra le 07:30 e le 08:00, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
@@ -1475,6 +1483,7 @@
     "id": 802638897,
     "author": "domainExpert4",
     "ruleName": "Eucreas della sera",
+    "naturalLanguage": "if Eucreas evening was not taken between 8pm and 9pm, please send two notices by notification",
     "naturalLanguageOriginal": "se Eucreas Sera non è stato preso tra le 20:00 e le 21:00, inviare due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
@@ -1551,6 +1560,7 @@
     "id": 694118939,
     "author": "domainExpert4",
     "ruleName": "Eucreas Pranzo",
+    "naturalLanguage": "if Eucreas lunch was not taken between 1pm and 2pm, please send two notices by notification",
     "naturalLanguageOriginal": "se Eucreas pranzo non è stato preso tra le 13:00 e le 14:00, invia due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
@@ -1627,6 +1637,7 @@
     "id": 1468435251,
     "author": "domainExpert4",
     "ruleName": "Eucreas mattina",
+    "naturalLanguage": "if Eucreas morning was not taken between 7:30am and 8:00am, please send two notices by notification",
     "naturalLanguageOriginal": "Se Eucreas non è stato preso tra le 07:30 e le 08:00, inviare due avvisi tramite notifica",
     "priority": 0,
     "triggers": [
@@ -1872,6 +1883,7 @@
     "id": 437070775,
     "author": "domainExpert4",
     "ruleName": "Luce in soggiorno",
+    "naturalLanguage": "when the light level of the LivingRoom becomes poorly lit, shed some light in the living room",
     "naturalLanguageOriginal": "quando il livello di luce di LivingRoom diventa scarsamente illuminato, fare luce nel soggiorno",
     "priority": 2,
     "triggers": [
@@ -1926,6 +1938,7 @@
     "id": 2033312982,
     "author": "domainExpert4",
     "ruleName": "Attività  fisica",
+    "naturalLanguage": "if the daily steps of Test-user are less than 5000, send a reminder via email to caregiver.1@provider.it",
     "naturalLanguageOriginal": "se le impronte giornaliere di Test-user sono inferiori a 5000, invia un promemoria via mail a caregiver.1@provider.it",
     "priority": 4,
     "triggers": [
@@ -1996,6 +2009,7 @@
     "id": 1571550446,
     "author": "domainExpert5",
     "ruleName": "Fuori casa di sera",
+    "naturalLanguage": "when the test user goes out and the time is between 21:00 and 22:00, send two SMS alerts to Caregiver 2",
     "naturalLanguageOriginal": "L'utente del test è fuori casa e l'ora del tempo è tra le 21:00 e le 22:00, invia due avvisi tramite sms a Caregiver 2",
     "priority": 10,
     "triggers": [
@@ -2145,6 +2159,7 @@
     "id": 1592563941,
     "author": "domainExpert5",
     "ruleName": "Esercizi cognitivi",
+    "naturalLanguage": "if the user test training time is less than 1, send an alarm by notification",
     "naturalLanguageOriginal": "se il tempo di allenamento del Test-utente è inferiore a 1, inviare un allarme tramite notifica",
     "priority": 4,
     "triggers": [
@@ -2216,7 +2231,7 @@
     "id": 2112820361,
     "author": "domainExpert5",
     "ruleName": "Assunzione farmaco ",
-    "naturalLanguageOriginal": "if  Test-user intake time is different from  15:00  ,  do send  one  alarm  by notification",
+    "naturalLanguage": "if  Test-user intake time is different from  15:00  ,  do send  one  alarm  by notification",
     "priority": 10,
     "triggers": [
       {
@@ -2284,6 +2299,7 @@
     "id": 1093134839,
     "author": "domainExpert5",
     "ruleName": "Aprovel/Coaprovel",
+    "naturalLanguage": "If Aprovel / Coaprovel has not been taken between 20:00 and 20:15, send three notices by notification",
     "naturalLanguageOriginal": "Se Aprovel / Coaprovel non è stato preso tra le 20:00 e le 20:15, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
@@ -2360,6 +2376,7 @@
     "id": 1203160242,
     "author": "domainExpert5",
     "ruleName": "Ibustrin 200 mg 1cp/die",
+    "naturalLanguage": "If Ibustrin 200mg 1cp has not been taken between 2:00pm and 2:15pm, send three notices by notification",
     "naturalLanguageOriginal": "Se Ibustrin 200 mg 1cp / die non è stato preso tra le 14:00 e le 14:15, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
@@ -2436,6 +2453,7 @@
     "id": 1590173288,
     "author": "domainExpert5",
     "ruleName": "Norvasc 5 mg 1cp/die",
+    "naturalLanguage": "If Navarsc 5mg 1cp /die has not been taken between 9:00am and 9:05am, send three notices by notification",
     "naturalLanguageOriginal": "Se Norvasc 5mg 1cp / die non è stato preso tra le 09:05 e le 09:20, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
@@ -2512,6 +2530,7 @@
     "id": 1483343173,
     "author": "domainExpert5",
     "ruleName": "Tenormin 1/4 cp/die",
+    "naturalLanguage": "If Tenormin 1/4 cp/die has not been taken between 9:00am and 9:15am, send three notices by notification",
     "naturalLanguageOriginal": "Se Tenormin 1/4 cp / die non è stato preso tra le 09:00 e le 09:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
@@ -2588,6 +2607,7 @@
     "id": 645674990,
     "author": "domainExpert5",
     "ruleName": "Assumere Pantorc 1cp/die",
+    "naturalLanguage": "If Pantorc has not been taken between 7:00am and 7:15am, send three notices by notification",
     "naturalLanguageOriginal": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
@@ -2664,6 +2684,7 @@
     "id": 809749427,
     "author": "domainExpert5",
     "ruleName": "Aplactin 20 mg 1cp/die",
+    "naturalLanguage": "If Aplactin 20 mg 1 cp/die has not been taken between 8:00pm and 8:20pm, send three notices by notification",
     "naturalLanguageOriginal": "Se Aplactin 20 mg 1cp / die non è stato preso tra le 20:05 e le 20:20, inviare tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
@@ -2740,6 +2761,7 @@
     "id": 1777644173,
     "author": "domainExpert5",
     "ruleName": "Continua ad esercitarti",
+    "naturalLanguage": "If the training time for the trial user is less than 20, send a reminder by notification",
     "naturalLanguageOriginal": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
     "priority": 0,
     "triggers": [
@@ -2811,6 +2833,7 @@
     "id": 1911633770,
     "author": "domainExpert5",
     "ruleName": "Assumere Pantorc 1cp/die",
+    "naturalLanguage": "If Pantorc has not been taken between 7:00am and 7:15:am, send three notices by notification",
     "naturalLanguageOriginal": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
@@ -2887,6 +2910,7 @@
     "id": 1285883508,
     "author": "domainExpert5",
     "ruleName": "Continua ad esercitarti",
+    "naturalLanguage": "If the training time for the trial user is less than 20, send a reminder by notification",
     "naturalLanguageOriginal": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
     "priority": 0,
     "triggers": [
@@ -2958,6 +2982,7 @@
     "id": 2116782439,
     "author": "domainExpert5",
     "ruleName": "Assumere Pantorc 1cp/die",
+    "naturalLanguage": "If Pantorc has not been taken between 7:00am and 7:15:am, send three notices by notification",
     "naturalLanguageOriginal": "Se Pantorc non è stato preso tra le 07:00 e le 07:15, invia tre avvisi tramite notifica",
     "priority": 5,
     "triggers": [
@@ -3034,6 +3059,7 @@
     "id": 218246121,
     "author": "domainExpert5",
     "ruleName": "Continua ad esercitarti",
+    "naturalLanguage": "If the training time for the trial user is less than 20, send a reminder by notification",
     "naturalLanguageOriginal": "se il tempo di allenamento per l'utente di prova è inferiore a 20, inviare un promemoria tramite notifica",
     "priority": 0,
     "triggers": [
