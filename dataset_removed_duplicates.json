@@ -24218,7 +24218,7 @@
     "id": "3babc39c-0d72-4164-a9d7-574811379bd5",
     "author": "student2020-8",
     "ruleName": "REgola1",
-    "naturalLanugage" : "When the fridge door is open, you receive a reminder voice message 'Shut the fridge!'",
+    "naturalLanguage" : "When the fridge door is open, you receive a reminder voice message 'Shut the fridge!'",
     "priority": 1,
     "goal": "none",
     "timestamp": "23-10-2020-15-14-44-490",
