@@ -31465,7 +31465,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "reminder text"
+            "value": "Remember to close the fridge door!"
           },
           {
             "description": "Notification mode",
@@ -31680,7 +31680,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "reminder text"
+            "value": "It's raining, close the living room window!"
           },
           {
             "description": "Notification mode",
@@ -31790,7 +31790,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "reminder text"
+            "value": "Bathroom temperature is less then 13 degrees"
           },
           {
             "description": "Notification mode",
@@ -31925,7 +31925,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "reminder text"
+            "value": "Hearth rate more than 90 BPM"
           },
           {
             "description": "Notification mode",
@@ -33117,7 +33117,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "reminder text"
+            "value": "Microwave door open"
           },
           {
             "description": "Notification mode",
