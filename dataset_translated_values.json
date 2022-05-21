@@ -42,7 +42,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Alarma"
+            "value": "Alarm"
           },
           {
             "description": "Modul de notificare",
@@ -86,7 +86,7 @@
         "operator": "equal",
         "parent": "currentWeather",
         "triggerType": "condition",
-        "value": "Sonne",
+        "value": "Sun",
         "element": {
           "realName": "weatherIcon",
           "displayedName": "Weather Icon",
@@ -114,7 +114,7 @@
             "displayedName": "Text der Erinnerung",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Die Sonne scheint. Bitte gehen Sie ein wenig ins Freie."
+            "value": "The sun is shining. Please go outside."
           },
           {
             "description": "Erinnerungsfunktion",
@@ -272,7 +272,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Esercizi sul tapis roulant"
+            "value": "Exercises on the treadmill" 
           },
           {
             "description": "Mode",
@@ -446,7 +446,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "E' tanto tempo che non giochi con Kwido, prova a fare una partita!"
+            "value": "You haven't played with Kwido in a long time, try playing a game!"
           },
           {
             "description": "Mode",
@@ -517,7 +517,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Ricordati di prendere l'aspirina"
+            "value": "Remember to take aspirin"
           },
           {
             "description": "Mode",
@@ -603,7 +603,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Puoi terminare gli esercizi"
+            "value": "You can stop doing the exercises"
           },
           {
             "description": "Notification Mode",
@@ -647,7 +647,7 @@
         "operator": "equal",
         "parent": "activity",
         "triggerType": "condition",
-        "value": "Dobetin e Lampard",
+        "value": "Dobetin and Lampard",
         "element": {
           "realName": "medicationName",
           "displayedName": "Medicine Taken",
@@ -680,7 +680,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Dobetin e Lampard "
+            "value": "Dobetin and Lampard "
           },
           {
             "description": "Notification Mode",
@@ -757,7 +757,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Prendi Cardicor della sera"
+            "value": "Take the evening Cardicor "
           },
           {
             "description": "Notification Mode",
@@ -834,7 +834,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Prendi Provisacor Sera"
+            "value": "Take the evening Provisacor "
           },
           {
             "description": "Notification Mode",
@@ -878,7 +878,7 @@
         "operator": "equal",
         "parent": "activity",
         "triggerType": "condition",
-        "value": "Tardifer pranzo",
+        "value": "Tardifer lunch",
         "element": {
           "realName": "medicationName",
           "displayedName": "Medicine Taken",
@@ -911,7 +911,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Prendi Tardifer "
+            "value": "Take Tardifer "
           },
           {
             "description": "Notification Mode",
@@ -955,7 +955,7 @@
         "operator": "equal",
         "parent": "activity",
         "triggerType": "condition",
-        "value": "Duoplavin pranzo",
+        "value": "Duoplavin lunch",
         "element": {
           "realName": "medicationName",
           "displayedName": "Medicine Taken",
@@ -988,7 +988,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Duoplavin pranzo"
+            "value": "Duoplavin lunch"
           },
           {
             "description": "Notification Mode",
@@ -1032,7 +1032,7 @@
         "operator": "equal",
         "parent": "activity",
         "triggerType": "condition",
-        "value": "Ganfort collirio",
+        "value": "Ganfort eye drops",
         "element": {
           "realName": "medicationName",
           "displayedName": "Medicine Taken",
@@ -1065,7 +1065,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Ganfort collirio sera"
+            "value": "Ganfort eye drops evening"
           },
           {
             "description": "Notification Mode",
@@ -1109,7 +1109,7 @@
         "operator": "equal",
         "parent": "activity",
         "triggerType": "condition",
-        "value": "Trusopt collirio sera",
+        "value": "Trusopt eye drops evening",
         "element": {
           "realName": "medicationName",
           "displayedName": "Medicine Taken",
@@ -1142,7 +1142,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Trusopt collirio della sera"
+            "value": "Trusopt eye drops evening"
           },
           {
             "description": "Notification Mode",
@@ -1186,7 +1186,7 @@
         "operator": "equal",
         "parent": "activity",
         "triggerType": "condition",
-        "value": "Trusopt pranzo",
+        "value": "Trusopt lunch",
         "element": {
           "realName": "medicationName",
           "displayedName": "Medicine Taken",
@@ -1219,7 +1219,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Trusopt collirio pranzo"
+            "value": "Trusopt eye drops lunch"
           },
           {
             "description": "Notification Mode",
@@ -1263,7 +1263,7 @@
         "operator": "equal",
         "parent": "activity",
         "triggerType": "condition",
-        "value": "Trusopt collirio",
+        "value": "Trusopt eye drops",
         "element": {
           "realName": "medicationName",
           "displayedName": "Medicine Taken",
@@ -1296,7 +1296,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Assumi trusopt gocce mattina"
+            "value": "Take Trusopt drops morning"
           },
           {
             "description": "Notification Mode",
@@ -1373,7 +1373,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Prendi lo Zoloft"
+            "value": "Take Zoloft"
           },
           {
             "description": "Notification Mode",
@@ -1450,7 +1450,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Prendi Lansoprazolo"
+            "value": "Take Lansoprazolo"
           },
           {
             "description": "Notification Mode",
@@ -1494,7 +1494,7 @@
         "operator": "equal",
         "parent": "activity",
         "triggerType": "condition",
-        "value": "Eucreas Sera",
+        "value": "Eucreas evening",
         "element": {
           "realName": "medicationName",
           "displayedName": "Medicine Taken",
@@ -1527,7 +1527,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Prendi Eucreas della Sera"
+            "value": "Take evening Eucreas "
           },
           {
             "description": "Notification Mode",
@@ -1571,7 +1571,7 @@
         "operator": "equal",
         "parent": "activity",
         "triggerType": "condition",
-        "value": "Eucreas pranzo",
+        "value": "Eucreas lunch",
         "element": {
           "realName": "medicationName",
           "displayedName": "Medicine Taken",
@@ -1604,7 +1604,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Prendi Eucreas pranzo"
+            "value": "Take Eucreas Lunch"
           },
           {
             "description": "Notification Mode",
@@ -1681,7 +1681,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Prendi Eucreas della mattina"
+            "value": "Take Morning Eucreas "
           },
           {
             "description": "Notification Mode",
@@ -1777,7 +1777,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "spegni great luminarie"
+            "value": "Turn off the great luminarie"
           },
           {
             "description": "Mode",
@@ -1851,7 +1851,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "spegni great luminarie"
+            "value": "Turn off the great luminarie"
           },
           {
             "description": "Mode",
@@ -1977,7 +1977,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Esercizi sul tapis roulant"
+            "value": "exercises on the treadmill"
           },
           {
             "description": "Mode",
@@ -2126,7 +2126,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Utente 2 è fuori casa di sera tardi"
+            "value": "User 2 is away from home late at night" 
           },
           {
             "description": "Notification Mode",
@@ -2198,7 +2198,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Continua ad esercitarti"
+            "value": "Keep practicing"
           },
           {
             "description": "Notification Mode",
@@ -2266,7 +2266,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Assumere la pasticca delle 15"
+            "value": "Take the 3 o'clock pill"
           },
           {
             "description": "Notification Mode",
@@ -2574,7 +2574,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Tenormin 1/4 compressa"
+            "value": "Tenormin 1/4 pill"
           },
           {
             "description": "Notification Mode",
@@ -2651,7 +2651,7 @@
             "displayedName": "Testo",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Ricordati di prendere il Pantorc "
+            "value": "Remember to take the Pantorc"
           },
           {
             "description": "Notification Mode",
@@ -2800,7 +2800,7 @@
             "displayedName": "Testo",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Fai ancora qualche esercizio"
+            "value": "Do some more exercise"
           },
           {
             "description": "Mode",
@@ -3539,7 +3539,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Allarme man down LD"
+            "value": "Man down alarm"
           },
           {
             "description": "Notification Mode",
@@ -3609,7 +3609,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Erinnerung: Glas Wasser trinken"
+            "value": "Reminder: drink a glass of water"
           },
           {
             "description": "Mode",
@@ -3679,7 +3679,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Erinnenrung: Glas Wasser trinken"
+            "value": "Reminder: drink a glass of water"
           },
           {
             "description": "Mode",
@@ -3750,7 +3750,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Erinnerung: Glas Wasser trinken"
+            "value": "Reminder: drink a glass of water"
           },
           {
             "description": "Mode",
@@ -3821,7 +3821,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Erinnerung: Augentropfen und Therapie"
+            "value": "Reminder: eye drops and therapy"
           },
           {
             "description": "Mode",
@@ -4100,7 +4100,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Bitte Uebungen auf dem Tablet machen"
+            "value": "Please do exercises on the tablet"
           },
           {
             "description": "Mode",
@@ -4171,7 +4171,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Erinnerung: Glas Wasser trinken"
+            "value": "Reminder: drink a glass of water"
           },
           {
             "description": "Mode",
@@ -4241,7 +4241,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Erinnenrung: Glas Wasser trinken"
+            "value": "Reminder: drink a glass of water"
           },
           {
             "description": "Mode",
@@ -4312,7 +4312,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Erinnerung: Glas Wasser trinken"
+            "value": "Reminder: drink a glass of water"
           },
           {
             "description": "Mode",
@@ -4383,7 +4383,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Erinnerung: Augentropfen und Therapie"
+            "value": "Reminder: eye drops and therapy"
           },
           {
             "description": "Mode",
@@ -4559,7 +4559,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Bitte Uebungen auf dem Tablet machen"
+            "value": "Please do exercises on the tablet"
           },
           {
             "description": "Mode",
@@ -5392,7 +5392,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Bitte Blutzucker messen"
+            "value": "Please measure blood sugar"
           },
           {
             "description": "Mode",
@@ -5463,7 +5463,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Bitte Blutzucker messen"
+            "value": "Please measure blood sugar"
           },
           {
             "description": "Mode",
@@ -6275,7 +6275,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Domani piove"
+            "value": "Tomorrow will rain"
           },
           {
             "description": "Mode",
@@ -6346,7 +6346,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "dormi poco"
+            "value": "you're getting too little sleep"
           },
           {
             "description": "Notification Mode",
@@ -9662,7 +9662,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Bitte Uebungen auf dem Tablet machen"
+            "value": "Please do exercises on the tablet"
           },
           {
             "description": "Mode",
@@ -9748,7 +9748,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Lo sportello del frigorifero è aperto.\""
+            "value": "The refrigerator door is open."
           },
           {
             "description": "Notification mode",
@@ -9853,7 +9853,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Ricorda di prendere sciarpa e guanti!\""
+            "value": "Remember to take your scarf and gloves!"
           },
           {
             "description": "Notification mode",
@@ -9934,7 +9934,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Sveglia, farai tardi.\""
+            "value": "Wake up, you'll be late."
           },
           {
             "description": "Notification mode",
@@ -10055,7 +10055,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Modalità  risparmio energetico attivata.\""
+            "value": "Energy saving mode activated."
           },
           {
             "description": "Notification mode",
@@ -10190,7 +10190,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"La luce del comodino è accesa\""
+            "value": "The bedside light is on"
           },
           {
             "description": "Notification mode",
@@ -10211,7 +10211,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "parente"
+            "value": "relative"
           }
         ],
         "nextOperator": "none"
@@ -10268,7 +10268,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Abbassare luminosità \""
+            "value": "Lower the brightness"
           },
           {
             "description": "Notification mode",
@@ -10377,7 +10377,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Chiudere porte e/o finestre\""
+            "value": "Close doors and / or windows"
           },
           {
             "description": "Notification mode",
@@ -10474,7 +10474,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Aumentare attività  fisica\""
+            "value": "Increase physical activity"
           },
           {
             "description": "Notification mode",
@@ -10589,7 +10589,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Fuoriuscita di fumo in cucina\""
+            "value": "some smoke comes from the kitchen"
           },
           {
             "description": "Notification mode",
@@ -10714,7 +10714,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"chiudere sportello frigorifero\""
+            "value": "Close the fridge door"
           },
           {
             "description": "Notification mode",
@@ -11055,7 +11055,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"luci accese!\""
+            "value": "Lights on!"
           },
           {
             "description": "Notification mode",
@@ -11143,7 +11143,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Chiama  mamma\""
+            "value": "Call mum"
           },
           {
             "description": "Notification mode",
@@ -11348,7 +11348,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Chiudi la porta del frigo\""
+            "value": "Close the fridge door"
           },
           {
             "description": "Notification mode",
@@ -11452,7 +11452,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Imposta il riscaldamento a 22°\""
+            "value": "Set the heat to 22 degrees "
           },
           {
             "description": "Notification mode",
@@ -11549,7 +11549,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Devi allenarti per almeno 60 minuti al giorno!\""
+            "value": "You have to train for at least 60 minutes a day!"
           },
           {
             "description": "Notification mode",
@@ -11654,7 +11654,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Ricordati che domani pioverà \""
+            "value": "Remember that tomorrow will rain"
           },
           {
             "description": "Notification mode",
@@ -11778,7 +11778,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Hai acceso la luce per errore\""
+            "value": "you turned on the light by mistake"
           },
           {
             "description": "Notification mode",
@@ -11879,7 +11879,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Close fridge's door\""
+            "value": "Close fridge's door"
           },
           {
             "description": "Notification mode",
@@ -11985,7 +11985,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Close the windows\""
+            "value": "Close the windows"
           },
           {
             "description": "Notification mode",
@@ -12082,7 +12082,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Cardioaspirina\""
+            "value": "Cardioaspirina"
           },
           {
             "description": "Notification mode",
@@ -12218,7 +12218,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Low temperature in bedroom\""
+            "value": "Low temperature in bedroom"
           },
           {
             "description": "Notification mode",
@@ -12324,7 +12324,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Wake up\""
+            "value": "Wake up"
           },
           {
             "description": "Notification mode",
@@ -12425,7 +12425,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Remember to close the fridge\""
+            "value": "Remember to close the fridge"
           },
           {
             "description": "Notification mode",
@@ -12542,7 +12542,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Remember to close the windows\""
+            "value": "Remember to close the windows"
           },
           {
             "description": "Notification mode",
@@ -12628,7 +12628,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Be careful, thiefs!\""
+            "value": "Be careful, thiefs!"
           },
           {
             "description": "Notification mode",
@@ -12757,7 +12757,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Gas leak!\""
+            "value": "Gas leak!"
           },
           {
             "description": "Notification mode",
@@ -12915,7 +12915,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Have a nice day!\""
+            "value": "Have a nice day!"
           },
           {
             "description": "Notification mode",
@@ -12997,7 +12997,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Hai lasciato il frigo aperto!\""
+            "value": "You left the fridge open!"
           },
           {
             "description": "Notification mode",
@@ -13117,7 +13117,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Il sensore del gas � attivo, controlla di averlo spento!\""
+            "value": "Th egas sensor is active, check that you have turned it off!"
           },
           {
             "description": "Notification mode",
@@ -13246,7 +13246,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Vuoi che metta un po' di musica?\""
+            "value": "Do you want me to play some music?"
           },
           {
             "description": "Notification mode",
@@ -13351,7 +13351,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Piove, chiudi le finestre\""
+            "value": "It's raining, close the windows"
           },
           {
             "description": "Notification mode",
@@ -13448,7 +13448,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Non hai preso la medicina!!\""
+            "value": "You didn't take the meds!"
           },
           {
             "description": "Notification mode",
@@ -13553,7 +13553,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Qualcuno ha dimenticato di chiudere il gas?\""
+            "value": "Has anyone forgotten to turn off the gas?"
           },
           {
             "description": "Notification mode",
@@ -13801,7 +13801,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Ricordati di spegnere la luce quando esci dal bagno\""
+            "value": "Remember to turn off the light when you leave the bathroom"
           },
           {
             "description": "Notification mode",
@@ -13879,7 +13879,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Cambia la lampadina della cucina\""
+            "value": "Change the kitchen lamp"
           },
           {
             "description": "Notification mode",
@@ -13961,7 +13961,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Oggi hai fatto poco esercizio fisico. Dovresti fare una passeggiata.\""
+            "value": "You did little exercise today. You should take a walk."
           },
           {
             "description": "Notification mode",
@@ -14058,7 +14058,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"luce soggiorno accesa\""
+            "value": "Living room light on"
           },
           {
             "description": "Notification mode",
@@ -14163,7 +14163,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"chiudere la finestra\""
+            "value": "Close the window"
           },
           {
             "description": "Notification mode",
@@ -14249,7 +14249,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"luci spente\""
+            "value": "Lights off"
           },
           {
             "description": "Notification mode",
@@ -14373,7 +14373,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"movimento in casa\""
+            "value": "Movement in the house"
           },
           {
             "description": "Notification mode",
@@ -14513,7 +14513,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"appuntamenti di oggi\""
+            "value": "Today's appointments"
           },
           {
             "description": "Notification mode",
@@ -14591,7 +14591,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Non affatticare la vista, vira il colore su tonalità  più calde\""
+            "value": "Don't strain your eyes, turn the color to warmer shades"
           },
           {
             "description": "Notification mode",
@@ -14703,7 +14703,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Abbassa la luminosità  della luce per riposare meglio\""
+            "value": "Lower the brightness of the light for better rest"
           },
           {
             "description": "Notification mode",
@@ -14831,7 +14831,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Il frigorifero è rimasto aperto\""
+            "value": "The refrigerator remained open"
           },
           {
             "description": "Notification mode",
@@ -14936,7 +14936,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Fumo in cucina.\""
+            "value": "Smoke in the kitchen"
           },
           {
             "description": "Notification mode",
@@ -15038,7 +15038,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Ti sei svegliato ad un orario insolito. Potresti dover recuperare energie per domani!\""
+            "value": "You woke up at an unusual time. You may have to regain energy for tomorrow!"
           },
           {
             "description": "Notification mode",
@@ -15079,7 +15079,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Novit� sul tuo sonno, guarda la tua mail\""
+            "value": "News about your sleep, look at your mail "
           },
           {
             "description": "Notification mode",
@@ -15161,7 +15161,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"La porta del frigorifero è aperta\""
+            "value": "The fridge door is open"
           },
           {
             "description": "Notification mode",
@@ -15251,7 +15251,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"La luce del soggiorno è stata appena accesa\""
+            "value": "The living room light has just been turned on "
           },
           {
             "description": "Notification mode",
@@ -15379,7 +15379,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"La luce d'ingresso è stata appena accesa\""
+            "value": "The entrance light has just been turned on"
           },
           {
             "description": "Notification mode",
@@ -15526,7 +15526,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"La luce della camera è stata accesa\""
+            "value": "The bedroom light has been turned on"
           },
           {
             "description": "Notification mode",
@@ -15647,7 +15647,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"La finestra del soggiorno è aperta e la temperatura interna è troppo bassa\""
+            "value": "The living room window is open and the inside temperature is too low"
           },
           {
             "description": "Notification mode",
@@ -15733,7 +15733,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"La luce in camera è accesa\""
+            "value": "The light in the bedroom is on"
           },
           {
             "description": "Notification mode",
@@ -15850,7 +15850,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"E' opportuno chiudere la finestra della cucina causa forte nebbia\""
+            "value": "It is advisable to close the kitchen window due to strong fog"
           },
           {
             "description": "Notification mode",
@@ -15932,7 +15932,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Controlla la pressione\""
+            "value": "Check the blood pressure"
           },
           {
             "description": "Notification mode",
@@ -16056,7 +16056,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Finestra di cucina aperta\""
+            "value": "kitchen window is open"
           },
           {
             "description": "Notification mode",
@@ -16196,7 +16196,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"!5 minuti trascorsi in bagno\""
+            "value": "15 minutes spent in bathroom"
           },
           {
             "description": "Notification mode",
@@ -16278,7 +16278,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"reminder text\""
+            "value": "reminder text"
           },
           {
             "description": "Notification mode",
@@ -16383,7 +16383,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"reminder text\""
+            "value": "reminder text"
           },
           {
             "description": "Notification mode",
@@ -16469,7 +16469,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"alarm text\""
+            "value": "alarm text"
           },
           {
             "description": "Notification mode",
@@ -16597,7 +16597,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"alarm text\""
+            "value": "alarm text"
           },
           {
             "description": "Notification mode",
@@ -16618,7 +16618,7 @@
             "displayedName": "Recipient",
             "realName": "alarmRecipient",
             "type": "custom:string",
-            "value": "utente"
+            "value": "user"
           }
         ],
         "nextOperator": "sequential"
@@ -16729,7 +16729,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"reminder text\""
+            "value": "reminder text"
           },
           {
             "description": "Notification mode",
@@ -16838,7 +16838,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Ricorda l'ombrello\""
+            "value": "remember the umbrella"
           },
           {
             "description": "Notification mode",
@@ -16939,7 +16939,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Incendio\""
+            "value": "fire"
           },
           {
             "description": "Notification mode",
@@ -17087,7 +17087,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Fai uno spuntino e chiudi il frigo quando hai finito\""
+            "value": "Have a snack and close the fridge when you're done"
           },
           {
             "description": "Notification mode",
@@ -17170,7 +17170,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Utente non si è svegliato\""
+            "value": "The user did not wake up"
           },
           {
             "description": "Notification mode",
@@ -17191,7 +17191,7 @@
             "displayedName": "Recipient",
             "realName": "alarmRecipient",
             "type": "custom:string",
-            "value": "Parente 1"
+            "value": "Relative 1"
           }
         ],
         "nextOperator": "sequential"
@@ -17271,7 +17271,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Chiudi la finestra\""
+            "value": "Close the window"
           },
           {
             "description": "Notification mode",
@@ -17353,7 +17353,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"\\\"Attenzione! Lo sportello del frigo è aperto!\\\"\""
+            "value": "Warning!! The fridge door is open!"
           },
           {
             "description": "Notification mode",
@@ -17374,7 +17374,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "speacker"
+            "value": "speaker"
           }
         ],
         "nextOperator": "none"
@@ -17457,7 +17457,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"\\\"Accendi il  riscaldamento!\\\"\""
+            "value": "Turn the heater on"
           },
           {
             "description": "Notification mode",
@@ -17539,7 +17539,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Sveglia\""
+            "value": "Wake up"
           },
           {
             "description": "Notification mode",
@@ -17658,7 +17658,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Bentornato\""
+            "value": "Welcome back"
           },
           {
             "description": "Notification mode",
@@ -17801,7 +17801,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Attento al gradino\""
+            "value": "Mind the gap"
           },
           {
             "description": "Notification mode",
@@ -17883,7 +17883,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Spegnere la luce\""
+            "value": "Turn the light off"
           },
           {
             "description": "Notification mode",
@@ -18000,7 +18000,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Chiudi le finestre\""
+            "value": "Close the windows"
           },
           {
             "description": "Notification mode",
@@ -18082,7 +18082,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Accendi i termosifoni\""
+            "value": "Turn on the heater"
           },
           {
             "description": "Notification mode",
@@ -18207,7 +18207,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Controllare il bagno\""
+            "value": "Check the bathroom"
           },
           {
             "description": "Notification mode",
@@ -18347,7 +18347,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Controllare il microonde\""
+            "value": "Check the microwave"
           },
           {
             "description": "Notification mode",
@@ -18425,7 +18425,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Accendi il condizionatore!\""
+            "value": "Turn on the air conditioner "
           },
           {
             "description": "Notification mode",
@@ -18527,7 +18527,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Spegni i fornelli!\""
+            "value": "Turn off the stove!"
           },
           {
             "description": "Notification mode",
@@ -18613,7 +18613,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Chiudi il frigo!\""
+            "value": "Close the fridge"
           },
           {
             "description": "Notification mode",
@@ -18746,7 +18746,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Bentornato!\""
+            "value": "Welcome back!"
           },
           {
             "description": "Notification mode",
@@ -18870,7 +18870,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Buongiorno!\""
+            "value": "Good morning!"
           },
           {
             "description": "Notification mode",
@@ -19054,7 +19054,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"!ATTENZIONE! Sensori di fumo attivi\""
+            "value": "WARNING! Smoke sensors are on!"
           },
           {
             "description": "Notification mode",
@@ -19178,7 +19178,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Attenzione, battito cardiaco alto!\""
+            "value": "Warning, high hearth rate"
           },
           {
             "description": "Notification mode",
@@ -19199,7 +19199,7 @@
             "displayedName": "Recipient",
             "realName": "alarmRecipient",
             "type": "custom:string",
-            "value": "parents"
+            "value": "relatives"
           }
         ],
         "nextOperator": "none"
@@ -19298,7 +19298,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Piove! Hai scordato le finestre aperte\""
+            "value": "It's raining! You left the windows open"
           },
           {
             "description": "Notification mode",
@@ -19396,7 +19396,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"E' ora di alzarsi\""
+            "value": "It's time to get up"
           },
           {
             "description": "Notification mode",
@@ -19478,7 +19478,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Ricordati di spegnere la luce!\""
+            "value": "Remember to turn off the light"
           },
           {
             "description": "Notification mode",
@@ -19499,7 +19499,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "Proprietario di casa"
+            "value": "House owner"
           }
         ],
         "nextOperator": "none"
@@ -19579,7 +19579,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Ricordati di prendere l'ombrello!\""
+            "value": "Remember to take the umbrella"
           },
           {
             "description": "Notification mode",
@@ -19600,7 +19600,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "Utente"
+            "value": "User"
           }
         ],
         "nextOperator": "none"
@@ -19665,7 +19665,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Porta del frigo aperta!\""
+            "value": "Fridge door is open"
           },
           {
             "description": "Notification mode",
@@ -19686,7 +19686,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "Proprietario di casa"
+            "value": "House owner"
           }
         ],
         "nextOperator": "parallel"
@@ -19796,7 +19796,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Fumo nel corridoio!\""
+            "value": "Smoke in the corridor"
           },
           {
             "description": "Notification mode",
@@ -19817,7 +19817,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "Proprietario di casa"
+            "value": "House owner"
           }
         ],
         "nextOperator": "parallel"
@@ -19932,7 +19932,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Buongiorno!\""
+            "value": "Good morning!"
           },
           {
             "description": "Notification mode",
@@ -19953,7 +19953,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "Proprietario di casa"
+            "value": "House owner"
           }
         ],
         "nextOperator": "none"
@@ -20038,7 +20038,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"switch the light off\""
+            "value": "switch the light off"
           },
           {
             "description": "Notification mode",
@@ -20166,7 +20166,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"close the fridge door\""
+            "value": "close the fridge door"
           },
           {
             "description": "Notification mode",
@@ -20298,7 +20298,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"close the window\""
+            "value": "close the window"
           },
           {
             "description": "Notification mode",
@@ -20381,7 +20381,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"user has not woken up yet\""
+            "value": "user has not woken up yet"
           },
           {
             "description": "Notification mode",
@@ -20478,7 +20478,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"switch the corridor light strip on\""
+            "value": "switch the corridor light strip on"
           },
           {
             "description": "Notification mode",
@@ -20560,7 +20560,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"close microwave door\""
+            "value": "close microwave door"
           },
           {
             "description": "Notification mode",
@@ -20610,7 +20610,7 @@
         "notValue": [
           "",
           "08:00",
-          "20:00"
+          "12:00"
         ],
         "isNot": true,
         "value": "true",
@@ -21087,7 +21087,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Ci sono i prodotti che stanno per scadere\""
+            "value": "There are products that are about to expire"
           },
           {
             "description": "Notification mode",
@@ -21169,7 +21169,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"La medicina non è stata presa\""
+            "value": "The medicine has not been taken"
           },
           {
             "description": "Notification mode",
@@ -21278,7 +21278,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"alarm text\""
+            "value": "alarm text"
           },
           {
             "description": "Notification mode",
@@ -21319,7 +21319,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"La cottura non è ultimata\""
+            "value": "Cooking is not finished"
           },
           {
             "description": "Notification mode",
@@ -21340,7 +21340,7 @@
             "displayedName": "Recipient",
             "realName": "alarmRecipient",
             "type": "custom:string",
-            "value": "Cooker"
+            "value": "Cook"
           }
         ],
         "nextOperator": "none"
@@ -21519,7 +21519,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Adesso rilassati\""
+            "value": "now relax"
           },
           {
             "description": "Notification mode",
@@ -21601,7 +21601,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Welcome home\""
+            "value": "Welcome home"
           },
           {
             "description": "Notification mode",
@@ -21683,7 +21683,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Time for some workout\""
+            "value": "Time for some workout"
           },
           {
             "description": "Notification mode",
@@ -21803,7 +21803,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Close the window\""
+            "value": "Close the window"
           },
           {
             "description": "Notification mode",
@@ -21908,7 +21908,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Close the fridge door!\""
+            "value": "Close the fridge door!"
           },
           {
             "description": "Notification mode",
@@ -22058,7 +22058,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Stai bene?\""
+            "value": "are you OK?"
           },
           {
             "description": "Notification mode",
@@ -22155,7 +22155,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"reminder text\""
+            "value": "reminder text"
           },
           {
             "description": "Notification mode",
@@ -22237,7 +22237,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Aggiustare temperatura salotto\""
+            "value": "Fix the living room temperature"
           },
           {
             "description": "Notification mode",
@@ -22357,7 +22357,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"reminder text\""
+            "value": "reminder text"
           },
           {
             "description": "Notification mode",
@@ -22474,7 +22474,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"alarm text\""
+            "value": "alarm text"
           },
           {
             "description": "Notification mode",
@@ -22625,7 +22625,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Qualcuno all'ingresso\""
+            "value": "Someone at the entrance"
           },
           {
             "description": "Notification mode",
@@ -22707,7 +22707,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Controllare la scadenza del latte"
+            "value": "Check the expiration date of the milk"
           },
           {
             "description": "Notification mode",
@@ -22812,7 +22812,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Ho spento tutte le luci di casa\""
+            "value": "I turned off all the lights in the house"
           },
           {
             "description": "Notification mode",
@@ -22916,7 +22916,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Ricordati di prendere l'ombrello\""
+            "value": "Remember to take the umbrella"
           },
           {
             "description": "Notification mode",
@@ -22937,7 +22937,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "+39335491242"
+            "value": "+3912345123"
           }
         ],
         "nextOperator": "none"
@@ -23164,7 +23164,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Anche oggi ti sei addormentato con la luce accesa..."
+            "value": "Even today you fell asleep with the light on ..."
           },
           {
             "description": "Notification mode",
@@ -23246,7 +23246,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Non tenere la porta del frigorifero aperta più del necessario"
+            "value": "Do not keep the refrigerator door open longer than necessary"
           },
           {
             "description": "Notification mode",
@@ -23565,7 +23565,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"I'm pretty sure you don't need the lights turn on in your bedroom right now Charles\""
+            "value": "I'm pretty sure you don't need the lights turn on in your bedroom right now Charles"
           },
           {
             "description": "Notification mode",
@@ -23709,7 +23709,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"I took the liberty of turning the lights on Charles. You are quiet short-sighted though\""
+            "value": "I took the liberty of turning the lights on Charles. You are quiet short-sighted though"
           },
           {
             "description": "Notification mode",
@@ -23791,7 +23791,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Chiudi il frigo"
+            "value": "Close the fridge"
           },
           {
             "description": "Notification mode",
@@ -23812,7 +23812,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "messaggio vocale in casa"
+            "value": "Vocal message in the house"
           }
         ],
         "nextOperator": "none"
@@ -23874,7 +23874,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Warning! entrance door is open\""
+            "value": "Warning! entrance door is open"
           },
           {
             "description": "Notification mode",
@@ -23984,7 +23984,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"turn on the heaters!\""
+            "value": "turn on the heaters!"
           },
           {
             "description": "Notification mode",
@@ -24082,7 +24082,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"The food is burned!\""
+            "value": "The food is burned!"
           },
           {
             "description": "Notification mode",
@@ -24173,7 +24173,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Wake up, it's your birthday!!\""
+            "value": "Wake up, it's your birthday!!"
           },
           {
             "description": "Notification mode",
@@ -24267,7 +24267,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Chiudere lo sportello del frigo\""
+            "value": "Close the fridge door"
           },
           {
             "description": "Notification mode",
@@ -24353,7 +24353,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Sportello microonde aprto!\""
+            "value": "Microwave door open!"
           },
           {
             "description": "Notification mode",
@@ -24462,7 +24462,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Chiudere porta bagno!\""
+            "value": "Close the bathroom door!"
           },
           {
             "description": "Notification mode",
@@ -24563,7 +24563,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"alarm text\""
+            "value": "alarm text"
           },
           {
             "description": "Notification mode",
@@ -24669,7 +24669,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Luce bagno accesa da troppo\""
+            "value": "bathroom light is on for too long"
           },
           {
             "description": "Notification mode",
@@ -24710,7 +24710,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"Qualcuno sta male in bagno\""
+            "value": "Someone is sick in the bathroom"
           },
           {
             "description": "Notification mode",
@@ -24792,7 +24792,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Ricordati di non lasciare lo sportello aperto"
+            "value": "Remember not to leave the door open"
           },
           {
             "description": "Notification mode",
@@ -24878,7 +24878,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "spegni le luci"
+            "value": "turn the ligths off"
           },
           {
             "description": "Notification mode",
@@ -24998,7 +24998,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "sta nevicando!"
+            "value": "It's snowing!"
           },
           {
             "description": "Notification mode",
@@ -25106,7 +25106,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "luci accese"
+            "value": "ligths on"
           },
           {
             "description": "Notification mode",
@@ -25311,7 +25311,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Ricordati di accendere la luce in bagno"
+            "value": "Remember to turn on the bathroom light"
           },
           {
             "description": "Notification mode",
@@ -25389,7 +25389,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"il sensore del gas è acceso!»\""
+            "value": "The gas sensor is active!"
           },
           {
             "description": "Notification mode",
@@ -25475,7 +25475,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Attenzione, le luci nel corridoio sono accese, ricordati di spegnerle!"
+            "value": "Attention, the lights in the corridor are on, remember to turn them off!"
           },
           {
             "description": "Notification mode",
@@ -25496,7 +25496,7 @@
             "displayedName": "Recipient",
             "realName": "alarmRecipient",
             "type": "custom:string",
-            "value": "3331234123"
+            "value": "1231234123"
           }
         ],
         "nextOperator": "parallel"
@@ -25603,7 +25603,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Domani è prevista neve, ricordati di montare le catene!"
+            "value": "Snow is expected tomorrow, remember to put snow chains on the car!"
           },
           {
             "description": "Notification mode",
@@ -25624,7 +25624,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "mario.rossi@mail.com"
+            "value": "example.email@mail.com"
           }
         ],
         "nextOperator": "none"
@@ -25712,7 +25712,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Attenzione! La luce dell'ingresso è accesa e il sensore della porta sono attivi"
+            "value": "Attention! The entrance light is on and the door sensor is active"
           },
           {
             "description": "Notification mode",
@@ -25840,7 +25840,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Fra 5 minuti suona la sveglia"
+            "value": "The alarm rings in 5 minutes"
           },
           {
             "description": "Notification mode",
@@ -25941,7 +25941,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Ricordati di non lasciare il frigo aperto"
+            "value": "Remember not to leave the fridge open"
           },
           {
             "description": "Notification mode",
@@ -26027,7 +26027,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Hai lasciato la luce spenta in cucina"
+            "value": "You left the light off in the kitchen "
           },
           {
             "description": "Notification mode",
@@ -26150,7 +26150,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Sta nevicando! Niente beach volley oggi alle 14.20"
+            "value": "It's snowing! No beach volleyball today at 2.20pm"
           },
           {
             "description": "Notification mode",
@@ -26171,7 +26171,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "Sorella"
+            "value": "Sister"
           }
         ],
         "nextOperator": "none"
@@ -26258,7 +26258,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "La luce in salotto è ancora spenta!"
+            "value": "The light in the living room is still off!"
           },
           {
             "description": "Notification mode",
@@ -26463,7 +26463,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Ricordati di spegnere le luci in bagno"
+            "value": "Remember to turn off the lights in the bathroom"
           },
           {
             "description": "Notification mode",
@@ -26568,8 +26568,8 @@
         "closeGroup": 0,
         "notValue": [
           "",
-          "00:02",
-          "00:00"
+          "00:00",
+          "00:02"
         ],
         "isNot": true,
         "element": {
@@ -26604,7 +26604,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"fai risuonare un bip\""
+            "value": "put out a beep sound"
           },
           {
             "description": "Notification mode",
@@ -26724,7 +26724,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"non uscire per footing\""
+            "value": "do not go out for jogging"
           },
           {
             "description": "Notification mode",
@@ -26745,7 +26745,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "proprietario di casa"
+            "value": "house owner"
           }
         ],
         "nextOperator": "none"
@@ -26829,7 +26829,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "\"aziona bip di allarme\""
+            "value": "trigger alarm beeps"
           },
           {
             "description": "Notification mode",
@@ -26961,7 +26961,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"uscire dal  bagno\""
+            "value": "get out of the bathroom"
           },
           {
             "description": "Notification mode",
@@ -26982,7 +26982,7 @@
             "displayedName": "Recipient",
             "realName": "reminderRecipient",
             "type": "custom:string",
-            "value": "inquilino"
+            "value": "tenant"
           }
         ],
         "nextOperator": "none"
@@ -27043,7 +27043,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "controlla che la porta del frigorifero sia chiusa"
+            "value": "check that the fridge door is closed"
           },
           {
             "description": "Notification mode",
@@ -27133,7 +27133,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Spegnimento delle luci del bagno"
+            "value": "Turning off the bathroom lights"
           },
           {
             "description": "Notification mode",
@@ -27253,7 +27253,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Ricordati l'ombrello e copriti che fuori fa freddo\""
+            "value": "Remember the umbrella and cover yourself that it's cold outside"
           },
           {
             "description": "Notification mode",
@@ -27393,7 +27393,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "è mattino"
+            "value": "It's morning"
           },
           {
             "description": "Notification mode",
@@ -27514,7 +27514,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "La lampadina si sta surriscaldando troppo"
+            "value": "The light bulb is overheating too much"
           },
           {
             "description": "Notification mode",
@@ -27592,7 +27592,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Goditi il relax"
+            "value": "Enjoy your relax"
           },
           {
             "description": "Notification mode",
@@ -27678,7 +27678,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Ho spento le luci"
+            "value": "I turned the lights off"
           },
           {
             "description": "Notification mode",
@@ -27802,7 +27802,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Apri la finestra, troppo gas"
+            "value": "Open the window, too much gas"
           },
           {
             "description": "Notification mode",
@@ -27915,7 +27915,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "La luce artificiale non serve ora"
+            "value": "Artificial light is not needed now"
           },
           {
             "description": "Notification mode",
@@ -28062,7 +28062,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Ricorda di spegnere la luce!"
+            "value": "Remember to turn the lights off"
           },
           {
             "description": "Notification mode",
@@ -28144,7 +28144,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Chiudi lo sportello del frigo"
+            "value": "Close the fridge door"
           },
           {
             "description": "Notification mode",
@@ -28253,7 +28253,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Luci spente"
+            "value": "Lights off"
           },
           {
             "description": "Notification mode",
@@ -28358,7 +28358,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Accendi i riscaldamenti e chiudi la finestra"
+            "value": "turn on the heaters and close the windows"
           },
           {
             "description": "Notification mode",
@@ -28475,7 +28475,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Luci accese"
+            "value": "Lights on"
           },
           {
             "description": "Notification mode",
@@ -28618,7 +28618,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Luce cambiata"
+            "value": "Light changed"
           },
           {
             "description": "Notification mode",
@@ -28700,7 +28700,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Il frigo è aperto"
+            "value": "The fridge is open"
           },
           {
             "description": "Notification mode",
@@ -28832,7 +28832,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "In mezzo a ogni difficoltà  si trova un'opportunità."
+            "value": "In the midst of all difficulties there is an opportunity"
           },
           {
             "description": "Notification mode",
@@ -28933,7 +28933,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Temperatura bassa in camera da letto"
+            "value": "Bedroom temperature is low"
           },
           {
             "description": "Notification mode",
@@ -29095,7 +29095,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Livello di luce basso. Accendo le luci"
+            "value": "Light level is low. Turn the lights on"
           },
           {
             "description": "Notification mode",
@@ -29223,7 +29223,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Avevi dimenticato le luci accese. Le ho spente"
+            "value": "You forgotten the lights on. I turned them off"
           },
           {
             "description": "Notification mode",
@@ -29305,7 +29305,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Chiudi lo sportello del frigorifero!"
+            "value": "Close the fridge door!"
           },
           {
             "description": "Notification mode",
@@ -29395,7 +29395,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Hai dimenticato la luce accesa in soggiorno! Fai attenzione, ci penso io!"
+            "value": "You forgot the light on in the living room! I will take care of that, be careful!"
           },
           {
             "description": "Notification mode",
@@ -29527,7 +29527,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Stacca le prese e controlla eventuali allagamenti!"
+            "value": "Unplug everything and check for flooding!"
           },
           {
             "description": "Notification mode",
@@ -29640,7 +29640,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Hai lasciato le luci spente in soggiorno!"
+            "value": "You left the lights out in the living room!"
           },
           {
             "description": "Notification mode",
@@ -29764,7 +29764,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "La striscia luminosa in corridoio si è spenta, fa attenzione!"
+            "value": "The light strip in the corridor has gone out, be careful!"
           },
           {
             "description": "Notification mode",
@@ -29865,7 +29865,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Lo sportello del microonde è aperto!"
+            "value": "Microwave door is open!"
           },
           {
             "description": "Notification mode",
@@ -29947,7 +29947,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Attenzione! Sensore fumo del corridoio non attivo"
+            "value": "Warning! Corridor smoke sensor is not active"
           },
           {
             "description": "Notification mode",
@@ -30063,7 +30063,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Evita di uscire oggi!"
+            "value": "Avoid going out today!"
           },
           {
             "description": "Notification mode",
@@ -30168,7 +30168,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Percepito rumore all'ingresso!"
+            "value": "Noise heard at the entrance!"
           },
           {
             "description": "Notification mode",
@@ -30311,7 +30311,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "E' ora di alzarsi dal letto!"
+            "value": "It's time to get out of bed!"
           },
           {
             "description": "Notification mode",
@@ -30393,7 +30393,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Qualcuno sta entrando!"
+            "value": "Someone is entering!"
           },
           {
             "description": "Notification mode",
@@ -30479,7 +30479,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Porta aperta"
+            "value": "Door open"
           },
           {
             "description": "Notification mode",
@@ -30607,7 +30607,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Attenzione, fornelli accesi!"
+            "value": "Careful, stoves on!"
           },
           {
             "description": "Notification mode",
@@ -30715,7 +30715,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "è ora di cena"
+            "value": "It's dinner time"
           },
           {
             "description": "Notification mode",
@@ -30862,7 +30862,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Ricorda di spegnere la luce quando esci dal bagno"
+            "value": "Remember to turn off the light when you leave the bathroom"
           },
           {
             "description": "Notification mode",
@@ -30944,7 +30944,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Lo sportello del frigorifero è aperto"
+            "value": "Fridge door is open"
           },
           {
             "description": "Notification mode",
@@ -31026,7 +31026,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Il tuo limite dei passi giornalieri non è stato raggiunto"
+            "value": "Your daily step goal has not been reached"
           },
           {
             "description": "Notification mode",
@@ -31142,7 +31142,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Prendi ombrello e la sciarpa"
+            "value": "Take the umbrella and the scarf"
           },
           {
             "description": "Notification mode",
@@ -31250,7 +31250,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Ricorda di controllare se la finestra del bagno è chiusa"
+            "value": "Remember to check if the bathroom window is closed"
           },
           {
             "description": "Notification mode",
@@ -31383,7 +31383,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Ricorda di fare delle pause e di rilassarti"
+            "value": "Remember to take breaks and relax"
           },
           {
             "description": "Notification mode",
@@ -32026,7 +32026,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Controlla recipiente"
+            "value": "Check the container"
           },
           {
             "description": "Notification mode",
@@ -32116,7 +32116,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Orario riposo"
+            "value": "Rest time"
           },
           {
             "description": "Notification mode",
@@ -32240,7 +32240,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Chiudi finestra camera"
+            "value": "Close the bedroom window"
           },
           {
             "description": "Notification mode",
@@ -32348,7 +32348,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Luci corridoio inutilizzate, spegnimento"
+            "value": "Unused corridor lights, shutdown"
           },
           {
             "description": "Notification mode",
@@ -32495,7 +32495,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Disattiva connessione dati"
+            "value": "Data connection disabled"
           },
           {
             "description": "Notification mode",
@@ -32577,7 +32577,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Chiudi la finestra"
+            "value": "Close the window"
           },
           {
             "description": "Notification mode",
@@ -32682,7 +32682,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Porta aperta"
+            "value": "Door open"
           },
           {
             "description": "Notification mode",
@@ -32787,7 +32787,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"chiudi l'acqua\""
+            "value": "Turn off the tap"
           },
           {
             "description": "Notification mode",
@@ -32891,7 +32891,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Sta piovendo"
+            "value": "It's raining"
           },
           {
             "description": "Notification mode",
@@ -33035,7 +33035,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Sveglia!"
+            "value": "Wake up!"
           },
           {
             "description": "Notification mode",
@@ -33222,7 +33222,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "luce nel bagno accesa"
+            "value": "Bathroom light on"
           },
           {
             "description": "Notification mode",
@@ -33326,7 +33326,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Hai lasciato le finestre aperte!"
+            "value": "You left the windows open!"
           },
           {
             "description": "Notification mode",
@@ -33453,7 +33453,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "è mezzanotte"
+            "value": "It's midnight"
           },
           {
             "description": "Notification mode",
@@ -33577,7 +33577,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "luce accesa"
+            "value": "light on"
           },
           {
             "description": "Notification mode",
@@ -33659,7 +33659,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Chiudi la porta del frigo"
+            "value": "Close the fridge door"
           },
           {
             "description": "Notification mode",
@@ -33745,7 +33745,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "la luce del bagno è spenta"
+            "value": "Bathroom light is off"
           },
           {
             "description": "Notification mode",
@@ -33868,7 +33868,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "apri la finestra"
+            "value": "open the window"
           },
           {
             "description": "Notification mode",
@@ -33992,7 +33992,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "fredda"
+            "value": "cold"
           },
           {
             "description": "Notification mode",
@@ -34117,7 +34117,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "la luce era spenta"
+            "value": "the light was off"
           },
           {
             "description": "Notification mode",
@@ -34199,7 +34199,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "Luce cucina rimasta accesa"
+            "value": "Kitchen light remained on"
           },
           {
             "description": "Notification mode",
@@ -34285,7 +34285,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Porta Aperta"
+            "value": "The Door is open"
           },
           {
             "description": "Notification mode",
@@ -34404,7 +34404,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"Alzati!!!\""
+            "value": "Get up!!"
           },
           {
             "description": "Notification mode",
@@ -34535,7 +34535,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"fuori piove\""
+            "value": "It's raining outside"
           },
           {
             "description": "Notification mode",
@@ -34660,7 +34660,7 @@
             "displayedName": "Text",
             "realName": "reminderText",
             "type": "custom:string",
-            "value": "\"20 minuti in bagno\""
+            "value": "20 minutes in the bathroom"
           },
           {
             "description": "Notification mode",
