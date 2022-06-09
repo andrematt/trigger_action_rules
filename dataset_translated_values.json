@@ -18207,7 +18207,7 @@
             "displayedName": "Text",
             "realName": "alarmText",
             "type": "custom:string",
-            "value": "Check the bathroom"
+            "value": "Smoke! Check the bathroom"
           },
           {
             "description": "Notification mode",
@@ -23862,8 +23862,7 @@
       {
         "action": {
           "realName": "reminderText",
-          "type": "custom:string",
-          "xPath": "xPath missing!!"
+          "type": "custom:string"
         },
         "operator": "sequential",
         "parent": "Reminders",
@@ -23972,8 +23971,7 @@
       {
         "action": {
           "realName": "reminderText",
-          "type": "custom:string",
-          "xPath": "xPath missing!!"
+          "type": "custom:string"
         },
         "operator": "none",
         "parent": "Reminders",
@@ -24070,8 +24068,7 @@
       {
         "action": {
           "realName": "reminderText",
-          "type": "custom:string",
-          "xPath": "xPath missing!!"
+          "type": "custom:string"
         },
         "operator": "sequential",
         "parent": "Reminders",
@@ -24161,8 +24158,7 @@
       {
         "action": {
           "realName": "reminderText",
-          "type": "custom:string",
-          "xPath": "xPath missing!!"
+          "type": "custom:string"
         },
         "operator": "sequential",
         "parent": "Reminders",
