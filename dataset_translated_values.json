@@ -13695,7 +13695,7 @@
         "nextOperator": "and",
         "nextElement": "corridor-doorWindowSensor",
         "operator": "LESSTHEN",
-        "parent": "twentyFourHoursWeatherForecast",
+        "parent": "currentWeather",
         "value": "6",
         "startGroup": 0,
         "closeGroup": 1,
@@ -13707,10 +13707,10 @@
           "triggerType": "both",
           "type": "INTEGER",
           "unit": "",
-          "xPath": "environment/twentyFourHoursWeatherForecast/@outdoorTemperature",
+          "xPath": "environment/currentWeather/@outdoorTemperature",
           "dimensionId": 14
         },
-        "blockcomposer-type": "twentyFourHoursWeatherForecast-outdoorTemperature"
+        "blockcomposer-type": "currentWeather-outdoorTemperature"
       },
       {
         "triggerType": "condition",
