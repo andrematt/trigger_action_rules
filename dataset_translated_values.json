@@ -36,6 +36,7 @@
           "type": "composed"
         },
         "type": "composed",
+	"parent": "alarms",
         "values": [
           {
             "description": "Text de alarm&#259;",
@@ -108,6 +109,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -266,6 +268,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -440,6 +443,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -511,6 +515,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -597,6 +602,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -674,6 +680,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -751,6 +758,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -828,6 +836,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -905,6 +914,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -982,6 +992,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -1059,6 +1070,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -1136,6 +1148,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -1213,6 +1226,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -1290,6 +1304,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -1367,6 +1382,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -1444,6 +1460,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -1521,6 +1538,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -1598,6 +1616,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -1675,6 +1694,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -1771,6 +1791,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -1845,6 +1866,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -1971,6 +1993,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -2120,6 +2143,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -2192,6 +2216,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -2260,6 +2285,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -2337,6 +2363,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -2414,6 +2441,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -2491,6 +2519,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -2568,6 +2597,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -2645,6 +2675,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -2722,6 +2753,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -2794,6 +2826,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -2865,6 +2898,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -2941,6 +2975,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -3089,6 +3124,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -3160,6 +3196,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -3406,6 +3443,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -3533,6 +3571,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -3603,6 +3642,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -3673,6 +3713,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -3744,6 +3785,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -3815,6 +3857,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -4094,6 +4137,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -4165,6 +4209,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -4235,6 +4280,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -4306,6 +4352,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -4377,6 +4424,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -4553,6 +4601,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -4811,6 +4860,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -4882,6 +4932,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -5056,6 +5107,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -5183,6 +5235,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -5386,6 +5439,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -5457,6 +5511,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -5535,6 +5590,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -5612,6 +5668,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -5737,6 +5794,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -5808,6 +5866,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -5886,6 +5945,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -5963,6 +6023,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -6088,6 +6149,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -6269,6 +6331,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -6340,6 +6403,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -6435,6 +6499,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -6529,6 +6594,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -6790,6 +6856,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -6991,6 +7058,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -7391,6 +7459,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -7574,6 +7643,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -7756,6 +7826,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -8097,6 +8168,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -8134,6 +8206,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -8263,6 +8336,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -8439,6 +8513,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -8566,6 +8641,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -8753,6 +8829,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -8935,6 +9012,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -9062,6 +9140,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -9141,6 +9220,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "alarms",
         "values": [
           {
             "description": "Alarm Text",
@@ -9219,6 +9299,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -9297,6 +9378,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -9656,6 +9738,7 @@
           "type": "composed"
         },
         "type": "composed",
+        "parent": "reminders",
         "values": [
           {
             "description": "Reminder Text",
@@ -9792,7 +9875,7 @@
         "nextOperator": "and",
         "nextElement": "currentWeather-outdoorTemperature",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "blockcomposer-type": "dateTime-localTime",
         "value": {
           "startTime": "07:30",
@@ -9818,7 +9901,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "LESSTHEN",
-        "parent": "",
+        "parent": "currentWeather",
         "blockcomposer-type": "currentWeather-outdoorTemperature",
         "value": "14",
         "startGroup": 0,
@@ -9993,7 +10076,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "timeInsideARoom",
         "blockcomposer-type": "timeInsideARoom-timeInsideBedroom",
         "value": "20",
         "startGroup": 0,
@@ -10017,7 +10100,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "blockcomposer-type": "bedroomLight-state",
         "value": "ON",
         "startGroup": 0,
@@ -10113,7 +10196,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomPortableLight-state",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "personalData",
         "blockcomposer-type": "personalData-age",
         "value": "70",
         "startGroup": 0,
@@ -10137,7 +10220,7 @@
         "nextOperator": "rule",
         "nextElement": "Corridor-Light Strip Corridor",
         "operator": "EQUAL",
-        "parent": "Bedroom Portable Light",
+        "parent": "BedroomPortableLight",
         "blockcomposer-type": "bedroomPortableLight-state",
         "value": "ON",
         "startGroup": 0,
@@ -10234,7 +10317,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "MORETHEN",
-        "parent": "Bedroom Portable Light",
+        "parent": "BedroomPortableLight",
         "blockcomposer-type": "bedroomPortableLight-brightness",
         "value": "100",
         "startGroup": 0,
@@ -10421,7 +10504,7 @@
         "nextOperator": "rule",
         "nextElement": "BiorhythmLight",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "physiological",
         "blockcomposer-type": "physiological-steps",
         "value": "500",
         "startGroup": 0,
@@ -10540,7 +10623,7 @@
         "nextOperator": "rule",
         "nextElement": "Hue color light Kitchen",
         "operator": "LESSTHEN",
-        "parent": "Kitchen Light",
+        "parent": "KitchenLight",
         "blockcomposer-type": "kitchenLight-brightness",
         "value": "30",
         "startGroup": 0,
@@ -10660,7 +10743,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "personalData",
         "blockcomposer-type": "personalData-age",
         "value": "75",
         "startGroup": 0,
@@ -10758,7 +10841,7 @@
         "nextOperator": "and",
         "nextElement": "dateTime-localTime",
         "operator": "EQUAL",
-        "parent": "Living Room Light",
+        "parent": "LivingRoomLight",
         "blockcomposer-type": "livingroomLight-state",
         "value": "OFF",
         "startGroup": 0,
@@ -10785,7 +10868,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "blockcomposer-type": "dateTime-localTime",
         "value": {
           "startTime": "07:00",
@@ -10861,7 +10944,7 @@
         },
         "operator": "turnOn",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "invokeFunctions:changeApplianceState",
         "value": "ON",
@@ -10967,7 +11050,7 @@
         "nextOperator": "and",
         "nextElement": "relativePosition-typeOfProximity",
         "operator": "EQUAL",
-        "parent": "Bedroom Portable Light",
+        "parent": "BedroomPortableLight",
         "blockcomposer-type": "bedroomPortableLight-state",
         "value": "ON",
         "startGroup": 0,
@@ -10994,7 +11077,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "INSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "blockcomposer-type": "relativePosition-typeOfProximity",
         "value": "BEDROOM",
         "startGroup": 0,
@@ -11099,7 +11182,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "cognitive",
         "blockcomposer-type": "cognitive-emotionalState",
         "value": "HAPPY",
         "startGroup": 0,
@@ -11182,7 +11265,7 @@
         },
         "operator": "turnOn",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "invokeFunctions:changeApplianceState",
         "value": "ON",
@@ -11206,7 +11289,7 @@
         "nextOperator": "and",
         "nextElement": "dateTime-localDate",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "blockcomposer-type": "dateTime-localTime",
         "value": {
           "startTime": "06:50",
@@ -11232,7 +11315,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "blockcomposer-type": "dateTime-localDate",
         "value": "2019-02-09",
         "startGroup": 0,
@@ -11415,7 +11498,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "blockcomposer-type": "dateTime-localTime",
         "value": {
           "startTime": "22:00",
@@ -11496,7 +11579,7 @@
         "nextOperator": "rule",
         "nextElement": "Relax",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "cognitive",
         "blockcomposer-type": "cognitive-trainingTime",
         "value": "60",
         "startGroup": 0,
@@ -11593,7 +11676,7 @@
         "nextOperator": "and",
         "nextElement": "greatLuminaire-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "twentyFourHoursWeatherForecast",
         "blockcomposer-type": "twentyFourHoursWeatherForecast-rain",
         "startGroup": 0,
         "closeGroup": 1,
@@ -11616,7 +11699,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Great Luminaire",
+        "parent": "GreatLuminaire",
         "blockcomposer-type": "greatLuminaire-state",
         "value": "ON",
         "startGroup": 0,
@@ -11688,7 +11771,7 @@
         },
         "operator": "turnOn",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "update:lightColor",
         "value": "#33ffff",
@@ -11713,7 +11796,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "OUTSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "blockcomposer-type": "relativePosition-typeOfProximity",
         "value": "BEDROOM",
         "startGroup": 0,
@@ -11740,7 +11823,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "blockcomposer-type": "bedroomLight-state",
         "value": "ON",
         "startGroup": 0,
@@ -11923,7 +12006,7 @@
         "nextOperator": "and",
         "nextElement": "livingRoom-doorWindowSensor",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -12029,7 +12112,7 @@
         "nextOperator": "rule",
         "nextElement": "Hue color light Kitchen",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
@@ -12150,7 +12233,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "AZURE",
         "startGroup": 0,
         "closeGroup": 1,
@@ -12262,7 +12345,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomPortableLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -12286,7 +12369,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Bedroom Portable Light",
+        "parent": "BedroomPortableLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -12469,7 +12552,7 @@
         "nextOperator": "and",
         "nextElement": "livingRoom-doorWindowSensor",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "THUNDERSTORM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -12835,7 +12918,7 @@
         "nextOperator": "and",
         "nextElement": "bedroom-lightLevel",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -13041,7 +13124,7 @@
         "nextOperator": "and",
         "nextElement": "kitchen-gasSensor",
         "operator": "OUTSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "KITCHEN",
         "startGroup": 0,
         "closeGroup": 1,
@@ -13161,7 +13244,7 @@
         "nextOperator": "and",
         "nextElement": "livingroomLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "cognitive",
         "value": "SAD",
         "startGroup": 0,
         "closeGroup": 1,
@@ -13194,7 +13277,7 @@
         "nextOperator": "rule",
         "nextElement": "Relax",
         "operator": "EQUAL",
-        "parent": "Living Room Light",
+        "parent": "LivingRoomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -13290,7 +13373,7 @@
         "nextOperator": "and",
         "nextElement": "livingRoom-doorWindowSensor",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -13395,7 +13478,7 @@
         "nextOperator": "rule",
         "nextElement": "BiorhythmLight",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
@@ -13515,7 +13598,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Kitchen Light",
+        "parent": "KitchenLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -13612,7 +13695,7 @@
         "nextOperator": "and",
         "nextElement": "corridor-doorWindowSensor",
         "operator": "LESSTHEN",
-        "parent": "",
+        "parent": "twentyFourHoursWeatherForecast",
         "value": "6",
         "startGroup": 0,
         "closeGroup": 1,
@@ -13721,7 +13804,7 @@
         "nextOperator": "and",
         "nextElement": "bathroomLight-state",
         "operator": "OUTSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "BATHROOM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -13748,7 +13831,7 @@
         "nextOperator": "rule",
         "nextElement": "Corridor-Light Strip Corridor",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -13845,7 +13928,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "LESSTHEN",
-        "parent": "Kitchen Light",
+        "parent": "KitchenLight",
         "value": "1",
         "startGroup": 0,
         "closeGroup": 0,
@@ -13923,7 +14006,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "physiological",
         "value": "7000",
         "startGroup": 0,
         "closeGroup": 0,
@@ -13995,7 +14078,7 @@
         },
         "operator": "turnOn",
         "timing": "extended",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "update:lightColor",
         "value": "#ffcc00",
@@ -14020,7 +14103,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Living Room Light",
+        "parent": "LivingRoomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 0,
@@ -14129,7 +14212,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -14207,7 +14290,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "INSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "LIVINGROOM",
         "startGroup": 0,
         "closeGroup": 0,
@@ -14335,7 +14418,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Great Luminaire",
+        "parent": "GreatLuminaire",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -14437,7 +14520,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -14461,7 +14544,7 @@
         "nextOperator": "rule",
         "nextElement": "Relax",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -14557,7 +14640,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Bedroom Portable Light",
+        "parent": "BedroomPortableLight",
         "value": "0",
         "startGroup": 0,
         "closeGroup": 0,
@@ -14635,7 +14718,7 @@
         "nextOperator": "and",
         "nextElement": "bedroom-lightLevel",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dataTime",
         "value": {
           "startTime": "21:30",
           "endTime": "00:00"
@@ -14747,7 +14830,7 @@
         "nextOperator": "and",
         "nextElement": "fridge-door",
         "operator": "OUTSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "KITCHEN",
         "startGroup": 0,
         "closeGroup": 1,
@@ -14898,7 +14981,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Kitchen Light",
+        "parent": "KitchenLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -14999,7 +15082,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
@@ -15290,7 +15373,7 @@
         },
         "operator": "turnOn",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "invokeFunctions:changeApplianceState",
         "value": "ON",
@@ -15341,7 +15424,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -15442,7 +15525,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "INSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "BEDROOM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -15469,7 +15552,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -15777,7 +15860,7 @@
         "nextOperator": "and",
         "nextElement": "livingRoom-doorWindowSensor",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "FOG",
         "startGroup": 0,
         "closeGroup": 1,
@@ -15894,7 +15977,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "LESSTHEN",
-        "parent": "",
+        "parent": "physiological",
         "value": "100",
         "startGroup": 0,
         "closeGroup": 0,
@@ -16018,7 +16101,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Kitchen Light",
+        "parent": "KitchenLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -16119,7 +16202,7 @@
         "nextOperator": "and",
         "nextElement": "bathroomLight-state",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "timeInsideARoom",
         "value": "15",
         "startGroup": 0,
         "closeGroup": 1,
@@ -16143,7 +16226,7 @@
         "nextOperator": "rule",
         "nextElement": "Hue color light bathroom",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -16240,7 +16323,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Corridor Light Strip",
+        "parent": "CorridorLightStrip",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 0,
@@ -16660,7 +16743,7 @@
         "nextOperator": "and",
         "nextElement": "bathroom-lightLevel",
         "operator": "OUTSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "BATHROOM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -16792,7 +16875,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "RAIN",
         "startGroup": 0,
         "closeGroup": 0,
@@ -17029,7 +17112,7 @@
         "nextOperator": "rule",
         "nextElement": "Relax",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "cognitive",
         "value": "HAPPY",
         "startGroup": 0,
         "closeGroup": 1,
@@ -17131,7 +17214,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
@@ -17397,7 +17480,7 @@
         "nextOperator": "and",
         "nextElement": "livingRoom-temperatureLevel",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "value": {
           "startTime": "19:00",
           "endTime": "20:30"
@@ -17501,7 +17584,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
@@ -17598,7 +17681,7 @@
         "nextOperator": "and",
         "nextElement": "entrance-motion",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -17717,7 +17800,7 @@
         "nextOperator": "and",
         "nextElement": "bathroomLight-state",
         "operator": "INSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "BATHROOM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -17744,7 +17827,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -17845,7 +17928,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 0,
@@ -17927,7 +18010,7 @@
         "nextOperator": "and",
         "nextElement": "livingRoom-doorWindowSensor",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "THUNDERSTORM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -18169,7 +18252,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -18270,7 +18353,7 @@
         "nextOperator": "and",
         "nextElement": "kitchen-doorWindowSensor",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "timeInsideARoom",
         "value": "50",
         "startGroup": 0,
         "closeGroup": 1,
@@ -18469,7 +18552,7 @@
         "nextOperator": "and",
         "nextElement": "kitchen-gasSensor",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "timeInsideARoom",
         "value": "30",
         "startGroup": 0,
         "closeGroup": 1,
@@ -18693,7 +18776,7 @@
         "nextOperator": "rule",
         "nextElement": "Hue color light Entrance",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -18790,7 +18873,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -18813,7 +18896,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -18914,7 +18997,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "INSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "ENTRANCE",
         "startGroup": 0,
         "closeGroup": 0,
@@ -19016,7 +19099,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "OUTSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "ENTRANCE",
         "startGroup": 0,
         "closeGroup": 1,
@@ -19098,7 +19181,7 @@
         "nextOperator": "and",
         "nextElement": "activity-medicationName",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "physiological",
         "value": "199",
         "startGroup": 0,
         "closeGroup": 1,
@@ -19121,7 +19204,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [
@@ -19222,7 +19305,7 @@
         "nextOperator": "and",
         "nextElement": "corridor-doorWindowSensor",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -19342,7 +19425,7 @@
         "nextOperator": "rule",
         "nextElement": "Activate",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
@@ -19440,7 +19523,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 0,
@@ -19522,7 +19605,7 @@
         "nextOperator": "and",
         "nextElement": "currentWeather-rainQuantity",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -19545,7 +19628,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "10",
         "startGroup": 0,
         "closeGroup": 1,
@@ -19747,7 +19830,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Corridor Light Strip",
+        "parent": "CorridorLightStrip",
         "value": "RED",
         "startGroup": 0,
         "closeGroup": 1,
@@ -19855,7 +19938,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -19879,7 +19962,7 @@
         "nextOperator": "rule",
         "nextElement": "Activate",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -19976,7 +20059,7 @@
         "nextOperator": "and",
         "nextElement": "entranceLight-state",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "timeInsideARoom",
         "value": "1",
         "startGroup": 0,
         "closeGroup": 1,
@@ -20000,7 +20083,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -20225,7 +20308,7 @@
         "nextOperator": "and",
         "nextElement": "bedroom-doorWindowSensor",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "SHOWER_RAIN",
         "startGroup": 0,
         "closeGroup": 1,
@@ -20342,7 +20425,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
@@ -20440,7 +20523,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Corridor Light Strip",
+        "parent": "CorridorLightStrip",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 0,
@@ -20604,7 +20687,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
@@ -20676,7 +20759,7 @@
         },
         "operator": "turnOn",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "update:lightColor",
         "value": "#3366ff",
@@ -20832,7 +20915,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "LESSTHEN",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "5",
         "startGroup": 0,
         "closeGroup": 1,
@@ -20929,7 +21012,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "sleep",
         "value": "480",
         "startGroup": 0,
         "closeGroup": 1,
@@ -20952,7 +21035,7 @@
         "nextOperator": "rule",
         "nextElement": "Activate",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -21131,7 +21214,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "activity",
         "startGroup": 0,
         "closeGroup": 0,
         "notValue": [
@@ -21363,7 +21446,7 @@
         "nextOperator": "and",
         "nextElement": "bathroomLight-temperature",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "0",
         "startGroup": 0,
         "closeGroup": 1,
@@ -21386,7 +21469,7 @@
         "nextOperator": "rule",
         "nextElement": "Hue color light bathroom",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "11",
         "startGroup": 0,
         "closeGroup": 1,
@@ -21438,7 +21521,7 @@
         "nextOperator": "and",
         "nextElement": "cognitive-vocalEmotionalState",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "physiological",
         "value": "100",
         "startGroup": 0,
         "closeGroup": 1,
@@ -21461,7 +21544,7 @@
         "nextOperator": "rule",
         "nextElement": "Relax",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "cognitive",
         "value": "SAD",
         "startGroup": 0,
         "closeGroup": 1,
@@ -21563,7 +21646,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 0,
@@ -21645,7 +21728,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "cognitive",
         "value": "0.5",
         "startGroup": 0,
         "closeGroup": 0,
@@ -21719,7 +21802,7 @@
         "operator": "is",
         "value": "Activate",
         "timing": "extended",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "invokeFunctions:lightScene",
         "nextOperator": "none"
@@ -21769,7 +21852,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -21971,7 +22054,7 @@
         "nextOperator": "and",
         "nextElement": "dateTime-localTime",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "physiological",
         "value": "100",
         "startGroup": 0,
         "closeGroup": 2,
@@ -21994,7 +22077,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "value": {
           "startTime": "22:30",
           "endTime": "07:30"
@@ -22020,7 +22103,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 2,
@@ -22117,7 +22200,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 0,
@@ -22276,7 +22359,7 @@
         },
         "operator": "turnOn",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "invokeFunctions:changeApplianceState",
         "value": "ON",
@@ -22401,7 +22484,7 @@
         "nextOperator": "and",
         "nextElement": "greatLuminaire-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "FOG",
         "startGroup": 0,
         "closeGroup": 1,
@@ -22436,7 +22519,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Great Luminaire",
+        "parent": "GreatLuminaire",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -22537,7 +22620,7 @@
         "nextOperator": "and",
         "nextElement": "entranceLight-state",
         "operator": "INSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "ENTRANCE",
         "startGroup": 0,
         "closeGroup": 1,
@@ -22564,7 +22647,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -22751,7 +22834,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "INSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "HOUSE",
         "startGroup": 0,
         "closeGroup": 0,
@@ -22856,7 +22939,7 @@
         "nextOperator": "and",
         "nextElement": "dateTime-localTime",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -22879,7 +22962,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "value": {
           "startTime": "00:00",
           "endTime": "08:15"
@@ -23084,7 +23167,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "sleep",
         "value": "15",
         "startGroup": 0,
         "closeGroup": 1,
@@ -23107,7 +23190,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -23399,7 +23482,7 @@
         "nextOperator": "and",
         "nextElement": "livingRoom-windowSensor",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -23527,7 +23610,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Bedroom Portable Light",
+        "parent": "BedroomPortableLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -23628,7 +23711,7 @@
         "nextOperator": "and",
         "nextElement": "kitchenLight-state",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "timeInsideARoom",
         "value": "1",
         "startGroup": 0,
         "closeGroup": 1,
@@ -23652,7 +23735,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Kitchen Light",
+        "parent": "KitchenLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -23930,7 +24013,7 @@
         "triggerType": "event",
         "nextOperator": "and",
         "operator": "LESSTHEN",
-        "parent": "Today Weather",
+        "parent": "TodayWeather",
         "value": "10",
         "startGroup": 0,
         "closeGroup": 1,
@@ -24502,7 +24585,7 @@
         "nextOperator": "and",
         "nextElement": "corridor-temperatureLevel",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "5",
         "startGroup": 0,
         "closeGroup": 1,
@@ -24603,7 +24686,7 @@
         "nextOperator": "and",
         "nextElement": "bathroomLight-state",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "timeInsideARoom",
         "value": "10",
         "startGroup": 0,
         "closeGroup": 1,
@@ -24627,7 +24710,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -24832,7 +24915,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Corridor Light Strip",
+        "parent": "CorridorLightStrip",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 0,
@@ -24937,7 +25020,7 @@
         "nextOperator": "and",
         "nextElement": "currentWeather-outdoorTemperature",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -24960,7 +25043,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "LESSTHEN",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "0",
         "startGroup": 0,
         "closeGroup": 1,
@@ -25038,7 +25121,7 @@
         "nextOperator": "and",
         "nextElement": "kitchenLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "value": {
           "startTime": "10:00",
           "endTime": "10:00"
@@ -25064,7 +25147,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Kitchen Light",
+        "parent": "KitchenLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -25165,7 +25248,7 @@
         "nextOperator": "and",
         "nextElement": "vocalInput-vocalString",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -25192,7 +25275,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "vocalInput",
         "value": "TURN_ON_LIGHT_IN_BATHROOM_COLOR_WHITE",
         "startGroup": 0,
         "closeGroup": 1,
@@ -25429,7 +25512,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Corridor Light Strip",
+        "parent": "CorridorLightStrip",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 0,
@@ -25530,7 +25613,7 @@
         "nextOperator": "or",
         "nextElement": "twentyFourHoursWeatherForecast-outdoorTemperature",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "twentyFourHoursWeatherForecast",
         "value": "SNOW",
         "startGroup": 0,
         "closeGroup": 1,
@@ -25565,7 +25648,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "twentyFourHoursWeatherForecast",
         "value": "0",
         "startGroup": 0,
         "closeGroup": 1,
@@ -25670,7 +25753,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -25771,7 +25854,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "sleep",
         "value": "IN",
         "startGroup": 0,
         "closeGroup": 1,
@@ -25798,7 +25881,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -25981,7 +26064,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Kitchen Light",
+        "parent": "KitchenLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 0,
@@ -26086,7 +26169,7 @@
         "nextOperator": "and",
         "nextElement": "dateTime-localTime",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -26109,7 +26192,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "value": {
           "startTime": "14:00",
           "endTime": "14:00"
@@ -26190,7 +26273,7 @@
         "nextOperator": "and",
         "nextElement": "livingroomLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "value": {
           "startTime": "17:00",
           "endTime": "17:00"
@@ -26216,7 +26299,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Living Room Light",
+        "parent": "LivingRoomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -26293,7 +26376,7 @@
         },
         "operator": "turnOn",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "invokeFunctions:changeApplianceState",
         "value": "ON",
@@ -26317,7 +26400,7 @@
         "nextOperator": "and",
         "nextElement": "vocalInput-vocalString",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -26344,7 +26427,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "vocalInput",
         "value": "TURN_OFF_LIGHT_IN_BATHROOM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -26663,7 +26746,7 @@
         "nextOperator": "and",
         "nextElement": "physiological-heartRate",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "twentyFourHoursWeatherForecast",
         "value": "90",
         "startGroup": 0,
         "closeGroup": 1,
@@ -26686,7 +26769,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "physiological",
         "value": "40",
         "startGroup": 0,
         "closeGroup": 1,
@@ -26884,7 +26967,7 @@
         "nextOperator": "and",
         "nextElement": "bathroom-temperatureLevel",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "timeInsideARoom",
         "value": "50",
         "startGroup": 0,
         "closeGroup": 1,
@@ -27192,7 +27275,7 @@
         "nextOperator": "and",
         "nextElement": "currentWeather-outdoorTemperature",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -27215,7 +27298,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "LESSTHEN",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "5",
         "startGroup": 0,
         "closeGroup": 1,
@@ -27433,7 +27516,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-temperature",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "timeInsideARoom",
         "value": "30",
         "startGroup": 0,
         "closeGroup": 1,
@@ -27457,7 +27540,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "MORETHEN",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "20",
         "startGroup": 0,
         "closeGroup": 1,
@@ -27554,7 +27637,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "LESSTHEN",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "20",
         "startGroup": 0,
         "closeGroup": 0,
@@ -27632,7 +27715,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "INSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "HOUSE",
         "startGroup": 0,
         "closeGroup": 0,
@@ -27873,7 +27956,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Living Room Light",
+        "parent": "LivingRoomLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -27950,7 +28033,7 @@
         },
         "operator": "turnOff",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "invokeFunctions:changeApplianceState",
         "value": "OFF",
@@ -27974,7 +28057,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "OUTSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "BEDROOM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -28001,7 +28084,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -28510,7 +28593,7 @@
         },
         "operator": "turnOn",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "invokeFunctions:changeApplianceState",
         "value": "ON",
@@ -28534,7 +28617,7 @@
         "nextOperator": "and",
         "nextElement": "bathroomLight-state",
         "operator": "INSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "BATHROOM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -28561,7 +28644,7 @@
         "nextOperator": "rule",
         "nextElement": "Hue color light bathroom",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -28740,7 +28823,7 @@
         "nextOperator": "and",
         "nextElement": "dateTime-localTime",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "cognitive",
         "value": "HAPPY",
         "startGroup": 0,
         "closeGroup": 1,
@@ -28777,7 +28860,7 @@
         "nextOperator": "rule",
         "nextElement": "Relax",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "value": {
           "startTime": "00:00",
           "endTime": "23:59"
@@ -28872,7 +28955,7 @@
         "nextOperator": "and",
         "nextElement": "bedroom-temperatureLevel",
         "operator": "LESSTHEN",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "2",
         "startGroup": 0,
         "closeGroup": 1,
@@ -29008,7 +29091,7 @@
         "nextOperator": "and",
         "nextElement": "livingroomLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "value": {
           "startTime": "09:00",
           "endTime": "16:00"
@@ -29034,7 +29117,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Living Room Light",
+        "parent": "LivingRoomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 2,
@@ -29070,7 +29153,7 @@
         },
         "operator": "turnOn",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "Alarms",
         "type": "invokeFunctions:changeApplianceState",
         "value": "ON",
@@ -29135,7 +29218,7 @@
         "nextOperator": "and",
         "nextElement": "greatLuminaire-state",
         "operator": "OUTSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "HOUSE",
         "startGroup": 0,
         "closeGroup": 1,
@@ -29162,7 +29245,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Great Luminaire",
+        "parent": "GreatLuminaire",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -29430,7 +29513,7 @@
         },
         "operator": "turnOff",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "invokeFunctions:changeApplianceState",
         "value": "OFF",
@@ -29454,7 +29537,7 @@
         "nextOperator": "and",
         "nextElement": "currentWeather-rainQuantity",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "THUNDERSTORM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -29489,7 +29572,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "40",
         "startGroup": 0,
         "closeGroup": 1,
@@ -29598,7 +29681,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Living Room Light",
+        "parent": "LivingRoomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -29675,7 +29758,7 @@
         },
         "operator": "turnOn",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "invokeFunctions:changeApplianceState",
         "value": "ON",
@@ -29699,7 +29782,7 @@
         "nextOperator": "and",
         "nextElement": "corridorLightStrip-state",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "personalData",
         "value": "65",
         "startGroup": 0,
         "closeGroup": 1,
@@ -29722,7 +29805,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Corridor Light Strip",
+        "parent": "CorridorLightStrip",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -30002,7 +30085,7 @@
         "nextOperator": "and",
         "nextElement": "currentWeather-outdoorPressure",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -30025,7 +30108,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "50",
         "startGroup": 0,
         "closeGroup": 1,
@@ -30126,7 +30209,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -30227,7 +30310,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomPortableLight-state",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "sleep",
         "value": "600",
         "startGroup": 0,
         "closeGroup": 1,
@@ -30250,7 +30333,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Bedroom Portable Light",
+        "parent": "BedroomPortableLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -30351,7 +30434,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 0,
@@ -30647,7 +30730,7 @@
         "nextOperator": "and",
         "nextElement": "kitchenLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "value": {
           "startTime": "20:00",
           "endTime": "21:00"
@@ -30673,7 +30756,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Kitchen Light",
+        "parent": "KitchenLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -30774,7 +30857,7 @@
         "nextOperator": "and",
         "nextElement": "bathroomLight-state",
         "operator": "INSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "BATHROOM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -30801,7 +30884,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -30984,7 +31067,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "physiological",
         "value": "1999",
         "startGroup": 0,
         "closeGroup": 0,
@@ -31081,7 +31164,7 @@
         "nextOperator": "and",
         "nextElement": "currentWeather-rain",
         "operator": "LESSTHEN",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "16",
         "startGroup": 0,
         "closeGroup": 1,
@@ -31105,7 +31188,7 @@
         "nextElement": "Reminders",
         "operator": "EQUAL",
         "value": "true",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -31182,7 +31265,7 @@
         "nextOperator": "or",
         "nextElement": "personalData-age",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "cognitive",
         "value": "MEMORY_LOSSES_ASSOCIATED_WITH_AGE",
         "startGroup": 0,
         "closeGroup": 1,
@@ -31211,7 +31294,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "personalData",
         "value": "70",
         "startGroup": 0,
         "closeGroup": 1,
@@ -31321,7 +31404,7 @@
         "nextOperator": "rule",
         "nextElement": "Relax",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "cognitive",
         "value": "ANGRY",
         "startGroup": 0,
         "closeGroup": 1,
@@ -31505,7 +31588,7 @@
         "nextOperator": "rule",
         "nextElement": "Hue color light bedroom",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "physiological",
         "value": "60",
         "startGroup": 0,
         "closeGroup": 0,
@@ -31603,7 +31686,7 @@
         "nextOperator": "and",
         "nextElement": "livingRoom-windowSensor",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "RAIN",
         "startGroup": 0,
         "closeGroup": 1,
@@ -31849,7 +31932,7 @@
         "nextOperator": "and",
         "nextElement": "livingroomLight-color",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "physiological",
         "value": "90",
         "startGroup": 0,
         "closeGroup": 1,
@@ -31872,7 +31955,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Living Room Light",
+        "parent": "LivingRoomLight",
         "value": "YELLOW",
         "startGroup": 0,
         "closeGroup": 1,
@@ -32306,7 +32389,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Corridor Light Strip",
+        "parent": "CorridorLightStrip",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -32407,7 +32490,7 @@
         "nextOperator": "and",
         "nextElement": "entranceLight-state",
         "operator": "INSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "HOUSE",
         "startGroup": 0,
         "closeGroup": 1,
@@ -32434,7 +32517,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Entrance Light",
+        "parent": "EntranceLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -32535,7 +32618,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Kitchen Light",
+        "parent": "KitchenLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 0,
@@ -32745,7 +32828,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -32827,7 +32910,7 @@
         "nextOperator": "and",
         "nextElement": "bedroom-windowSensor",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -32950,7 +33033,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "timeInsideARoom",
         "value": "600",
         "startGroup": 0,
         "closeGroup": 1,
@@ -32974,7 +33057,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -33075,7 +33158,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 0,
@@ -33157,7 +33240,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 0,
@@ -33262,7 +33345,7 @@
         "nextOperator": "and",
         "nextElement": "livingRoom-doorSensor",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "startGroup": 0,
         "closeGroup": 1,
         "notValue": [],
@@ -33366,7 +33449,7 @@
         "nextOperator": "and",
         "nextElement": "bedroomLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "value": {
           "startTime": "00:00",
           "endTime": "00:00"
@@ -33392,7 +33475,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Bedroom Light",
+        "parent": "BedroomLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -33493,7 +33576,7 @@
         "nextOperator": "and",
         "nextElement": "livingroomLight-state",
         "operator": "INSIDE",
-        "parent": "",
+        "parent": "relativePosition",
         "value": "LIVINGROOM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -33520,7 +33603,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Living Room Light",
+        "parent": "LivingRoomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -33551,7 +33634,7 @@
         },
         "operator": "turnOn",
         "timing": "sustained",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "none",
         "type": "custom:greatLuminare",
         "value": null,
@@ -33699,7 +33782,7 @@
         "nextOperator": "rule",
         "nextElement": "Alarms",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 0,
@@ -33939,7 +34022,7 @@
         "nextOperator": "rule",
         "nextElement": "BiorhythmLight",
         "operator": "LESSTHEN",
-        "parent": "Living Room Light",
+        "parent": "LivingRoomLight",
         "value": "20",
         "startGroup": 0,
         "closeGroup": 1,
@@ -33968,7 +34051,7 @@
         "operator": "is",
         "value": "BiorhythmLight",
         "timing": "extended",
-        "parent": "Living Room",
+        "parent": "LivingRoom",
         "nextElement": "Alarms",
         "type": "invokeFunctions:lightScene",
         "nextOperator": "parallel"
@@ -34032,7 +34115,7 @@
         "nextOperator": "and",
         "nextElement": "bathroomLight-state",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "timeInsideARoom",
         "value": "2",
         "startGroup": 0,
         "closeGroup": 1,
@@ -34056,7 +34139,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
@@ -34157,7 +34240,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "Kitchen Light",
+        "parent": "KitchenLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 0,
@@ -34340,7 +34423,7 @@
         "nextOperator": "and",
         "nextElement": "dateTime-localTime",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "sleep",
         "value": "300",
         "startGroup": 0,
         "closeGroup": 1,
@@ -34363,7 +34446,7 @@
         "nextOperator": "rule",
         "nextElement": "Reminders",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "dateTime",
         "value": {
           "startTime": "12:00",
           "endTime": "00:00"
@@ -34444,7 +34527,7 @@
         "nextOperator": "and",
         "nextElement": "livingroomLight-state",
         "operator": "EQUAL",
-        "parent": "",
+        "parent": "currentWeather",
         "value": "THUNDERSTORM",
         "startGroup": 0,
         "closeGroup": 1,
@@ -34479,7 +34562,7 @@
         "nextOperator": "rule",
         "nextElement": "Relax",
         "operator": "EQUAL",
-        "parent": "Living Room Light",
+        "parent": "LivingRoomLight",
         "value": "ON",
         "startGroup": 0,
         "closeGroup": 1,
@@ -34575,7 +34658,7 @@
         "nextOperator": "and",
         "nextElement": "bathroomLight-state",
         "operator": "MORETHEN",
-        "parent": "",
+        "parent": "timeInsideARoom",
         "value": "20",
         "startGroup": 0,
         "closeGroup": 1,
@@ -34599,7 +34682,7 @@
         "nextOperator": "rule",
         "nextElement": "AllLight",
         "operator": "EQUAL",
-        "parent": "Bathroom Light",
+        "parent": "BathroomLight",
         "value": "OFF",
         "startGroup": 0,
         "closeGroup": 1,
