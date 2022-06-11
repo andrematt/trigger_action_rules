@@ -14089,6 +14089,476 @@
     "actionMode": "mixed"
   },
   {
+    "id": "baa53766-6357-4ceb-9890-db3f6c60809c",
+    "author": "student2019-8",
+    "ruleName": "6",
+    "naturalLanguage" : "If the bathroom light is not turned off in the time interval from 21:00 to 22:30 (condition), send three text messages to remind the user to turn it off before going to sleep.",
+    "priority": 1,
+    "goal": "none",
+    "timestamp": "11-5-2022-9-56-53-955",
+    "triggers": [
+      {
+        "triggerType": "condition",
+        "nextOperator": "and",
+        "operator": "EQUAL",
+        "parent": "BathroomLight",
+        "value": "ON",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Bathroom Light - State",
+          "possibleValues": {
+            "OFF": "Off",
+            "ON": "On"
+          },
+          "realName": "state",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "technology/light/@state",
+          "dimensionId": "20"
+        }
+      },
+      {
+        "triggerType": "condition",
+        "nextOperator": "rule",
+        "operator": "EQUAL",
+        "parent": "Date-time",
+        "value": {
+          "startTime": "21:00",
+          "endTime": "22:30"
+        },
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Time between: ",
+          "realName": "localTime",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "environment/dateTime/@localTime",
+          "dimensionId": "9"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "action": {
+          "realName": "reminderText",
+          "type": "custom:string",
+          "xPath": "xPath missing!!"
+        },
+        "operator": "none",
+        "parent": "Reminders",
+        "type": "custom:string",
+        "values": [
+          {
+            "description": "Reminder Text",
+            "displayedName": "Text",
+            "realName": "reminderText",
+            "type": "custom:string",
+            "value": "\"Remember to turn off the bathroom light before going to sleep!\""
+          },
+          {
+            "description": "Notification mode",
+            "displayedName": "Notification mode",
+            "realName": "notificationMode",
+            "type": "custom:notificationMode",
+            "value": "SMS"
+          },
+          {
+            "description": "How many times alert should be sent",
+            "displayedName": "Repetition",
+            "realName": "repetition",
+            "type": "custom:repetitionType",
+            "value": "THREE_TIMES"
+          },
+          {
+            "description": "Reminder recipient",
+            "displayedName": "Recipient",
+            "realName": "reminderRecipient",
+            "type": "custom:string",
+            "value": "me"
+          }
+        ],
+        "root": "reminderText"
+      }
+    ],
+    "actionMode": "sequential"
+  },
+  {
+    "id": "20d948fc-2be8-4f95-a577-c497465d7ae8",
+    "author": "student2019-8",
+    "ruleName": "7",
+    "naturalLanguage": "If no movement in the kitchen by the sensor is recorded (condition) and the gas sensor becomes active (event), send a reminder to the user via text message to remind him to turn off the gas stove as soon as possible.",
+    "priority": 1,
+    "goal": "none",
+    "timestamp": "11-5-2022-10-0-58-858",
+    "triggers": [
+      {
+        "triggerType": "condition",
+        "nextOperator": "and",
+        "operator": "EQUAL",
+        "parent": "Kitchen",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": true,
+        "element": {
+          "displayedName": "Kitchen - Motion",
+          "realName": "motion",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "environment/sensors/@motion",
+          "dimensionId": "4"
+        }
+      },
+      {
+        "triggerType": "event",
+        "nextOperator": "rule",
+        "operator": "EQUAL",
+        "parent": "Kitchen",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Kitchen - Gas Sensor",
+          "realName": "gasSensor",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "environment/sensors/@gasSensor",
+          "dimensionId": "4"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "action": {
+          "realName": "reminderText",
+          "type": "custom:string",
+          "xPath": "xPath missing!!"
+        },
+        "operator": "none",
+        "parent": "Reminders",
+        "type": "custom:string",
+        "values": [
+          {
+            "description": "Reminder Text",
+            "displayedName": "Text",
+            "realName": "reminderText",
+            "type": "custom:string",
+            "value": "\"Gas stove unattended, turn it off as soon as you can!\""
+          },
+          {
+            "description": "Notification mode",
+            "displayedName": "Notification mode",
+            "realName": "notificationMode",
+            "type": "custom:notificationMode",
+            "value": "SMS"
+          },
+          {
+            "description": "How many times alert should be sent",
+            "displayedName": "Repetition",
+            "realName": "repetition",
+            "type": "custom:repetitionType",
+            "value": "ONCE"
+          },
+          {
+            "description": "Reminder recipient",
+            "displayedName": "Recipient",
+            "realName": "reminderRecipient",
+            "type": "custom:string",
+            "value": "me"
+          }
+        ],
+        "root": "reminderText"
+      }
+    ],
+    "actionMode": "sequential"
+  },
+  {
+    "id": "b8718916-289b-4fcb-8d3b-b75ba04f41ec",
+    "author": "student2019-8",
+    "ruleName": "8",
+    "naturalLanguage": "If the child is not in the bedroom in the time interval from 23:00 to 00:00 (condition with 'Not'), send the parent (s) three alarms and turn on the light of (their) bedroom, setting it to red.",
+    "priority": 1,
+    "goal": "none",
+    "timestamp": "11-5-2022-10-5-40-122",
+    "triggers": [
+      {
+        "triggerType": "condition",
+        "nextOperator": "rule",
+        "operator": "INSIDE",
+        "parent": "Test-user",
+        "value": "BEDROOM",
+        "startGroup": 0,
+        "closeGroup": 0,
+        "notValue": [
+          "",
+          "23:00",
+          "00:00"
+        ],
+        "isNot": true,
+        "element": {
+          "displayedName": "Test-user - Type of Proximity",
+          "realName": "typeOfProximity",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "user/homeLocation/relativePosition/@typeOfProximity",
+          "dimensionId": "1"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "action": {
+          "realName": "reminderText",
+          "type": "custom:string",
+          "xPath": "xPath missing!!"
+        },
+        "operator": "parallel",
+        "parent": "Reminders",
+        "type": "custom:string",
+        "values": [
+          {
+            "description": "Reminder Text",
+            "displayedName": "Text",
+            "realName": "reminderText",
+            "type": "custom:string",
+            "value": "\"Child is not in the bedroom!\""
+          },
+          {
+            "description": "Notification mode",
+            "displayedName": "Notification mode",
+            "realName": "notificationMode",
+            "type": "custom:notificationMode",
+            "value": "SMS"
+          },
+          {
+            "description": "How many times alert should be sent",
+            "displayedName": "Repetition",
+            "realName": "repetition",
+            "type": "custom:repetitionType",
+            "value": "THREE_TIMES"
+          },
+          {
+            "description": "Reminder recipient",
+            "displayedName": "Recipient",
+            "realName": "reminderRecipient",
+            "type": "custom:string",
+            "value": "Parents"
+          }
+        ],
+        "root": "reminderText"
+      },
+      {
+        "action": {
+          "realName": "Hue color light bedroom",
+          "type": "update:lightColor",
+          "xPath": "applianceState/Bedroom/lightColor"
+        },
+        "operator": "none",
+        "parent": "Bedroom",
+        "type": "update:lightColor",
+        "value": "#ff0000",
+        "duration": "5"
+      }
+    ],
+    "actionMode": "sequential"
+  },
+  {
+    "id": "d6490f56-c017-499f-83fc-be2299aa4c6d",
+    "author": "student2019-8",
+    "ruleName": "9",
+    "naturalLanguage": "If the motion sensor in the kitchen detects a degree of movement lower than -3 (condition) and the refrigerator door is open (condition), the LED strip in the corridor lights up, setting it to a mango tango color.",
+    "priority": 1,
+    "goal": "none",
+    "timestamp": "11-5-2022-10-7-51-433",
+    "triggers": [
+      {
+        "triggerType": "condition",
+        "nextOperator": "and",
+        "operator": "EQUAL",
+        "parent": "Kitchen",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": true,
+        "element": {
+          "displayedName": "Kitchen - Motion",
+          "realName": "motion",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "environment/sensors/@motion",
+          "dimensionId": "4"
+        }
+      },
+      {
+        "triggerType": "condition",
+        "nextOperator": "rule",
+        "operator": "EQUAL",
+        "parent": "Fridge",
+        "value": "OPEN",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Fridge - Main Door",
+          "possibleValues": {
+            "CLOSE": "Close",
+            "OPEN": "Open"
+          },
+          "realName": "door",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "technology/appliance/@door",
+          "dimensionId": "35"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "action": {
+          "realName": "Light Strip Corridor",
+          "type": "update:lightColor",
+          "xPath": "applianceState/Corridor/lightColor"
+        },
+        "operator": "none",
+        "parent": "Corridor",
+        "type": "update:lightColor",
+        "value": "#ffcc00",
+        "duration": "10"
+      }
+    ],
+    "actionMode": "sequential"
+  },
+  {
+    "id": "4d449304-b8c1-46ae-ad88-6db401db86c4",
+    "author": "student2019-8",
+    "ruleName": "10",
+    "naturalLanguage": "When the user gets up (event) and the bedside light is not on (condition), the lights in (his) bedroom turn on, setting them to slate blue. A reminder will then be sent to wish him a good awakening.",
+    "priority": 1,
+    "goal": "none",
+    "timestamp": "11-5-2022-10-12-39-7",
+    "triggers": [
+      {
+        "triggerType": "event",
+        "nextOperator": "and",
+        "operator": "EQUAL",
+        "parent": "Test-user",
+        "value": "OUT",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Test-user - Bed In Out",
+          "possibleValues": {
+            "IN": "In",
+            "OUT": "Out"
+          },
+          "realName": "bedInOut",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "user/activity/sleep/@bedInOut",
+          "dimensionId": "1"
+        }
+      },
+      {
+        "triggerType": "condition",
+        "nextOperator": "rule",
+        "operator": "EQUAL",
+        "parent": "SmallLight",
+        "value": "OFF",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Small Light - State",
+          "possibleValues": {
+            "OFF": "Off",
+            "ON": "On"
+          },
+          "realName": "state",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "technology/light/@state",
+          "dimensionId": "16"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "action": {
+          "realName": "Hue color light bedroom",
+          "type": "update:lightColor",
+          "xPath": "applianceState/Bedroom/lightColor"
+        },
+        "operator": "sequential",
+        "parent": "Bedroom",
+        "type": "update:lightColor",
+        "value": "#000099",
+        "duration": "10"
+      },
+      {
+        "action": {
+          "realName": "reminderText",
+          "type": "custom:string",
+          "xPath": "xPath missing!!"
+        },
+        "operator": "none",
+        "parent": "Reminders",
+        "type": "custom:string",
+        "values": [
+          {
+            "description": "Reminder Text",
+            "displayedName": "Text",
+            "realName": "reminderText",
+            "type": "custom:string",
+            "value": "\"good awakening!\""
+          },
+          {
+            "description": "Notification mode",
+            "displayedName": "Notification mode",
+            "realName": "notificationMode",
+            "type": "custom:notificationMode",
+            "value": "NOTIFICATION"
+          },
+          {
+            "description": "How many times alert should be sent",
+            "displayedName": "Repetition",
+            "realName": "repetition",
+            "type": "custom:repetitionType",
+            "value": "ONCE"
+          },
+          {
+            "description": "Reminder recipient",
+            "displayedName": "Recipient",
+            "realName": "reminderRecipient",
+            "type": "custom:string",
+            "value": "me"
+          }
+        ],
+        "root": "reminderText"
+      }
+    ],
+    "actionMode": "sequential"
+  },
+  {
     "id": "4abaf892-9faf-483c-b2aa-01395946c72a",
     "author": "student2019-9",
     "ruleName": "1",
@@ -34767,5 +35237,516 @@
       }
     ],
     "actionMode": "mixed"
+  },
+  {
+    "id": "3d518f10-614d-4c41-b4d5-2406b513364b",
+    "author": "student2020-27",
+    "ruleName": "regola1",
+    "naturalLanguage": "When the fridge door opens, it sends a reminder 'fridge door was opened $DailyNumFridgeEvent times today!'",
+    "priority": 1,
+    "goal": "none",
+    "timestamp": "2-11-2020-16-10-53-382",
+    "triggers": [
+      {
+        "triggerType": "event",
+        "depth": 0,
+        "nextOperator": "rule",
+        "nextElement": "Reminders-reminderText",
+        "operator": "EQUAL",
+        "parent": "Fridge",
+        "type": "fridge-door",
+        "value": "OPEN",
+        "startGroup": 0,
+        "closeGroup": 0,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Fridge - Door",
+          "possibleValues": "OPEN",
+          "realName": "door",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "technology/appliance/@door",
+          "dimensionId": "337"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "action": {
+          "realName": "Reminders-reminderText",
+          "type": "custom:string"
+        },
+        "operator": "none",
+        "timing": "immediate",
+        "parent": "Reminders",
+        "nextElement": "none",
+        "type": "custom:string",
+        "values": [
+          {
+            "description": "Reminder Text",
+            "displayedName": "Text",
+            "realName": "reminderText",
+            "type": "custom:string",
+            "value": "today you opened the fridge door $NumFridgeEvent times"
+          },
+          {
+            "description": "Notification mode",
+            "displayedName": "Notification mode",
+            "realName": "notificationMode",
+            "type": "custom:notificationMode",
+            "value": "NOTIFICATION"
+          },
+          {
+            "description": "How many times alert should be sent",
+            "displayedName": "Repetition",
+            "realName": "repetition",
+            "type": "custom:repetitionType",
+            "value": "ONCE"
+          },
+          {
+            "description": "Reminder recipient",
+            "displayedName": "Recipient",
+            "realName": "reminderRecipient",
+            "type": "custom:string",
+            "value": "smartphone"
+          }
+        ],
+        "root": "Reminders-reminderText"
+      }
+    ],
+    "actionMode": "sequential"
+  },
+  {
+    "id": "bdc84ad8-55e8-439b-ad26-0776a946d4ef",
+    "author": "student2020-27",
+    "ruleName": "regola2",
+    "priority": 1,
+    "goal": "none",
+    "naturalLanguage": "If the result of the training is not well maintained between 18 and 18:45, send an alarm notification 'tomorrow you will train better, now shower!', And activate relaxing lights in the bathroom.",
+    "timestamp": "2-11-2020-16-14-4-346",
+    "triggers": [
+      {
+        "triggerType": "condition",
+        "depth": 0,
+        "nextOperator": "rule",
+        "nextElement": "Alarms-alarmText",
+        "operator": "EQUAL",
+        "parent": "cognitive",
+        "type": "cognitive-trainingResult",
+        "value": "STUPENDOUSLY",
+        "startGroup": 0,
+        "closeGroup": 0,
+        "notValue": [
+          "",
+          "18:00",
+          "18:45"
+        ],
+        "isNot": true,
+        "element": {
+          "displayedName": "Training Result",
+          "possibleValues": "STUPENDOUSLY",
+          "realName": "trainingResult",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "user/cognitive/@trainingResult",
+          "dimensionId": "undefined"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "action": {
+          "realName": "Alarms-alarmText",
+          "type": "custom:string"
+        },
+        "operator": "sequential",
+        "timing": "immediate",
+        "parent": "Alarms",
+        "nextElement": "Bathroom-Relax",
+        "type": "custom:string",
+        "values": [
+          {
+            "description": "Alarm Text",
+            "displayedName": "Text",
+            "realName": "alarmText",
+            "type": "custom:string",
+            "value": "tomorrow you will train better, now take a shower"
+          },
+          {
+            "description": "Notification mode",
+            "displayedName": "Notification mode",
+            "realName": "notificationMode",
+            "type": "custom:notificationMode",
+            "value": "NOTIFICATION"
+          },
+          {
+            "description": "How many times alert should be sent",
+            "displayedName": "Repetition",
+            "realName": "repetition",
+            "type": "custom:repetitionType",
+            "value": "ONCE"
+          },
+          {
+            "description": "Alarm recipient",
+            "displayedName": "Recipient",
+            "realName": "alarmRecipient",
+            "type": "custom:string",
+            "value": "smartphone"
+          }
+        ],
+        "root": "Alarms-alarmText"
+      },
+      {
+        "action": {
+          "realName": "Bathroom-Relax",
+          "type": "invokeFunctions:lightScene"
+        },
+        "operator": "none",
+        "timing": "extended",
+        "parent": "Bathroom",
+        "nextElement": "none",
+        "type": "invokeFunctions:lightScene"
+      }
+    ],
+    "actionMode": "sequential"
+  },
+  {
+    "id": "f82672ef-b75e-4b1d-8c7f-1804949b2dab",
+    "author": "student2020-27",
+    "ruleName": "regola3",
+    "naturalLanguage": "When the humidity level in the bathroom is greater than 65% and if the bathroom temperature is below 20C°, it sends a reminder 'remember to dehumidify the bathroom before use'",
+    "priority": 1,
+    "goal": "none",
+    "timestamp": "2-11-2020-16-16-22-806",
+    "triggers": [
+      {
+        "triggerType": "event",
+        "depth": 0,
+        "nextOperator": "and",
+        "nextElement": "bathroom-temperatureLevel",
+        "operator": "MORETHEN",
+        "parent": "Bathroom",
+        "type": "bathroom-humidityLevel",
+        "value": "65",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Bathroom - Humidity",
+          "possibleValues": "65",
+          "realName": "humidityLevel",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "environment/@humidityLevel",
+          "dimensionId": "6"
+        }
+      },
+      {
+        "triggerType": "condition",
+        "depth": 0,
+        "nextOperator": "rule",
+        "nextElement": "Reminders-reminderText",
+        "operator": "LESSTHEN",
+        "parent": "Bathroom",
+        "type": "bathroom-temperatureLevel",
+        "value": "20",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Bathroom - Temperature",
+          "possibleValues": "20",
+          "realName": "temperatureLevel",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "environment/@temperatureLevel",
+          "dimensionId": "6"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "action": {
+          "realName": "Reminders-reminderText",
+          "type": "custom:string"
+        },
+        "operator": "none",
+        "timing": "immediate",
+        "parent": "Reminders",
+        "nextElement": "none",
+        "type": "custom:string",
+        "values": [
+          {
+            "description": "Reminder Text",
+            "displayedName": "Text",
+            "realName": "reminderText",
+            "type": "custom:string",
+            "value": "remember to dehumidify the bathroom before use"
+          },
+          {
+            "description": "Notification mode",
+            "displayedName": "Notification mode",
+            "realName": "notificationMode",
+            "type": "custom:notificationMode",
+            "value": "NOTIFICATION"
+          },
+          {
+            "description": "How many times alert should be sent",
+            "displayedName": "Repetition",
+            "realName": "repetition",
+            "type": "custom:repetitionType",
+            "value": "ONCE"
+          },
+          {
+            "description": "Reminder recipient",
+            "displayedName": "Recipient",
+            "realName": "reminderRecipient",
+            "type": "custom:string",
+            "value": "smartphone"
+          }
+        ],
+        "root": "Reminders-reminderText"
+      }
+    ],
+    "actionMode": "sequential"
+  },
+  {
+    "id": "32623968-24aa-4f5e-ab7b-34ca6fe6e64b",
+    "author": "student2020-27",
+    "ruleName": "regola4",
+    "naturalLanguage": "If the light level at the entrance is dark and if the entrance lights are off, send an alarm notification 'make sure the entrance is lit', turn on the entrance lights.",
+    "priority": 1,
+    "goal": "none",
+    "timestamp": "2-11-2020-16-18-56-222",
+    "triggers": [
+      {
+        "triggerType": "condition",
+        "depth": 0,
+        "nextOperator": "and",
+        "nextElement": "entranceLight-state",
+        "operator": "EQUAL",
+        "parent": "Entrance",
+        "type": "entrance-lightLevel",
+        "value": "DARK",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Entrance - Light Level",
+          "possibleValues": "DARK",
+          "realName": "lightLevel",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "environment/@lightLevel",
+          "dimensionId": "2"
+        }
+      },
+      {
+        "triggerType": "condition",
+        "depth": 0,
+        "nextOperator": "rule",
+        "nextElement": "Alarms-alarmText",
+        "operator": "EQUAL",
+        "parent": "EntranceLight",
+        "type": "entranceLight-state",
+        "value": "OFF",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Entrance Light - State",
+          "possibleValues": "OFF",
+          "realName": "state",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "technology/light/@state",
+          "dimensionId": "329"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "action": {
+          "realName": "Alarms-alarmText",
+          "type": "custom:string"
+        },
+        "operator": "sequential",
+        "timing": "immediate",
+        "parent": "Alarms",
+        "nextElement": "Entrance-AllLight",
+        "type": "custom:string",
+        "values": [
+          {
+            "description": "Alarm Text",
+            "displayedName": "Text",
+            "realName": "alarmText",
+            "type": "custom:string",
+            "value": "make sure the entrance is lit"
+          },
+          {
+            "description": "Notification mode",
+            "displayedName": "Notification mode",
+            "realName": "notificationMode",
+            "type": "custom:notificationMode",
+            "value": "NOTIFICATION"
+          },
+          {
+            "description": "How many times alert should be sent",
+            "displayedName": "Repetition",
+            "realName": "repetition",
+            "type": "custom:repetitionType",
+            "value": "ONCE"
+          },
+          {
+            "description": "Alarm recipient",
+            "displayedName": "Recipient",
+            "realName": "alarmRecipient",
+            "type": "custom:string",
+            "value": "smartphone"
+          }
+        ],
+        "root": "Alarms-alarmText"
+      },
+      {
+        "action": {
+          "realName": "Entrance-AllLight",
+          "type": "invokeFunctions:changeApplianceState"
+        },
+        "operator": "none",
+        "timing": "sustained",
+        "parent": "Entrance",
+        "nextElement": "none",
+        "type": "invokeFunctions:changeApplianceState",
+        "value": "ON"
+      }
+    ],
+    "actionMode": "sequential"
+  },
+  {
+    "id": "d4b37afb-c2b4-4e06-bb39-99586a29d2e7",
+    "author": "student2020-27",
+    "ruleName": "regola5",
+    "priority": 1,
+    "goal": "none",
+    "naturalLanguage":"When the user issues a voice command 'turn on living room lights' and if the living room light is off, turn on the living room lights, and send a 'successful voice command' reminder.",
+    "timestamp": "2-11-2020-16-21-36-714",
+    "triggers": [
+      {
+        "triggerType": "event",
+        "depth": 0,
+        "nextOperator": "and",
+        "nextElement": "livingroomLight-state",
+        "operator": "EQUAL",
+        "parent": "vocalInput",
+        "type": "vocalInput-vocalString",
+        "value": "TURN_ON_LIGHT_IN_LIVING_ROOM",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Vocal Sentence",
+          "possibleValues": "TURN_ON_LIGHT_IN_LIVING_ROOM",
+          "realName": "vocalString",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "user/vocalInput/@vocalString",
+          "dimensionId": "undefined"
+        }
+      },
+      {
+        "triggerType": "condition",
+        "depth": 0,
+        "nextOperator": "rule",
+        "nextElement": "LivingRoom-AllLight",
+        "operator": "EQUAL",
+        "parent": "LivingRoomLight",
+        "type": "livingroomLight-state",
+        "value": "OFF",
+        "startGroup": 0,
+        "closeGroup": 1,
+        "notValue": [],
+        "isNot": false,
+        "element": {
+          "displayedName": "Living Room Light - State",
+          "possibleValues": "OFF",
+          "realName": "state",
+          "triggerType": "both",
+          "type": "ENUM",
+          "unit": "",
+          "xPath": "technology/light/@state",
+          "dimensionId": "9"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "action": {
+          "realName": "LivingRoom-AllLight",
+          "type": "invokeFunctions:changeApplianceState"
+        },
+        "operator": "parallel",
+        "timing": "sustained",
+        "parent": "LivingRoom",
+        "nextElement": "Reminders-reminderText",
+        "type": "invokeFunctions:changeApplianceState",
+        "value": "ON"
+      },
+      {
+        "action": {
+          "realName": "Reminders-reminderText",
+          "type": "custom:string"
+        },
+        "operator": "none",
+        "timing": "immediate",
+        "parent": "Reminders",
+        "nextElement": "none",
+        "type": "custom:string",
+        "values": [
+          {
+            "description": "Reminder Text",
+            "displayedName": "Text",
+            "realName": "reminderText",
+            "type": "custom:string",
+            "value": "successful voice command"
+          },
+          {
+            "description": "Notification mode",
+            "displayedName": "Notification mode",
+            "realName": "notificationMode",
+            "type": "custom:notificationMode",
+            "value": "NOTIFICATION"
+          },
+          {
+            "description": "How many times alert should be sent",
+            "displayedName": "Repetition",
+            "realName": "repetition",
+            "type": "custom:repetitionType",
+            "value": "ONCE"
+          },
+          {
+            "description": "Reminder recipient",
+            "displayedName": "Recipient",
+            "realName": "reminderRecipient",
+            "type": "custom:string",
+            "value": "smartphone"
+          }
+        ],
+        "root": "Reminders-reminderText"
+      }
+    ],
+    "actionMode": "sequential"
   }
 ]
