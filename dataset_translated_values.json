@@ -35359,7 +35359,7 @@
     "actions": [
       {
         "action": {
-          "realName": "Alarms-alarmText",
+          "realName": "Alarms",
           "type": "custom:string"
         },
         "operator": "sequential",
@@ -35401,7 +35401,7 @@
       },
       {
         "action": {
-          "realName": "Bathroom-Relax",
+          "realName": "Relax",
           "type": "invokeFunctions:lightScene"
         },
         "operator": "none",
@@ -35474,7 +35474,7 @@
     "actions": [
       {
         "action": {
-          "realName": "Reminders-reminderText",
+          "realName": "Reminders",
           "type": "custom:string"
         },
         "operator": "none",
@@ -35578,7 +35578,7 @@
     "actions": [
       {
         "action": {
-          "realName": "Alarms-alarmText",
+          "realName": "alarms",
           "type": "custom:string"
         },
         "operator": "sequential",
@@ -35620,7 +35620,7 @@
       },
       {
         "action": {
-          "realName": "Entrance-AllLight",
+          "realName": "AllLight",
           "type": "invokeFunctions:changeApplianceState"
         },
         "operator": "none",
@@ -35694,7 +35694,7 @@
     "actions": [
       {
         "action": {
-          "realName": "LivingRoom-AllLight",
+          "realName": "AllLight",
           "type": "invokeFunctions:changeApplianceState"
         },
         "operator": "parallel",
@@ -35706,7 +35706,7 @@
       },
       {
         "action": {
-          "realName": "Reminders-reminderText",
+          "realName": "Reminders",
           "type": "custom:string"
         },
         "operator": "none",
