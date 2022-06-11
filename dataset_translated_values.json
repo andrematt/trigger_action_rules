@@ -10245,7 +10245,7 @@
     "actions": [
       {
         "action": {
-          "realName": "Corridor-Light Strip Corridor",
+          "realName": "Light Strip Corridor",
           "xPath": "applianceState/Corridor/lightColor",
           "type": "update:lightColor"
         },
@@ -13856,7 +13856,7 @@
     "actions": [
       {
         "action": {
-          "realName": "Corridor-Light Strip Corridor",
+          "realName": "Light Strip Corridor",
           "xPath": "applianceState/Corridor/lightColor",
           "type": "update:lightColor"
         },
@@ -14148,7 +14148,7 @@
     "actions": [
       {
         "action": {
-          "realName": "reminderText",
+          "realName": "Reminders",
           "type": "custom:string",
           "xPath": "xPath missing!!"
         },
@@ -14241,7 +14241,7 @@
     "actions": [
       {
         "action": {
-          "realName": "reminderText",
+          "realName": "Reminders",
           "type": "custom:string",
           "xPath": "xPath missing!!"
         },
@@ -14320,7 +14320,7 @@
     "actions": [
       {
         "action": {
-          "realName": "reminderText",
+          "realName": "Reminders",
           "type": "custom:string",
           "xPath": "xPath missing!!"
         },
@@ -14516,7 +14516,7 @@
       },
       {
         "action": {
-          "realName": "reminderText",
+          "realName": "Reminders",
           "type": "custom:string",
           "xPath": "xPath missing!!"
         },
@@ -20747,7 +20747,7 @@
       },
       {
         "action": {
-          "realName": "Corridor-Light Strip Corridor",
+          "realName": "Light Strip Corridor",
           "xPath": "applianceState/Corridor/lightColor",
           "type": "update:lightColor"
         },
@@ -24414,7 +24414,7 @@
     "actions": [
       {
         "action": {
-          "realName": "reminderText",
+          "realName": "Reminders",
           "type": "custom:string"
         },
         "operator": "sequential",
@@ -24523,7 +24523,7 @@
     "actions": [
       {
         "action": {
-          "realName": "reminderText",
+          "realName": "Reminders",
           "type": "custom:string"
         },
         "operator": "none",
@@ -24620,7 +24620,7 @@
     "actions": [
       {
         "action": {
-          "realName": "reminderText",
+          "realName": "Reminders",
           "type": "custom:string"
         },
         "operator": "sequential",
@@ -24710,7 +24710,7 @@
     "actions": [
       {
         "action": {
-          "realName": "reminderText",
+          "realName": "Reminders",
           "type": "custom:string"
         },
         "operator": "sequential",
@@ -30524,7 +30524,7 @@
       },
       {
         "action": {
-          "realName": "Corridor-Light Strip Corridor",
+          "realName": "Light Strip Corridor",
           "xPath": "applianceState/Corridor/lightColor",
           "type": "update:lightColor"
         },
