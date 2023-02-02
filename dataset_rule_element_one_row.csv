@@ -420,7 +420,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 418;155;;applianceState/Bedroom/lightColor;bedroom;hue color light bedroom;action;OPERATOR;none;update:lightColor;bedroom-hue color light bedroom
 419;156;;environment/currentWeather/@outdoorTemperature;currentweather;outdoortemperature;event;lessthen;and;6;currentweather-outdoortemperature
 420;156;;environment/@doorWindowSensor;corridor;windowsensor;condition;equal;rule;CLOSE;corridor-windowsensor
-421;156;;Reminders;reminders;reminders;action;OPERATOR;none;"""é freddo, é meglio tu chiuda la finestra del corridoio""";reminders-reminders
+421;156;;Reminders;reminders;reminders;action;OPERATOR;none;é freddo, é meglio tu chiuda la finestra del corridoio;reminders-reminders
 422;157;;user/position/relativePosition/@typeOfProximity;relativeposition;typeofproximity;event;outside;and;BATHROOM;relativeposition-typeofproximity
 423;157;;technology/light/@state;bathroomlight;state;condition;equal;rule;ON;bathroomlight-state
 424;157;;applianceState/Corridor/lightColor;corridor;light strip corridor;action;OPERATOR;parallel;update:lightColor;corridor-light strip corridor
@@ -435,9 +435,9 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 433;160;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Remember to turn off the bathroom light before going to sleep!;reminders-reminders
 434;161;;environment/sensors/@motion;kitchen;motion;condition;equal;and;VALUE;kitchen-motion
 435;161;;environment/sensors/@gasSensor;kitchen;gassensor;event;equal;rule;VALUE;kitchen-gassensor
-436;161;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;"""Gas stove unattended, turn it off as soon as you can!""";reminders-reminders
+436;161;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Gas stove unattended, turn it off as soon as you can!;reminders-reminders
 437;162;;user/homeLocation/relativePosition/@typeOfProximity;test-user;typeofproximity;condition;inside;rule;BEDROOM;test-user-typeofproximity
-438;162;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;"""Child is not in the bedroom!""";reminders-reminders
+438;162;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Child is not in the bedroom!;reminders-reminders
 439;162;;applianceState/Bedroom/lightColor;bedroom;hue color light bedroom;action;OPERATOR;NEXTOPERATOR;update:lightColor;bedroom-hue color light bedroom
 440;163;;environment/sensors/@motion;kitchen;motion;condition;equal;and;VALUE;kitchen-motion
 441;163;;technology/appliance/@door;fridge;door;condition;equal;rule;OPEN;fridge-door
@@ -445,7 +445,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 443;164;;user/activity/sleep/@bedInOut;sleep;bedoccupancy;event;equal;and;OUT;sleep-bedoccupancy
 444;164;;technology/light/@state;smalllight;state;condition;equal;rule;OFF;smalllight-state
 445;164;;applianceState/Bedroom/lightColor;bedroom;hue color light bedroom;action;OPERATOR;NEXTOPERATOR;update:lightColor;bedroom-hue color light bedroom
-446;164;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;"""good awakening!""";reminders-reminders
+446;164;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;good awakening!;reminders-reminders
 447;165;;technology/light/@state;livingroomlight;state;event;equal;rule;OFF;livingroomlight-state
 448;165;;Reminders;reminders;reminders;action;OPERATOR;none;Living room light on;reminders-reminders
 449;166;;environment/@doorWindowSensor;entrance;doorsensor;event;equal;and;OPEN;entrance-doorsensor
