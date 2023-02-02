@@ -1100,7 +1100,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 1098;369;;technology/appliance/@state;microwave;state;event;equal;and;ON;microwave-state
 1099;369;;user/homeLocation/relativePosition/@typeOfProximity;relativeposition;typeofproximity;condition;outside;rule;HOUSE;relativeposition-typeofproximity
 1100;369;;applianceState/LivingRoom/@microwave;kitchen;microwave;action;OPERATOR;NEXTOPERATOR;invokeFunctions:changeApplianceState;kitchen-microwave
-1101;369;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;"""Il microonde Ã¨ stato spento""";reminders-reminders
+1101;369;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Il microonde � stato spento;reminders-reminders
 1102;370;;technology/device/@state;pc;state;event;equal;rule;ON;pc-state
 1103;370;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;put on your glasses when you are at the computer;reminders-reminders
 1104;371;;environment/sensors/@windowSensor;bedroom;windowsensor;condition;equal;rule;OPEN;bedroom-windowsensor
