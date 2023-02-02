@@ -642,7 +642,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 640;225;;technology/appliance/@door;microwave;door;condition;equal;rule;OPEN;microwave-door
 641;225;;Reminders;reminders;reminders;action;OPERATOR;none;close microwave door;reminders-reminders
 642;226;;environment/twentyFourHoursWeatherForecast/@rain;currentweather;rain;condition;equal;rule;TRUE;currentweather-rain
-643;226;;Alarms;alarms;alarms;action;OPERATOR;sequential;"""Do laundry""";alarms-alarms
+643;226;;Alarms;alarms;alarms;action;OPERATOR;sequential;Do laundry;alarms-alarms
 644;226;;applianceState/LivingRoom/lightColor;livingroom;hue color light living room;action;OPERATOR;none;update:lightColor;livingroom-hue color light living room
 645;227;;environment/@motion;livingroom;motion;event;equal;and;VALUE;livingroom-motion
 646;227;;environment/@temperatureLevel;livingroom;temperaturelevel;condition;lessthen;rule;18;livingroom-temperaturelevel
