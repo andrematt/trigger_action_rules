@@ -93,7 +93,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 91;42;1513466231;user/position/relativePosition/@typeOfProximity;relativeposition;typeofproximity;event;equal;and;INSIDE;relativeposition-typeofproximity
 92;42;1513466231;user/position/relativePosition/@pointOfInterest;relativeposition;pointofinterest;event;equal;and;BEDROOM;relativeposition-pointofinterest
 93;42;1513466231;applianceState/Bedroom/@scene;bedroom;relax;action;OPERATOR;NEXTOPERATOR;invokeFunctions:lightScene;bedroom-relax
-94;43;1933171152;environment/@motion;bedroom;motion;event;equal;and;true;bedroom-motion
+94;43;1933171152;environment/@motion;bedroom;motion;event;equal;and;TRUE;bedroom-motion
 95;43;1933171152;environment/dateTime/@localTime;datetime;localtime;condition;between;and;17:55;datetime-localtime
 96;43;1933171152;environment/dateTime/@localTime;datetime;localtime;condition;lt;and;18:00;datetime-localtime
 97;43;1933171152;applianceState/Corridor/lightColor;corridor;light strip corridor;action;OPERATOR;NEXTOPERATOR;update:lightColor;corridor-light strip corridor
@@ -101,7 +101,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 99;44;84606861;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Remember to take the aspirine;reminders-reminders
 100;45;119713179;user/cognitive/@vocalEmotionalState;cognitive;vocalemotionalstate;event;equal;NEXTOPERATOR;HAPPY;cognitive-vocalemotionalstate
 101;45;119713179;applianceState/LivingRoom/lightColor;livingroom;hue color light living room;action;OPERATOR;NEXTOPERATOR;update:lightColor;livingroom-hue color light living room
-102;46;1739114914;user/physical/@layingDown;physical;layingdown;condition;equal;NEXTOPERATOR;true;physical-layingdown
+102;46;1739114914;user/physical/@layingDown;physical;layingdown;condition;equal;NEXTOPERATOR;TRUE;physical-layingdown
 103;46;1739114914;Alarms;alarms;alarms;action;OPERATOR;NEXTOPERATOR;Man down alarm;alarms-alarms
 104;47;936824373;environment/dateTime/@localTime;datetime;localtime;event;equal;NEXTOPERATOR;22:00;datetime-localtime
 105;47;936824373;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Reminder: drink a glass of water;reminders-reminders
@@ -135,14 +135,14 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 133;58;1878396368;applianceState/LivingRoom/@scene;livingroom;relax;action;OPERATOR;NEXTOPERATOR;invokeFunctions:lightScene;livingroom-relax
 134;59;307847951;user/cognitive/@lastConnectionTime;cognitive;lastconnectiontime;event;equal;NEXTOPERATOR;48;cognitive-lastconnectiontime
 135;59;307847951;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Please do exercises on the tablet;reminders-reminders
-136;60;460199470;environment/@motion;livingroom;motion;event;equal;and;true;livingroom-motion
+136;60;460199470;environment/@motion;livingroom;motion;event;equal;and;TRUE;livingroom-motion
 137;60;460199470;environment/@lightLevel;livingroom;lightlevel;condition;equal;and;VERY_LOW_LIGHT;livingroom-lightlevel
 138;60;460199470;applianceState/LivingRoom/greatLuminare;livingroom;greatluminare;action;OPERATOR;NEXTOPERATOR;custom:greatLuminare;livingroom-greatluminare
-139;61;1579672307;environment/@motion;bedroom;motion;event;equal;NEXTOPERATOR;true;bedroom-motion
+139;61;1579672307;environment/@motion;bedroom;motion;event;equal;NEXTOPERATOR;TRUE;bedroom-motion
 140;61;1579672307;applianceState/LivingRoom/lightColor;livingroom;hue color light living room;action;OPERATOR;NEXTOPERATOR;update:lightColor;livingroom-hue color light living room
-141;62;232201151;environment/@motion;bedroom;motion;event;equal;NEXTOPERATOR;true;bedroom-motion
+141;62;232201151;environment/@motion;bedroom;motion;event;equal;NEXTOPERATOR;TRUE;bedroom-motion
 142;62;232201151;applianceState/Bedroom/@scene;bedroom;activate;action;OPERATOR;NEXTOPERATOR;invokeFunctions:lightScene;bedroom-activate
-143;63;143122028;environment/twentyFourHoursWeatherForecast/@rain;twentyfourhoursweatherforecast;rain;event;equal;NEXTOPERATOR;true;twentyfourhoursweatherforecast-rain
+143;63;143122028;environment/twentyFourHoursWeatherForecast/@rain;twentyfourhoursweatherforecast;rain;event;equal;NEXTOPERATOR;TRUE;twentyfourhoursweatherforecast-rain
 144;63;143122028;Alarms;alarms;alarms;action;OPERATOR;NEXTOPERATOR;tomorrow is likely to rain;alarms-alarms
 145;64;728738884;user/physiological/@steps;physiological;steps;event;less;NEXTOPERATOR;6000;physiological-steps
 146;64;728738884;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Remind to walk more for a healthier lifestyle;reminders-reminders
@@ -156,7 +156,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 154;67;499855005;applianceState/Bedroom/@scene;bedroom;biorhythmlight;action;OPERATOR;NEXTOPERATOR;invokeFunctions:lightScene;bedroom-biorhythmlight
 155;68;1089495978;user/physiological/@steps;physiological;steps;event;less;NEXTOPERATOR;6000;physiological-steps
 156;68;1089495978;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Remind to walk more for a healthier lifestyle;reminders-reminders
-157;69;245210718;environment/@motion;bedroom;motion;event;equal;and;true;bedroom-motion
+157;69;245210718;environment/@motion;bedroom;motion;event;equal;and;TRUE;bedroom-motion
 158;69;245210718;environment/dateTime/@localTime;datetime;localtime;condition;gt;and;22:00;datetime-localtime
 159;69;245210718;environment/dateTime/@localTime;datetime;localtime;condition;lt;and;23:59;datetime-localtime
 160;69;245210718;environment/dateTime/@localTime;datetime;localtime;condition;equal;and;02:30;datetime-localtime
@@ -186,12 +186,12 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 184;80;1842592295;Alarms;alarms;alarms;action;OPERATOR;NEXTOPERATOR;Your last connection was more than 48 hours ago. Lets play!;alarms-alarms
 185;81;1290908745;user/vocalInput/@vocalString;vocalinput;vocalstring;event;equal;NEXTOPERATOR;TURN_ON_LIGHT_IN_LIVING_ROOM_SCENE_RELAXING;vocalinput-vocalstring
 186;81;1290908745;applianceState/LivingRoom/@scene;livingroom;relax;action;OPERATOR;NEXTOPERATOR;invokeFunctions:lightScene;livingroom-relax
-187;82;784470700;environment/twentyFourHoursWeatherForecast/@rain;twentyfourhoursweatherforecast;rain;condition;equal;NEXTOPERATOR;true;twentyfourhoursweatherforecast-rain
+187;82;784470700;environment/twentyFourHoursWeatherForecast/@rain;twentyfourhoursweatherforecast;rain;condition;equal;NEXTOPERATOR;TRUE;twentyfourhoursweatherforecast-rain
 188;82;784470700;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Tomorrow will rain;reminders-reminders
 189;83;713862806;user/activity/sleep/@sleepDuration;sleep;sleepduration;event;less;NEXTOPERATOR;60;sleep-sleepduration
 190;83;713862806;Alarms;alarms;alarms;action;OPERATOR;NEXTOPERATOR;you're getting too little sleep;alarms-alarms
-191;84;1718829999;environment/@gasSensor;kitchen;gassensor;event;equal;or;true;kitchen-gassensor
-192;84;1718829999;environment/@smokeSensor;kitchen;smokesensor;event;equal;NEXTOPERATOR;true;kitchen-smokesensor
+191;84;1718829999;environment/@gasSensor;kitchen;gassensor;event;equal;or;TRUE;kitchen-gassensor
+192;84;1718829999;environment/@smokeSensor;kitchen;smokesensor;event;equal;NEXTOPERATOR;TRUE;kitchen-smokesensor
 193;84;1718829999;Alarms;alarms;alarms;action;OPERATOR;NEXTOPERATOR;gas or smoke detected in the kitchen!;alarms-alarms
 194;85;1788513126;user/cognitive/@lastConnectionTime;cognitive;lastconnectiontime;event;more;or;48;cognitive-lastconnectiontime
 195;85;1788513126;user/cognitive/@trainingTime;cognitive;trainingtime;event;less;NEXTOPERATOR;15;cognitive-trainingtime
@@ -232,7 +232,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 230;95;850861311;applianceState/Kitchen/lightColor;kitchen;hue color light kitchen;action;OPERATOR;NEXTOPERATOR;update:lightColor;kitchen-hue color light kitchen
 231;96;2117586770;user/cognitive/@lastConnectionTime;cognitive;lastconnectiontime;event;equal;NEXTOPERATOR;72;cognitive-lastconnectiontime
 232;96;2117586770;Alarms;alarms;alarms;action;OPERATOR;NEXTOPERATOR;More than 72 hours since the last connection to the Kwido application;alarms-alarms
-233;97;1480635719;environment/@motion;bedroom;motion;condition;equal;NEXTOPERATOR;true;bedroom-motion
+233;97;1480635719;environment/@motion;bedroom;motion;condition;equal;NEXTOPERATOR;TRUE;bedroom-motion
 234;97;1480635719;applianceState/Bedroom/@scene;bedroom;activate;action;OPERATOR;NEXTOPERATOR;invokeFunctions:lightScene;bedroom-activate
 235;98;1503966898;environment/dateTime/@localTime;datetime;localtime;event;equal;and;18:00;datetime-localtime
 236;98;1503966898;environment/twentyFourHoursWeatherForecast/@outdoorCondition;twentyfourhoursweatherforecast;outdoorcondition;condition;equal;and;CLEAR_SKY;twentyfourhoursweatherforecast-outdoorcondition
@@ -248,7 +248,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 246;100;471448302;environment/@lightLevel;kitchen;lightlevel;condition;equal;NEXTOPERATOR;DARK;kitchen-lightlevel
 247;100;471448302;applianceState/Kitchen/lightColor;kitchen;hue color light kitchen;action;OPERATOR;NEXTOPERATOR;update:lightColor;kitchen-hue color light kitchen
 248;101;1059760973;environment/dateTime/@localTime;datetime;localtime;event;equal;and;09:00;datetime-localtime
-249;101;1059760973;environment/dateTime/@localDate;datetime;localdate;condition;equal;NEXTOPERATOR;12-06-2020;datetime-localdate
+249;101;1059760973;environment/dateTime/@localDate;datetime;localdate;condition;equal;NEXTOPERATOR;12/06/2020;datetime-localdate
 250;101;1059760973;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;remember to go to the appointment!;reminders-reminders
 251;101;1059760973;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;the Elder has an appointment;reminders-reminders
 252;102;45466234;user/cognitive/@emotionalState;cognitive;emotionalstate;event;equal;NEXTOPERATOR;SAD;cognitive-emotionalstate
@@ -265,7 +265,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 263;106;1388005434;user/position/relativePosition/@typeOfProximity;relativeposition;typeofproximity;TRIGGER;equal;and;OUTSIDE;relativeposition-typeofproximity
 264;106;1388005434;user/position/relativePosition/@pointOfInterest;relativeposition;pointofinterest;TRIGGER;equal;NEXTOPERATOR;HOUSE;relativeposition-pointofinterest
 265;106;1388005434;Alarms;alarms;alarms;action;OPERATOR;NEXTOPERATOR;Elderly is outside house!;alarms-alarms
-266;107;1269287404;environment/@motion;bedroom;motion;event;equal;and;true;bedroom-motion
+266;107;1269287404;environment/@motion;bedroom;motion;event;equal;and;TRUE;bedroom-motion
 267;107;1269287404;environment/dateTime/@localTime;datetime;localtime;condition;gt;and;00:00;datetime-localtime
 268;107;1269287404;environment/dateTime/@localTime;datetime;localtime;condition;lt;NEXTOPERATOR;06:00;datetime-localtime
 269;107;1269287404;applianceState/Corridor/lightColor;corridor;light strip corridor;action;OPERATOR;NEXTOPERATOR;update:lightColor;corridor-light strip corridor
@@ -282,7 +282,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 280;111;1802140655;environment/dateTime/@localTime;datetime;localtime;condition;gt;and;09:30;datetime-localtime
 281;111;1802140655;environment/dateTime/@localTime;datetime;localtime;condition;lt;NEXTOPERATOR;11:00;datetime-localtime
 282;111;1802140655;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;weather is good, you should go out for a walk;reminders-reminders
-283;112;24867418;environment/@motion;bedroom;motion;event;equal;NEXTOPERATOR;true;bedroom-motion
+283;112;24867418;environment/@motion;bedroom;motion;event;equal;NEXTOPERATOR;TRUE;bedroom-motion
 284;112;24867418;Alarms;alarms;alarms;action;OPERATOR;NEXTOPERATOR;no motion in bedroom;alarms-alarms
 285;113;1919962984;user/activity/@medicationName;activity;medicationname;event;equal;NEXTOPERATOR;medicine x;activity-medicationname
 286;113;1919962984;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Remember to take the medicine;reminders-reminders
@@ -335,7 +335,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 333;129;;Reminders;reminders;reminders;action;OPERATOR;none;Close the fridge door;reminders-reminders
 334;130;;technology/light/@state;livingroomlight;state;condition;equal;and;OFF;livingroomlight-state
 335;130;;environment/dateTime/@localTime;datetime;localtime;event;equal;rule;07:00;datetime-localtime
-336;130;;Alarms;alarms;alarms;action;OPERATOR;sequential;"Accese le luci";alarms-alarms
+336;130;;Alarms;alarms;alarms;action;OPERATOR;sequential;Accese le luci;alarms-alarms
 337;130;;applianceState/LivingRoom/allLight;livingroom;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;livingroom-alllight
 338;131;;technology/appliance/@door;fridge;door;condition;equal;rule;OPEN;fridge-door
 339;131;;Reminders;reminders;reminders;action;OPERATOR;none;"""Porta del frigo aperta""";reminders-reminders
@@ -347,7 +347,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 345;133;;Alarms;alarms;alarms;action;OPERATOR;sequential;Call mum;alarms-alarms
 346;133;;applianceState/LivingRoom/allLight;livingroom;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;livingroom-alllight
 347;134;;environment/dateTime/@localTime;datetime;localtime;event;equal;and;06:50;datetime-localtime
-348;134;;environment/dateTime/@localDate;datetime;localdate;condition;equal;rule;2019-02-09;datetime-localdate
+348;134;;environment/dateTime/@localDate;datetime;localdate;condition;equal;rule;09/02/2019;datetime-localdate
 349;134;;Reminders;reminders;reminders;action;OPERATOR;none;Wake up;reminders-reminders
 350;135;;technology/appliance/@door;fridge;door;condition;equal;rule;OPEN;fridge-door
 351;135;;Reminders;reminders;reminders;action;OPERATOR;none;Close the fridge door;reminders-reminders
@@ -357,7 +357,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 355;137;;user/cognitive/@trainingTime;cognitive;trainingtime;condition;equal;rule;60;cognitive-trainingtime
 356;137;;applianceState/LivingRoom/@scene;livingroom;relax;action;OPERATOR;sequential;invokeFunctions:lightScene;livingroom-relax
 357;137;;Alarms;alarms;alarms;action;OPERATOR;none;You have to train for at least 60 minutes a day!;alarms-alarms
-358;138;;environment/twentyFourHoursWeatherForecast/@rain;twentyfourhoursweatherforecast;rain;condition;equal;and;true;twentyfourhoursweatherforecast-rain
+358;138;;environment/twentyFourHoursWeatherForecast/@rain;twentyfourhoursweatherforecast;rain;condition;equal;and;TRUE;twentyfourhoursweatherforecast-rain
 359;138;;technology/light/@state;greatluminaire;state;condition;equal;rule;ON;greatluminaire-state
 360;138;;Alarms;alarms;alarms;action;OPERATOR;sequential;Remember that tomorrow will rain;alarms-alarms
 361;138;;applianceState/LivingRoom/lightColor;livingroom;hue color light living room;action;OPERATOR;none;update:lightColor;livingroom-hue color light living room
@@ -367,7 +367,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 365;139;;applianceState/Bedroom/allLight;bedroom;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;bedroom-alllight
 366;140;;technology/appliance/@door;fridge;door;condition;equal;rule;OPEN;fridge-door
 367;140;;Reminders;reminders;reminders;action;OPERATOR;none;Close fridge's door;reminders-reminders
-368;141;;environment/currentWeather/@rain;currentweather;rain;event;equal;and;true;currentweather-rain
+368;141;;environment/currentWeather/@rain;currentweather;rain;event;equal;and;TRUE;currentweather-rain
 369;141;;environment/@doorWindowSensor;livingroom;windowsensor;condition;equal;rule;OPEN;livingroom-windowsensor
 370;141;;Alarms;alarms;alarms;action;OPERATOR;none;Close the windows;alarms-alarms
 371;142;;user/activity/@medicationName;activity;medicationname;condition;equal;rule;cardio aspirina;activity-medicationname
@@ -377,7 +377,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 375;143;;technology/light/@color;bedroomlight;color;condition;equal;rule;AZURE;bedroomlight-color
 376;143;;applianceState/Bedroom/allLight;bedroom;alllight;action;OPERATOR;sequential;invokeFunctions:changeApplianceState;bedroom-alllight
 377;143;;Alarms;alarms;alarms;action;OPERATOR;none;Low temperature in bedroom;alarms-alarms
-378;144;;user/activity/@wakingup;activity;wakingup;event;equal;and;true;activity-wakingup
+378;144;;user/activity/@wakingup;activity;wakingup;event;equal;and;TRUE;activity-wakingup
 379;144;;technology/light/@state;bedroomportablelight;state;condition;equal;rule;ON;bedroomportablelight-state
 380;144;;Reminders;reminders;reminders;action;OPERATOR;sequential;Wake up;reminders-reminders
 381;144;;applianceState/Bathroom/allLight;bathroom;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;bathroom-alllight
@@ -389,32 +389,32 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 387;147;;environment/@doorWindowSensor;entrance;doorsensor;condition;equal;rule;CLOSE;entrance-windowsensor
 388;147;;Alarms;alarms;alarms;action;OPERATOR;sequential;Be careful, thiefs!;alarms-alarms
 389;147;;applianceState/all/allLight;all;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;all-alllight
-390;148;;environment/@gasSensor;kitchen;gassensor;condition;equal;and;true;kitchen-gassensor
+390;148;;environment/@gasSensor;kitchen;gassensor;condition;equal;and;TRUE;kitchen-gassensor
 391;148;;environment/@lightLevel;kitchen;lightlevel;condition;equal;rule;NO_LIGHT;kitchen-lightlevel
 392;148;;Alarms;alarms;alarms;action;OPERATOR;parallel;Gas leak!;alarms-alarms
 393;148;;applianceState/Kitchen/allLight;kitchen;alllight;action;OPERATOR;parallel;invokeFunctions:changeApplianceState;kitchen-alllight
 394;148;;applianceState/Kitchen/lightColor;kitchen;hue color light kitchen;action;OPERATOR;none;update:lightColor;kitchen-hue color light kitchen
-395;149;;user/activity/@wakingup;activity;wakingup;event;equal;and;true;activity-wakingup
+395;149;;user/activity/@wakingup;activity;wakingup;event;equal;and;TRUE;activity-wakingup
 396;149;;environment/@lightLevel;bedroom;lightlevel;condition;equal;rule;NO_LIGHT;bedroom-lightlevel
 397;149;;applianceState/Bedroom/@scene;bedroom;relax;action;OPERATOR;sequential;invokeFunctions:lightScene;bedroom-relax
 398;149;;Reminders;reminders;reminders;action;OPERATOR;none;Have a nice day!;reminders-reminders
 399;150;;technology/appliance/@door;fridge;door;condition;equal;rule;OPEN;fridge-door
 400;150;;Alarms;alarms;alarms;action;OPERATOR;none;You left the fridge open!;alarms-alarms
 401;151;;user/position/relativePosition/@typeOfProximity;relativeposition;typeofproximity;condition;outside;and;KITCHEN;relativeposition-typeofproximity
-402;151;;environment/@gasSensor;kitchen;gassensor;condition;equal;rule;true;kitchen-gassensor
+402;151;;environment/@gasSensor;kitchen;gassensor;condition;equal;rule;TRUE;kitchen-gassensor
 403;151;;applianceState/all/@scene;all;biorhythmlight;action;OPERATOR;parallel;invokeFunctions:lightScene;all-biorhythmlight
 404;151;;Alarms;alarms;alarms;action;OPERATOR;none;Th egas sensor is active, check that you have turned it off!;alarms-alarms
 405;152;;user/cognitive/@emotionalState;cognitive;emotionalstate;event;equal;and;SAD;cognitive-emotionalstate
 406;152;;technology/light/@state;livingroomlight;state;condition;equal;rule;OFF;livingroomlight-state
 407;152;;applianceState/LivingRoom/@scene;livingroom;relax;action;OPERATOR;parallel;invokeFunctions:lightScene;livingroom-relax
 408;152;;Reminders;reminders;reminders;action;OPERATOR;none;Do you want me to play some music?;reminders-reminders
-409;153;;environment/currentWeather/@rain;currentweather;rain;event;equal;and;true;currentweather-rain
+409;153;;environment/currentWeather/@rain;currentweather;rain;event;equal;and;TRUE;currentweather-rain
 410;153;;environment/@doorWindowSensor;livingroom;windowsensor;condition;equal;rule;OPEN;livingroom-windowsensor
 411;153;;Alarms;alarms;alarms;action;OPERATOR;none;It's raining, close the windows;alarms-alarms
 412;154;;user/activity/@medicationName;activity;medicationname;condition;equal;rule;pressione;activity-medicationname
 413;154;;applianceState/all/@scene;all;biorhythmlight;action;OPERATOR;parallel;invokeFunctions:lightScene;all-biorhythmlight
 414;154;;Alarms;alarms;alarms;action;OPERATOR;none;You didn't take the meds!;alarms-alarms
-415;155;;environment/@gasSensor;kitchen;gassensor;condition;equal;and;true;kitchen-gassensor
+415;155;;environment/@gasSensor;kitchen;gassensor;condition;equal;and;TRUE;kitchen-gassensor
 416;155;;technology/light/@state;kitchenlight;state;condition;equal;rule;OFF;kitchenlight-state
 417;155;;Alarms;alarms;alarms;action;OPERATOR;parallel;Has anyone forgotten to turn off the gas?;alarms-alarms
 418;155;;applianceState/Bedroom/lightColor;bedroom;hue color light bedroom;action;OPERATOR;none;update:lightColor;bedroom-hue color light bedroom
@@ -449,7 +449,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 447;165;;technology/light/@state;livingroomlight;state;event;equal;rule;OFF;livingroomlight-state
 448;165;;Reminders;reminders;reminders;action;OPERATOR;none;Living room light on;reminders-reminders
 449;166;;environment/@doorWindowSensor;entrance;doorsensor;event;equal;and;OPEN;entrance-doorsensor
-450;166;;environment/currentWeather/@rain;currentweather;rain;condition;equal;rule;true;currentweather-rain
+450;166;;environment/currentWeather/@rain;currentweather;rain;condition;equal;rule;TRUE;currentweather-rain
 451;166;;Reminders;reminders;reminders;action;OPERATOR;none;Close the window;reminders-reminders
 452;167;;user/position/relativePosition/@typeOfProximity;relativeposition;typeofproximity;event;inside;rule;LIVINGROOM;relativeposition-typeofproximity
 453;167;;Alarms;alarms;alarms;action;OPERATOR;parallel;Lights off;alarms-alarms
@@ -458,7 +458,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 456;168;;technology/light/@state;greatluminaire;state;condition;equal;rule;OFF;greatluminaire-state
 457;168;;Alarms;alarms;alarms;action;OPERATOR;parallel;Movement in the house;alarms-alarms
 458;168;;applianceState/all/allLight;all;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;all-alllight
-459;169;;user/activity/@wakingup;activity;wakingup;event;equal;and;true;activity-wakingup
+459;169;;user/activity/@wakingup;activity;wakingup;event;equal;and;TRUE;activity-wakingup
 460;169;;technology/light/@state;bedroomlight;state;condition;equal;rule;ON;bedroomlight-state
 461;169;;applianceState/Bedroom/@scene;bedroom;relax;action;OPERATOR;parallel;invokeFunctions:lightScene;bedroom-relax
 462;169;;Reminders;reminders;reminders;action;OPERATOR;none;Today's appointments;reminders-reminders
@@ -471,11 +471,11 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 469;172;;technology/appliance/@door;fridge;door;condition;equal;rule;OPEN;fridge-door
 470;172;;applianceState/Corridor/allLight;corridor;alllight;action;OPERATOR;parallel;invokeFunctions:changeApplianceState;corridor-alllight
 471;172;;Reminders;reminders;reminders;action;OPERATOR;none;The refrigerator remained open;reminders-reminders
-472;173;;environment/@smokeSensor;kitchen;smokesensor;event;equal;and;true;kitchen-smokesensor
+472;173;;environment/@smokeSensor;kitchen;smokesensor;event;equal;and;TRUE;kitchen-smokesensor
 473;173;;technology/light/@state;kitchenlight;state;event;equal;rule;ON;kitchenlight-state
 474;173;;Alarms;alarms;alarms;action;OPERATOR;parallel;Smoke in the kitchen;alarms-alarms
 475;173;;applianceState/Kitchen/allLight;kitchen;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;kitchen-alllight
-476;174;;user/activity/@wakingup;activity;wakingup;event;equal;rule;true;activity-wakingup
+476;174;;user/activity/@wakingup;activity;wakingup;event;equal;rule;TRUE;activity-wakingup
 477;174;;Alarms;alarms;alarms;action;OPERATOR;parallel;You woke up at an unusual time. You may have to regain energy for tomorrow!;alarms-alarms
 478;174;;Reminders;reminders;reminders;action;OPERATOR;none;News about your sleep, look at your mail ;reminders-reminders
 479;175;;technology/appliance/@door;fridge;door;condition;equal;rule;OPEN;fridge-door
@@ -519,7 +519,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 517;187;;environment/@doorWindowSensor;entrance;doorsensor;condition;equal;rule;CLOSE;entrance-doorsensor
 518;187;;Alarms;alarms;alarms;action;OPERATOR;sequential;alarm text;alarms-alarms
 519;187;;applianceState/all/allLight;all;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;all-alllight
-520;188;;environment/@smokeSensor;kitchen;smokesensor;condition;equal;and;true;kitchen-smokesensor
+520;188;;environment/@smokeSensor;kitchen;smokesensor;condition;equal;and;TRUE;kitchen-smokesensor
 521;188;;environment/@lightLevel;kitchen;lightlevel;condition;equal;rule;NO_LIGHT;kitchen-lightlevel
 522;188;;Alarms;alarms;alarms;action;OPERATOR;sequential;alarm text;alarms-alarms
 523;188;;applianceState/Kitchen/allLight;kitchen;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;kitchen-alllight
@@ -529,7 +529,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 527;189;;applianceState/All/allLight;all;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;all-alllight
 528;190;;environment/currentWeather/@outdoorCondition;currentweather;outdoorcondition;condition;equal;rule;RAIN;currentweather-outdoorcondition
 529;190;;Reminders;reminders;reminders;action;OPERATOR;none;remember the umbrella;reminders-reminders
-530;191;;environment/@smokeSensor;kitchen;smokesensor;condition;equal;or;true;kitchen-smokesensor
+530;191;;environment/@smokeSensor;kitchen;smokesensor;condition;equal;or;TRUE;kitchen-smokesensor
 531;191;;environment/@temperatureLevel;kitchen;temperaturelevel;condition;morethen;rule;40;kitchen-temperaturelevel
 532;191;;Alarms;alarms;alarms;action;OPERATOR;parallel;fire;alarms-alarms
 533;191;;applianceState/Entrance/@scene;entrance;biorhythmlight;action;OPERATOR;none;invokeFunctions:lightScene;entrance-biorhythmlight
@@ -537,7 +537,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 535;192;;user/cognitive/@emotionalState;cognitive;emotionalstate;condition;equal;rule;HAPPY;cognitive-emotionalstate
 536;192;;applianceState/Kitchen/@scene;kitchen;relax;action;OPERATOR;parallel;invokeFunctions:lightScene;kitchen-relax
 537;192;;Reminders;reminders;reminders;action;OPERATOR;none;Have a snack and close the fridge when you're done;reminders-reminders
-538;193;;user/activity/@wakingup;activity;wakingup;condition;equal;rule;true;activity-wakingup
+538;193;;user/activity/@wakingup;activity;wakingup;condition;equal;rule;TRUE;activity-wakingup
 539;193;;Alarms;alarms;alarms;action;OPERATOR;sequential;The user did not wake up;alarms-alarms
 540;193;;applianceState/All/allLight;all;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;all-alllight
 541;194;;environment/@doorWindowSensor;livingroom;windowsensor;event;equal;rule;OPEN;livingroom-windowsensor
@@ -547,7 +547,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 545;196;;environment/dateTime/@localTime;datetime;localtime;condition;equal;and;19:00;datetime-localtime
 546;196;;environment/@temperatureLevel;livingroom;temperaturelevel;event;lessthen;rule;18;livingroom-temperaturelevel
 547;196;;Reminders;reminders;reminders;action;OPERATOR;none;Turn the heater on;reminders-reminders
-548;197;;user/activity/@wakingup;activity;wakingup;event;equal;rule;true;activity-wakingup
+548;197;;user/activity/@wakingup;activity;wakingup;event;equal;rule;TRUE;activity-wakingup
 549;197;;Alarms;alarms;alarms;action;OPERATOR;sequential;Wake up;alarms-alarms
 550;197;;applianceState/Bedroom/lightColor;bedroom;hue color light bedroom;action;OPERATOR;none;update:lightColor;bedroom-hue color light bedroom
 551;198;;technology/light/@state;entrancelight;state;condition;equal;and;OFF;entrancelight-state
@@ -566,7 +566,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 564;202;;environment/@temperatureLevel;livingroom;temperaturelevel;condition;morethen;rule;12;livingroom-temperaturelevel
 565;202;;Alarms;alarms;alarms;action;OPERATOR;sequential;Turn on the heater;alarms-alarms
 566;202;;applianceState/All/allLight;all;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;all-alllight
-567;203;;environment/@smokeSensor;bathroom;smokesensor;condition;equal;and;true;bathroom-smokesensor
+567;203;;environment/@smokeSensor;bathroom;smokesensor;condition;equal;and;TRUE;bathroom-smokesensor
 568;203;;technology/light/@state;bathroomlight;state;condition;equal;rule;OFF;bathroomlight-state
 569;203;;Alarms;alarms;alarms;action;OPERATOR;sequential;Smoke! Check the bathroom;alarms-alarms
 570;203;;applianceState/All/allLight;all;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;all-alllight
@@ -577,7 +577,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 575;205;;environment/@temperatureLevel;livingroom;temperaturelevel;event;equal;rule;30;livingroom-temperaturelevel
 576;205;;Alarms;alarms;alarms;action;OPERATOR;none;Turn on the air conditioner ;alarms-alarms
 577;206;;user/position/timeInsideARoom/@timeInsideKitchen;timeinsidearoom;timeinsidekitchen;event;equal;and;30;timeinsidearoom-timeinsidekitchen
-578;206;;environment/@gasSensor;kitchen;gassensor;condition;equal;rule;true;kitchen-gassensor
+578;206;;environment/@gasSensor;kitchen;gassensor;condition;equal;rule;TRUE;kitchen-gassensor
 579;206;;Alarms;alarms;alarms;action;OPERATOR;none;Turn off the stove!;alarms-alarms
 580;207;;technology/appliance/@door;fridge;door;condition;equal;rule;CLOSE;fridge-door
 581;207;;Alarms;alarms;alarms;action;OPERATOR;sequential;Close the fridge;alarms-alarms
@@ -586,40 +586,40 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 584;208;;technology/light/@state;entrancelight;state;condition;equal;rule;OFF;entrancelight-state
 585;208;;applianceState/Entrance/lightColor;entrance;hue color light entrance;action;OPERATOR;sequential;update:lightColor;entrance-hue color light entrance
 586;208;;Alarms;alarms;alarms;action;OPERATOR;none;Welcome back!;alarms-alarms
-587;209;;user/activity/@wakingup;activity;wakingup;event;equal;and;true;activity-wakingup
+587;209;;user/activity/@wakingup;activity;wakingup;event;equal;and;TRUE;activity-wakingup
 588;209;;technology/light/@state;bedroomlight;state;condition;equal;rule;ON;bedroomlight-state
 589;209;;applianceState/Bedroom/allLight;bedroom;alllight;action;OPERATOR;sequential;invokeFunctions:changeApplianceState;bedroom-alllight
 590;209;;Reminders;reminders;reminders;action;OPERATOR;none;Good morning!;reminders-reminders
 591;210;;user/position/relativePosition/@typeOfProximity;relativeposition;typeofproximity;event;inside;rule;ENTRANCE;relativeposition-typeofproximity
 592;210;;applianceState/Entrance/allLight;entrance;alllight;action;OPERATOR;parallel;invokeFunctions:changeApplianceState;entrance-alllight
 593;210;;applianceState/Corridor/allLight;corridor;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;corridor-alllight
-594;211;;environment/@smokeSensor;kitchen;smokesensor;event;equal;and;true;kitchen-smokesensor
+594;211;;environment/@smokeSensor;kitchen;smokesensor;event;equal;and;TRUE;kitchen-smokesensor
 595;211;;user/position/relativePosition/@typeOfProximity;relativeposition;typeofproximity;condition;outside;rule;ENTRANCE;relativeposition-typeofproximity
 596;211;;Alarms;alarms;alarms;action;OPERATOR;none;WARNING! Smoke sensors are on!;alarms-alarms
 597;212;;user/physiological/@heartRate;physiological;heartrate;event;morethen;and;199;physiological-heartrate
 598;212;;user/activity/@medicationName;activity;medicationname;condition;equal;rule;medicina per il cuore;activity-medicationname
 599;212;;applianceState/all/allLight;all;alllight;action;OPERATOR;parallel;invokeFunctions:changeApplianceState;all-alllight
 600;212;;Alarms;alarms;alarms;action;OPERATOR;none;Warning, high hearth rate;alarms-alarms
-601;213;;environment/currentWeather/@rain;currentweather;rain;condition;equal;and;true;currentweather-rain
+601;213;;environment/currentWeather/@rain;currentweather;rain;condition;equal;and;TRUE;currentweather-rain
 602;213;;environment/@doorWindowSensor;corridor;windowsensor;condition;equal;rule;OPEN;corridor-windowsensor
 603;213;;applianceState/all/@scene;all;biorhythmlight;action;OPERATOR;parallel;invokeFunctions:lightScene;all-biorhythmlight
 604;213;;Reminders;reminders;reminders;action;OPERATOR;none;It's raining! You left the windows open;reminders-reminders
-605;214;;user/activity/@wakingup;activity;wakingup;condition;equal;rule;true;activity-wakingup
+605;214;;user/activity/@wakingup;activity;wakingup;condition;equal;rule;TRUE;activity-wakingup
 606;214;;applianceState/Bedroom/@scene;bedroom;activate;action;OPERATOR;sequential;invokeFunctions:lightScene;bedroom-activate
 607;214;;Reminders;reminders;reminders;action;OPERATOR;none;It's time to get up;reminders-reminders
 608;215;;technology/light/@state;entrancelight;state;condition;equal;rule;ON;entrancelight-state
 609;215;;Reminders;reminders;reminders;action;OPERATOR;none;Remember to turn off the light;reminders-reminders
-610;216;;environment/currentWeather/@rain;currentweather;rain;condition;equal;and;true;currentweather-rain
+610;216;;environment/currentWeather/@rain;currentweather;rain;condition;equal;and;TRUE;currentweather-rain
 611;216;;environment/currentWeather/@rainQuantity;currentweather;rainquantity;condition;morethen;rule;10;currentweather-rainquantity
 612;216;;Reminders;reminders;reminders;action;OPERATOR;none;Remember to take the umbrella;reminders-reminders
 613;217;;technology/appliance/@door;fridge;door;condition;equal;rule;CLOSE;fridge-door
 614;217;;Reminders;reminders;reminders;action;OPERATOR;parallel;Fridge door is open;reminders-reminders
 615;217;;applianceState/Bedroom/lightColor;bedroom;hue color light bedroom;action;OPERATOR;none;update:lightColor;bedroom-hue color light bedroom
-616;218;;environment/@smokeSensor;corridor;smokesensor;event;equal;and;true;corridor-smokesensor
+616;218;;environment/@smokeSensor;corridor;smokesensor;event;equal;and;TRUE;corridor-smokesensor
 617;218;;technology/light/@color;corridorlightstrip;color;event;equal;rule;RED;corridorlightstrip-color
 618;218;;Reminders;reminders;reminders;action;OPERATOR;parallel;Smoke in the corridor;reminders-reminders
 619;218;;applianceState/All/@scene;all;biorhythmlight;action;OPERATOR;none;invokeFunctions:lightScene;all-biorhythmlight
-620;219;;user/activity/@wakingup;activity;wakingup;event;equal;and;true;activity-wakingup
+620;219;;user/activity/@wakingup;activity;wakingup;event;equal;and;TRUE;activity-wakingup
 621;219;;technology/light/@state;bedroomlight;state;event;equal;rule;ON;bedroomlight-state
 622;219;;applianceState/Bedroom/@scene;bedroom;activate;action;OPERATOR;parallel;invokeFunctions:lightScene;bedroom-activate
 623;219;;Reminders;reminders;reminders;action;OPERATOR;none;Good morning!;reminders-reminders
@@ -634,14 +634,14 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 632;222;;environment/currentWeather/@outdoorCondition;currentweather;outdoorcondition;event;equal;and;SHOWER_RAIN;currentweather-outdoorcondition
 633;222;;environment/@doorWindowSensor;bedroom;windowsensor;condition;equal;rule;OPEN;bedroom-windowsensor
 634;222;;Reminders;reminders;reminders;action;OPERATOR;none;close the window;reminders-reminders
-635;223;;user/activity/@wakingup;activity;wakingup;condition;equal;rule;true;activity-wakingup
+635;223;;user/activity/@wakingup;activity;wakingup;condition;equal;rule;TRUE;activity-wakingup
 636;223;;Alarms;alarms;alarms;action;OPERATOR;sequential;user has not woken up yet;alarms-alarms
 637;223;;applianceState/Bedroom/@scene;bedroom;activate;action;OPERATOR;none;invokeFunctions:lightScene;bedroom-activate
 638;224;;technology/light/@state;corridorlightstrip;state;condition;equal;rule;OFF;corridorlightstrip-state
 639;224;;Reminders;reminders;reminders;action;OPERATOR;none;switch the corridor light strip on;reminders-reminders
 640;225;;technology/appliance/@door;microwave;door;condition;equal;rule;OPEN;microwave-door
 641;225;;Reminders;reminders;reminders;action;OPERATOR;none;close microwave door;reminders-reminders
-642;226;;environment/twentyFourHoursWeatherForecast/@rain;currentweather;rain;condition;equal;rule;true;currentweather-rain
+642;226;;environment/twentyFourHoursWeatherForecast/@rain;currentweather;rain;condition;equal;rule;TRUE;currentweather-rain
 643;226;;Alarms;alarms;alarms;action;OPERATOR;sequential;"""Do laundry""";alarms-alarms
 644;226;;applianceState/LivingRoom/lightColor;livingroom;hue color light living room;action;OPERATOR;none;update:lightColor;livingroom-hue color light living room
 645;227;;environment/@motion;livingroom;motion;event;equal;and;VALUE;livingroom-motion
@@ -676,7 +676,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 674;236;;Alarms;alarms;alarms;action;OPERATOR;parallel;Time for some workout;alarms-alarms
 675;236;;applianceState/LivingRoom/@scene;livingroom;activate;action;OPERATOR;none;invokeFunctions:lightScene;livingroom-activate
 676;237;;environment/@windowSensor;livingroom;windowsensor;condition;equal;and;OPEN;livingroom-windowsensor
-677;237;;environment/currentWeather/@rain;currentweather;rain;event;equal;rule;true;currentweather-rain
+677;237;;environment/currentWeather/@rain;currentweather;rain;event;equal;rule;TRUE;currentweather-rain
 678;237;;Alarms;alarms;alarms;action;OPERATOR;none;Close the window;alarms-alarms
 679;238;;environment/@temperatureLevel;kitchen;temperaturelevel;condition;morethen;and;4;kitchen-temperaturelevel
 680;238;;technology/appliance/@door;fridge;door;condition;equal;rule;OPEN;fridge-door
@@ -692,8 +692,8 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 690;241;;environment/@temperatureLevel;livingroom;temperaturelevel;condition;equal;rule;25;livingroom-temperaturelevel
 691;241;;Alarms;alarms;alarms;action;OPERATOR;parallel;Fix the living room temperature;alarms-alarms
 692;241;;applianceState/LivingRoom/allLight;livingroom;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;livingroom-alllight
-693;242;;environment/@gasSensor;kitchen;gassensor;event;equal;or;true;kitchen-gassensor
-694;242;;environment/@smokeSensor;kitchen;smokesensor;event;equal;rule;true;kitchen-smokesensor
+693;242;;environment/@gasSensor;kitchen;gassensor;event;equal;or;TRUE;kitchen-gassensor
+694;242;;environment/@smokeSensor;kitchen;smokesensor;event;equal;rule;TRUE;kitchen-smokesensor
 695;242;;Reminders;reminders;reminders;action;OPERATOR;none;reminder text;reminders-reminders
 696;243;;environment/currentWeather/@outdoorCondition;currentweather;outdoorcondition;condition;equal;and;FOG;currentweather-outdoorcondition
 697;243;;technology/light/@state;greatluminaire;state;condition;equal;rule;OFF;greatluminaire-state
@@ -708,10 +708,10 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 706;246;;user/position/relativePosition/@typeOfProximity;relativeposition;typeofproximity;event;inside;rule;HOUSE;relativeposition-typeofproximity
 707;246;;applianceState/all/allLight;all;alllight;action;OPERATOR;parallel;invokeFunctions:changeApplianceState;all-alllight
 708;246;;Alarms;alarms;alarms;action;OPERATOR;none;I turned off all the lights in the house;alarms-alarms
-709;247;;environment/currentWeather/@rain;currentweather;rain;event;equal;and;true;currentweather-rain
+709;247;;environment/currentWeather/@rain;currentweather;rain;event;equal;and;TRUE;currentweather-rain
 710;247;;environment/dateTime/@localTime;datetime;localtime;condition;equal;rule;00:00;datetime-localtime
 711;247;;Reminders;reminders;reminders;action;OPERATOR;none;Remember to take the umbrella;reminders-reminders
-712;248;;environment/@smokeSensor;kitchen;smokesensor;event;equal;and;true;kitchen-smokesensor
+712;248;;environment/@smokeSensor;kitchen;smokesensor;event;equal;and;TRUE;kitchen-smokesensor
 713;248;;environment/@windowSensor;kitchen;windowsensor;condition;equal;rule;CLOSE;kitchen-windowsensor
 714;248;;Alarms;alarms;alarms;action;OPERATOR;parallel;alarm text;alarms-alarms
 715;248;;applianceState/all/allLight;all;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;all-alllight
@@ -724,7 +724,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 722;251;;environment/@lightLevel;bathroom;lightlevel;condition;equal;rule;NO_LIGHT;bathroom-lightlevel
 723;251;;applianceState/Bathroom/allLight;bathroom;alllight;action;OPERATOR;parallel;invokeFunctions:changeApplianceState;bathroom-alllight
 724;251;;Reminders;reminders;reminders;action;OPERATOR;none;You left the lights turn on in the bathroom....again Charles. I took care of it;reminders-reminders
-725;252;;environment/currentWeather/@rain;currentweather;rain;event;equal;and;true;currentweather-rain
+725;252;;environment/currentWeather/@rain;currentweather;rain;event;equal;and;TRUE;currentweather-rain
 726;252;;environment/@windowSensor;livingroom;windowsensor;condition;equal;rule;OPEN;livingroom-windowsensor
 727;252;;Reminders;reminders;reminders;action;OPERATOR;none;Charles, has just started raining, you should close the windows in the livingroom;reminders-reminders
 728;253;;environment/@noiseLevel;kitchen;noiselevel;condition;morethen;and;1;kitchen-noiselevel
@@ -769,7 +769,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 767;266;;technology/light/@state;corridorlightstrip;state;condition;equal;rule;OFF;corridorlightstrip-state
 768;266;;Alarms;alarms;alarms;action;OPERATOR;parallel;turn the ligths off;alarms-alarms
 769;266;;applianceState/Corridor/allLight;corridor;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;corridor-alllight
-770;267;;environment/currentWeather/@snow;currentweather;snow;event;equal;and;true;currentweather-snow
+770;267;;environment/currentWeather/@snow;currentweather;snow;event;equal;and;TRUE;currentweather-snow
 771;267;;environment/currentWeather/@outdoorTemperature;currentweather;outdoortemperature;condition;lessthen;rule;0;currentweather-outdoortemperature
 772;267;;Reminders;reminders;reminders;action;OPERATOR;none;It's snowing!;reminders-reminders
 773;268;;environment/dateTime/@localTime;datetime;localtime;condition;equal;and;10:00;datetime-localtime
@@ -780,7 +780,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 778;269;;user/vocalInput/@vocalString;vocalinput;vocalstring;event;equal;rule;TURN_ON_LIGHT_IN_BATHROOM_COLOR_WHITE;vocalinput-vocalstring
 779;269;;applianceState/Bathroom/allLight;bathroom;alllight;action;OPERATOR;parallel;invokeFunctions:changeApplianceState;bathroom-alllight
 780;269;;Reminders;reminders;reminders;action;OPERATOR;none;Remember to turn on the bathroom light;reminders-reminders
-781;270;;environment/@gasSensor;kitchen;gassensor;event;equal;rule;true;kitchen-gassensor
+781;270;;environment/@gasSensor;kitchen;gassensor;event;equal;rule;TRUE;kitchen-gassensor
 782;270;;Reminders;reminders;reminders;action;OPERATOR;none;The gas sensor is active!;reminders-reminders
 783;271;;technology/light/@state;corridorlightstrip;state;condition;equal;rule;OFF;corridorlightstrip-state
 784;271;;Alarms;alarms;alarms;action;OPERATOR;parallel;Attention, the lights in the corridor are on, remember to turn them off!;alarms-alarms
@@ -801,7 +801,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 799;276;;technology/light/@state;kitchenlight;state;condition;equal;rule;OFF;kitchenlight-state
 800;276;;Alarms;alarms;alarms;action;OPERATOR;parallel;You left the light off in the kitchen ;alarms-alarms
 801;276;;applianceState/Kitchen/allLight;kitchen;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;kitchen-alllight
-802;277;;environment/currentWeather/@snow;currentweather;snow;event;equal;and;true;currentweather-snow
+802;277;;environment/currentWeather/@snow;currentweather;snow;event;equal;and;TRUE;currentweather-snow
 803;277;;environment/dateTime/@localTime;datetime;localtime;condition;equal;rule;14:00;datetime-localtime
 804;277;;Reminders;reminders;reminders;action;OPERATOR;none;It's snowing! No beach volleyball today at 2.20pm;reminders-reminders
 805;278;;environment/dateTime/@localTime;datetime;localtime;condition;equal;and;17:00;datetime-localtime
@@ -820,7 +820,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 818;282;;environment/twentyFourHoursWeatherForecast/@outdoorTemperature;twentyfourhoursweatherforecast;outdoortemperature;event;morethen;and;90;twentyfourhoursweatherforecast-outdoortemperature
 819;282;;user/physiological/@heartRate;physiological;heartrate;condition;morethen;rule;40;physiological-heartrate
 820;282;;Reminders;reminders;reminders;action;OPERATOR;none;do not go out for jogging;reminders-reminders
-821;283;;environment/@gasSensor;kitchen;gassensor;condition;equal;and;true;kitchen-gassensor
+821;283;;environment/@gasSensor;kitchen;gassensor;condition;equal;and;TRUE;kitchen-gassensor
 822;283;;technology/appliance/@door;microwave;door;condition;equal;rule;OPEN;microwave-door
 823;283;;Alarms;alarms;alarms;action;OPERATOR;parallel;trigger alarm beeps;alarms-alarms
 824;283;;applianceState/Kitchen/@scene;kitchen;activate;action;OPERATOR;none;invokeFunctions:lightScene;kitchen-activate
@@ -833,7 +833,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 831;286;;environment/@lightLevel;bathroom;lightlevel;event;equal;rule;DARK;bathroom-lightlevel
 832;286;;Alarms;alarms;alarms;action;OPERATOR;parallel;Turning off the bathroom lights;alarms-alarms
 833;286;;applianceState/Bathroom/allLight;bathroom;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;bathroom-alllight
-834;287;;environment/currentWeather/@rain;currentweather;rain;condition;equal;and;true;currentweather-rain
+834;287;;environment/currentWeather/@rain;currentweather;rain;condition;equal;and;TRUE;currentweather-rain
 835;287;;environment/currentWeather/@outdoorTemperature;currentweather;outdoortemperature;condition;lessthen;rule;5;currentweather-outdoortemperature
 836;287;;Reminders;reminders;reminders;action;OPERATOR;none;Remember the umbrella and cover yourself that it's cold outside;reminders-reminders
 837;288;;environment/@lightLevel;kitchen;lightlevel;condition;equal;and;DAY_LIGHT;kitchen-lightlevel
@@ -849,7 +849,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 847;291;;user/position/relativePosition/@typeOfProximity;relativeposition;typeofproximity;event;inside;rule;HOUSE;relativeposition-typeofproximity
 848;291;;Alarms;alarms;alarms;action;OPERATOR;sequential;I turned the lights off;alarms-alarms
 849;291;;applianceState/all/allLight;all;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;all-alllight
-850;292;;environment/@gasSensor;kitchen;gassensor;event;equal;and;true;kitchen-gassensor
+850;292;;environment/@gasSensor;kitchen;gassensor;event;equal;and;TRUE;kitchen-gassensor
 851;292;;environment/@windowSensor;kitchen;windowsensor;condition;equal;rule;CLOSE;kitchen-windowsensor
 852;292;;Reminders;reminders;reminders;action;OPERATOR;none;Open the window, too much gas;reminders-reminders
 853;293;;environment/@lightLevel;livingroom;lightlevel;condition;equal;and;DAY_LIGHT;livingroom-lightlevel
@@ -912,10 +912,10 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 910;309;;applianceState/Corridor/allLight;corridor;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;corridor-alllight
 911;310;;technology/appliance/@door;microwave;door;condition;equal;rule;OPEN;microwave-door
 912;310;;Reminders;reminders;reminders;action;OPERATOR;none;Microwave door is open!;reminders-reminders
-913;311;;environment/@smokeSensor;corridor;smokesensor;condition;equal;rule;true;corridor-smokesensor
+913;311;;environment/@smokeSensor;corridor;smokesensor;condition;equal;rule;TRUE;corridor-smokesensor
 914;311;;Alarms;alarms;alarms;action;OPERATOR;parallel;Warning! Corridor smoke sensor is not active;alarms-alarms
 915;311;;applianceState/Corridor/lightColor;corridor;light strip corridor;action;OPERATOR;none;update:lightColor;corridor-light strip corridor
-916;312;;environment/currentWeather/@rain;currentweather;rain;event;equal;and;true;currentweather-rain
+916;312;;environment/currentWeather/@rain;currentweather;rain;event;equal;and;TRUE;currentweather-rain
 917;312;;environment/currentWeather/@outdoorPressure;currentweather;outdoorpressure;condition;morethen;rule;50;currentweather-outdoorpressure
 918;312;;Reminders;reminders;reminders;action;OPERATOR;none;Avoid going out today!;reminders-reminders
 919;313;;environment/@noiseLevel;entrance;noiselevel;condition;morethen;and;0;entrance-noiselevel
@@ -932,7 +932,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 930;316;;Alarms;alarms;alarms;action;OPERATOR;parallel;Door open;alarms-alarms
 931;316;;applianceState/Entrance/allLight;entrance;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;entrance-alllight
 932;317;;environment/@lightLevel;kitchen;lightlevel;event;equal;and;NO_LIGHT;kitchen-lightlevel
-933;317;;environment/@gasSensor;kitchen;gassensor;condition;equal;rule;true;kitchen-gassensor
+933;317;;environment/@gasSensor;kitchen;gassensor;condition;equal;rule;TRUE;kitchen-gassensor
 934;317;;Reminders;reminders;reminders;action;OPERATOR;none;Careful, stoves on!;reminders-reminders
 935;318;;environment/dateTime/@localTime;datetime;localtime;condition;equal;and;20:00;datetime-localtime
 936;318;;technology/light/@state;kitchenlight;state;condition;equal;rule;OFF;kitchenlight-state
@@ -948,7 +948,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 946;321;;Alarms;alarms;alarms;action;OPERATOR;parallel;Your daily step goal has not been reached;alarms-alarms
 947;321;;applianceState/All/@scene;all;activate;action;OPERATOR;none;invokeFunctions:lightScene;all-activate
 948;322;;environment/currentWeather/@outdoorTemperature;currentweather;outdoortemperature;condition;lessthen;and;16;currentweather-outdoortemperature
-949;322;;environment/currentWeather/@rain;currentweather;rain;event;equal;rule;true;currentweather-rain
+949;322;;environment/currentWeather/@rain;currentweather;rain;event;equal;rule;TRUE;currentweather-rain
 950;322;;Reminders;reminders;reminders;action;OPERATOR;none;Take the umbrella and the scarf;reminders-reminders
 951;323;;user/cognitive/@cognitiveState;cognitive;cognitivestate;condition;equal;or;MEMORY_LOSSES_ASSOCIATED_WITH_AGE;cognitive-cognitivestate
 952;323;;user/personalData/@age;personaldata;age;condition;morethen;rule;70;personaldata-age
