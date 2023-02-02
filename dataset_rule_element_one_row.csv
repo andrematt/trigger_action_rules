@@ -277,11 +277,11 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 275;109;334201783;user/position/relativePosition/@pointOfInterest;relativeposition;pointofinterest;TRIGGER;equal;NEXTOPERATOR;LIVINGROOM;relativeposition-pointofinterest
 276;109;334201783;applianceState/LivingRoom/@scene;livingroom;relax;action;OPERATOR;NEXTOPERATOR;invokeFunctions:lightScene;livingroom-relax
 277;110;537784833;user/cognitive/@trainingResult;cognitive;trainingresult;event;equal;NEXTOPERATOR;NOT_PROGRESSING;cognitive-trainingresult
-278;110;537784833;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Keep trying, the results will improve!;reminders-reminders
+278;110;537784833;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Keep trying the results will improve!;reminders-reminders
 279;111;1802140655;environment/currentWeather/@outdoorCondition;currentweather;outdoorcondition;event;equal;and;CLEAR_SKY;currentweather-outdoorcondition
 280;111;1802140655;environment/dateTime/@localTime;datetime;localtime;condition;gt;and;09:30;datetime-localtime
 281;111;1802140655;environment/dateTime/@localTime;datetime;localtime;condition;lt;NEXTOPERATOR;11:00;datetime-localtime
-282;111;1802140655;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;weather is good, you should go out for a walk;reminders-reminders
+282;111;1802140655;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;weather is good you should go out for a walk;reminders-reminders
 283;112;24867418;environment/@motion;bedroom;motion;event;equal;NEXTOPERATOR;TRUE;bedroom-motion
 284;112;24867418;Alarms;alarms;alarms;action;OPERATOR;NEXTOPERATOR;no motion in bedroom;alarms-alarms
 285;113;1919962984;user/activity/@medicationName;activity;medicationname;event;equal;NEXTOPERATOR;medicine x;activity-medicationname
@@ -403,14 +403,14 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 401;151;;user/position/relativePosition/@typeOfProximity;relativeposition;typeofproximity;condition;outside;and;KITCHEN;relativeposition-typeofproximity
 402;151;;environment/@gasSensor;kitchen;gassensor;condition;equal;rule;TRUE;kitchen-gassensor
 403;151;;applianceState/all/@scene;all;biorhythmlight;action;OPERATOR;parallel;invokeFunctions:lightScene;all-biorhythmlight
-404;151;;Alarms;alarms;alarms;action;OPERATOR;none;Th egas sensor is active check that you have turned it off!;alarms-alarms
+404;151;;Alarms;alarms;alarms;action;OPERATOR;none;The gas sensor is active check that you have turned it off!;alarms-alarms
 405;152;;user/cognitive/@emotionalState;cognitive;emotionalstate;event;equal;and;SAD;cognitive-emotionalstate
 406;152;;technology/light/@state;livingroomlight;state;condition;equal;rule;OFF;livingroomlight-state
 407;152;;applianceState/LivingRoom/@scene;livingroom;relax;action;OPERATOR;parallel;invokeFunctions:lightScene;livingroom-relax
 408;152;;Reminders;reminders;reminders;action;OPERATOR;none;Do you want me to play some music?;reminders-reminders
 409;153;;environment/currentWeather/@rain;currentweather;rain;event;equal;and;TRUE;currentweather-rain
 410;153;;environment/@doorWindowSensor;livingroom;windowsensor;condition;equal;rule;OPEN;livingroom-windowsensor
-411;153;;Alarms;alarms;alarms;action;OPERATOR;none;It's raining, close the windows;alarms-alarms
+411;153;;Alarms;alarms;alarms;action;OPERATOR;none;It's raining close the windows;alarms-alarms
 412;154;;user/activity/@medicationName;activity;medicationname;condition;equal;rule;pressione;activity-medicationname
 413;154;;applianceState/all/@scene;all;biorhythmlight;action;OPERATOR;parallel;invokeFunctions:lightScene;all-biorhythmlight
 414;154;;Alarms;alarms;alarms;action;OPERATOR;none;You didn't take the meds!;alarms-alarms
