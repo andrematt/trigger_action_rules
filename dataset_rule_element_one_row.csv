@@ -307,7 +307,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 305;121;;environment/currentWeather/@outdoorTemperature;currentweather;outdoortemperature;condition;lessthen;rule;14;currentweather-outdoortemperature
 306;121;;Reminders;reminders;reminders;action;OPERATOR;none;Remember to take your scarf and gloves!;reminders-reminders
 307;122;;environment/@motion;bedroom;motion;condition;equal;rule;VALUE;bedroom-motion
-308;122;;Alarms;alarms;alarms;action;OPERATOR;sequential;Wake up, you'll be late.;alarms-alarms
+308;122;;Alarms;alarms;alarms;action;OPERATOR;sequential;Wake up you'll be late.;alarms-alarms
 309;122;;applianceState/Bedroom/@scene;bedroom;activate;action;OPERATOR;none;invokeFunctions:lightScene;bedroom-activate
 310;123;;user/position/timeInsideARoom/@timeInsideBedroom;timeinsidearoom;timeinsidebedroom;condition;morethen;and;20;timeinsidearoom-timeinsidebedroom
 311;123;;technology/light/@state;bedroomlight;state;condition;equal;rule;ON;bedroomlight-state
