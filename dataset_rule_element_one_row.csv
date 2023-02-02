@@ -13,7 +13,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 11;5;905189230;technology/light/@state;greatluminaire;state;condition;equal;NEXTOPERATOR;OFF;greatluminaire-state
 12;5;905189230;applianceState/Kitchen/lightColor;kitchen;hue color light kitchen;action;OPERATOR;NEXTOPERATOR;custom:lightColor;kitchen-hue color light kitchen
 13;6;851168453;environment/dateTime/@localTime;datetime;localtime;event;equal;NEXTOPERATOR;15:22;datetime-localtime
-14;6;851168453;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;You haven't played with Kwido in a long time, try playing a game!;reminders-reminders
+14;6;851168453;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;You haven't played with Kwido in a long time: try playing a game!;reminders-reminders
 15;7;99199286;environment/dateTime/@localTime;datetime;localtime;event;equal;NEXTOPERATOR;14:52;datetime-localtime
 16;7;99199286;Reminders;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Remember to take aspirin;reminders-reminders
 17;7;99199286;applianceState/LivingRoom/lightColor;livingroom;hue color light living room;action;OPERATOR;NEXTOPERATOR;update:lightColor;livingroom-hue color light living room
