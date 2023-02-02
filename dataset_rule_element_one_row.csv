@@ -335,7 +335,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 333;129;;Reminders;reminders;reminders;action;OPERATOR;none;Close the fridge door;reminders-reminders
 334;130;;technology/light/@state;livingroomlight;state;condition;equal;and;OFF;livingroomlight-state
 335;130;;environment/dateTime/@localTime;datetime;localtime;event;equal;rule;07:00;datetime-localtime
-336;130;;Alarms;alarms;alarms;action;OPERATOR;sequential;"""Accese le luci""";alarms-alarms
+336;130;;Alarms;alarms;alarms;action;OPERATOR;sequential;"Accese le luci";alarms-alarms
 337;130;;applianceState/LivingRoom/allLight;livingroom;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;livingroom-alllight
 338;131;;technology/appliance/@door;fridge;door;condition;equal;rule;OPEN;fridge-door
 339;131;;Reminders;reminders;reminders;action;OPERATOR;none;"""Porta del frigo aperta""";reminders-reminders
