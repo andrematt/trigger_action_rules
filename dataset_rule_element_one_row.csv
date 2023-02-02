@@ -387,7 +387,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 385;146;;environment/@doorWindowSensor;livingroom;windowsensor;condition;equal;rule;OPEN;livingroom-windowsensor
 386;146;;Reminders;reminders;reminders;action;OPERATOR;none;Remember to close the windows;reminders-reminders
 387;147;;environment/@doorWindowSensor;entrance;doorsensor;condition;equal;rule;CLOSE;entrance-windowsensor
-388;147;;Alarms;alarms;alarms;action;OPERATOR;sequential;Be careful, thiefs!;alarms-alarms
+388;147;;Alarms;alarms;alarms;action;OPERATOR;sequential;Be careful thiefs!;alarms-alarms
 389;147;;applianceState/all/allLight;all;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;all-alllight
 390;148;;environment/@gasSensor;kitchen;gassensor;condition;equal;and;TRUE;kitchen-gassensor
 391;148;;environment/@lightLevel;kitchen;lightlevel;condition;equal;rule;NO_LIGHT;kitchen-lightlevel
