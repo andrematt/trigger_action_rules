@@ -338,7 +338,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 336;130;;Alarms;alarms;alarms;action;OPERATOR;sequential;Accese le luci;alarms-alarms
 337;130;;applianceState/LivingRoom/allLight;livingroom;alllight;action;OPERATOR;none;invokeFunctions:changeApplianceState;livingroom-alllight
 338;131;;technology/appliance/@door;fridge;door;condition;equal;rule;OPEN;fridge-door
-339;131;;Reminders;reminders;reminders;action;OPERATOR;none;"""Porta del frigo aperta""";reminders-reminders
+339;131;;Reminders;reminders;reminders;action;OPERATOR;none;Porta del frigo aperta;reminders-reminders
 340;132;;technology/light/@state;bedroomportablelight;state;condition;equal;and;ON;bedroomportablelight-state
 341;132;;user/position/relativePosition/@typeOfProximity;relativeposition;typeofproximity;event;inside;rule;BEDROOM;relativeposition-typeofproximity
 342;132;;applianceState/Bedroom/allLight;bedroom;alllight;action;OPERATOR;sequential;invokeFunctions:changeApplianceState;bedroom-alllight
@@ -432,7 +432,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 430;159;;applianceState/LivingRoom/lightColor;livingroom;hue color light living room;action;OPERATOR;none;update:lightColor;livingroom-hue color light living room
 431;160;;technology/light/@state;bathroomlight;state;condition;equal;and;ON;bathroomlight-state
 432;160;;environment/dateTime/@localTime;datetime;localtime;condition;equal;rule;21:00;datetime-localtime
-433;160;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;"""Remember to turn off the bathroom light before going to sleep!""";reminders-reminders
+433;160;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;Remember to turn off the bathroom light before going to sleep!;reminders-reminders
 434;161;;environment/sensors/@motion;kitchen;motion;condition;equal;and;VALUE;kitchen-motion
 435;161;;environment/sensors/@gasSensor;kitchen;gassensor;event;equal;rule;VALUE;kitchen-gassensor
 436;161;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;"""Gas stove unattended, turn it off as soon as you can!""";reminders-reminders
@@ -1079,7 +1079,7 @@ id;rule_id;original_rule_id;xPath;parent;realName;ECA;operator;nextOperator;valu
 1077;362;;applianceState/Bedroom/lightColor;bedroom;hue color light bedroom;action;OPERATOR;NEXTOPERATOR;update:lightColor;bedroom-hue color light bedroom
 1078;363;;environment/home/@securityIntrusion;home;securityintrusion;condition;equal;and;VALUE;home-securityintrusion
 1079;363;;environment/sensors/@door;entrance;door;condition;equal;rule;OPEN;entrance-door
-1080;363;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;"""INTRUSIONE IN CORSO""";reminders-reminders
+1080;363;;xPath missing!!;reminders;reminders;action;OPERATOR;NEXTOPERATOR;INTRUSIONE IN CORSO;reminders-reminders
 1081;363;;applianceState/all/allLight;home;alllight;action;OPERATOR;NEXTOPERATOR;invokeFunctions:changeApplianceState;home-alllight
 1082;364;;user/alexaInput/@vocalSentence;test-user;vocalsentence;event;equal;and;Alexa, make coffee;test-user-vocalsentence
 1083;364;;technology/appliance/@state;coffee machine;state;condition;equal;rule;ON;coffee machine-state
