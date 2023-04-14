@@ -1,0 +1,736 @@
+;User;Rule Name;Goal;ECA;Environment;Object/service;Functionality;Operator;Value;Next Operator;Context
+0;1;Auto-flush;energy saving;evento;bathroom;toilet;rilevato movimento;uguale;TRUE;;
+1;1;Auto-flush;energy saving;azione;bathroom;toilet;sciacquone;uguale;TRUE;;
+2;1;Kitchen Safety;energy saving /security;condizione;kitchen;movimento;presenza;uguale;FALSE;;
+3;1;Kitchen Safety;energy saving /security;azione;kitchen;luce;si spegne;uguale;TRUE;AND;
+4;1;Kitchen Safety;energy saving /security;azione;kitchen;sistema di sicurezza;si accende;uguale;TRUE;;
+5;1;Wake up Buttercup;wellbeing/health;evento;bedroom;data e ora;orario;uguale;7.00am;AND;
+6;1;Wake up Buttercup;wellbeing/health;condizione;bedroom;movimento;rilevato movimento;per;piu di 15minuti;/;
+7;1;Wake up Buttercup;wellbeing/health;azione;bedroom;tapparelle;si aprono;uguale;TRUE;;
+8;1;Rainy day;comfort;condizione;no;meteo di domani;pioggia;uguale;TRUE;AND;
+9;1;Rainy day;comfort;condizione;no;calendario;evento per domani;uguale;TRUE;/;
+10;1;Rainy day;comfort;azione;home;tapparelle;impostare chiusura;uguale;ALLE *ORARIO IN CUI PIOVE*;AND;
+11;1;Rainy day;comfort;azione;no;SMS;avvertire sul mal tempo;uguale;INVIA;;
+12;1;Garage door;comfort;evento;garage;macchina;entra nel garage;uguale;TRUE;AND;
+13;1;Garage door;comfort;condizione;garage;movimento;assenza di movimento;per;10 SECONDI;/;
+14;1;Garage door;comfort;azione;garage;porta del garage;si chiude;uguale;TRUE;AND;
+15;1;Garage door;comfort;azione;garage;luci;si accendono;uguale;TRUE;;
+16;1;Lights off;energy saving;evento;living room;movimento;presenza;uguale;FALSE;AND;
+17;1;Lights off;energy saving;condizione;living room;movimento;assenza di movimento;per;5 MINUTI;AND;
+18;1;Lights off;energy saving;condizione;living room;TV e luci;accese;uguale;TRUE;;
+19;1;Lights off;energy saving;azione;living room;TV;spegnere;uguale;TRUE;AND;
+20;1;Lights off;energy saving;azione;living room;Luci;spegnere;uguale;TRUE;;
+21;2;notifica visita;security;evento;outside home;citofono;suonare ;uguale;TRUE;AND;
+22;2;notifica visita;security;condizione;home;posizione;posizione utente;uguale;fuori casa;;
+23;2;notifica visita;security;azione;no;avviso;manda notifica;uguale ;ON;;
+24;2;pacchetto del buongiorno;comfort;condizione;bathroom;Doccia ;Aperta;uguale;TRUE;AND;
+25;2;pacchetto del buongiorno;comfort;condizione;bathroom;Data e Ora;controllo orario;uguale ;tra le 07:00 e le 09:00;;
+26;2;pacchetto del buongiorno;comfort;azione;bathroom ;riscaldamento;attiva riscaldamento;uguale;ON;AND;
+27;2;pacchetto del buongiorno;comfort;azione;bathroom;ALEXA;Notizie del giorno ;uguale;ON;;
+28;2;GAME OVER ;wellbeing;condizione;dedicated room;Console;Accesa;uguale;TRUE;AND;
+29;2;GAME OVER ;wellbeing;condizione;dedicated room;Sensore VR;Indossato;uguale;TRUE;;
+30;2;GAME OVER ;wellbeing;azione;dedicated room;porta della stanza;Chiusura;uguale ;TRUE;AND;
+31;2;GAME OVER ;wellbeing;azione;dedicated room;Avviso ;avvisa l'utente ;uguale;dopo 2 ore;;
+32;2;Back to sci-fi;comfort;evento;dedicated room;porta della stanza;chiusa;uguale;TRUE;AND;
+33;2;Back to sci-fi;comfort;condizione;dedicated room;proiettore;accesso;uguale;TRUE;AND;
+34;2;Back to sci-fi;comfort;condizione;dedicated room;proiettore;proietta un film ;uguale;TRUE;;
+35;2;Back to sci-fi;comfort;azione;dedicated room;luci;spegnimento ;uguale ;TRUE;AND;
+36;2;Back to sci-fi;comfort;azione;dedicated room;cellulare;modalità silenziosa;uguale ;TRUE;;
+37;3;Aspiratore Cucina;wellbeing/comfort;evento;kitchen;movimento;rilevato uso piano cottura;uguale;TRUE;WHILE;
+38;3;Aspiratore Cucina;wellbeing/comfort;azione;kitchen;aspiratore piano cottura;accensione;uguale;TRUE;;
+39;3;Controllo Temperatura e Aria;health;condizione;home;misuratore temperatura;temperatura interna;minore uguale di ;17°;;
+40;3;Controllo Temperatura e Aria;health;azione;home;riscaldamenti;accensione/aumento calore;uguale;TRUE;AND;
+41;3;Controllo Temperatura e Aria;health;azione;home;misuratore qualità aria;controllo umidità;minore di ;35%;;
+42;3;Controllo Temperatura e Aria;health;azione;home;umidificatore;accensione;uguale;TRUE;;
+43;3;Robot Aspirapolvere;wellbeing/comfort;evento;home;pavimento;controllo umidità;minore uguale di;35%;AND;
+44;3;Robot Aspirapolvere;wellbeing/comfort;condizione;no;robot aspirapolvere;timer tempo in OFF;maggiore di;48h;;
+45;3;Robot Aspirapolvere;wellbeing/comfort;azione;home;robot aspirapolvere;accensione;uguale;TRUE;;
+46;3;Sistema Antifurto;security;condizione;outside home;telecamera e sensori;individua movimento;uguale;TRUE;AND;Dopo le 22:00
+47;3;Sistema Antifurto;security;condizione;outside home;telecamera e sensori;individua poss. intrusione;uguale;TRUE;;Dopo le 22:00
+48;3;Sistema Antifurto;security;azione;outside home;allarme antifuro;attivazione;uguale;TRUE;AND;Dopo le 22:00
+49;3;Sistema Antifurto;security;azione;no;telefono;notifica;utenti casa;"""ATTENZIONE TENTATA INTRUSIONE""";;Dopo le 22:00
+50;3;Festa in Casa;social;condizione;no;calendario;Festa in casa oggi;uguale;TRUE;AND;Contesto di festa
+51;3;Festa in Casa;social;evento;no;calendario;orario di inizio ;uguale;TRUE;;Contesto di festa
+52;3;Festa in Casa;social;azione;home;altoparlanti;riproduci playlist;uguale;TRUE;AND;Contesto di festa
+53;3;Festa in Casa;social;azione;home;luci;attiva luci dinamiche;uguale;TRUE;;Contesto di festa
+54;3;Riparo dal Maltempo;comfort;evento;outside home;Sensori;Individua pioggia;uguale;TRUE;AND;Pioggia
+55;3;Riparo dal Maltempo;comfort;condizione;home;tapparelle e finestre;non abbassate o chiuse;uguale;TRUE;OR;Pioggia
+56;3;Riparo dal Maltempo;comfort;condizione;outside home;stendino automatico;panni stesi fuori;uguale;TRUE;;Pioggia
+57;3;Riparo dal Maltempo;comfort;azione;home;tapparelle e finestre;chiusura tapparelle e finestre;uguale;TRUE;AND;Pioggia
+58;3;Riparo dal Maltempo;comfort;azione;outside home;stendino automatico;riporta in casa;uguale;TRUE;;Pioggia
+59;4;Musica durante la doccia ;wellbeing;evento;bathroom;movimento;rilevato movimento in doccia;uguale ;TRUE;/;
+60;4;Musica durante la doccia ;wellbeing;azione;bathroom;musica;attivazione ;uguale ;TRUE;/;
+61;4;Controllo alimenti ;comfort;evento;kitchen;frigo;rilevata presenza alimento;NOT;TRUE;/;
+62;4;Controllo alimenti ;comfort;azione ;no;telefono;invio notifica; /;VERO ;AND;
+63;4;Controllo alimenti ;comfort;azione ;kitchen;frigo;aggiungi alla lista della spesa;uguale ;VERO ;/;
+64;4;Panni stesi in veranda;comfort ;evento;veranda;stendino ;rilevata presenza panni stesi;uguale;TRUE;AND;
+65;4;Panni stesi in veranda;comfort ;condizione;no;meteo;bel tempo;uguale ;VERO ; /;
+66;4;Panni stesi in veranda;comfort ;azione ;veranda ;pergola;ritrazione ;uguale;OFF; /;
+67;4;Rilevare umidità e muffa;health;condizione;home ;rilevatore qualità aria ;rilevata presenza umidità ;maggiore ;60%;AND;
+68;4;Rilevare umidità e muffa;health;condizione;home ;rilevatore qualità aria ;rilevata presenza muffa;uguale;TRUE;/;
+69;4;Rilevare umidità e muffa;health;azione;home ;purificatore ;purificare aria;uguale;ora ;AND;
+70;4;Rilevare umidità e muffa;health;azione;no;telefono;notifica ;uguale;TRUE;/;
+71;4;Suonare il citofono quando non sono in casa;comfort/safety;evento ;no;posizione;posizione utente;uguale;ufficio ;AND;
+72;4;Suonare il citofono quando non sono in casa;comfort/safety;condizione ;entrance;citofono ;avviso ;uguale;TRUE;/;
+73;4;Suonare il citofono quando non sono in casa;comfort/safety;azione;no;telefono;notifica;uguale;TRUE;AND;
+74;4;Suonare il citofono quando non sono in casa;comfort/safety;azione;entrance;citofono ;riproduci msg audio;uguale;"""Sono in ufficio""";/;
+75;4;Relax serale ;comfort;evento;living room;divano ;rilevata presenza;uguale;TRUE;AND ;
+76;4;Relax serale ;comfort;condizione ;living room ;ebook ;utilizzo/lettura;uguale;TRUE;AND;
+77;4;Relax serale ;comfort;condizione;no;ora;orario ;dopo;22:00;/;
+78;4;Relax serale ;comfort;azione;living room;illuminazione;riduzione luminosità;uguale;BASSO;AND;
+79;4;Relax serale ;comfort;azione;living room;camino;attivazione;uguale;TRUE;AND;
+80;4;Relax serale ;comfort;azione;living room;divano ;attivazione massaggio;uguale;TRUE;/;
+81;5;Risparmio multipresa;energy saving;evento;home;multipresa elettrica;rilevazione stato inattivo;uguale;1 ora;/;
+82;5;Risparmio multipresa;energy saving;azione;home;multipresa elettrica;modalità ON/OFF;uguale;OFF;/;
+83;5;Ricambio sacchetto;comfort;evento;kitchen;contenitore spazzatura;rilevazione sacchetto ;not;TRUE;/;
+84;5;Ricambio sacchetto;comfort;azione;kitchen;igienizzatore;accensione ;uguale;ON;AND;
+85;5;Ricambio sacchetto;comfort;azione;kitchen;contenitore spazzatura;inserimento sacchetto;uguale;ON;/;
+86;5;Accensione scaldaletto;comfort;evento;no;data e ora;orario;uguale;0,875;AND;
+87;5;Accensione scaldaletto;comfort;condizione;home;termostato;temperatura;minore di;15°;/;
+88;5;Accensione scaldaletto;comfort;azione;bedroom;scaldaletto;accensione;uguale;ON;/;
+89;5;Ricordati di bere;health;condizione;no;misuratore idratazione;misurazione acqua;minore di ;1 litro;AND;
+90;5;Ricordati di bere;health;condizione;no;smartwatch;tempo di attività;maggiore di;6 ore;/;
+91;5;Ricordati di bere;health;azione;living room;Alexa;notifica vocale;/;"""Ricordati di bere""";AND;
+92;5;Ricordati di bere;health;azione;no;app telefono;notifica;/;"""Rischi della disidratazione""";/;
+93;5;Culla anticaduta;safety;evento;no;posizione;posizione utente;not;camera da letto;AND;
+94;5;Culla anticaduta;safety;condizione;kid room;sensore barre culla;rilevazione movimento;maggiore di;10 cm;/;
+95;5;Culla anticaduta;safety;azione;kid room;rete anticaduta culla;accensione;uguale;ON;AND;
+96;5;Culla anticaduta;safety;azione;living room;Alexa;notifica vocale;/;"""Pericolo culla""";/;
+97;5;Modalità lettura;wellbeing;evento;no;posizione;posizione utente;uguale;camera da letto;/;
+98;5;Modalità lettura;wellbeing;condizione;bedroom;Alexa;notifica vocale;uguale;"""modalità lettura""";OR;
+99;5;Modalità lettura;wellbeing;condizione;no;smartwatch;modalità lettura;uguale;ON;/;
+100;5;Modalità lettura;wellbeing;azione;bedroom;abat-jour;luminosità;uguale;2;AND;
+101;5;Modalità lettura;wellbeing;azione;no;smartphone;modalità non disturbare;uguale;ON;/;
+102;6;caffè al mattino;comfort;evento;bedroom;sveglia ;suonare;uguale;ON;;
+103;6;caffè al mattino;comfort;azione;kitchen;macchina del caffè;acceso/spento;uguale;ON;;
+104;6;controllo acquario;comfort/safety;condizione;living room;acquario;rileva temperatura acqua;minore;25;;
+105;6;controllo acquario;comfort/safety;azione;living room;riscaldatore;scalda l'acqua;uguale;25;AND;
+106;6;controllo acquario;comfort/safety;azione;no;telefono;notifica;/;"""temperatura acquario""";;
+107;6;pulizia pavimento;comfort;evento;no;data;tipo di giorno;uguale;festivo;AND;
+108;6;pulizia pavimento;comfort;condizione;home;rumba;acceso/spento;uguale;OFF;;
+109;6;pulizia pavimento;comfort;azione;home;rumba;acceso/spento;uguale;ON;;
+110;6;salvaguardia device;safety;condizione;no;sensore meteo;rilevamento meteo;uguale;temporale;AND;
+111;6;salvaguardia device;safety;condizione;home;televisione;acceso/spento;uguale;ON;;
+112;6;salvaguardia device;safety;azione;home;televisione;acceso/spento;uguale;OFF;AND;
+113;6;salvaguardia device;safety;azione;home;luci;acceso/spento;uguale;OFF;;
+114;6;riduci dispersione;energy saving;evento;home;finestra;aperto/chiuso;uguale;APERTO;AND;
+115;6;riduci dispersione;energy saving;condizione;home;riscaldamento;acceso/spento;uguale;ON;;
+116;6;riduci dispersione;energy saving;azione;home;riscaldamento;acceso/spento;uguale;OFF;AND;
+117;6;riduci dispersione;energy saving;azione;no;telefono;notifica;/;"""Riscaldamento spento""";;
+118;6;chiusura casa;security;evento;home;porta ingresso ;aperto/chiuso;uguale;chiuso;AND;
+119;6;chiusura casa;security;condizione;home;luci;acceso/spento;uguale;OFF;AND;
+120;6;chiusura casa;security;condizione;home;finestre;aperto/chiuso;uguale;chiuso;;
+121;6;chiusura casa;security;azione;home;allarme;acceso/spento;uguale;ON;AND;
+122;6;chiusura casa;security;azione;no;telefono;notifica;/;"""chiusura completa""";;
+123;7;Promemoria numero passi;wellbeing/health;evento;no;data e ora;orario;uguale;18.00;And;
+124;7;Promemoria numero passi;wellbeing/health;condizione;no;contapassi;rilevazione numero passi;minore di ;10.000;/;
+125;7;Promemoria numero passi;wellbeing/health;azione;no;smart watch;notifica scritta;uguale;n° passi mancanti;;
+126;7;Risparmio energia salotto;energy saving;condizione;living room;data e ora;intervallo di tempo;maggiore di;20 minuti;And;nessuno è in salotto da più di 20 minuti
+127;7;Risparmio energia salotto;energy saving;condizione;living room;sensore del soggiorno;presenza utente;uguale;FALSE;/;nessuno è in salotto da più di 20 minuti
+128;7;Risparmio energia salotto;energy saving;azione;living room;luce soggiorno;accensione;uguale;OFF;/;nessuno è in salotto da più di 20 minuti
+129;7;Risparmio energia salotto;energy saving;azione;living room;smart tv;accensione;uguale;OFF;/;nessuno è in salotto da più di 20 minuti
+130;7;Risparmio energia salotto;energy saving;azione;living room;smart tv;immagine sfondo;uguale;ON;;nessuno è in salotto da più di 20 minuti
+131;7;Aria condizionata;comfort;evento;home;termostato ;temperatura interna;maggiore di;24°;And;qualcuno è in casa e ci sono più di 24°
+132;7;Aria condizionata;comfort;condizione;home;sensore movimento;presenza utente;uguale;TRUE;/;qualcuno è in casa e ci sono più di 24°
+133;7;Aria condizionata;comfort;azione;home;condizionatore;accensione;uguale;ON;;qualcuno è in casa e ci sono più di 24°
+134;7;Pulizie settimanali;comfort;condizione;home;sensore movimento;presenza utente;uguale;FALSE;And;nessuno è in casa ed è domenica o giovedì
+135;7;Pulizie settimanali;comfort;condizione;no;data e ora;data;uguale;domenica OR giovedì;And;nessuno è in casa ed è domenica o giovedì
+136;7;Pulizie settimanali;comfort;azione;home;robot aspirapolvere;accensione;uguale;ON;/;nessuno è in casa ed è domenica o giovedì
+137;7;Pulizie settimanali;comfort;azione;bathroom;lavatrice;accensione;uguale;ON;;nessuno è in casa ed è domenica o giovedì
+138;7;Controllo citofono;security;evento;entrance;citofono;suono campanello;uguale;TRUE;And;nessuno è in casa e qualcuno suona al citofono
+139;7;Controllo citofono;security;condizione;home;sensore di movimento;presenza utente;uguale;FALSE;And;nessuno è in casa e qualcuno suona al citofono
+140;7;Controllo citofono;security;condizione;no;dispositivi mobili;modalità non disturbare;uguale;ON;/;nessuno è in casa e qualcuno suona al citofono
+141;7;Controllo citofono;security;azione;no;dispositivi mobili;mostra video citofono;uguale;ON;/;nessuno è in casa e qualcuno suona al citofono
+142;7;Controllo citofono;security;azione;entrance;display citofono;notifica;uguale;"""Nessuno è in casa""";;nessuno è in casa e qualcuno suona al citofono
+143;7;Controllo screen time bambini;wellbeing;evento;no;data e ora;ora;uguale;23.00;And;sono le 23 e i bambini hanno ancora i dispositivi accesi
+144;7;Controllo screen time bambini;wellbeing;condizione;no;dispositivi bambini;accensione;uguale;ON;/;sono le 23 e i bambini hanno ancora i dispositivi accesi
+145;7;Controllo screen time bambini;wellbeing;azione;kid room;luci;accensione;uguale;OFF;/;sono le 23 e i bambini hanno ancora i dispositivi accesi
+146;7;Controllo screen time bambini;wellbeing;azione;no;dispositivi bambini;notifica;uguale;"""E' ora di andare a dormire!""";;sono le 23 e i bambini hanno ancora i dispositivi accesi
+147;8;Promemoria medicina;wellbeing/health;condizione ;no;Data e ora ;orario;tra;19:00-20:00;;
+148;8;Promemoria medicina;wellbeing/health;azione;bedroom;alexa;notifica vocale;/;"""Prendi la Medicina""";;
+149;8;Robot pulizie;comfort;evento;home;movimento;rilevato movimento;uguale;                        FALSO;;
+150;8;Robot pulizie;comfort;azione;living room;robot pulizie;accensione;uguale;ON;;
+151;8;Robot pulizie;comfort;azione;home;Luci;accensione;uguale;OFF;;
+152;8;Controllo Frigo;energy saving;evento;kitchen;Frigo;Rilevata apertura frigo;uguale;                        VERO;and;
+153;8;Controllo Frigo;energy saving;condizione ;kitchen;Data e ora ;Tempo frigo aperto;uguale;180 secondi;;
+154;8;Controllo Frigo;energy saving;azione;kitchen;frigo;chiusura frigo;uguale;TRUE;;
+155;8;Distributore cibo per animali;comfort;condizione ;no;Data e ora;Orario;uguale;                        13:00;and;
+156;8;Distributore cibo per animali;comfort;condizione ;kitchen;Sensore distributore;presenza scatoletta;uguale;TRUE;;
+157;8;Distributore cibo per animali;comfort;azione;kitchen;Distributore;Apri scatola;uguale;TRUE;;
+158;8;Distributore cibo per animali;comfort;azione;kitchen;Distributore;Rilascia contenuto scatola;uguale;TRUE;;
+159;8;Culla automatica;comfort/safety;evento;kid room;Culla;Rilevata presenza bambino;uguale;TRUE;and;
+160;8;Culla automatica;comfort/safety;condizione ;kid room;Sensore rumore;rilevato rumore;maggiore di;100 decibel;;
+161;8;Culla automatica;comfort/safety;azione;kid room;Culla;ondula culla;uguale;TRUE;;
+162;8;Culla automatica;comfort/safety;azione;kid room;Cam;accensione;uguale;ON;;
+163;8;Ventilazione automatica;safety;evento;kitchen;Fornello;Rilevata accensione fornelli;uguale;TRUE;and;
+164;8;Ventilazione automatica;safety;condizione ;kitchen;Rilevatore fumo;Rilevata quantità nerofumo;uguale;TRUE;and;
+165;8;Ventilazione automatica;safety;condizione ;kitchen;Rilevatore gas;Rilevata quantità di gas nell'aria;maggiore di;0,0008;;
+166;8;Ventilazione automatica;safety;azione;kitchen;Ventola;accendi/spegni;uguale;accendi;;
+167;8;Ventilazione automatica;safety;azione;kitchen;Fornello;accendi/spegni;uguale;spegni;;
+168;8;Ventilazione automatica;safety;azione;kitchen;Finestra;apri/chiudi;uguale;apri;;
+169;9;Piscina;comfort;evento;outside home;Sensori ;Rileva temporale;Uguale;TRUE;;
+170;9;Piscina;comfort;azione;garden;Copertura piscina;Attivo/spento;uguale;Attivo;;
+171;9;Promemoria medicina;health;condizione;home;data e ora;orario;Tra;08:00 - 09:00;;
+172;9;Promemoria medicina;health;azione;no;Smartwatch;Controlla medicina;uguale;prendi la medicina;And;
+173;9;Promemoria medicina;health;azione;no;Smartwatch;Verifica conferma lettura;uguale;Nessuna conferma di lettura;;
+174;9;Promemoria medicina;health;azione;no;Casse bluetooth;Notifica vocale;Uguale;Prendere la medicina;;
+175;9;Smart TV;energy saving;evento;bedroom;Tv;Accesa;uguale;TRUE;And;
+176;9;Smart TV;energy saving;condizione;bedroom;sensore tv;Non rivela nessun utente;Maggiore di;30m;;
+177;9;Smart TV;energy saving;azione;bedroom;Tv;spegni;;;;
+178;9;Sveglia;comfort;condizione;bedroom;Calendario;Data;uguale;Lunedì e martedì;And;
+179;9;Sveglia;comfort;condizione ;bedroom;Sveglia;orario;uguale;07:30;;
+180;9;Sveglia;comfort;azione;bedroom;Tapparelle;Aperta;/;/;And;
+181;9;Sveglia;comfort;azione;kitchen;Macchinetta caffè;Accesa;/;/;;
+182;9;Luci dambiente e accensione forno;social;evento;no;Ora;Orario;uguale;20:00;;Quando l'utente organizza cena tra amici
+183;9;Luci dambiente e accensione forno;social;condizione;no;ora;Orario;uguale;19:30;;Quando l'utente organizza cena tra amici
+184;9;Luci dambiente e accensione forno;social;azione;kitchen;Forno;Acceso;/;/;And;Quando l'utente organizza cena tra amici
+185;9;Luci dambiente e accensione forno;social;azione;living room;Luci soffuse;Accese;;;;Quando l'utente organizza cena tra amici
+186;9;Focus per studio;organizing;evento;no;Agenda smartphone;Modalità studio;uguale;TRUE;;Quando lutente studia
+187;9;Focus per studio;organizing;Condizione;bedroom;TV;Accesa/spenta;Uguale;Accesa;OR;Quando lutente studia
+188;9;Focus per studio;organizing;Condizione;no;Smartphone;Acceso/stan-by;Uguale;Acceso;;Quando lutente studia
+189;9;Focus per studio;organizing;Azione;bedroom;TV;Accesa/spenta;uguale;Spenta;And;Quando lutente studia
+190;9;Focus per studio;organizing;Azione;no;Smartphone;Acceso/stan-by;Uguale;Stand-by;;Quando lutente studia
+191;10;Lavaggio terminato;comfort;evento;bathroom;lavatrice;inzia/termina;uguale;termina;/;
+192;10;Lavaggio terminato;comfort;azione;no;telefono;notifica;/;"""lavaggio terminato""";/;
+193;10;Lampadina non funzionante;comfort;condizione;home;lampadina;funziona;uguale;FALSE;;
+194;10;Lampadina non funzionante;comfort;azione;no;Amazon;carrello;uguale;acquista;;
+195;10;Lampadina non funzionante;comfort;azione;no;calendario;promemoria;uguale;"""consegna lampadina""";;
+196;10;Persona al portone quando non ci sono;security;evento;entrance;campanello;suona;uguale ;TRUE;and;
+197;10;Persona al portone quando non ci sono;security;condizione;no;posizione;posizione utente;uguale;non a casa;;
+198;10;Persona al portone quando non ci sono;security;azione;no;telefono;Videocamera di sicurezza;/;invia fotogramma;;
+199;10;Temperatura bassa;comfort;condizione;home;termostato;temperatura interna;minore di ;18°C;and;
+200;10;Temperatura bassa;comfort;condizione;home;posizione;posizione utente;uguale;non a casa;;
+201;10;Temperatura bassa;comfort;azione;home;finestre;apri/chiudi;uguale;chiudi;;
+202;10;Temperatura bassa;comfort;azione;home;termosifoni;accensione;uguale;TRUE;;
+203;10;cane in giardino con irrigatori ;comfort;condizione;garden;irrigatori;accesi/spenti;uguale;accesi;and;
+204;10;cane in giardino con irrigatori ;comfort;evento;garden;posizione;posizione cane;uguale;giardino;;
+205;10;cane in giardino con irrigatori ;comfort;azione;garden;irrigatori;spegnimento;uguale;TRUE;;
+206;10;cane in giardino con irrigatori ;comfort;azione;garden;porta;apri/chiudi;uguale;chiudi;;
+207;10;Movimento in giardino;security;condizione;garden;movimento;rilevato movimento;uguale;TRUE;and;
+208;10;Movimento in giardino;security;condizione;no;data e ora;orario;tra;23:00-07:00;and;
+209;10;Movimento in giardino;security;condizione;no;posizione;posizione utente;uguale;non a casa;;
+210;10;Movimento in giardino;security;azione;garden;luce;accensione;uguale;TRUE;;
+211;10;Movimento in giardino;security;azione;no;telefono;videocamera di sicurezza;/;invia video;;
+212;11;Apertura senza chiavi;comfort;evento;entrance;riconoscimento tramite cellulare;rilevato dispositivo;uguale;TRUE;;
+213;11;Apertura senza chiavi;comfort;condizione;no;sensore porta;presenza;uguale;TRUE;and;
+214;11;Apertura senza chiavi;comfort;azione;entrance;si apre ;non ho chiavi;uguale;APRI;;
+215;11;Video e Sensori se non in casa;security;evento;home;sensore movimento;accensione;uguale;TRUE;and;
+216;11;Video e Sensori se non in casa;security;condizione;outside home;movimento;rileva movimento;uguale;TRUE;and;
+217;11;Video e Sensori se non in casa;security;azione;home;videocamere;accensione;uguale;ON;and;
+218;11;Video e Sensori se non in casa;security;azione;home;videocamere;notifica via sms;/;"""Movimento NON riconosciuto""";;
+219;11;Interrompi caricamento  se 100%;energy saving;evento;home;presa corrente;oggetto in carica;uguale;TRUE;;
+220;11;Interrompi caricamento  se 100%;energy saving;condizione;home;presa corrente;oggetto carico;uguale ;1;;
+221;11;Interrompi caricamento  se 100%;energy saving;azione;home;presa corrente;spegni;uguale;OFF;;
+222;11;Musica in doccia;wellbeing;evento;bathroom;sensore movimento;presenza;uguale;TRUE;and;
+223;11;Musica in doccia;wellbeing;condizione;bathroom;sensore acqua;apertura ;uguale;APRI;and;
+224;11;Musica in doccia;wellbeing;condizione;bathroom;sensore posizione;presenza;uguale;TRUE;and;
+225;11;Musica in doccia;wellbeing;azione;bathroom;radio;accensione;uguale;ON;;
+226;11;Bagno occupato;wellbeing;condizione;bathroom;sensore movimento;presenza;uguale;TRUE;and;
+227;11;Bagno occupato;wellbeing;condizione;bathroom;sensore chiusura;rilevata chiusura;uguale;TRUE;and;
+228;11;Bagno occupato;wellbeing;azione;bathroom;schermo/interrutore;accensione occupato;uguale ;ON;and;
+229;11;Bagno occupato;wellbeing;azione;bathroom;scaldino;accensione;minore di;15 gradi;;
+230;11;Ricette frigo;health/wellbeing;evento;kitchen;sensore apertura ;frigo;uguale;TRUE;;
+231;11;Ricette frigo;health/wellbeing;condizione;kitchen;sensore ripiano;frigo;uguale;TRUE;and;
+232;11;Ricette frigo;health/wellbeing;condizione;kitchen;sensore lettura;alimenti;uguale;TRUE;;
+233;11;Ricette frigo;health/wellbeing;azione;kitchen;schermo frigo;ricetta;/;"""Ricetta creata""";;
+234;11;Ricette frigo;health/wellbeing;azione;kitchen;cellulare;messaggio ;/;"""Nuova ricetta creata""";;
+235;12;Vestiti asciutti;comfort;evento;no;meteo;pioggia;uguale;TRUE;/;
+236;12;Vestiti asciutti;comfort;azione;outside home;stendibiancheria;apri/chiudi;uguale;                          CHIUSO;/;
+237;12;Aria calda;comfort/security;evento;bathroom;radiatore;accensione;uguale;FALSE;And;
+238;12;Aria calda;comfort/security;azione;bathroom;caldaia;reset;uguale;TRUE;/;
+239;12;Aria calda;comfort/security;azione;bathroom;acqua;aumenta di pressione ;uguale;TRUE;/;
+240;12;Pollice verde;energy saving;evento;garden;sensore igrometrico;rilevazione scarsa umidità;uguale;TRUE;And;
+241;12;Pollice verde;energy saving;condizione;no;ora;orario;tra;10:00 - 14:00;And;
+242;12;Pollice verde;energy saving;azione;garden;innaffiamento;attiva / disattiva;uguale;TRUE;/;
+243;12;Relax in casa;comfort/wellbeing;condizione;no;luce ;presenza;uguale;TRUE;And;
+244;12;Relax in casa;comfort/wellbeing;condizione;no;posizione;posizione utente ;uguale;TRUE;And;
+245;12;Relax in casa;comfort/wellbeing;azione;current room;avvolgibile;solleva / abbassa;uguale;TRUE;/;
+246;12;Relax in casa;comfort/wellbeing;azione;current room;tenda ;apri/chiudi;uguale;                          CHIUSO;/;
+247;12;Preallarme;security;evento;entrance;porta di casa ;apertura / chiusura;uguale;TRUE;And;
+248;12;Preallarme;security;condizione;home;utente;rilevamento utente;uguale;TRUE;And;
+249;12;Preallarme;security;azione;no;sms;invio;uguale;TRUE;/;
+250;12;Preallarme;security;azione;no;preallarme;attiva/disattiva;uguale;TRUE;/;
+251;12;Il caffè del mattino;comfort/health;evento;bedroom;sensore di presenza a letto;rilevazione utente ;uguale;TRUE;And;
+252;12;Il caffè del mattino;comfort/health;condizione;no;ora;orario;tra;7:30-8:30;And;
+253;12;Il caffè del mattino;comfort/health;condizione;no;smart watch;rilevazione battito cardiaco;tra;60-80;/;
+254;12;Il caffè del mattino;comfort/health;azione;kitchen;macchina del caffè;accensione / spegnimento;uguale;TRUE;And;
+255;12;Il caffè del mattino;comfort/health;azione;kitchen;avvolgibile;solleva / abbassa;uguale;TRUE;/;
+256;13;Letto riscaldato;comfort;evento;no;data e ora;orario;uguale;20:00;/;
+257;13;Letto riscaldato;comfort;azione;bedroom;scaldasonno;accensione;uguale;VERO;/;
+258;13;Piante innaffiate;comfort;evento;garden;sensore;rilevatore movimento;NOT;VERO;/;
+259;13;Piante innaffiate;comfort;azione;garden;irrigatore;accensione;uguale;ON;And;
+260;13;Piante innaffiate;comfort;azione;no;telefono;invio notifica;uguale;"""Irrigatore attivato""";/;
+261;13;Vapore in cucina;comfort;evento;kitchen;umidità;misuratore umidità;uguale;0,7;And;
+262;13;Vapore in cucina;comfort;condizione;kitchen;finestra;apri/chiudi;uguale;        CHIUDI;/;
+263;13;Vapore in cucina;comfort;azione;kitchen;vortice;accensione;uguale;ON;/;
+264;13;Aria viziata;wellbeing;condizione;kitchen;pattumiera;rilevata piena;uguale;VERO;And;
+265;13;Aria viziata;wellbeing;condizione;kitchen;finestra;apri/chiudi;uguale;CHIUDI;/;
+266;13;Aria viziata;wellbeing;azione;home;profumatore ambiente;accensione;uguale;ON;And;
+267;13;Aria viziata;wellbeing;azione;no;telefono;invio notifica;uguale;"""Urge buttare la spazzatura""";/;
+268;13;Illuminazione crepuscolo;comfort/energy saving;evento;outside home;movimento;rilevato movimento;uguale;VERO;And;
+269;13;Illuminazione crepuscolo;comfort/energy saving;condizione;no;data e ora ;orario;tra;18:00 - 19:00;/;
+270;13;Illuminazione crepuscolo;comfort/energy saving;azione;outside home;contapassi;accensione;uguale;ON;And;
+271;13;Illuminazione crepuscolo;comfort/energy saving;azione;veranda;luci;accensione;uguale;ON;/;
+272;13;Pulizie settimanali;comfort/energy saving;evento;no;data e ora;orario;uguale;09:00;And;
+273;13;Pulizie settimanali;comfort/energy saving;condizione;home;sensore movimento;presenza;uguale;FALSO;/;
+274;13;Pulizie settimanali;comfort/energy saving;condizione;no;data e ora;tipo di giorno;uguale;festivo;And;
+275;13;Pulizie settimanali;comfort/energy saving;azione;living room;robottino;accensione;uguale;ON;And;
+276;13;Pulizie settimanali;comfort/energy saving;azione;dedicated room;lavatrice;accensione;uguale;ON;/;
+277;14;Posta Ricevuta;comfort;condizione;outside home;sensore cassetta posta;rileva peso contenuto;Maggiore;0;;
+278;14;Posta Ricevuta;comfort;azione;home;lampadina notifica;accensione;Uguale;ON;;
+279;14;Allarme Gatto ;safety;condizione;home;videocamere;rileva presenza gatto;uguale;FALSE;;
+280;14;Allarme Gatto ;safety;azione;no;collare gatto;avviso sonoro;uguale;ON;AND;
+281;14;Allarme Gatto ;safety;azione;no;telefono;notifica;/;"""Posizione collare GPS""";;
+282;14;Controllo Chiavi;comfort/safety;evento;home; porta ingresso;apri / chiudi (dall'interno);uguale;APRI;AND;
+283;14;Controllo Chiavi;comfort/safety;condizione;no;lettore RFID porta;rileva portachiavi RFID;uguale;FALSE;;
+284;14;Controllo Chiavi;comfort/safety;azione;home;citofono interno;notifica vocale;;"""Ricordati le chiavi!""";;
+285;14;Annaffia piante casa;comfort;condizione;veranda;sensore umidità vaso;rileva umidità terreno;minore;0,6;AND;
+286;14;Annaffia piante casa;comfort;condizione;no;data e ora;orario;tra;20:00 - 6:00;;
+287;14;Annaffia piante casa;comfort;azione;veranda;lampada UV;accensione;uguale;OFF;AND;
+288;14;Annaffia piante casa;comfort;azione;veranda;irrigatore automatico;accensione;uguale;ON;;
+289;14;chiamata emergenza automatica;safety;evento;home;allarme antincendio;accensione;uguale;TRUE;OR;
+290;14;chiamata emergenza automatica;safety;condizione;home;impianto elettrico;accensione;uguale;OFF;;
+291;14;chiamata emergenza automatica;safety;azione;home;luci ausiliare;accensione;uguale;ON;AND;
+292;14;chiamata emergenza automatica;safety;azione;no;telefono;avvia chiamata di emergenza;uguale;ON;;
+293;14;Controllo perdite acqua;energy saving;evento;kitchen;rubinetto;aperto/chiuso;uguale;CHIUSO;AND;
+294;14;Controllo perdite acqua;energy saving;condizione;home;rubinetti;aperti/chiusi;uguale;CHIUSI;AND;
+295;14;Controllo perdite acqua;energy saving;condizione;home;contatore acqua;conteggio consumo;uguale;ON;;
+296;14;Controllo perdite acqua;energy saving;azione;home;impianto idrico;chiuso/aperto;uguale;CHIUSO;AND;
+297;14;Controllo perdite acqua;energy saving;azione;no;telefono;notifica;/;"""Rilevata possibile perdita!""";;
+298;15;easy coffee;comfort;condizione ;no;data e ora ;orario ;uguale;08:00;;
+299;15;easy coffee;comfort;azione;kitchen ;caffettiera ;accesa ;uguale;TRUE;;
+300;15;Spia fornelli;safety;condizione;kitchen;fornello;acceso/spento ;uguale;acceso ;AND ;
+301;15;Spia fornelli;safety;condizione;kitchen;sensore di movimento;presenza;uguale;FALSE;;
+302;15;Spia fornelli;safety;azione;no;telefono;notifica;/;"""ATTENZIONE fornello acceso""";;
+303;15;Spia fornelli;safety;azione;kitchen ;fornello ;acceso/ spento ;uguale;spento ;;
+304;15;tepore post doccia ;comfort;evento  ;bathroom ;doccia ;accesa ;NOT;TRUE;;
+305;15;tepore post doccia ;comfort;azione ;bedroom;stufa ;accesa/spenta;uguale ;accesa;;
+306;15;tepore post doccia ;comfort;azione ;bedroom;stufa ;temperatura ;uguale;25°;;
+307;15;smart T-paper ;comfort;evento;bathroom ;tavoletta wc ;su/giù ;uguale ;giù;AND;
+308;15;smart T-paper ;comfort;condizione;bathroom ;carta igenica;full/empty ;uguale ;empty ;;
+309;15;smart T-paper ;comfort;azione;bathroom ;speaker ;notifica ;/;"""carta finita""";;
+310;15;Mantieni temperatura ;wellbeing/health;evento;living room;termometro camino;temperatura ;minore ;200° ;AND;
+311;15;Mantieni temperatura ;wellbeing/health;condizione;no;meteo ;temperatura esterna ;minore ;15°;AND;
+312;15;Mantieni temperatura ;wellbeing/health;condizione;home ;termometro casa;temperatura ;minore ;19°;;
+313;15;Mantieni temperatura ;wellbeing/health;azione;no;telefono ;notifica;/;"""il camino sta per spengersi""";;
+314;15;Mantieni temperatura ;wellbeing/health;azione ;home ;riscaldamento ;acceso/spento ;uguale ;acceso ;;
+315;15;citofono smart ;security;evento;entrance;campanello ;suona;uguale ;TRUE;AND;
+316;15;citofono smart ;security;condizione;home ;sensore di movimento ;presenza ;uguale ;FALSE;;
+317;15;citofono smart ;security;azione;no;telefono ;notifica ;/ ;"""qualcuno sta suonado il campanello""";;
+318;15;citofono smart ;security;azione;entrance;speaker campanello ;notifica ;;"""al momento nessuno può aprire""";;
+319;16;Frigo aperto;energy saving;condizione;kitchen;frigorifero;Rileva apertura porta frigo;uguale;TRUE;;
+320;16;Frigo aperto;energy saving;azione;no;cellulare;messaggio;/;"""Chiudi il frigo""";;
+321;16;Persiane aperte;security;condizione;home;persiane;rilevare apertura persiane;uguale;FALSE;;Quando non c'è nessuno in casa
+322;16;Persiane aperte;security;azione;home;Alexa;promemoria;uguale;"""Chiudi le persiane""";AND;Quando non c'è nessuno in casa
+323;16;Persiane aperte;security;azione;home;allarme;avviso sonoro;uguale;ON;;Quando non c'è nessuno in casa
+324;16;Condizionatore;safety;evento;home ;finestra (sensore);rileva vicinanza bambino;uguale;TRUE;AND;
+325;16;Condizionatore;safety;condizione;home ;finestra;rileva apertura;uguale;TRUE;;
+326;16;Condizionatore;safety;azione;home ;finestra;chiusura finestra;uguale;OFF;;
+327;16;TV accesa;comfort;condizione;living room;TV;rileva accensione TV;uguale;ON;AND;
+328;16;TV accesa;comfort;condizione;living room;orario;rileva orario;maggiore o uguale;>= 23:30;;
+329;16;TV accesa;comfort;azione;living room;TV;spegni TV;uguale;OFF;AND;
+330;16;TV accesa;comfort;azione;home;Alexa;messaggio vocale;/;"""Vai a dormire""";;
+331;16;Ordini Amazon;comfort;evento;no;corriere;rileva vicinanza corriere;uguale;TRUE;AND;Quando c'è qualcuno in casa
+332;16;Ordini Amazon;comfort;condizione;no;ordine;rileva ordine ;uguale;TRUE;;Quando c'è qualcuno in casa
+333;16;Ordini Amazon;comfort;azione;outside home;cancello;apri cancello;uguale;ON;AND;Quando c'è qualcuno in casa
+334;16;Ordini Amazon;comfort;azione;no;cellulare;invia messaggio;/;"""ordine in arrivo""";;Quando c'è qualcuno in casa
+335;16;Spazio esterno;energy saving/comfort;evento;garden;sensore di movimento;rileva persone;uguale;FALSE;AND;Se non c'è nessuno in giardino
+336;16;Spazio esterno;energy saving/comfort;condizione;no;stagione;stagione;uguale;TRUE;AND;Se non c'è nessuno in giardino
+337;16;Spazio esterno;energy saving/comfort;condizione;garden;orario;orario;compreso;22:00- 00:00;;Se non c'è nessuno in giardino
+338;16;Spazio esterno;energy saving/comfort;azione;garden;irrigatore;attiva l'irrigatore;uguale;ON;AND;Se non c'è nessuno in giardino
+339;16;Spazio esterno;energy saving/comfort;azione;garden;luci;accendere le luci;uguale;ON;;Se non c'è nessuno in giardino
+340;17;Stop musica;energy saving;condizione ;home;movimento;rilevato movimento;uguale;TRUE;AND;
+341;17;Stop musica;energy saving;azione;home;infrarossi porta ;spegnimento;uguale;Porta chiusa;/;
+342;17;Ciotola mai vuota;comfort/wellbeing;evento;no;Sensore di movimento;annusare;uguale;TRUE;NOT;
+343;17;Ciotola mai vuota;comfort/wellbeing;condizione ;no;sensore di livello;livello ciotola;uguale;piena;And;
+344;17;Ciotola mai vuota;comfort/wellbeing;condizione;no;ora;tipo di ora;uguale;selezione utente;;
+345;17;Ciotola mai vuota;comfort/wellbeing;azione;no;ciotola;riempimento;uguale;MAX ;;
+346;17;scale anziani;health/wellbeing;evento;home ;posizione ;posizione utente;uguale;montascale;and;
+347;17;scale anziani;health/wellbeing;condizione;home ;rilevatore di pressione ;rilevamento pressione;uguale;TRUE;/;
+348;17;scale anziani;health/wellbeing;Azione;no;montascale;notifica sonora;uguale;"""Salve""";and;
+349;17;scale anziani;health/wellbeing;azione;home ;montascale;salita;uguale;TRUE;OR;
+350;17;scale anziani;health/wellbeing;azione;home;montascale;discesa;uguale;TRUE;;
+351;17;Butta rifiuti;comfort;condizione ;home ;rilevatore di livello;livello contenitore;uguale;pieno;And;
+352;17;Butta rifiuti;comfort;condizione ;no;data;Giorno di raccolta;uguale;"""domani""";/;
+353;17;Butta rifiuti;comfort;azione;no;cellulare;messaggio;uguale;data giorno successivo;And;
+354;17;Butta rifiuti;comfort;azione;no;cellulare;notifica sonora;uguale;TRUE;;
+355;17;agenda allenamenti;health/wellbeing;evento;home ;bilancia impedenziometrica;pesare ;uguale;TRUE;AND;
+356;17;agenda allenamenti;health/wellbeing;condizione ;home ;salute;pesare ;minore di ;soglia;/;
+357;17;agenda allenamenti;health/wellbeing;azione;no;cellulare;programma di allenamento;uguale;TRUE;and;
+358;17;agenda allenamenti;health/wellbeing;azione ;no;cellulare;SMS;uguale;TRUE;and;
+359;17;agenda allenamenti;health/wellbeing;azione ;no;cellulare;agenda allenamenti;uguale;TRUE;;
+360;17;Benessere del neonato;safety/wellbeing;evento;kid room;sensore sonoro;rilevamento sonoro;uguale;TRUE;AND;
+361;17;Benessere del neonato;safety/wellbeing;evento;kid room;termostato;rilevamento temperatura;minore di ;TRUE;and;
+362;17;Benessere del neonato;safety/wellbeing;condizione ;kid room;temperatura notte;rilevamento temperatura;minore di ;18°;OR;
+363;17;Benessere del neonato;safety/wellbeing;condizione ;kid room;temperatura giorno;rilevamento temperatura;minore di ;20°;and;
+364;17;Benessere del neonato;safety/wellbeing;condizione ;kid room;neonato che piange;rilevamento pianto;uguale;TRUE;/;
+365;17;Benessere del neonato;safety/wellbeing;azione ;kid room;termostato;regolazione termostato;maggiore di ;21°;AND;
+366;17;Benessere del neonato;safety/wellbeing;azione ;kid room;giostra neonato;movimento giostra sonora;uguale ;TRUE;;
+367;18;Sveglia;comfort;condizione;no;data e ora;orario;uguale;07:00;/;
+368;18;Sveglia;comfort;azione;bedroom;sveglia;accensione;uguale;TRUE;;
+369;18;Chiusura finestre e spegnimento;energy saving;condizione;home;presenza;rivelata presenza;uguale;FALSE;/;
+370;18;Chiusura finestre e spegnimento;energy saving;azione;home;luce;accensione;uguale;FALSE;And;
+371;18;Chiusura finestre e spegnimento;energy saving;azione;home;tapparella;apri/chiudi;uguale;CHIUDI;;
+372;18; Accensione forno pranzo;comfort;evento;kitchen;movimento;rilevato movimento;uguale;TRUE;And;
+373;18; Accensione forno pranzo;comfort;condizione;no;data e ora;orario;tra;12:00 -14:00;/;
+374;18; Accensione forno pranzo;comfort;azione;kitchen;forno;accensione;uguale;TRUE;;
+375;18;Accensione termosifoni sera;comfort/health;condizione;bedroom;data e ora;orario;tra;18:00 - 23:00;And;
+376;18;Accensione termosifoni sera;comfort/health;condizione;bedroom;termostato;temperatura interna;minore di;17;/;
+377;18;Accensione termosifoni sera;comfort/health;azione;bedroom;termosifone;accensione;uguale;TRUE;And;
+378;18;Accensione termosifoni sera;comfort/health;azione;bedroom;luce;accensione;uguale;TRUE;;
+379;18;Doccia mattino;comfort;condizione ;no;data e ora;orario;tra;7:00/8:00;And;
+380;18;Doccia mattino;comfort;evento;bathroom;movimento;rilevato movimento;uguale;TRUE;/;
+381;18;Doccia mattino;comfort;azione;bathroom;rubinetto vasca;apri/chiudi;uguale;APRI;And;
+382;18;Doccia mattino;comfort;azione;bathroom;luce;accensione;uguale;TRUE;;
+383;18;Cena inverno;comfort/health;evento;kitchen;movimento;rilevato movimento;uguale;TRUE;And;
+384;18;Cena inverno;comfort/health;condizione;no;data e ora;orario;tra;20:00 - 23:00;And;
+385;18;Cena inverno;comfort/health;condizione;kitchen;termostato;temperatura interna;minore di;17;/;
+386;18;Cena inverno;comfort/health;azione;kitchen;forno;accensione;uguale;TRUE;And;
+387;18;Cena inverno;comfort/health;azione;kitchen;termosifone;accensione;uguale;TRUE;And;
+388;18;Cena inverno;comfort/health;azione;kitchen;luce;accensione;uguale ;TRUE;;
+389;19;Serbatoio Pellet Vuoto;organizing/comfort;condizione;living room;sensore stufa a pellet;rileva peso ;minore;2;;Solo mesi invernali
+390;19;Serbatoio Pellet Vuoto;organizing/comfort;azione;no;telefono;notifica;/;"""Serbatoio da ricaricare""";;Solo mesi invernali
+391;19;Pressione Caldaia;safety;condizione;bathroom;caldaia;rileva pressione;NOT;;;
+392;19;Pressione Caldaia;safety;azione;bathroom;caldaia;apertura del vaso di espansione;uguale;ON;;
+393;19;Pressione Caldaia;safety;azione;living room;quadro elettrico;elettricità bagno;uguale;OFF;;
+394;19;Prima lo Studio;organizing;evento;kid room;playstation;acceso / spento;uguale;ACCESO;AND;Periodo Scolastico
+395;19;Prima lo Studio;organizing;condizione;no;orologio;rileva orario;tra;14:00/18:00;;Periodo Scolastico
+396;19;Prima lo Studio;organizing;azione;kid room;Alexa;notifica vocale;;"""Sei sicur*? Fossi in te studierei prima...""";;Periodo Scolastico
+397;19;Spillatore Birra Personale;comfort;condizione;kitchen;spillatore birra;rileva contenuto;minore;0,5;AND;
+398;19;Spillatore Birra Personale;comfort;condizione;no;riserva birra;quantità;minore;2;;
+399;19;Spillatore Birra Personale;comfort;azione;no;Google Home;"aggiungi a ""lista spesa""";/;"""Ricarica Birra""";AND;
+400;19;Spillatore Birra Personale;comfort;azione;no;telefono;notifica;/;"""Aggiunta 'Ricarica Birra' alla lista della spesa di Google""";;
+401;19;Ciotola Smart;comfort;evento;no;ciotola cibo cane;premi bottone cibo;uguale;ON;AND;
+402;19;Ciotola Smart;comfort;condizione;no;ciotola cibo cane;contatore cibo;minore;3;;
+403;19;Ciotola Smart;comfort;azione;no;altoparlate ciototla;notifica vocale;/;"""Bravo""";AND;
+404;19;Ciotola Smart;comfort;azione;no;ciotola cibo cane;rilascia una porzione di cibo;uguale;ON;;
+405;19;Garage Intelligente;organizing/comfort;evento;outside home;sensore di prossimità;rileva macchina;uguale;TRUE;AND;
+406;19;Garage Intelligente;organizing/comfort;condizione;outside home;lettore infrarossi cancello;rileva segnale chiavi auto;uguale;TRUE;OR;
+407;19;Garage Intelligente;organizing/comfort;condizione;outside home;telecamera intelligente cancello;lege targa;uguale;TRUE;;
+408;19;Garage Intelligente;organizing/comfort;azione;garage;cancello;apri/chiudi;uguale;APRI;AND;
+409;19;Garage Intelligente;organizing/comfort;azione;garage;luci;accendi;uguale;ON;;
+410;20;1- Accensione cappa;comfort;evento;kitchen;movimento;rilevazione uso piano cottura;uguale;TRUE;WHILE;
+411;20;1- Accensione cappa;comfort;azione;kitchen;aspirazione;attivazione cappa;uguale;TRUE;/;
+412;20;2- Sveglia;wellbeing;evento;bedroom;sveglia;suonare;uguale;ON;/;
+413;20;2- Sveglia;wellbeing;azione;bedroom;tapparelle;alzare;uguale;ON;AND;
+414;20;2- Sveglia;wellbeing;azione;bedroom;illuminazione;accensione;uguale;ON;;
+415;20;3-Umidificazione terreno;organizing/comfort;evento;living room;umidificatore;accensione;uguale;ON;And;
+416;20;3-Umidificazione terreno;organizing/comfort;condizione;living room;umidificatore;rilevamento livello umiità;minore di ;20%;;
+417;20;3-Umidificazione terreno;organizing/comfort;azione;living room;irrigazione piante vaso;accensione;uguale;ON;;
+418;20;4- Cibo e acqua gatto;comfort/wellbeing;condizione;kitchen;sensore presenza;rilevamento presenza ;uguale;TRUE;And;
+419;20;4- Cibo e acqua gatto;comfort/wellbeing;condizione ;kitchen;sensore cibo;presenza;uguale;FALSE;And;
+420;20;4- Cibo e acqua gatto;comfort/wellbeing;condizione;kitchen;sensore acqua;presenza;uguale;FALSE;;
+421;20;4- Cibo e acqua gatto;comfort/wellbeing;azione;kitchen;distributore cibo;accensione;uguale;ON;And;
+422;20;4- Cibo e acqua gatto;comfort/wellbeing;azione;kitchen;fontanella acqua;accensione;uguale;ON;;
+423;20;5- Rilevatore di fumo;comfort/health;evento;home;rilevatore di fumo;rilevamento fumo;uguale;TRUE;;
+424;20;5- Rilevatore di fumo;comfort/health;condizione;home;finestre;chiusa;uguale;TRUE;;
+425;20;5- Rilevatore di fumo;comfort/health;azione;home;finestre;aperta;uguale;TRUE;OR;
+426;20;5- Rilevatore di fumo;comfort/health;azione;home;purificatore aria;accensione;uguale;ON;;
+427;20;6- Spegnimento TV;comfort/energy saving;evento;outside home;utente;uscire;uguale;TRUE;And;
+428;20;6- Spegnimento TV;comfort/energy saving;condizione;home;tv;accesa;uguale;TRUE;And;
+429;20;6- Spegnimento TV;comfort/energy saving;condizione;home;rilevatore di movimento;rilevazione movimento;uguale;FALSE;;
+430;20;6- Spegnimento TV;comfort/energy saving;azione;home;tv;spegnimento ;uguale;ON;;
+431;20;6- Spegnimento TV;comfort/energy saving;azione;no;smart home;invio notifica;uguale;ON;;
+432;21;Riempimento cesta;comfort;evento;bathroom;cesta delle robe sporche;rileva riempimento;uguale;pieno;/;
+433;21;Riempimento cesta;comfort;azione;no;telefono;notifica;uguale;"""E' ora di fare la lavatrice""";/;
+434;21;Videosorveglianza a distanza;security;evento;home;sensori di movimento;rilevamento;NOT;presenza persone;/;
+435;21;Videosorveglianza a distanza;security;azione;home;videosorveglianza;ON/OFF;uguale;ON;AND;
+436;21;Videosorveglianza a distanza;security;azione;home;allarme;ON/OFF notifica a distanza ;uguale;ON;;
+437;21;Smart tv eco ;energy saving;evento ;living room;smart tv;ON/OFF;uguale;ON;AND;
+438;21;Smart tv eco ;energy saving;condizione;living room;rilevamento sguardo;rileva;NOT +;15 min;/;
+439;21;Smart tv eco ;energy saving;azione;living room;smart tv;ON/OFF;uguale;OFF;;
+440;21;Purificazione aria;wellbeing/health;condizione;home;finestre;chiuse;maggiore di;24h;AND;
+441;21;Purificazione aria;wellbeing/health;condizione;home;rilevamento ;presenza CO2;uguale;alta;/;
+442;21;Purificazione aria;wellbeing/health;azione;home;finestre;apri/chiudi;uguale;apri;AND;
+443;21;Purificazione aria;wellbeing/health;azione;home;purificatore d'aria;ON/OFF;uguale;ON;;
+444;21;Cucina smart;energy saving/safety;condizione;kitchen;fornello;ON/OFF;uguale;ON;AND;
+445;21;Cucina smart;energy saving/safety;evento;kitchen;(acqua in) pentola;ebollizione;uguale;TRUE;/;
+446;21;Cucina smart;energy saving/safety;azione;kitchen;fornello;fiamma;uguale;bassa;;
+447;21;Cucina smart;energy saving/safety;azione;current room;telefono; ricevi notifica;uguale;"""è ora di cuocere la pasta""";;
+448;21;dispenser automatico;comfort;evento;bathroom;sensore dispenser sapone;rilevamento mani ;uguale;TRUE;AND;
+449;21;dispenser automatico;comfort;condizione;bathroom;dispenser automatico; presenza sapone;uguale;NOT;/;
+450;21;dispenser automatico;comfort;azione;bathroom;lucina dispenser;accensione;uguale;rossa;OR;
+451;21;dispenser automatico;comfort;condizione;bathroom;dispenser automatico;presenza sapone;uguale;TRUE;;
+452;21;dispenser automatico;comfort;azione;bathroom;lucina dispenser;accensione;uguale;verde;AND;
+453;21;dispenser automatico;comfort;azione;bathroom;dispenser automatico;erogazione sapone;uguale;ON;;
+454;22;POOL MANAGER;comfort;Condizione;no;Meteo ;Pioggia;uguale;TRUE;;
+455;22;POOL MANAGER;comfort;Azione;garden;Piscina;apri / chiudi;uguale;CHIUSO ;;
+456;22;SECURITY CHECK;security;Condizione;home ;Utente;Rilevamento utente ;uguale;FALSE;And;
+457;22;SECURITY CHECK;security;Evento;home ;Finestre;apri / chiudi;uguale;CHIUSO;;
+458;22;SECURITY CHECK;security;Evento;home ;Sistema allarme ;attiva / disattiva;uguale;ATTIVO ;;
+459;22;HOME HEATING;comfort/wellbeing;Condizione;home ;Utente;Rilevamento utente;Uguale;TRUE;;
+460;22;HOME HEATING;comfort/wellbeing;Evento;home ;Temperatura;Rilevamento ;Minore;12°;;
+461;22;HOME HEATING;comfort/wellbeing;Azione;home ;Riscaldamento;Attivo / disattiva;Uguale;ATTIVO;;
+462;22;TV SHOW ROUTINE ;comfort ;Condizione ;no;Data e ora;Giorno specifico;Uguale  ;TRUE ;And;
+463;22;TV SHOW ROUTINE ;comfort ;Condizione ;no;Data e ora ;Orario;Uguale ;21:00;And;
+464;22;TV SHOW ROUTINE ;comfort ;Azione ;living room;Televisione ;Accendi /spegni;Uguale  ;TRUE ;;
+465;22;TV SHOW ROUTINE ;comfort ;Azione ;living room;Televisione ;Canale specifico ;Uguale ;TRUE ;;
+466;22;FOOD TIMER;safety;Evento;bathroom;Utente ;Posizione utente;Uguale ;FALSE ;And;
+467;22;FOOD TIMER;safety;Condizione;kitchen;Fornello ;Accendi /spegni;Uguale ;TRUE ;And;
+468;22;FOOD TIMER;safety;Azione;home ;Alexa;Invia segnale sonoro;Uguale ;TRUE ;;
+469;22;FOOD TIMER;safety;Azione;kitchen;Fornello ;Accendi/ spegni;Uguale ;FALSE ;;
+470;22;THINGS TO DO ;comfort ;Evento;bedroom;Data e ora ;Orario ;Uguale ;07:00;And;
+471;22;THINGS TO DO ;comfort ;Condizione;no;Data e ora ;Giorno ;Tra;Lunedì - Venerdì;And;
+472;22;THINGS TO DO ;comfort ;Condizione;no;Utente ;Posizione utente;Uguale;TRUE;;
+473;22;THINGS TO DO ;comfort ;Azione;no;Sveglia;Attiva /disattiva;Uguale ;TRUE;;
+474;22;THINGS TO DO ;comfort ;Azione;home ;Alexa;Invia messaggio;Uguale ;TRUE ;;
+475;23;Tapparelle in posizione di sicurezza;safety;evento;no;meteo;pioggia;uguale;TRUE;;quando piove
+476;23;Tapparelle in posizione di sicurezza;safety;azione;home;tapparella;imposta posizione di sicurezza;uguale;TRUE;;quando piove
+477;23;Sicurezza fuori casa;security/safety;evento;no;posizione;posizione utente;uguale;non in casa;;
+478;23;Sicurezza fuori casa;security/safety;azione;home;sistemi di antitrusione;attivazione;uguale;TRUE;And ;
+479;23;Sicurezza fuori casa;security/safety;azione;entrance;serratura;apri/chiudi;uguale;Chiudi;And ;
+480;23;Sicurezza fuori casa;security/safety;azione;home;Acqua e gas;apri/chiudi;uguale;Chiudi;;
+481;23;Illuminazione esterna;comfort;evento;no;posizione;posizione utente;uguale;giardino;And;
+482;23;Illuminazione esterna;comfort;condizione;no;data e ora;orario;tra;19:00 - 05:00;;
+483;23;Illuminazione esterna;comfort;azione;garden;illuminazione esterna;accensione;uguale;TRUE;;
+484;23;Modalità film;comfort/energy saving;condizione;no;utente;rilevata attività;uguale;Visione film in televisione;And;
+485;23;Modalità film;comfort/energy saving;condizione;no;Data e ora;orario;tra;21:00 e 04:00;;
+486;23;Modalità film;comfort/energy saving;azione;dedicated room;Luce;accendi/spegni;uguale;spegni;And;
+487;23;Modalità film;comfort/energy saving;azione;dedicated room;Lampada;accendi/spegni;uguale;accendi;And;
+488;23;Modalità film;comfort/energy saving;azione;dedicated room;impianto audio;imposta modalità;uguale;"""Home Theater""";;
+489;23;Borraccia wireless;wellbeing;evento;no;Data e ora;orario;uguale;0,75;And;sempre
+490;23;Borraccia wireless;wellbeing;condizione;no;Borraccia;rilevata quantità di acqua;maggiore;metà;;sempre
+491;23;Borraccia wireless;wellbeing;azione;no;telefono utente;promemoria;/;"""Ricordati di bere""";And;sempre
+492;23;Borraccia wireless;wellbeing;azione;no;spia rossa lampeggiante;accensione;uguale;TRUE;And;sempre
+493;23;Borraccia wireless;wellbeing;azione;no;Segnale acustico;accensione;uguale;TRUE;;sempre
+494;23;Cena in famiglia;social/comfort;evento;living room;movimento;rilevato movimento;uguale;TRUE;And;cena programmata
+495;23;Cena in famiglia;social/comfort;condizione;no;Calendario;Evento programmato oggi;uguale;"""Cena in famiglia""";And;cena programmata
+496;23;Cena in famiglia;social/comfort;condizione;no;Data e ora;data e ora;uguale;Oggi tra le 20:00 e le 24:00;;cena programmata
+497;23;Cena in famiglia;social/comfort;azione;living room;Luci;Accensione luci soffuse;uguale;TRUE;And;cena programmata
+498;23;Cena in famiglia;social/comfort;azione;living room;Musica;Avvio playlist sottofondo;uguale;TRUE;And;cena programmata
+499;23;Cena in famiglia;social/comfort;azione;living room;Aspiratore aria;Attivazione;uguale;TRUE;;cena programmata
+500;24;Avviso acqua;wellbeing;Condizione;kitchen;Dispenser dacqua;Rilevato peso;minore;80 grammi;;
+501;24;Avviso acqua;wellbeing;Azione;kitchen;Schermo frigo;Avviso;uguale;Acqua in esaurimento;;
+502;24;Non far abbaiare i cani;comfort;condizione;home;Sensore abitanti;Presenza;uguale;FALSE;;
+503;24;Non far abbaiare i cani;comfort;azione;no;Citofono;Volume;uguale;0;And;
+504;24;Non far abbaiare i cani;comfort;azione;no;Telefono;Volume;uguale;0;;
+505;24;Trova telecomando;comfort;evento;living room;Microfono;Rilevato input vocale;uguale;Dovè il telecomando?;And;
+506;24;Trova telecomando;comfort;condizione;no;Sensore abitanti;Presenza;uguale;TRUE;;
+507;24;Trova telecomando;comfort;azione;no;Telecomando;Segnale sonoro;uguale;TRUE;;
+508;24;Sveglia figlio;comfort;Condizione;no;Calendario;Tipo di giorno;uguale;Feriale;And;
+509;24;Sveglia figlio;comfort;Condizione;no;Orario;Tipo di ora;uguale;07:00;;
+510;24;Sveglia figlio;comfort;azione;kid room;Alexa;Canzone Amazon Music;uguale;What a Wonderful World;And;
+511;24;Sveglia figlio;comfort;azione;kid room;Tapparelle;Apertura;uguale;TRUE;;
+512;24;Rientro tardi;safety;evento;living room;Porta;Rilevazione apertura;uguale;TRUE;And;
+513;24;Rientro tardi;safety;condizione;no;Orario;Tipo di ora;tra;23:00 - 6:99;;
+514;24;Rientro tardi;safety;azione;living room;Luci;Attivazione soffusa;uguale;TRUE;;
+515;24;Rientro tardi;safety;azione;no;Alexa;Invia SMS a Mamma;uguale;Sono a a casa, scusa il ritardo!;And;
+516;24;Party estivo;social;Evento;home;Microfono;Rilevato input vocale;uguale;Party in veranda!;And;
+517;24;Party estivo;social;condizione;no;Calendario;Giorno;tra;21/06 - 22/09;And;
+518;24;Party estivo;social;condizione;no;Orario;Ora rilevata;tra;19:00 - 01:00;And;
+519;24;Party estivo;social;condizione;no;Meteo;Pioggia;uguale;FALSE;;
+520;24;Party estivo;social;azione;veranda;Luci;Accensione;uguale;TRUE;;
+521;24;Party estivo;social;azione;veranda;Playlist;Accensione;uguale;TRUE;;
+522;25;Caffè al risveglio;comfort;evento;bedroom;materasso smart;rilevazione variazione peso;uguale;TRUE;;
+523;25;Caffè al risveglio;comfort;azione;kitchen;macchinetta del caffè;prepara caffè;uguale;TRUE;;
+524;25;Cambio illuminazione;comfort;evento;outside home;telecamera;rilevazione luce esterna (1-5);NOT;3, 4, 5;;
+525;25;Cambio illuminazione;comfort;azione;living room;lampada;accensione/spegnimento;uguale;ACCENDI;AND;
+526;25;Cambio illuminazione;comfort;azione;home;tapparelle;apertura/chiusura;uguale;CHIUDI;;
+527;25;Pet door;comfort/safety;evento;garden;microfono sulla porta;rilevazione suoni (verso di cane/gatto);uguale;TRUE;;
+528;25;Pet door;comfort/safety;condizione;outside home;termometro;rilevazione temperatura;minore;13°C;;
+529;25;Pet door;comfort/safety;azione;entrance;pet door;apertura/chiusura;uguale;APRI;;
+530;25;Pulizia automatica;comfort;condizione;no;posizione;posizione utente;NOT;casa;AND;
+531;25;Pulizia automatica;comfort;condizione;no;data e ora;lunedì, mercoledì, venerdì;uguale;TRUE;;
+532;25;Pulizia automatica;comfort;azione;home;roomba;accensione/spegnimento;uguale;ACCENDI;AND;
+533;25;Pulizia automatica;comfort;azione;home;profumatore dell'aria;accensione/spegnimento;uguale;ACCENDI;;
+534;25;Chiusura di sicurezza;security;evento;no;data e ora;tipo di giorno, orario;uguale;giorno feriale, 23:00;OR;
+535;25;Chiusura di sicurezza;security;evento;no;data e ora;tipo di giorno, orario;uguale;giorno festivo, 2:00;;
+536;25;Chiusura di sicurezza;security;condizione;no;posizione;posizione utente;NOT;casa;;
+537;25;Chiusura di sicurezza;security;azione;home;luce;accensione/spegnimento;uguale;SPEGNI;AND;
+538;25;Chiusura di sicurezza;security;azione;home;finestre;apertura/chiusura con lock;uguale;CHIUDI;AND;
+539;25;Chiusura di sicurezza;security;azione;entrance;porta;apertura/chiusura con lock;uguale;CHIUDI;;
+540;25;Dispensa Intelligente;comfort;evento;dedicated room;numero oggetti;rilevazione numero oggetti per tipo;minore di;2;;
+541;25;Dispensa Intelligente;comfort;condizione;no;profilo Amazon;ordini Amazon;uguale;NONE;AND;
+542;25;Dispensa Intelligente;comfort;condizione;no;profilo bancario;lettura estratto conto mensile;minore di;300;;
+543;25;Dispensa Intelligente;comfort;azione;no;profilo Amazon;ordina prodotti mancanti;uguale;TRUE;AND;
+544;25;Dispensa Intelligente;comfort;azione;no;telefono;notifica;/;"""Il prodotto x è stato ordinato su Amazon tramite Dispensa Intelligente""";;
+545;26;Doccia superiore ai 10 minuti;energy saving;evento;bathroom;Doccia;Utilizzo dell'acqua  per più di 10 minuti;Uguale;Vero ;;Quando l'utente si fa la doccia
+546;26;Doccia superiore ai 10 minuti;energy saving;azione;bathroom;Getto della doccia;Acqua congelata;Uguale;Vero ;;Quando l'utente si fa la doccia
+547;26;Riordinare i giochi in camera ;organizing;evento;kid room;Giochi;Giochi non riordinati;Uguale;Vero ;;Quando Anna utilizza i giocattoli
+548;26;Riordinare i giochi in camera ;organizing;azione;kid room;Mobile dei giochi;Apri il mobile dei giochi;Uguale;Vero ;and;Quando Anna utilizza i giocattoli
+549;26;Riordinare i giochi in camera ;organizing;azione;kid room;Musica;Accendi la musica;Uguale;Vero ;;Quando Anna utilizza i giocattoli
+550;26;Problemi respiratori;health;evento;bedroom;Withings sensore letto;Withings  indica unalta intensità dei disturbi respiratori;Uguale;Vero ;and;Problemi respiratori mentre si è a letto
+551;26;Problemi respiratori;health;condizione;home;Sensori di rilevamento;Utente a casa da solo;Uguale;Vero ;do;Problemi respiratori mentre si è a letto
+552;26;Problemi respiratori;health;azione;home;Cellulare;Chiama il 118 indicando il problema e  la posizione;Uguale;"""Membro della famiglia con problemi respiratori,la posizione di casa è ..""";;Problemi respiratori mentre si è a letto
+553;26;Attività di casa da svolgere;organizing;condizione;home;Ora;Se sono passate le 18;Uguale;Vero ;and if;Casa ordinata e pulita
+554;26;Attività di casa da svolgere;organizing;condizione;home;Lista delle attività da svolgere;Se ci sono ancora attività da svolgere;Uguale;Vero ;do;Casa ordinata e pulita
+555;26;Attività di casa da svolgere;organizing;azione;home;Alexa notifiche;Alexa invia le attività mancanti ai membri della famiglia;Uguale;"""Ecco l'elenco delle attività mancanti:..""";then do;Casa ordinata e pulita
+556;26;Attività di casa da svolgere;organizing;azione;home;Lista delle attività da svolgere;Alexa elimina  le attività una volta eseguite;Uguale;Vero ;;Casa ordinata e pulita
+557;26;Togliersi le scarpe entrati in casa;comfort;evento;entrance;Porta;L'utente entra a casa;Uguale;Vero ;if;
+558;26;Togliersi le scarpe entrati in casa;comfort;condizione;entrance;Scarpe;Indossa le scarpe;Uguale;Vero ;do;
+559;26;Togliersi le scarpe entrati in casa;comfort;azione;entrance;Alexa;Alexa fa partire la suoneria d'avviso;Uguale;Vero ;and;
+560;26;Togliersi le scarpe entrati in casa;comfort;azione;entrance;Luce;Si illumina la luce della cassettiera delle scarpe;Uguale;Vero ;;
+561;26;Fare i compiti e spegnere i videogiochi;organizing;evento;kid room;Orario;Sono le 15:00;Uguale;Vero ;if;
+562;26;Fare i compiti e spegnere i videogiochi;organizing;condizione;kid room;Videogame;Marco sta giocando con i videogame;Uguale;Vero ;and if;
+563;26;Fare i compiti e spegnere i videogiochi;organizing;condizione;kid room;Calendario scolastico;E' un giorno scolastico;Uguale;Vero ;do;
+564;26;Fare i compiti e spegnere i videogiochi;organizing;azione;kid room;PlayStation;Spegni la PlayStation;Uguale;Vero ;do;
+565;26;Fare i compiti e spegnere i videogiochi;organizing;azione;kid room;Luce della scrivania;Accendi la luce della scrivania;Uguale;Vero ;;
+566;27;Predisponi forno;organizing;Evento;no;Data e ora;Orario;Uguale;19:45;;
+567;27;Predisponi forno;organizing;Azione;kitchen;Forno;Accendi/Spengi;Uguale;ACCENDI (180°);;
+568;27;Attivazione allarme;security;Condizione;no;Posizione;Posizione utente;Not;Casa;;
+569;27;Attivazione allarme;security;Azione;no;Allarme;Attivo/Spento;Uguale;ATTIVO;and;
+570;27;Attivazione allarme;security;Azione;no;Telefono;Messaggio;/;"""Allarme attivo""";;
+571;27;Nutrire il cane;comfort;Evento;kitchen;Porta;Entra/Esce;Uguale;ENTRA (piccola taglia);and;
+572;27;Nutrire il cane;comfort;Condizione;no;Data e ora;Oario;Tra;12:45-13:00 or 19:45-20:00;;
+573;27;Nutrire il cane;comfort;Azione;kitchen;Distributore croccantini;Erogare porzione;Uguale;TRUE;;
+574;27;Calmare i nervi;comfort/health;Condizione;no;Smartwatch;Battito cardiaco;Maggiore di;100;and;
+575;27;Calmare i nervi;comfort/health;Condizione;no;Smartwatch;Monitoraggio sonno;Minore di;5;;
+576;27;Calmare i nervi;comfort/health;Azione;home;Luci;Regola intensità;Uguale;SOFFUSA;and;
+577;27;Calmare i nervi;comfort/health;Azione;living room;Stereo;Accendi/Spengi;Uguale;ACCENDI (musica rilassante);;
+578;27;Saluto ai nonni;social/safety;Evento;no;Data e ora;Orario;Uguale;0,875;and;
+579;27;Saluto ai nonni;social/safety;Condizione;no;Telefono;Registro chiamate;Not;CASA NONNI;;
+580;27;Saluto ai nonni;social/safety;Azione;no;Telefono;Messaggio a;Uguale;"NONNO CELLULARE (""Come state?"")";and (dopo 5 minuti);
+581;27;Saluto ai nonni;social/safety;Azione;living room;Televisione;Accendi/Spengi;Uguale;SPENGI;and;
+582;27;Saluto ai nonni;social/safety;Azione;no;Telefono;Chiamata a;Uguale;CASA NONNI;;
+583;27;Vasca pronta;energy saving;Evento;bathroom;Vasca da bagno;Utente apre/chiude rubinetto;Uguale;APRE;and;
+584;27;Vasca pronta;energy saving;Condizione;bathroom;Vasca da bagno;Riempimento;Uguale;PIENA;and;
+585;27;Vasca pronta;energy saving;Condizione;no;Posizione;Posizione utente;Not in;Bagno;;
+586;27;Vasca pronta;energy saving;Azione;bathroom;Vasca da bagno;Apri/chiudi rubinetto;Uguale;CHIUDI;and;
+587;27;Vasca pronta;energy saving;Azione;home;Alexa;Notifica vocale;/;"""Vasca piena!""";;
+588;28;Macchina del caffè ;comfort;Condizione;kitchen;Acqua ;Rilevato livello;Minore;50cl;/;
+589;28;Macchina del caffè ;comfort;Azione;kitchen;Spia;Accensione;Uguale ;TRUE;;
+590;28;Risparmio Bagno ;energy saving;Condizione;bathroom ;Assenza movimento;Durata;Maggiore;10 minuti;;
+591;28;Risparmio Bagno ;energy saving;Azione;bathroom ;Ventola;Accensione;Uguale ;OFF;And;
+592;28;Risparmio Bagno ;energy saving;Azione;bathroom ;Caldaia ;Accensione;Uguale ;OFF;;
+593;28;Luci scale esterne ;comfort ;Condizione;no;Ora;Orario;Tra;18 - 05H;And;
+594;28;Luci scale esterne ;comfort ;Evento;garden;Peso;Rilevato peso ;Maggiore;10kg;;
+595;28;Luci scale esterne ;comfort ;Azione;garden;Luce;Accensione;Uguale;TRUE;;
+596;28;Irrigazione ;comfort ;Condizione ;no;Meteo ;Pioggia ;Uguale  ;FALSE;And;
+597;28;Irrigazione ;comfort ;Condizione ;garden ;Acqua ;Rilevato livello ;Minore ;2cl ;;
+598;28;Irrigazione ;comfort ;Azione ;garden ;Irrigatori ;Accensione;Uguale  ;TRUE;And;
+599;28;Irrigazione ;comfort ;Azione ;no;Telefono ;Notifica ;/ ;"""Attenzione irrigatori giardino in azione""";;
+600;28;Contro i cattivi odori ;comfort;Evento;kitchen;Fumo ;Rilevato Fumo ;Uguale ;TRUE;And;
+601;28;Contro i cattivi odori ;comfort;Condizione;kitchen;Piano ad induzione;Accensione;Uguale ;TRUE;;
+602;28;Contro i cattivi odori ;comfort;Azione;kitchen;Cappa di aspirazione;Accensione;Uguale ;TRUE;And;
+603;28;Contro i cattivi odori ;comfort;Azione;home ;Profumatore ;Accensione;Uguale ;TRUE;;
+604;28;Scaldasonno ;comfort ;Evento;living room;Peso;Rileva peso ;Maggiore ;20kg ;And;
+605;28;Scaldasonno ;comfort ;Condizione;no;Data e ora ;Orario ;Uguale ;24H;And;
+606;28;Scaldasonno ;comfort ;Condizione;no;Temperatura ;Rileva temperatura;Minore o Uguale;5gradi ;;
+607;28;Scaldasonno ;comfort ;Azione;no;Sveglia;Accensione;Uguale ;ON;And;
+608;28;Scaldasonno ;comfort ;Azione;bedroom;Scaldasonno;Accensione;Uguale ;ON ;;
+609;29;Sveglia;comfort;Evento;bedroom;Sveglia;Suona;uguale;TRUE;;
+610;29;Sveglia;comfort;Azione;bedroom;Letto;Schienale;uguale;UP;;
+611;29;Sveglia rinforzata;comfort;Evento;bedroom;Sensore Letto;Rilevazione peso;not minore;SOGLIA PREIMPOSTATA;ciclico(ogni 5 minuti c'è controllo);
+612;29;Sveglia rinforzata;comfort;Azione;bedroom;Sveglia;Suona;ogni;5minuti;and;
+613;29;Sveglia rinforzata;comfort;Azione;bedroom;Letto;Vibrazione;uguale;ON;;
+614;29;Reset schienale;comfort;Evento;bedroom;Sensore Letto;Rilevazione peso;minore ;SOGLIA PREIMPOSTATA;and;
+615;29;Reset schienale;comfort;Condizione;bedroom;Letto;Schienale;uguale;UP;;
+616;29;Reset schienale;comfort;Azione;bedroom;Letto;Schienale;uguale;DOWN;;
+617;29;Auto-disattivazione;comfort;Condizione;bedroom;Sveglia;Impostata;uguale;TRUE;and;
+618;29;Auto-disattivazione;comfort;Condizione;bedroom;Sensore Letto;Rilevazione peso;minore;SOGLIA PREIMPOSTATA;;
+619;29;Auto-disattivazione;comfort;Azione;bedroom;Sveglia;Accensione;uguale;OFF;;
+620;29;Riscaldamento;wellbeing;Evento;bedroom;Ora;Ora sveglia;uguale;ORA SVEGLIA - 10 MINUTI;and;
+621;29;Riscaldamento;wellbeing;Condizione;bedroom;Sensore Letto;Rilevazione peso;maggiore;SOGLIA PREIMPOSTATA;;
+622;29;Riscaldamento;wellbeing;Azione;bedroom;Condizionatore;Accensione;uguale;ON;while(t<T);
+623;29;Riscaldamento;wellbeing;Azione;bedroom;Condizionatore;Accensione;uguale;OFF;;
+624;29;Annulla;comfort;Evento;bedroom;Ora;Ora sveglia;uguale;ORA SVEGLIA + 30 MINUTI;and;
+625;29;Annulla;comfort;Condizione;bedroom;Sensore Letto;Rilevazione peso;maggiore;SOGLIA PREIMPOSTATA;and;
+626;29;Annulla;comfort;Condizione;bedroom;Letto;Schienale;uguale;UP;;
+627;29;Annulla;comfort;Azione;bedroom;Sveglia;Sveglia;uguale;ON;and;
+628;29;Annulla;comfort;Azione;bedroom;Condizionatore;Condizionatore;uguale;OFF;and;
+629;29;Annulla;comfort;Azione;bedroom;Letto;Schienale;uguale;DOWN;;
+630;30;Riposo bambino;wellbeing;Evento;kid room;Sensore del rumore;Rilevazione;Uguale;TRUE;AND;
+631;30;Riposo bambino;wellbeing;Azione;kid room;Culla;Movimento;Uguale;TRUE;/;
+632;30;Piastra accesa;safety;Evento;bathroom;Sensore del calore;Rilevazione calore anomalo;Uguale;TRUE;AND;
+633;30;Piastra accesa;safety;Azione;no;Piastra;Disattivazione corrente;Uguale;TRUE;AND;
+634;30;Piastra accesa;safety;Azione;no;Telefono;Notifica;Uguale;Hai dimenticato la piastra accesa;;
+635;30;Frigo vuoto;organizing;Evento;kitchen;Frigorifero;Rileva mancanza prodotti;Uguale;TRUE;;
+636;30;Frigo vuoto;organizing;Evento;home;Sensore di movimento;Rileva assenza utente;Uguale;TRUE;AND;
+637;30;Frigo vuoto;organizing;Azione;outside home;Telefono;Notifica;Uguale;Vai a fare la spesa;;
+638;30;Cinema a casa;comfort;Condizione;living room;Orario;Orario;Uguale;21:00;AND;
+639;30;Cinema a casa;comfort;Condizione;living room;Smart TV;Visione film;Uguale;TRUE;AND;
+640;30;Cinema a casa;comfort;Azione;living room;Volume;Regolazione audio;Uguale;Volume home theatre;AND;
+641;30;Cinema a casa;comfort;Azione;living room;Tapparelle;Chiusura;Uguale;Atmosfera soffusa;/;
+642;30;Medico a distanza;health;Evento;home;Sensore di movimento;Presenza utente;Uguale;TRUE;/;
+643;30;Medico a distanza;health;Condizione;no;sensore Smart Watch ;Rilevazione temperatura;Maggiore o uguale di;37° C;AND;
+644;30;Medico a distanza;health;Azione;no;Telefono;Invia SMS;Uguale;Contattare il medico;AND;
+645;30;Medico a distanza;health;Azione;no;Telefono;Invia SMS;Uguale;Comunicare con farmacia;/;
+646;30;Festa in giardino;social;Evento;home;Festa;Organizzazione;/;;/;
+647;30;Festa in giardino;social;Condizione;garden;Data e ora;Orario;Uguale;20:00;AND;
+648;30;Festa in giardino;social;Condizione;garden;Cancello;Arrivo ospiti;Uguale;TRUE;AND;
+649;30;Festa in giardino;social;Azione;garden;Luci;Accesione;Uguale;TRUE;AND;
+650;30;Festa in giardino;social;Azione;garden;Musica;Avvio;Uguale;TRUE;/;
+651;31;TEMPERATURA BAGNO;comfort;evento;bedroom;ora;orario;uguale;07:00;/;Ogni mattina
+652;31;TEMPERATURA BAGNO;comfort;azione;bathroom;riscaldamento;impostare una temperatura;uguale;22° C;/;Ogni mattina
+653;31;SVEGLIA;comfort;evento;bedroom;sveglia;accensione;uguale;ON;/;Ogni mattina in cui è impostata una sveglia
+654;31;SVEGLIA;comfort;azione;bedroom;luce;accensione;sempre maggiore;ON;And;Ogni mattina in cui è impostata una sveglia
+655;31;SVEGLIA;comfort;azione;bedroom;tapparelle;apri/chiudi;sempre maggiore;APRI;/;Ogni mattina in cui è impostata una sveglia
+656;31;PULIZIA;comfort/wellbeing;condizione�;home;sensori di presenza;rilevamento presenza;uguale;FALSE;and;Sempre
+657;31;PULIZIA;comfort/wellbeing;evento;entrance;porta;apri/chiudi;uguale;CHIUSO;/;Sempre
+658;31;PULIZIA;comfort/wellbeing;azione;no;robot domestico;pulizia;uguale;ON;/;Sempre
+659;31;SICUREZZA;security;condizione;home;sensore di presenza;rilevamento presenza;uguale;FALSE;and;Sempre
+660;31;SICUREZZA;security;condizione;home;luce;accensione;uguale;OFF;/;Sempre
+661;31;SICUREZZA;security;azione;home;antifurto;accensione;uguale;ON;and;Sempre
+662;31;SICUREZZA;security;azione;home;finestre;apri/chiudi;uguale;CHIUSO;/;Sempre
+663;31;RELAX;comfort;evento;living room;televisione;accensione;uguale;ON;and;Sempre
+664;31;RELAX;comfort;condizione;living room;sensore del divano;presenza;uguale;TRUE;/;Sempre
+665;31;RELAX;comfort;azione;living room;luminosità della televisione;modulabilità;adattabile;ON;and;Sempre
+666;31;RELAX;comfort;azione;living room;cellulare;"""non disturbare""";uguale;ON;/;Sempre
+667;31;INTRATTENIMENTO;comfort;evento;bathroom;movimento;rilevato movimento;uguale;TRUE;and;Ogni mattina
+668;31;INTRATTENIMENTO;comfort;condizione;bathroom;ora;orario;minore di;11:00;and;Ogni mattina
+669;31;INTRATTENIMENTO;comfort;condizione;bathroom;ora;intervallo trascorso;maggiore di;5 minuti;/;Ogni mattina
+670;31;INTRATTENIMENTO;comfort;azione;bathroom;ventilazione;accensione;uguale;ON;and;Ogni mattina
+671;31;INTRATTENIMENTO;comfort;azione;bathroom;alexa;notifiche vocali;/;meteo e notizie;/;Ogni mattina
+672;32;Pulizia automatica;comfort;evento;kitchen;sensori di movimento;rilevato movimento da cucina a esterno;uguale;TRUE;/;
+673;32;Pulizia automatica;comfort;azione;kitchen;Roomba;accensione;uguale;TRUE;/;
+674;32;Antincendio;safety;evento;kitchen;sensori di movimento;rilevazione;not;presenza;;
+675;32;Antincendio;safety;azione;kitchen;sensori antincendio;attivazione;uguale;TRUE;And;
+676;32;Antincendio;safety;azione;kitchen;piastre;attivazione;uguale;OFF;;
+677;32;Dragon Ball;comfort;evento;living room;posizione ;posizione utente;uguale;salotto;And;
+678;32;Dragon Ball;comfort;condizione;living room;data e ora;orario;uguale;14:00;;
+679;32;Dragon Ball;comfort;azione;living room;smart tv;accensione sul canale;uguale;TRUE;;
+680;32;Sonno immediato;wellbeing/energy saving;condizione;bedroom;sensore del letto;presenza utente;uguale;TRUE;And;
+681;32;Sonno immediato;wellbeing/energy saving;condizione;bedroom;telefono;utilizzo;uguale;FALSE;;
+682;32;Sonno immediato;wellbeing/energy saving;azione;bedroom;luci;spegnimento;uguale;TRUE;And;
+683;32;Sonno immediato;wellbeing/energy saving;azione;bedroom;finestre;chiusura;uguale;TRUE;;
+684;32;Doccia senza pensieri;comfort/health;evento;bathroom;sensori di movimento;rilevazione utente;uguale;TRUE;And;
+685;32;Doccia senza pensieri;comfort/health;condizione;bathroom;doccia;utilizzo doccia;uguale;TRUE;;
+686;32;Doccia senza pensieri;comfort/health;azione;bathroom;Alexa;accensione musica;uguale;TRUE;And;
+687;32;Doccia senza pensieri;comfort/health;azione;bathroom;finestre;apertura;uguale;TRUE;;
+688;32;Dal citofono dal bagno;comfort/security;evento;bathroom;sensori di movimento;rilevazione utente;uguale;TRUE;And;
+689;32;Dal citofono dal bagno;comfort/security;condizione;outside home;citofono;rilevazione estraneo;uguale;TRUE;And;
+690;32;Dal citofono dal bagno;comfort/security;condizione;bathroom;telefono;utilizzo ;uguale;TRUE;;
+691;32;Dal citofono dal bagno;comfort/security;azione;bathroom;telefono;rispondere al citofono;uguale;TRUE;And;
+692;32;Dal citofono dal bagno;comfort/security;azione;bathroom;telefono;aprire il cancello;uguale;TRUE;;
+693;33;Livello Cloro Piscina;health;evento;garden;Misuratore Cloro Piscina;Qualità;Minore;1.0;;
+694;33;Livello Cloro Piscina;health;azione;no;Telefono;Notifica;/;"""Controlla il livello del cloro in piscina""";;
+695;33;Controllo Ingresso;security;evento;entrance;Citofono;Riconosci impronta digitale;uguale;FALSE;;
+696;33;Controllo Ingresso;security;azione;no;Telefono;Notifica;;"""Impronta digitale non riconosciuta""";AND;
+697;33;Controllo Ingresso;security;azione;home;Campanello;Suono;uguale;TRUE;;
+698;33;Pulizia Wc;health;condizione;bathroom;Rilevatore batteri Wc;Qualità;maggiore;30;;
+699;33;Pulizia Wc;health;azione;bathroom;Disinfettate Wc;Pulizia automatica;uguale;ON;;
+700;33;Rilevatore Zanzare;comfort;condizione;home;Sensore laser zanzare;Rilevatore Movimento;uguale;TRUE;AND;
+701;33;Rilevatore Zanzare;comfort;condizione;home;Sensore di apertura;Rilevatore Apertura;uguale;TRUE;/;
+702;33;Rilevatore Zanzare;comfort;azione;home;Insetticida;Erogazione ;uguale;ON;AND;
+703;33;Rilevatore Zanzare;comfort;azione;home;Finestra;Apri/Chiudi;uguale;CHIUDI;;
+704;33;Controllo Gas;safety;evento;home;Sensore infrarossi;Rilevatore calore umano/animale;uguale;0;;
+705;33;Controllo Gas;safety;condizione;kitchen;Controllo apertura Gas;Rilevatore fuga Gas ;uguale;TRUE;/;
+706;33;Controllo Gas;safety;azione;kitchen;Caldaia;Apri/Chiudi;uguale;CHIUDI;/;
+707;33;Controllo Gas;safety;azione;no;Telefono;Notifica;;"""Rilevata fuga di Gas, Gas chiuso automaticamente""";;
+708;33;Allarme Esterno;security;evento;garden;Sensore Movimento;Rilevatore Movimento;uguale;TRUE;;
+709;33;Allarme Esterno;security;condizione;no;GPS ;Rilevatore Posizione Utente da ubicazione;maggiore;200mt;OR;
+710;33;Allarme Esterno;security;condizione;bedroom;Sensore Letto;Rivelatore Presenza;uguale;TRUE;/;
+711;33;Allarme Esterno;security;azione;garden;Luci esterne;ON/OFF;uguale;ON;AND;
+712;33;Allarme Esterno;security;azione;home;Allarme;ON/OFF;uguale;ON;;
+713;34;1-Animali liberi e sicuri;safety/comfort;evento;outside home;movimento;rilevazione attraversamento ;uguale;TRUE;/;
+714;34;1-Animali liberi e sicuri;safety/comfort;azione;no;localizzatore di posizione;accensione;uguale;ON;/;
+715;34;2-Allarme intelligente;security;evento;outside home;allarme;inserimento codice ;not;VALID;/;
+716;34;2-Allarme intelligente;security;azione;no;telecamera e app telefono;connessione;uguale;TRUE;And;
+717;34;2-Allarme intelligente;security;azione;no;telefono;notifica;/;"""Attenzione! Inserzione codice errata!""";;
+718;34;3-Illuminazione senza spreco ;energy saving;evento;entrance;porta ingresso casa;apri/chiudi;uguale;CHIUDI;And;
+719;34;3-Illuminazione senza spreco ;energy saving;condizione;entrance;sensore della stanza;presenza;uguale;FALSE;/;
+720;34;3-Illuminazione senza spreco ;energy saving;azione;entrance;luce;accensione;uguale;OFF;/;
+721;34;4-Riscaldamento centralizzato;comfort/wellbeing;condizione ;current room;sensore della stanza;presenza;uguale;TRUE;And;
+722;34;4-Riscaldamento centralizzato;comfort/wellbeing;condizione;current room;temperatura;temperatura stanza;minore di;18;;
+723;34;4-Riscaldamento centralizzato;comfort/wellbeing;azione;current room;riscaldamento;accensione;uguale;ON;And;
+724;34;4-Riscaldamento centralizzato;comfort/wellbeing;azione;current room;termocoperta;accensione;uguale;ON;And;
+725;34;4-Riscaldamento centralizzato;comfort/wellbeing;azione;current room;deumidificatore;accensione;uguale;ON;;
+726;34;5- Riscaldamento intelligente;energy saving;evento;home;riscaldamento;accensione;uguale;TRUE;And;
+727;34;5- Riscaldamento intelligente;energy saving;condizione;no;pannelli solari;temperatura pannelli;maggiore di;40;;
+728;34;5- Riscaldamento intelligente;energy saving;azione;no;caldaia;accensione;uguale;OFF;And;
+729;34;5- Riscaldamento intelligente;energy saving;azione;no;pannelli solari;accensione;uguale;ON;;
+730;34;6-Gestione da remoto;comfort/energy saving;evento;no;funzione su telefono;attivazione;uguale;ON;And;
+731;34;6-Gestione da remoto;comfort/energy saving;condizione;no;data e ora;orario ;tra;21.00  e  02.00;And;
+732;34;6-Gestione da remoto;comfort/energy saving;condizione;no;meteo;pioggia;uguale;FALSE;;
+733;34;6-Gestione da remoto;comfort/energy saving;azione;outside home;irrigatore ;accensione ;uguale;ON;;
+734;34;6-Gestione da remoto;comfort/energy saving;azione;outside home;pulizia piscina;attivazione;uguale ;ON;;

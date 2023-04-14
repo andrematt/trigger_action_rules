@@ -1,0 +1,205 @@
+user;rule;nl
+1;Auto-flush;A person gets up from the toilet, the sensor detects movement and flushes.
+1;Kitchen Safety;A person is not in the kitchen and therefore the light goes out and the alarm sensors come on.
+1;Wake up Buttercup;When it's 7:00 a.m. and the person stays in bed for more than 15 minutes then the blinds go up.
+1;Rainy day;If tomorrow's weather forecast says it will rain and if there is an event scheduled in the Google Calendar app, then preset to close the windows tomorrow and send a text warning the person to take precautions for the rain.
+1;Garage door;When the car enters the garage and if the parked car does not move for 10 seconds, the garage door will close automatically and the lights will turn on.
+1;Lights off;When the person leaves the living room, if the person stays out of the room for more than 5 minutes and the TV and/or the light are on. The TV and the light go out.
+2;Ambient lounge;While the user is listening to music DECREASE the brightness of the lights on in the lounge
+2; house/dog check; If no one is home, FILL the dog bowl with water if it is below the indicated level and turn ON the security cameras
+2;visit notification;If the intercom rings and no one is at home, SEND a message to the user's cell phone
+2; good morning package; While the user is in the shower and the time is between 7:00 and 9:00 TURN ON the heating in the bathroom and SEND the news of the day
+2;GAME OVER ;If the console is on and the user is wearing the vr sensor CLOSE the door of the room and send him a warning after 2 hours of play
+2;Back to sci-fi;If the door is closed and while the projector is on and if the user is watching a movie TURN OFF the lights in the room and SET the mobile phone to silent
+3; Kitchen extractor fan; While the user is at home and cooking, ACTIVATE the hob extractor fan
+3; Temperature and Air Control; If the house temperature is not higher than 17°, TURN UP the heating and CHECK the air humidity level, if humidity <35% ACTIVATE the humidifier
+3;Robot Vacuum Cleaner;When floor is dry and if the floor has not been cleaned for more than 48 hours TURN ON robot vacuum cleaner
+3; Anti-theft system; If the camera and sensors notice suspicious movements around the house after 10.00 pm and if an unknown user tries to enter through a door or window, ACTIVATE the anti-theft alarm and SEND notification to home users
+3;House Party;If House Party is set for today on calendar when it is start time PLAY playlist set to speakers and TURN ON dynamic lights
+3; Shelter from Bad Weather; When it is raining outside the house if there are shutters and windows not closed in the rooms of the house or if there are clothes hanging outside, CLOSE all the shutters and open windows and BRING the automatic drying rack back into the house
+4;Music during the shower ;When I'm in the shower, turn on my favorite playlist.
+4;Food control ;When a certain food is missing in the fridge, send a notification and add the product to the shopping list on the fridge LED.
+4;Clothes hanging on the veranda;When the clothes are hanging on the veranda and the weather is fine, activate the retractable pergola.
+4;Detect humidity and mould;If the air quality detector registers humidity levels greater than 60% and there are traces of mould, it purifies the air every hour and sends a message to the specialized technician.
+4;Ring the intercom when I'm not at home;"When I'm in the office and knock on the intercom, send notification and play to the intercom ""I'm in the office""."
+4;Evening relaxation ;When I'm on the sofa, if I'm reading an ebook and if the time is after 22:00, dim the light, turn on the fireplace and activate the sofa massager.
+5; Power strip saving; When the power strip detects a state of inactivity equal to 1 hour, it sets its mode to off
+5;Bag replacement;When the garbage container does not detect the bag, then activate the sanitizer and insert the new bag
+5;Blank warmer on;When it is 21:00 and if the room temperature is below 15°, then turn on the bed warmer
+5;Remember to drink;"If the hydration meter calculates that the user has drunk less than 1L of water and the smartwatch reports that the active time exceeds 6 hours, then broadcast ""remember to drink"" via Alexa and remember the risks of dehydration via app"
+5; Anti-fall cot; "When the user is not in the bedroom and if the crib sensor detects a movement greater than 10cm from the bars, then activate the anti-fall net of the crib and broadcast ""crib danger!"" via Alexa"
+5;Reading mode;"When the user is in the room, if he says ""reading mode"" to Alexa or if he sets the reading mode from the smartwatch, then adjust the brightness of the lamp to 2 and set the smartphone to do not disturb"
+6;coffee in the morning;When the alarm goes off, the coffee machine turns on
+6;control aquarium;If the temperature of the aquarium is lower than 25 degrees, turn on the heater and send me a notification
+6;floor cleaning;If it's Sunday and Rumba hasn't been fired, activate it
+6;device safeguard;If there is a storm outside and the TV is on, turn off the TV and all the lights in the house
+6;reduce dispersion;If I open the window and the heating is on, turn off the heating system and notify me with a notification
+6;house lock;If I lock the door of the house, all the lights are off and the windows are all closed, arm the alarm and notify me with a notification.
+7;Step count reminder;If daily step count is less than 10,000 SEND reminder with missing step count
+7;Saving living room energy;IF NOT family in living room for more than 20 minutes, TURN OFF lights and tv and SHOW background image on tv
+7;Air conditioning;WHEN house temperature exceeds 24° AND someone is home TURN the air conditioning ON
+7;Weekly cleaning;IF it's Sunday or Thursday AND family NOT at home START robot cleaner and TURN washing machine ON
+7;Intercom control;WHEN someone rings the intercom IF family NOT at home AND IF devices in «do not disturb» mode SHOW surveillance camera video and VIEW message on doorbell display
+7;Kids screen time control;WHEN it's 11pm AND the kids' devices are in use TURN OFF the lights and SEND reminders to turn off devices and go to bed
+8;Medicine reminder;"when it's medicine time (between 19:00 and 20:00), send a reminder ""Take medicine"""
+8;Cleaning robot;when someone is not at home, activate the cleaning robot and turn off the lights.
+8;Fridge Control;when you open the fridge if it has been open for 3 minutes, close the fridge
+8; Pet food dispenser; when it is 13:00 and the dispenser sensor detects the presence of a can, open the can and release the contents
+8; Automatic cradle; when the sensor detects the presence of the baby and the volume in the room reaches 80 Decibels, then move the cradle and turn on the cam.
+8;Automatic ventilation;when the sensor detects the ignition of a stove and detects the presence of carbon black and detects the amount of gas in the air greater than 0.08%, turn off the stove, turn on the venola and open the windows.
+9;Pool;WHEN there is a storm COVER the pool
+9;Medicine Reminder;IF user NOT took medication between 08:00 and 09:00. SEND a notification to the smartphone, AND IF the user has not given any read receipts, TURN ON the voice notification from the bluetooth speakers.
+9;Smart TV;WHEN the TV is on AND IF no one is watching the screen for more than 30 minutes TURN OFF the TV.
+9;Wake up;IF it is Monday and Tuesday AND the user does not get up from the bed before 7:30 RAISE the shutters AND TURN ON the coffee machine
+9;Ambient lights and oven on;IF dinner with friends is set at 20:00, WHEN it is 19:30 TURN ON the oven AND set dim lights mode in the dining room.
+9;Focus for study;WHEN the user studies AND the TV is on OR the smartphone's social networks are not in stand-by TURN OFF the TV AND enable stand-by mode for social apps.
+10;Wash finished;WHEN washing machine finishes washing, SEND notification to user's phone.
+10;Bulb Not Working;IF bulb NOT working, ORDER a new one on Amazon and ADD a reminder of estimated delivery date to your calendar.
+10;Person at the door when I'm not there;WHEN someone rings the bell WHILE user is not home, SEND security camera frame to user's phone.
+10;Low temperature;IF the temperature is below 18°C WHILE the user is at home, CLOSE all windows and TURN ON the radiators.
+10;dog in garden with sprinklers ;IF sprinklers are running WHEN dog is out in garden, TURN sprinklers OFF and CLOSE door.
+10;Movement in the garden;IF the time is between 23:00 and 07:00 AND the user is not at home WHEN there is movement in the garden, TURN ON the outside lights and SEND the security camera footage to the 'user.
+11;Keyless Entry;Assuming the house has an entrance door with a smart handle that recognizes me through a cell phone signal or something similar. Make the door open as soon as I'm in front of him. Without me having the keys to the house.
+11;Videos and Sensors if not at home;When I'm not at home, activate all the video cameras and in case of suspicious movements, send me a message on my mobile phone with the video recording.
+11;Stop charging if 100%;When I charge the scooter and other electronic items, make sure that the outlet where the device is connected turns off once the items are 100% charged, in order to save energy.
+11; Music in the shower; Assuming you have an automated bathroom at home, have a sensor that recognizes when the hot water in the shower opens and when you go into the shower and activates the stereo by playing the music from your favorite playlists and which also recognizes a stop command in case you don't want to listen to music.
+11;Bathroom occupied;Supposing you have a sensor in the bathroom, when you enter the light turns on, the door is closed and the heater turns on if the temperature is less than 15 degrees and signals outside on the switch or on a screen that the toilet is occupied.
+11; Fridge recipes; Make sure that when I go shopping and put it in the fridge, the fridge creates recipes with the foods available and every time I add something, it reformulates the recipes, always sending a message of the possible combinations to my mobile phone.
+12;Dry clothes;When it starts to rain, the clothes airer arms retract.
+12;Hot air;If a radiator does not work, the boiler is reset and the water pressure is increased.
+12;Green thumb;When a hygrometric sensor detects a low level of humidity in the earth and if it is between 10:00 and 14:00, the watering mechanism is activated.
+12;Relaxation at home;If there is light outside and if the person is inside the room, the roller shutter is lifted and the curtain is closed.
+12;Pre-alarm;When the door is opened if the house is empty, a text message is sent to the owner and a pre-alarm beep is activated.
+12;Morning coffee;When the sensor detects that the person gets out of bed, if the time is between 7:30 and 8:30, if the user's smart watch detects the heartbeat between 60 and 80, then the electric coffee machine comes on and the kitchen roller shutter goes up.
+13;Heated bed;At 20:00 turn on the heater in the bedroom
+13;Plants watered;If you don't detect movement in the garden, turn on the sprinkler and send me the "Sprinkler activated" notification
+13;Steam in the kitchen;When the humidity in the kitchen is above 70% and the window is closed, turn on the whirlpool
+13; Stale air; If the bin is full and the window is closed, turn on the air freshener and send me the "It is urgent to throw out the garbage" notification
+13;Twilight lighting;When I enter the main gate, from 18.00 to 19.00, turn on the pedometers at the entrance and the lights on the veranda
+13;Weekly cleaning;At 9:00 if you don't detect movements in the house and the day is a holiday, activate the robot in the living room and the washing machine in the laundry room
+14;Mail Received;When the mailbox sensor detects content, a notification light will turn on inside the house.
+14;Cat Alarm ;When the video surveillance system does not detect the presence of the cat, the GPS collar of the same emits an audible alert and the user receives the position of the collar on the telephone.
+14;Key Control;If I open the front door and try to pass through it without the RFID key fob, the internal intercom warns me to remember to take the house keys.
+14;Water house plants;When the humidity sensor of the plant on the veranda measures a soil humidity of less than 60%, and the time is between 20:00 and 6:00, the UV lamp of the plant is switched off and automatic sprinkler turns on.
+14;automatic emergency call;If the fire alarm goes off, or when there is no electricity in the house, turn on the auxiliary lights and initiate an emergency call.
+14;Water leak check;If I turn off the kitchen tap, all the taps in the house are closed and the water meter continues to measure, the house water system is turned off and the user receives a notification on the phone of a possible lost.
+15;easy coffee;If it's 8:00, turn on the electric coffee maker in the kitchen.
+15;Stove warning light;If the stove remains lit in the kitchen and nobody is there, a notification arrives on the telephone and the stove is switched off.
+15; post-shower warmth; When I finish taking a shower, turn on the stove in the room at 25°.
+15;smart T-paper ;When I go to the bathroom in the bathroom and then lower the toilet seat, if the toilet paper is finished I am warned by an acoustic signal.
+15;Keep temperature ;When the fireplace is about to go out with the house not yet warm and it's cold outside, I get a notification on my phone and the heating turns on.
+15;smart intercom ;When someone rings the doorbell but no one is at home, a notification arrives on the phone that warns of the presence of the guest and the bell speaker signals that no one can open.
+16;Fridge open;If the fridge remains open, send a message to your mobile phone
+16;Blinds open;If, between 10pm and 7am, the blinds are not closed, send a message to Alexa and set off an alarm
+16;Air conditioner;When the child approaches the window, if it is open, set the window to close
+16;TV on;If the tv is on and if it is 11.30pm, turn off the tv and set a voice message to Alexa
+16;Amazon orders;When the courier is near, if the user has placed an order online, open the gate and send a message on the mobile
+16;Outdoor space;When the motion sensors detect no one in the garden, if it is summer and if the time is between 22:00 and 00:00 start the garden sprinkler and turn on the outdoor lights.
+17;Stop music;Music is on, in the house. When the user leaves the house, the music switches off via a motion detector connected to the door.
+17;Bowl never empty;"When the animal approaches its muzzle to the bowl (equipped with a level sensor), which will contain the food; if this is not full, it activates at the times that the user has selected from the app. 
+17; elderly stairs; "When the elderly user approaches the stairlift AND sits on it, equipped with a pressure detector, DO activates, greets and goes down or up the stairs. 
+17;Throw away waste;If the bin is full and if it is waste collection day then the system will send an SMS to my mobile phone with a sound notification
+17; training agenda; The user weighs himself with an impedance scale, gives us an estimate of our physical health and if this is below a certain threshold, he programs a special workout by creating an agenda with time and exercise
+17; Well-being of the newborn; If the intelligent thermostat and the movement sensor, connected to the wall of a newborn's room, detects that the temperature during the day is lower than 20° and at night it is lower than 18° and if it detects that the baby she's crying so adjust the temperature and start the wheel of games, with the tune, hanging on the cradle.
+18;Wake up;If it is 7:00, the alarm goes off.
+18;Closing windows and switching off;If there is no one at home, the light switches off and the shutters close.
+18; Turning on the lunch oven; When the user enters the kitchen and the time is between 12:00 - 14:00, the oven turns on.
+18;Turning on the radiators in the evening;If the time is between 18:00 - 23:00 and the temperature is below 17 degrees, the light goes on and the radiators go on.
+18;Morning shower;When the user enters the bathroom and the time is between 7:00 and 8:00, the light goes on and the tap in the bathtub opens.
+18;Winter dinner;When the user enters the kitchen and the time is between 20:00 – 23:00 and the temperature is below 17 degrees, the radiator comes on, the light goes on and the oven goes on.
+19;Empty Pellet Tank;When the sensor that detects the weight of the pellets inside the tank is less than 2 Kg, an automatic notification is sent to the set telephone number containing the message "Tank to Refill"
+19;Boiler Pressure;When the boiler pressure sensor does NOT detect the pressure, the expansion vessel valve is automatically opened to possibly lower the pressure and the electricity is disconnected from the electrical panel in the bathroom.
+19;Study first;"During the school period if during study hours (2.00pm/6.00pm) the Playstation is detected in the bedroom area, Alexa will perform the voice notification ""Are you sure*? If I were you, I would study first..."""
+19;Personal Beer Dispenser;"If the smart beer dispenser detects that the content of the current boiler is less than 50% and the reserve stock is less than 2 boilers then it will be automatically added to the Google Home shopping list "Refill Beer ” also sending a notification to the stored phone ""Added 'Recharge Beer' to Google shopping list"
+19;Smart bowl;When the dog is hungry, he can press the button adjacent to the bowl up to twice a day to fill it with an exact dose of food. Once the button is pressed, the bowl will emit the voice message “Bravo” and the release of the food.
+19; Intelligent Garage; When a car approaches the entrance gate of the garage of the house, it is identified by a proximity sensor which will automatically trigger an initial recognition check of the car based on the infrared emitted by a specific key. If the first check is unsuccessful, an intelligent camera will scan the license plate trying to match the authorized cars. Once the checks have been carried out, the garage gate will then be opened and the lights inside will be turned on.
+20; Hood switching on; While the user is cooking using the hob, the hood switches on automatically.
+20;Alarm clock;When the user does not switch off the alarm clock, the rolling shutters go up and the light switches on.
+20; Soil humidification; Automatic irrigation starts if the humidity level of the soil in the pots is lower than 30%.
+20;Cat food and water;If the detector senses the presence of the cat and the bowl and fountain are not active, the food dispenser and fountain will turn on.
+20;Smoke detector;When the smoke detector detects cigarette smoke in the house and if the windows are closed, the windows open or the air purification system is switched on.
+20;Turn off TV;When the user leaves the house, if the TV stays on and if the motion detector does not detect other users in the house, the TV turns off and a notification is sent to the user.
+21;Basket filling;When the dirty stuff bin is full, the user receives a notification on the phone
+21;Remote Video Surveillance;When no one is home, cameras turn on and remote alarm notifications are triggered
+21; Smart tv eco ; When the smart tv is on, if it does not detect the user's gaze for more than 15 minutes, it will switch off
+21;Air purification;If the windows in the house are closed for more than 24h and the air purifier detects high levels of CO2, the windows open and the purifier starts working sanitizing the air
+21;Smart cooking;If the stove is on, when the water in the pot boils, the flame goes down and the user receives a notification on the phone «it's time to cook the pasta»
+21; automatic dispenser; When the user passes his hands under the automatic soap dispenser, if the soap has run out, a red light turns on, if instead the soap is present, a green light turns on and the soap is dispensed
+22;POOL MANAGER;When it's raining outside, close the pool.
+22;SECURITY CHECK;When the user is not at home activate the alarm system and close all the shutters.
+22;HOME HEATING;When the user is at home and the temperature is below 14°, activate the heating.
+22;TV SHOW ROUTINE ;If it's Wednesday and it's 21:00 then turn on the TV and set the channel of the TV series that the user is watching.
+22;FOOD TIMER;If the user is in the bathroom when the pasta is boiling, send a sound signal via Alexa and turn off the stove.
+22;THINGS TO DO ;When it's 07:00 in the morning if it's a weekday and if the user is still in bed then sound the alarm and send a message to the user with the schedule for the day.
+23;Shutters in safety position;WHEN it starts to rain DO move the shutters to safety position to avoid damage
+23;Security away from home;IF the user is NOT at home DO activate burglar alarm systems AND lock the door lock AND turn off the water and gas.
+23;External lighting;WHEN the user enters the garden and IF the time is between 19:00 and 05:00 DO switch on the external lighting
+23;Movie mode;If the user is watching a film and if the time is between 21:00 and 04:00 then turn off the lights and turn on the lamp and activate the audio system in home theater mode.
+23;Wireless water bottle;IF the amount of water present is more than half and WHEN it is 18:00 DO sends the user a reminder to drink AND turn on flashing red light AND activate warning sound
+23;Family dinner;IF family dinner is scheduled for today at 20:00, WHEN motion is detected in the living room and IF the time is between 20:00 and 24:00 DO turn on dim lights AND start background playlist AND starts the vacuum cleaner to eliminate bad smells
+24;Water alert;There is a water dispenser in the refrigerator which is weighed automatically. If the weight drops below 80 grams, a message will appear on the fridge screen: "Water running out".
+24;Don't let the dogs bark;There is a function in the house that senses the presence of human inhabitants. When there are NO tenants in the house, the intercom and the telephone will be silenced so as not to upset the dogs.
+24;Find remote control;If there is a user in the living room who says the phrase "Where is the remote control?", the latter will emit an acoustic signal.
+24; Wake up child; Wherever they are in the house and whatever they are doing, a parent can wake up their child: when it is a weekday and it is 7 in the morning, Alexa will activate "What a wonderful World" in the room and the shutters will they will raise automatically.
+24;Return late;If the entrance door opens between 11pm and 5am, the lights in the living room will be activated dimly to allow for a safe return and not to disturb the other tenants. In addition, a message will be sent to a predefined user (e.g. mom) "I'm home, sorry I'm late!".
+24;Summer party;In the summer season, the user can decide to set up the veranda for dining out in company by saying "Party on the veranda!". If the time is between 19:00 and 1:00 and it is NOT raining, the outdoor lights will activate and Alexa will activate the “Lounge music” playlist.
+25;Coffee upon waking;When the user gets out of bed, the coffee machine in the kitchen is activated.
+25;Lighting change;When the external camera detects that the brightness of the value is less than 3 on a scale of 1 to 5, the lamp in the living room switches on and the shutters close.
+25;Pet door;When the microphone detects the sound of a pet (dog/cat), it checks the external temperature. If less than 13°, open the pet door.
+25;Automatic cleaning;If the user is not at home and the day of the week is Monday, Wednesday or Friday, turn on the roomba and the air freshener.
+25;Security lock;When it is 11pm on a weekday or 2am on a holiday, if the user is not at home, turn off the lights, lock the windows and the door.
+25; Smart Pantry; When the user takes the penultimate item of a certain type from the pantry, if no orders have already been placed on Amazon and if the monthly statement is less than € 300, order the missing products on Amazon and notify the user on the mobile phone
+26;Shower longer than 10 minutes;If a family member is in the shower for more than 10 minutes, make the water freeze.
+26; Tidying up the games in the room; When Anna doesn't tidy up the games in her room, she opens the cabinet of the games and starts background music, so as to encourage her to tidy up.
+26;Respiratory problems;When the withings sensor read indicates a high intensity of respiratory disturbances and if the user is home alone, call 118 indicating the location and the problem.
+26;Home activities to do;If it's after 6 pm and there are no activities to do around the house, tell Alexa to indicate the missing activities to family members and then delete them once they are done.
+26;Take off your shoes when you enter the house;When a family member enters the house and puts on their shoes, Alexa plays the alarm and illuminates the shoe drawer to remind them to put them back.
+26;Doing homework and turning off the video games;When the clock strikes 15:00 and Marco is playing video games and it's a school day, then turn off the Playstation and turn on the desk light to study.
+27;Prepare the oven;When it is 19.45, turn on the oven, preheating it to 180°.
+27;Alarm activation;If the user is not at home, enable the alarm and send an SMS notification to the user to notify him of the activation.
+27;Feed the dog;When a pet enters the kitchen and the time is between 12:45 and 13:00, or between 19:45 and 20, dispense a portion of kibble from the dispenser.
+27;Calm the nerves;When the user's heartbeats are greater than 100 and the hours of sleep are less than 5, adjust the light by setting it to «soft» and turn on the stereo with relaxing music.
+27;Greetings to grandparents;When it's 21:00, if the user has not yet called their grandparents' home number, send a text message with the message «How are you?», then after 5 minutes switch off the TV and start a call to their number.
+27;Tub ready;When user turns on bathtub faucet, if tub fills and user is not in bathroom, automatically turn off faucet and notify user via Alexa message that tub is ready .
+28;Coffee machine ;If the water level in the coffee machine is below 50cl, turn the light on.
+28;Bathroom saving ;If there is no movement in the bathroom for 10 minutes, turn off the boiler and deactivate the fan
+28; External stair lights ; If the time is between 18 and 5 in the morning and if the weight on the stairs is greater than 10 kg, then turn on the spotlights
+28;Irrigation ;If it is not raining and if the water level in the ground is below 2cl, then turn on the sprinklers and send a notification to my phone to warn me.
+28;Against bad smells ;If the induction hob is active and if there is smoke, activate the extractor hood and turn on the automatic perfumer.
+28;Scaldasonno ;If it is 24 and if the temperature is less than or equal to 5 degrees and if there is a weight of more than 20kg on the sofa, then set off an alarm clock and turn on the heater in bed.
+29;Alarm;When the alarm rings, the back of the bed starts to rise at the preset speed.
+29;Reinforced alarm;If the backrest is raised and our user does not get up, then after five minutes the alarm rings and the backrest starts to vibrate.
+29;Reset backrest;If the backrest is raised and our user gets up, then after a few seconds the backrest returns to the horizontal position.
+29;Auto-deactivation;If our user gets up before the alarm sounds (because the weight sensor warns him), the air conditioner does not turn on, the alarm does not sound and the backrest does not lift.
+29;Heating;Ten minutes before the alarm sounds, the air conditioner is activated and will switch off as soon as the room temperature is the one preset by the user.
+29;Cancel;If the air conditioner is on, the bed is raised and the alarm is sounding, but 30 minutes have passed since the first alarm, then the air conditioner and alarm turn off and the bed returns to the horizontal position.
+30;Baby's rest;IF baby starts crying during the night MOVE crib slowly to sleep
+30; Straightener on;IF the user is NOT at home and forgets the hair straightener is turned ON TURN OFF the power and SEND an alert notification to the user.
+30;Fridge empty;WHEN user NOT at home IF the fridge is empty SEND the user an SMS reminding him to go shopping with the list of foods he usually eats
+30;Cinema at home;WHEN it is 21:00 AND the user wants to watch a film LOWER the blinds to create the right atmosphere and ADJUST the volume to simulate a cinema effect thanks to the home theater system.
+30; Remote doctor; WHEN the user is unwell IF the Smart Watch reports a body temperature above 37° SEND SMS to the doctor to get a prescription for a medicine AND contact the pharmacy to have it sent home
+30;Garden party;IF user throws a party AND guests are arriving and at the gate WHEN it's 20:00 TURN ON the lights in the garden and START the most suitable playlist for the occasion
+31;BATH TEMPERATURE;WHEN it is 7am on the alarm clock SET the bath temperature to 22°.
+31;WAKE UP;WHEN the user NOT switches off the alarm as soon as it starts sounding TURN ON the lights gradually AND RAISE the rolling shutters in successive steps.
+31;CLEANING;IF NOT someone is detected in the house AND WHEN the front door is locked ACTIVATES the robot to clean the floors.
+31;SECURITY;IF NOT someone is detected in the house AND IF all lights are off ARM the burglar alarm AND CLOSE all windows.
+31;RELAX;WHEN the television turns on AND IF someone is detected sitting on the sofa ADJUST the brightness of the screen according to the context for better viewing AND SET "do not disturb" on your mobile phone.
+31;ENTERTAINMENT;WHEN I enter the bathroom AND IF the time is before 11 a.m. AND IF I stay in this room for more than 5 minutes the ventilation STARTS AND alexa READS today's weather and breaking news.
+32;Auto cleaning;When the motion sensors detect you move from the kitchen to another room, Roomba turns on and cleans the floor
+32; Fire; When the user is not in the kitchen, the fire sensors are activated and the plates are turned off
+32;Dragon Ball;If the user is in the living room when it is 14:00 then the tv switches on to the program channel (for example Dragon Ball, it can be applied to any tv program)
+32;Instant sleep;If the bed sensor detects the user's presence and if the user is not using the phone then the lights turn off and the windows close
+32; Shower without worries; If the motion sensors detect the user's presence in the bathroom and you are taking a shower, then Alexa turns on the music and the window opens
+32;By the intercom from the bathroom;When the motion sensors detect the user in the bathroom, if the intercom detects a stranger and the user is using the phone, then he can answer the intercom with the phone and open the gate with the phone
+33;Pool Chlorine Level;When the chlorine in the pool is less than 1 Send notification
+33;Entry Control;When the fingerprint reader does not recognize the fingerprint, it sends a notification to the mobile phone and rings the bell.
+33;Toilet cleaning;If the presence of bacteria in the toilet is greater than 30%, the automatic cleaning of the toilet starts.
+33; Mosquito detector; If the movement of mosquitoes in the room is detected and the window is open, a signal is sent which delivers the insecticide into the room and closes the windows.
+33;Gas control;When the infrared sensor does not detect any human and/or animal heat and if a gas leak is detected, a notification is sent to the user and the gas is automatically closed.
+33;External Alarm;When movement is detected in the rear garden, the trigger signals the event by turning on the external lights and the alarm if the user distance is greater than or equal to 200m or the sensor on the bed has detected the weight .
+34;Pets free and safe;When the pet leaves the perimeter of the house, turn on the collar position detector
+34;Intelligent alarm;When the alarm code is not entered correctly, connect the video door phone camera to the app and send notification to user
+34;Lighting without waste ;When the entrance door closes and the user is not detected in the room, turn off the light in the entrance
+34; Centralized heating; When the user is detected in a room, if the temperature is below 18 degrees, turn on the heating, the electric blanket and the dehumidifier
+34; Intelligent heating; When the user turns on the heating, if the temperature detected in the solar panels is above 40 degrees, deactivate the boiler and activate the heating with the solar panels
+34;Remote management;When the user activates the function via the app on the phone, if the time is between 21.00 and 2.00 and if it is not raining, he activates garden irrigation and pool cleaning

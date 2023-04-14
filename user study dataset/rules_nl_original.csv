@@ -1,0 +1,205 @@
+Utente;Regola;Nl
+1;Auto-flush;Una persona si alza dalla toilet, il sensore rileva il movimento e esegue lo sciaquone.
+1;Kitchen Safety;Una persona non e’ in cucina e quindi la luce si spegne e si accendono i sensori di allarme.
+1;Wake up Buttercup;Quando sono le 7:00 a.m. e la persona rimane al letto per più di 15minuti allora si alzano le tapparelle.
+1;Rainy day;Se le previsioni del tempo di domani dicono che piove e se nell’app di Google Calendar c’è un evento in programma, allora preimposta di chiudere le finestre domani e invia un sms avvertendo alla persona di prendere le precauzioni per la pioggia.
+1;Garage door;Quando la macchina entra nel garage e se la macchina parcheggiata non si muove per 10 secondi, la porta del garage si chiude automaticamente e le luci si accendono.
+1;Lights off;Quando la persona esce dal salotto, se la persona resta fuori dalla stanza per più di 5 minuti e la TV e/o la luce sono accessa/e. La TV  e la luce si spengono.
+2;Ambient salone;WHILE l’utente sta ascoltando della musica DIMINUISCI la luminosità delle luci accese del salone
+2;controllo casa/cane;IF in casa non c’è nessuno, RIEMPI la ciotola del cane d’acqua IF è sotto il livello indicato AND ACCENDI le telecamere di sicurezza
+2;notifica visita;IF suonano al citofono AND nessuno è in casa MANDA un messaggio al cellulare dell’utente
+2;pacchetto del buongiorno;WHILE l’utente è sotto la doccia AND l’orario è compreso tra le 7:00 e le 9:00 ACCENDI il riscaldamento in bagno AND MANDA le notizie del giorno
+2;GAME OVER ;IF la console è accesa AND l’utente indossa il sensore vr CHIUDI la porta della stanza AND mandagli un avviso dopo 2 ora di gioco
+2;Back to sci-fi;IF la porta è chiusa AND WHILE il proiettore è acceso AND IF l’utente sta guardando un film SPEGNI le luci della stanza e IMPOSTA il cellulare in silenzioso   
+3;Aspiratore Cucina;WHILE l’utente è in casa e sta cucinando ATTIVARE aspiratore del piano cottura
+3;Controllo Temperatura e Aria;IF temperatura di casa NOT maggiore di 17° ALZARE i riscaldamenti AND VERIFICARE livello di umidità dell’aria, IF umidità <35% ATTIVARE umidificatore
+3;Robot Aspirapolvere;WHEN pavimento è asciutto AND IF il pavimento non è stato pulito per più di 48 ore ACCENDERE robot aspirapolvere
+3;Sistema Antifurto;IF telecamera e sensori notano movimenti sospetti attorno alla casa dopo le 22:00 AND IF utente sconosciuto prova ad entrare da una porta o finestra ATTIVARE allarme antifurto AND INVIARE notifica a utenti della casa
+3;Festa in Casa;IF festa in casa è impostata per oggi sul calendario WHEN è l’orario di inizio RIPRODUCI playlist impostata sugli altoparlanti AND ATTIVA luci dinamiche
+3;Riparo dal Maltempo;WHEN fuori casa piove IF ci sono tapparelle AND finestre NOT chiuse nelle stanze della casa OR IF ci sono dei panni stesi fuori CHIUDERE tutte le tapparelle e le finestre aperte AND RIPORTARE in casa lo stendino automatico
+4;Musica durante la doccia ;Quando sono sotto la doccia, attiva la mia playlist preferita.
+4;Controllo alimenti ;Quando manca un determinato alimento in frigo, invia una notifica e aggiungi il prodotto nella lista della spesa sul led del frigo.
+4;Panni stesi in veranda;Quando i panni sono stesi in veranda e c'è bel tempo, attiva la pergola retrattile.
+4;Rilevare umidità e muffa;Se il rilevatore di qualità dell'aria registra livelli di umidità maggiori del 60% e ci sono tracce di muffa, purifica l'aria ogni ora e invia un messaggio al tecnico specializzato.
+4;Suonare il citofono quando non sono in casa;"Quando sono in ufficio e bussano al citofono, invia notifica e riproduci al citofono ""sono in ufficio""."
+4;Relax serale ;Quando sono sul divano, se sto leggendo un ebook e se l'orario è dopo le 22:00, riduci la luminosità della luce, accendi il camino e attiva massaggiatore del divano.
+5;Risparmio multipresa;Quando la multipresa elettrica rileva uno stato di inattività uguale a 1 ora, allora imposta la sua modalità in spento
+5;Ricambio sacchetto;Quando il contenitore della spazzatura non rileva il sacchetto, allora attiva l'igienizzatore e inserisci il sacchetto nuovo
+5;Accensione scaldaletto;Quando sono le 21:00 e se la temperatura della camera è inferiore a 15°, allora accendi lo scaldaletto
+5;Ricordati di bere;"Se il misuratore dell'idratazione calcola che l'utente ha bevuto meno 1L di acqua e lo smartwatch segna che il tempo di attività supera le 6 ore, allora trasmetti ""ricordati di bere"" tramite Alexa e ricorda i rischi della disidratazione tramite app"
+5;Culla anticaduta;"Quando l'utente non è in camera da letto e se il sensore della culla rileva un movimento superiore a 10cm dalle barre, allora attiva la rete anticaduta della culla e trasmetti ""pericolo culla!"" tramite Alexa"
+5;Modalità lettura;"Quando l'utente è in camera, se pronuncia ""modalità lettura"" ad Alexa o se imposta la modalità lettura dallo smartwatch, allora regola la luminosità dell'abat-jour a 2 e setta lo smartphone in modalità non disturbare"
+6;caffè al mattino;Quando suona la sveglia, la macchina del caffè si accende
+6;controllo acquario;Se la temperatura dell’acquario è inferiore a 25 gradi, accendi il riscaldatore e mandami una notifica
+6;pulizia pavimento;Se è domenica e Rumba non è stato azionato, attivalo
+6;salvaguardia device;Se fuori c’è un temporale e la tv è accesa, spegni la tv e tutte le luci della casa
+6;riduci dispersione;Se apro la finestra e il riscaldamento è acceso, spegni il sistema di riscaldamento e avvisami con una notifica
+6;chiusura casa;Se chiudo la porta di casa, tutte le luci sono spente e le finestre sono tutte chiuse, inserisci l’allarme e avvisami con una notifica.
+7;Promemoria numero passi;IF numero di passi della giornata inferiore a 10.000 INVIARE promemoria con numero di passi mancanti
+7;Risparmio energia salotto;IF famiglia NOT in soggiorno per più di 20 minuti, SPEGNERE luci e tv e MOSTRARE immagine di sfondo su tv
+7;Aria condizionata;WHEN temperatura casa supera i 24° AND qualcuno è in casa ACCENDI l’aria condizionata
+7;Pulizie settimanali;IF è domenica o giovedì AND famiglia NOT in casa AVVIA robot aspirapolvere e ACCENDI lavatrice
+7;Controllo citofono;WHEN qualcuno suona al citofono IF famiglia NOT in casa AND IF dispositivi in modalità «non disturbare» MOSTRA video telecamera di sorveglianza e VISUALIZZA messaggio su display campanello
+7;Controllo screen time bambini;WHEN sono le 23 AND i dispositivi dei bambini sono in uso SPEGNI le luci e INVIA promemoria per spegnere dispositivi e andare a letto
+8;Promemoria medicina;"when è l'ora della medicina (tra le 19:00 e le 20:00), invia un promemoria ""Prendi la medicina"""
+8;Robot pulizie;when qualcuno non è a casa aziona il robot delle pulizie and spegni le luci.
+8;Controllo Frigo;when apri frigo if è aperto da 3 minuti, chiudi frigo
+8;Distributore cibo per animali;when sono le 13:00 and sensore distributore rileva la presenza di una scatoletta, apri scatoletta e rilascia contenuto
+8;Culla automatica;when sensore rileva presenza del bambino and il volume nella stanza raggiunge gli 80 Decibel then muovi culla and accendi cam.
+8;Ventilazione automatica;when sensore rileva l'accensione di un fornello and rilevata presenza di nero fumo and rilevata quantità di gas nell'aria maggiore dello 0.08%, Spegni fornelli, accendi venola e apri le finestre. 
+9;Piscina;WHEN c'è un temporale COPRI la piscina
+9;Promemoria medicina;IF l'utente NOT ha assunto le medicine tra le 08:00 e le 09:00. INVIARE una notifica sullo smartphone, AND IF l'utente non ha dato nessuna conferma di lettura ATTIVARE la notifica vocale dalle casse bluetooth.
+9;Smart TV;WHEN la TV è accesa AND IF non c'è nessuna che guarda lo schermo per più di 30 minuti SPEGNERE la TV.
+9;Sveglia;IF è lunedì e martedì AND l'utente non si alza dal lett prima delle 7:30 ALZARE le tapparelle AND ACCENDERE la macchinetta del caffè
+9;Luci d’ambiente e accensione forno;IF la cena tra amici è impostata alle 20:00, WHEN sono le 19:30 ACCENDI il forno AND imposta modalità luci soffuse nella sala da pranzo.
+9;Focus per studio;WHEN l'utente studia AND la TV è accesa OR i social network dello smartphone non sono in stand-by SPEGNERE la TV AND attivare modalità stand-by per le app social.
+10;Lavaggio terminato;WHEN la lavatrice termina il lavaggio, INVIA una notifica sul telefono dell’utente.
+10;Lampadina non funzionante;IF la lampadina NON funziona, ORDINANE una nuova su Amazon e AGGIUNGI al calendario un promemoria per la data stimata di consegna.
+10;Persona al portone quando non ci sono;WHEN qualcuno suona il campanella WHILE l’utente non è a casa, INVIA fotogramma della telecamera di sicurezza sul telefono dell’utente.
+10;Temperatura bassa;IF la temperatura è inferiore ai 18°C WHILE l’utente è in casa, CHIUDI tutte le finestre e ACCENTI i termosifoni.
+10;cane in giardino con irrigatori ;IF gli irrigatori sono in funzione WHEN il cane esce in giardino, SPEGNI gli irrigatori e CHIUDI la porta.
+10;Movimento in giardino;IF l’orario è compreso tra 23:00 e 07:00 AND l’utente non è in casa WHEN c’è un movimento in giardino, ACCENDI le luci esterne e INVIA il filmato della telecamera di sicurezza all’utente.
+11;Apertura senza chiavi;Supponendo che la casa disponga di un portone d’ingresso con maniglia intelligente  che mi riconosce attraverso un segnale del cellulare o un qualcosa di simile. Fai in modo che  la porta si apra appena gli sono di fronte. Senza che io abbia le chiavi di casa.
+11;Video e Sensori se non in casa;Quando non sono in casa attiva tutte le videocamere e in caso di movimenti sospetti mandami un messaggio sul cellulare con la registrazione del video.
+11;Interrompi caricamento  se 100%;Quando metto a caricare il monopattino e altri oggetti elettronici, fai in modo che la presa dove è collegato il dispositivo si spenga una volta che gli oggetti sono carichi al 100%, così da risparmiare energia.
+11;Musica in doccia;Supponendo di avere in casa un bagno automatizzato, avere un sensore che riconosce quando si apre l’acqua calda della doccia e quando entri in doccia e  attivi lo stereo riproducendo la musica delle tue playlist preferite e che riconosca anche un comando di stop in caso non volessi ascoltare la musica.
+11;Bagno occupato;Supponendo di avere un sensore in bagno, quando entri si accenda la luce si chiuda la porta e si accenda lo scaldino in caso la temperatura sia meno di 15 gradi e segnali all’esterno sull’interrutore o in uno schermo che il bagno è occupato.
+11;Ricette frigo;Fai in modo che quando faccio la spesa e la metto in frigo, il frigo crei delle ricette con gli alimenti disponibili e ogni volta che aggiungo qualcosa riformuli le ricette, mandando sempre un messaggio dei possibili abbinamenti al mio cellulare.
+12;Vestiti asciutti;Quando inizia a piovere, i bracci dello stendibiancheria si ritraggono.
+12;Aria calda;Se un radiatore non funziona, si fa il reset della caldaia e si aumenta la pressione dell’acqua.
+12;Pollice verde;Quando un sensore igrometrico rileva uno scarso livello di umidità della terra e se sono tra le 10:00 e le 14:00, si attiva il meccanismo di innaffiamento.
+12;Relax in casa;Se vi è luce all’esterno e se la persona si trova all’interno della stanza, si solleva l’avvolgibile e si chiude la tenda.
+12;Preallarme;Quando la porta viene aperta se la casa è vuota, si invia un sms al proprietario e si attiva un beep preallarme.
+12;Il caffè del mattino;Quando il sensore rileva che la persona si alza dal letto, se l’ora è compresa tra le 7:30 e le 8:30, se lo smart watch dell'utente rileva il battito cardiaco compreso tra i 60 e gli 80, allora si accende la macchina elettrica del caffè e si alza l’avvolgibile della cucina.
+13;Letto riscaldato;Alle 20:00 accendi lo scaldasonno in camera da letto  
+13;Piante innaffiate;Se non rilevi movimento in giardino, accendi l’irrigatore e inviami la notifica “Irrigatore attivato”
+13;Vapore in cucina;Quando l’umidità in cucina è superiore al 70% e la finestra è chiusa, accendi il vortice 
+13;Aria viziata;Se la pattumiera è piena e la finestra chiusa, accendi profumatore ambiente e inviami la notifica “Urge buttare la spazzatura”
+13;Illuminazione crepuscolo;Quando entro dal cancello principale, dalle 18.00 alle 19.00, accendi i contapassi all’ingresso e le luci in veranda
+13;Pulizie settimanali;Alle 9:00 se non rilevi movimenti in casa e il giorno è festivo, attiva il robottino in salotto e la lavatrice in lavanderia
+14;Posta Ricevuta;Quando il sensore della cassetta della posta rileva del contenuto, all’interno di casa si accende una lampadina di notifica.
+14;Allarme Gatto ;Quando l’impianto di videosorveglianza non rileva la presenza del gatto, il collare GPS dello stesso emette un avviso sonoro e l’utente riceve sul telefono la posizione del collare.
+14;Controllo Chiavi;Se apro la porta di casa e provo ad attraversarla senza il portachiavi RFID, il citofono interno mi avvisa di ricordarmi di prendere le chiavi di casa.
+14;Annaffia piante casa;Quando il sensore di umidità della pianta in veranda misura un’umidità del terreno minore del 60%, e l’orario è fra le 20:00 e le 6:00, si spegne la lampada UV della pianta e si accende l’irrigatore automatico.
+14;chiamata emergenza automatica;Se scatta l’allarme antincendio, o quando manca la corrente in casa, accendi le luci ausiliare e avvia una chiamata d’emergenza.
+14;Controllo perdite acqua;Se chiudo il rubinetto della cucina, tutti i rubinetti della casa sono chiusi e il contatore dell’acqua continua a misurare, l’impianto idrico della casa viene chiuso e l’utente riceve sul telefono una notifica di una possibile perdita.
+15;easy coffee;Se sono le 8:00 accendi la caffettiera elettrica in cucina. 
+15;Spia fornelli;Se rimane il fornello acceso in cucina e non c’è nessuno, arriva una notifica sul telefono ed il fornello viene spento.
+15;tepore post doccia ;Quando finisco di fare dalla doccia accendere la stufa in camera a 25°.
+15;smart T-paper ;Quando in bagno mi accingo ad andare di corpo e quindi abbasso la tavoletta del wc, se la carta igienica è finita vengo avvertito da un segnale acustico.
+15;Mantieni temperatura ;Quando il camino sta per spengersi con la casa non ancora calda e fuori fa freddo mi arriva una notifica sul telefono e si accende il riscaldamento. 
+15;citofono smart ;Quando qualcuno suona il campanello ma nessuno è in casa, arriva una notifica sul telefono che avvisa della presenza dell’ospite e lo speaker del campanello segnala che nessuno può aprire.
+16;Frigo aperto;Se il frigorifero resta aperto, inviare un messaggio al cellulare
+16;Persiane aperte;Se, dalle 22:00 alle 7:00, le persiane non sono chiuse, invia un messaggio ad Alexa e fai partire un allarme
+16;Condizionatore;Quando il bambino si avvicina alla finestra, se è aperta, impostare la chiusura della finestra
+16;TV accesa;Se la tv è accesa e se sono le 23:30, spegni la tv e imposta un messaggio vocale su Alexa
+16;Ordini Amazon;Quando il corriere è vicino, se l’utente ha effettuato un ordine online, apri il cancello e invia un messaggio sul cellulare
+16;Spazio esterno;Quando i sensori di movimento non rilevano nessuno in giardino, se è estate e se l’orario è compreso tra le 22:00 e le 00:00 avvia l’irrigatore del giardino e accendi le luci esterne.
+17;Stop musica;La musica è accesa, in casa. Quando l'utente esce di casa la musica si spegne attraverso un rilevatore di movimento collegato alla porta.
+17;Ciotola mai vuota;"Quando l'animale si avvicina con il muso alla ciotola (dotata di sensore di livello), che conterrà il cibo; se questa non è piena si attiva negli orari che l'utente ha selezionato da app.La musica è accesa, in casa. Quando l'utente esce di casa la musica si spegne attraverso un rilevatore di movimento collegato alla porta."
+17;scale anziani;"Quando l'utente anziano si avvicina al montascale AND si siede su di esso, dotato di un rilevatore di pressione, DO attiva, saluta e scende o sale le scale.Quando l'animale si avvicina con il muso alla ciotola (dotata di sensore di livello), che conterrà il cibo; se questa non è piena si attiva negli orari che l'utente ha selezionato da app.La musica è accesa, in casa. Quando l'utente esce di casa la musica si spegne attraverso un rilevatore di movimento collegato alla porta."
+17;Butta rifiuti;Se il cestino è pieno e se è il giorno della raccolta rifiuti allora il sistema invierà un SMS al mio cellulare con una notifica sonora
+17;agenda allenamenti;L'utente si pesa con una bilancia impedenziometrica, ci dà una stima sulla nostra salute fisica e se questa è sotto una certa soglia programma un allenamento speciale creando una agenda con ora ed esercizio fisico 
+17;Benessere del neonato;Se il termostato intelligente e il sensore di movimento, collegato alla parete della stanzetta di un neonato, rileva che la temperatura di giorno è minore di 20° e di notte è minore di 18° e se rileva che il bambino sta piangendo allora regola la temperatura e avvia la ruota dei giochi, con la musichetta, appesa sulla culla.
+18;Sveglia;Se sono le 7:00, la sveglia suona.
+18;Chiusura finestre e spegnimento;Se non c’è nessuno in casa, si spegne la luce e si chiudono le tapparelle.
+18; Accensione forno pranzo;Quando l’utente entra in cucina e l’orario è compreso tra le 12:00 – 14:00, si accende il forno.
+18;Accensione termosifoni sera;Se l’orario è compreso tra le 18:00 – 23:00 e la temperatura è inferiore a 17 gradi, la luce si accende e si accendono i termosifoni.
+18;Doccia mattino;Quando l’utente entra in bagno e l’ora è compresa tra le 7:00 e le 8:00, la luce si accende e si apre il rubinetto della vasca da bagno.
+18;Cena inverno;Quando l’utente entra in cucina e l’orario è compreso 20:00 – 23:00 e la temperatura è inferiore a 17 gradi, si accende il termosifone, si accende la luce e si accende il forno.
+19;Serbatoio Pellet Vuoto;Quando il sensore che rileva il peso del pellet all’interno del serbatoio è minore di 2 Kg viene inviata una notifica automatica al numero di telefono impostato contenente il messaggio “Serbatoio da Ricaricare”
+19;Pressione Caldaia;Quando il sensore di pressione della caldaia NON rileva la pressione viene attivata in automatico l’apertura della valvola del vaso di espansione per far abbassare eventualmente la pressione e viene staccata la corrente dal quadro elettrico nel stanza del bagno.
+19;Prima lo Studio;"Durante il periodo scolastico se nelle ore di studio (14:00/18:00) viene rilevata l’accensione della Playstation nella zona cameretta Alexa eseguirà la notifica vocale ""Sei sicur*? Fossi in te studierei prima..."""
+19;Spillatore Birra Personale;"Se lo spillatore smart di birra rileva che il contenuto del boiler attuale è minore del 50% e la scorta di riserva è minore di 2 boiler allora verrà aggiunto in automatico alla lista della spesa di Google Home “Ricarica Birra” inviando anche una notifica al telefono memorizzato ""Aggiunta 'Ricarica Birra' alla lista della spesa di Google"
+19;Ciotola Smart;Quando il cane ha fame può premere per un massimo di due volte al giorno il pulsante adiacente alla ciotola in modo da riempirla con una dose esatta di cibo. Una volta premuto il tasto la ciotola emetterà il messaggio vocale “Bravo” e il rilascio del cibo.
+19;Garage Intelligente;Quando una macchina si avvicina al cancello d'ingresso del garage della casa viene identificata da un sensore di prossimità il quale farà scattare in automatico un primo controllo di riconoscimento dell’auto basandosi sugli infrarossi emessi da una specifica chiave. Se il primo controllo non va a buon fine una telecamera intelligente scansionerà la targa cercando di eseguire un match con le auto autorizzate. Eseguite le verifiche verrà quindi aperto il cancello del garage e verranno accese le luci al suo interno.
+20;Accensione cappa;Mentre l’utente sta cucinando usando il piano cottura la cappa si accende automaticamente.
+20;Sveglia;Quando l’utente non spegne la sveglia, le tapparelle si alzano e la luce si accende.
+20;Umidificazione terreno;Se il livello di umidità del terriccio nei vasi è inferiore al 30% parte l’irrigazione automatica.
+20;Cibo e acqua gatto;Se il rilevatore avverte la presenza del gatto e la ciotola e la fontanella non sono attive, l’erogatore di cibo e la fontanella si accendono.
+20;Rilevatore di fumo;Quando il rilevatore di fumo rilava fumo di sigaretta in casa e se le finestre sono chiuse, le finestre si aprono oppure si accende l’impianto di purificazione dell’aria.
+20;Spegnimento TV;Quando l’utente esce di casa, se la tv rimane accesa e se il rilevatore di movimento non rileva altri utenti in casa, la tv si spegne e viene inviato una notifica all’utente.
+21;Riempimento cesta;Quando la cesta delle robe sporche si riempie, l’utente riceve una notifica sul telefono
+21;Videosorveglianza a distanza;Quando non c’è nessuno a casa, le videocamere si accendono e si attivano le notifiche a distanza dell’allarme
+21;Smart tv eco ;Quando la smart tv è accesa, se non rileva lo sguardo dell’utente per più di 15 minuti, si spegne
+21;Purificazione aria;Se in casa le finestre sono chiuse per più di 24h e il purificatore d’aria rileva livelli elevati di CO2, le finestre si aprono e il purificatore entra in funzione sanificando l’aria
+21;Cucina smart;Se il fornello è acceso, quando l’acqua in pentola bolle, la fiamma si abbassa e l’utente riceve una notifica sul telefono «è ora di cuocere la pasta»
+21;dispenser automatico;Quando l’utente passa le mani sotto il dispenser automatico del sapone, se il sapone è terminato si accende una lucina rossa, se invece il sapone è presente si accende una lucina verde e il sapone viene erogato
+22;POOL MANAGER;Quando fuori piove, chiudere la piscina.
+22;SECURITY CHECK;Quando l'utente non è in casa attivare sistema di allarme e chiudere tutte le serrande.
+22;HOME HEATING;Quando l'utente è in casa e la temperatura è minore di 14° allora attivare i riscaldamenti.
+22;TV SHOW ROUTINE ;Se è mercoledì e sono le ore 21:00 allora accendi la tv e imposta il canale della serie tv che l'utente sta guardando.
+22;FOOD TIMER;Se l'utente è al bagno quando la pasta sta bollendo inviare un segnale sonoro tramite Alexa e spegnere il fornello.
+22;THINGS TO DO ;Quando sono le 07:00 di mattina se è un giorno infrasettimanale e se l'utente è ancora a letto allora fai suonare la sveglia e manda un messaggio all'utente con il programma del giorno.
+23;Tapparelle in posizione di sicurezza;WHEN inizia a piovere DO portare le tapparelle in posizione di sicurezza per evitare danneggiamenti
+23;Sicurezza fuori casa;IF l’utente NOT in casa DO attivare sistemi antintrusione AND bloccare la serratura della porta AND chiudere acqua e gas.
+23;Illuminazione esterna;WHEN l’utente entra in giardino e IF l’orario è compreso tra le 19:00 e le 05:00 DO accendi l’illuminazione esterna
+23;Modalità film;Se l’utente sta guardando un film e se l’orario è tra le 21:00 e le 04:00 allora spegni le luci e accendi la lampada e attiva l’impianto audio in modalità home theater.
+23;Borraccia wireless;IF la quantità di acqua presente è maggiore della metà e WHEN sono le 18:00 DO invia all’utente un promemoria per ricordargli di bere AND accendi spia rossa lampeggiante AND attiva suono di avviso
+23;Cena in famiglia;IF cena in famiglia è programmata per oggi alle 20:00, WHEN sono rilevati movimenti in salotto e IF l’orario è tra le 20:00 e le 24:00 DO accendi luci soffuse AND avvia playlist di sottofondo AND avvia aspiratore per eliminare cattivi odori
+24;Avviso acqua;Nel frigorifero è presente un dispenser d’acqua che viene pesato automaticamente. Se il peso scende sotto gli 80 grammi, apparirà un messaggio sullo schermo del frigo: “Acqua in esaurimento”.
+24;Non far abbaiare i cani;In casa è presente una funzionalità che percepisce la presenza di abitanti umani. Quando nell’abitazione NON sono presenti gli inquilini, il citofono e il telefono verranno silenziati per non agitare i cani.
+24;Trova telecomando;Se in soggiorno è presente un utente che pronuncia la frase “Dov’è il telecomando?”, quest’ultimo emetterà un segnale acustico.
+24;Sveglia figlio;Ovunque si trovi in casa e qualsiasi cosa stia facendo, un genitore può svegliare il proprio figlio: quando il giorno è feriale e sono le 7 di mattina, in camera Alexa attiverà “What a wonderful World” e le tapparelle si alzeranno automaticamente.
+24;Rientro tardi;Se la porta di ingresso si apre in un orario compreso tra le 23:00 e le 5:00 di mattina, le luci del soggiorno si attiveranno soffusamente per permettere un rientro sicuro e non disturbare gli altri inquilini. In più, verrà inviato un messaggio a un utente predefinito (es. mamma) “Sono a casa, scusa il ritardo!”.
+24;Party estivo;In stagione estiva, l’utente può decidere di allestire la veranda per cenare fuori in compagnia dicendo “Party in veranda!”. Se l’orario è compreso tra le 19:00 e 1:00 e NON piove, le luci esterne si attiveranno e Alexa attiverà la playlist “Lounge music”.
+25;Caffè al risveglio;Quando l’utente si alza dal letto, la macchinetta del caffè in cucina si attiva.
+25;Cambio illuminazione;Quando la telecamera esterna rileva che la luminosità del valore è inferiore a 3 in una scala da 1 a 5, si accende la lampada in salotto e si chiudono le tapparelle.
+25;Pet door;Quando il microfono rileva il verso di un animale da compagnia (cane/gatto), verifica la temperatura esterna. Se minore di 13°, apri la pet door.
+25;Pulizia automatica;Se l’utente non è a casa e il giorno della settimana è lunedì, mercoledì o venerdì, accendi il roomba e il profumatore dell’aria.
+25;Chiusura di sicurezza;Quando sono le 23:00 di un giorno feriale o le 2:00 di un giorno festivo, se l’utente non è in casa, spegni le luci, chiudi a chiave finestre e la porta.
+25;Dispensa Intelligente;Quando l’utente prende il penultimo oggetto di un determinato tipo dalla dispensa, se non sono già stati fatti ordini su Amazon e se l’estratto conto mensile è minore di € 300, ordina i prodotti mancanti su Amazon e notifica l’utente sul cellulare
+26;Doccia superiore ai 10 minuti;Se un membro della famiglia sta in doccia per più di 10 minuti, fai diventare l'acqua congelata.
+26;Riordinare i giochi in camera ;Quando Anna non riordina i giochi in camera sua, apri il mobile dei giochi e fai partire una musica di sottofondo, così da spronarla a mettere in ordine.
+26;Problemi respiratori;Quando il withings sensore letto indica un'alta intensità dei disturbi respiratori e se l'utente è in casa da solo, chiama il 118 indicando la posizione e il problema.
+26;Attività di casa da svolgere;Se sono passate le 18 e mancano delle attività da svolgere in casa, dì ad Alexa di indicare le attività mancanti ai membri della famiglia e poi di eliminarle una volta eseguite.
+26;Togliersi le scarpe entrati in casa;Quando un membro della famiglia entra in casa e indossa le scarpe, Alexa fa partire la suoneria d'avviso e illumina il cassetto delle scarpe per ricordargli di metterle al loro posto.
+26;Fare i compiti e spegnere i videogiochi;Quando l'orologio segna le 15:00 e Marco sta giocando con i videogame ed è un giorno scolastico, allora spegni la Playstation e accendi la luce della scrivania per studiare. 
+27;Predisponi forno;Quando sono le 19:45 accendere il forno preriscaldandolo a 180°.
+27;Attivazione allarme;Se l’utente non è in casa abilitare l’allarme e mandare una notifica sms all’utente per avvisarlo dell’attivazione.
+27;Nutrire il cane;Quando un animale domestico entra in cucina e l’orario è tra le 12:45 e le 13:00, oppure tra le 19:45 e le 20, erogare una porzione di croccantini dal distributore.
+27;Calmare i nervi;Quando i battiti cardiaci dell’utente sono maggiori di 100 e le ore di sonno sono minori di 5 regolare la luce impostandola su «soffusa» e accendere lo stereo con musica rilassante.
+27;Saluto ai nonni;Quando sono le 21:00, se l’utente non ha ancora chiamato il numero di casa dei propri nonni, mandare un sms con scritto «Come state?», poi dopo 5 minuti spengere la tv e far partire una chiamata al loro numero.
+27;Vasca pronta;Quando l’utente apre il rubinetto della vasca da bagno, se la vasca si riempie e l’utente non è nel bagno, chiudere automaticamente il rubinetto e avvisare l’utente tramite un messaggio di Alexa che la vasca è pronta.
+28;Macchina del caffè ;Se il livello dell'acqua della macchina del caffè è sotto i 50cl accendi la spia.
+28;Risparmio Bagno ;Se non c’è movimento in bagno per 10 minuti spegni la caldaia e disattiva la ventola
+28;Luci scale esterne ;Se l'orario è compreso tra le 18 e le 5 del mattino e se il peso sulle scale è maggior e di 10kg, allora accendi i faretti
+28;Irrigazione ;Se non sta piovendo e se il livello dell’acqua nel terreno è sotto i 2cl, allora accendi gli irrigatori e invia al mio telefono una notifica per avvertirmi.
+28;Contro i cattivi odori ;Se il piano ad induzione è attivo e se è presente del fumo attiva la cappa di aspirazione e accendi il profumatore automatico.
+28;Scaldasonno ;Se sono le 24 e se la temperatura è minore o uguale di 5 gradi e se sul divano vi è un peso di più di 20kg, allora fai partire una sveglia e accendi lo scaldasonno a letto.
+29;Sveglia;Quando suona la sveglia, lo schienale del letto inizia a sollevarsi alla velocità prestabilita.
+29;Sveglia rinforzata;Se lo schienale è sollevato e il nostro utente non si alza, allora dopo cinque minuti la sveglia risuona e lo schienale comincia a vibrare.
+29;Reset schienale;Se lo schienale è sollevato e il nostro utente si alza, allora dopo qualche secondo lo schienale torna in posizione orizzontale.
+29;Auto-disattivazione;Se il nostro utente si alza prima che la sveglia suoni (poiché il sensore del peso lo avverte), non si accende il condizionatore, non suona la sveglia e non si alza lo schienale.
+29;Riscaldamento;Dieci minuti prima che la sveglia suoni, si attiva il condizionatore che si spengerà non appena la temperatura della stanza sarà quella preimpostata dall'utente.
+29;Annulla;Se il condizionatore è acceso, il letto sollevato e la sveglia sta suonando, ma sono passati 30 minuti dal primo allarme, allora il condizionatore e la sveglia si spengono e il letto torna in posizione orizzontale.
+30;Riposo bambino;IF il bambino inizia a piangere durante la notte MUOVERE lentamente la culla per farlo addormentare
+30;Piastra accesa;IF l’utente NOT in casa e dimentica la piastra per capelli accesa SPEGNARE la corrente e INVIARE una notifica di avviso all’utente.
+30;Frigo vuoto;WHEN utente NOT in casa IF il frigorifero è vuoto INVIA all’utente un SMS che ricorda di fare la spesa con l’elenco dei cibi che è solito consumare
+30;Cinema a casa;WHEN sono le 21:00 AND l’utente vuole guardare un film ABBASSA le tapparelle per creare l’atmosfera giusta e REGOLA il volume per simulare un effetto da sala cinematografica grazie al sistema di home theatre.
+30;Medico a distanza;WHEN l’utente non sta bene IF lo Smart Watch riporta una temperatura corporea superiore ai 37° INVIARE SMS al medico per farsi prescrivere un medicinale AND contattare farmacia per farselo spedire a casa
+30;Festa in giardino;IF l’utente organizza una festa AND gli ospiti stanno arrivando e sono al cancello WHEN sono le 20:00 ACCENDERE le luci in giardino e AVVIARE la playlist più adatta all’occasione
+31;TEMPERATURA BAGNO;WHEN sono le 7 del mattino sull’orologio della sveglia IMPOSTA la temperatura del bagno a 22°.
+31;SVEGLIA;WHEN l’utente NOT stacca la sveglia appena inizia a suonare ACCENDI gradualmente le luci AND SOLLEVA a step successivi le tapparelle.
+31;PULIZIA;IF NOT viene rilevato qualcuno in casa AND WHEN la porta principale viene chiusa a chiave ATTIVA il robot per pulire i pavimenti.
+31;SICUREZZA;IF NOT viene rilevato qualcuno in casa AND IF tutte le luci sono spente ATTIVA l’antifurto AND CHIUDI tutte le finestre.
+31;RELAX;WHEN la televisione si accende AND IF è rilevato qualcuno seduto sul divano ADATTA la luminosità dello schermo in base al contesto per una migliore visione AND IMPOSTA il «non disturbare» sul suo cellulare.
+31;INTRATTENIMENTO;WHEN entro in bagno AND IF l’orario è prima delle 11 a.m. AND IF rimango in questa stanza per più di 5 minuti PARTE la ventilazione AND alexa LEGGE il meteo di oggi e le ultime notizie.
+32;Pulizia automatica;Quando i sensori di movimento rilevano lo spostamento dell’utente dalla cucina a un’altra stanza, allora il Roomba si accende e pulisce il pavimento
+32;Antincendio;Quando l’utente non è in cucina si attivano i sensori antincendio e si spengono le piastre
+32;Dragon Ball;Se l’utente è in salotto quando sono le 14:00 allora la tv si accende sul canale del programma (per esempio Dragon Ball, può essere applicato su qualsiasi programma televisivo)
+32;Sonno immediato;Se il sensore del letto rileva la presenza dell’utente e se l’utente non sta usando il telefono allora le luci si spengono e le finestre si chiudono
+32;Doccia senza pensieri;Se i sensori di movimento rilevano la presenza dell’utente in bagno e si sta facendo la doccia, allora Alexa accende la musica e la finestra si apre
+32;Dal citofono dal bagno;Quando i sensori di movimento rilevano l’utente in bagno, se il citofono rileva un estraneo e l’utente sta usando il telefono, allora può rispondere al citofono col telefono e aprire il cancello col telefono
+33;Livello Cloro Piscina;Quando il cloro in piscina è minore di 1 Invia notifica
+33;Controllo Ingresso;Quando lettore di impronte digitali non riconosce l’impronta, invia una notifica al cellulare e suona il campanello.
+33;Pulizia Wc;Se la presenza dei batteri nel WC è maggiore del 30% si avvia la pulizia automatica del Water.
+33;Rilevatore Zanzare;Se viene rilevato il movimento delle zanzare nella stanza e la finestra è aperta, viene inviato un segnale che eroga l’insetticida nell’ambiente e chiude le finestre.
+33;Controllo Gas;Quando il sensore infrarossi non rileva nessun calore umano e/o animale e se viene rilevata perdita di Gas viene inviata una notifica all’utente e il gas viene chiuso automaticamente.
+33;Allarme Esterno;Quando viene rilevato un movimento nel giardino posteriore, il trigger segnale l’evento tramite l’accensione delle Luci esterne e dell’allarme se la distanza utente e maggiore o uguale a 200mt oppure il sensore sul letto ha rilevato il peso.
+34;Animali liberi e sicuri;Quando l’animale esce dal perimetro di casa, accendi il rilevatore di posizione del collare
+34;Allarme intelligente;Quando il codice dell’allarme non viene inserito in maniera corretta, connetti la telecamera del videocitofono all’app e invia notifica a utente
+34;Illuminazione senza spreco ;Quando la porta dell’ingresso si chiude e l’utente non è rilevato nella stanza, spengi la luce nell’ingresso
+34;Riscaldamento centralizzato;Quando l’utente è rilevato in una stanza, se la temperatura è sotto i 18 gradi accendi il riscaldamento, la termocoperta e il deumidificatore
+34;Riscaldamento intelligente;Quando l’utente accende il riscaldamento, se la temperatura rilevata nei pannelli solari è sopra 40 gradi, disattiva la caldaia e attiva il riscaldamento con i pannelli solari
+34;Gestione da remoto;Quando l’utente attiva la funzionalità tramite app sul telefono, se l’orario è tra le 21.00 e le 2.00 e se non piove, attiva l’irrigazione del giardino e la pulizia della piscina
