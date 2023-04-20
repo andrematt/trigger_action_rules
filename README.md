@@ -2,7 +2,7 @@
 
 This dataset comprises 638 Trigger-Action rules concerning a smart home environment collected by the [HIIS Laboratory](https://hiis.isti.cnr.it) during field trials, user studies, and exercises with students. 
 
-The “tareme and nl dataset” directory contains 434 automations created using trigger-action platforms by caregivers, experts in the Ambient Assisted Living domain, researchers of the laboratory, and students attending the "Interfaces Design and Usability Assessment" course held by Professor [Fabio Paternò] (https://giove.isti.cnr.it/Users/Fabio/index.html).
+The “tareme and nl dataset” directory contains 434 automations created using trigger-action platforms by caregivers, experts in the Ambient Assisted Living domain, researchers of the laboratory, and students attending the "Interfaces Design and Usability Assessment" course held by Professor [Fabio Paternò](https://giove.isti.cnr.it/Users/Fabio/index.html).
 
 The “dataset.json” file contains the automations as exported from the [TAREME platform]( https://tare.isti.cnr.it/RuleEditor/login). The “dataset_rule_element_one_row.csv” contains the rules processed to have one rule element for each row of the file (an automation comprises multiple rows).
 
