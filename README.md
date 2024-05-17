@@ -2,10 +2,10 @@
 
 This dataset comprises 638 Trigger-Action rules concerning a smart home environment collected by the [HIIS Laboratory](https://hiis.isti.cnr.it) during field trials, user studies, and exercises with students. 
 
-The ìtareme and nl datasetî directory contains 434 automations created using trigger-action platforms by caregivers, experts in the Ambient Assisted Living domain, researchers of the laboratory, and students attending the "Interfaces Design and Usability Assessment" course held by Professor [Fabio PaternÚ](https://giove.isti.cnr.it/Users/Fabio/index.html).
+The ‚Äútareme and nl dataset‚Äù directory contains 434 automations created using trigger-action platforms by caregivers, experts in the Ambient Assisted Living domain, researchers of the laboratory, and students attending the "Interfaces Design and Usability Assessment" course held by Professor [Fabio Patern√≤](https://giove.isti.cnr.it/Users/Fabio/index.html).
 
-The ìdataset.jsonî file contains the automations as exported from the [TAREME platform]( https://tare.isti.cnr.it/RuleEditor/login). The ìdataset_rule_element_one_row.csvî contains the rules processed to have one rule element for each row of the file (an automation comprises multiple rows).
+The ‚Äúdataset.json‚Äù file contains the automations as exported from the [TAREME platform]( https://tare.isti.cnr.it/RuleEditor/login). The ‚Äúrule_elements_dataset.csv‚Äù contains the rules processed to have one rule element for each row of the file (an automation comprises multiple rows).
 
-The ìuser study datasetî directory contains the 204 automations analysed in the papers ìHow People Think about Automations in Smart Homesî and ìUnderstanding User Needs in Smart Homes and How to Fulfil Themî to be presented at the [AutomationXP 2023](https://matthiasbaldauf.com/automationxp23/) workshop and at the [IS-EUD 2023](https://cg3hci.dmi.unica.it/iseud2023/index.html) conference.
+The ‚Äúuser study dataset‚Äù directory contains the 204 automations analysed in the papers ‚ÄúHow People Think about Automations in Smart Homes‚Äù and ‚ÄúUnderstanding User Needs in Smart Homes and How to Fulfil Them‚Äù to be presented at the [AutomationXP 2023](https://matthiasbaldauf.com/automationxp23/) workshop and at the [IS-EUD 2023](https://cg3hci.dmi.unica.it/iseud2023/index.html) conference.
 
 
