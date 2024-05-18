@@ -4,7 +4,7 @@ This dataset comprises 638 Trigger-Action rules concerning a smart home environm
 
 The “tareme dataset” directory contains 434 automations created using trigger-action platforms by caregivers, experts in the Ambient Assisted Living domain, researchers of the laboratory, and students attending the "Interfaces Design and Usability Assessment" course held by Professor [Fabio Paternò](https://giove.isti.cnr.it/Users/Fabio/index.html).
 
-The “dataset.json” file contains the automations as exported from the [TAREME platform]( https://tare.isti.cnr.it/RuleEditor/login). The “rule_elements_dataset.csv” contains the rules processed to be more readable, and to have one rule element for each row of the file (an automation comprises multiple rows). Additional information such as the rule goal or the user type are present.
+The “dataset.json” file contains the automations as exported from the [TAREME platform]( https://tare.isti.cnr.it/RuleEditor/login). The “rule_elements_dataset.csv” contains the rules processed to be more readable, and to have one rule element for each row of the file (an automation comprises multiple rows). Additional information, such as the rule goal or the user type, is present.
 
 The “user study dataset” directory contains the 204 automations analysed in the papers “How People Think about Automations in Smart Homes” and “Understanding User Needs in Smart Homes and How to Fulfil Them” to be presented at the [AutomationXP 2023](https://matthiasbaldauf.com/automationxp23/) workshop and at the [IS-EUD 2023](https://cg3hci.dmi.unica.it/iseud2023/index.html) conference.
 
